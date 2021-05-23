@@ -18,7 +18,7 @@ social:
 superuser: false
 user_groups: 
 - organizadoras
-title: Priscilla
+title: Priscilla Minotti
 ---
 
 info
