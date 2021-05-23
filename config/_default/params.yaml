@@ -5,9 +5,9 @@
 
 # Appearance
 
-theme: minimal
+theme: "rladies"
 day_night: true
-font: ''
+font: "opensans"
 font_size: L
 
 # SEO

@@ -1,0 +1,11 @@
+# Font style metadata
+name = "opensans"
+
+# Optional Google font URL
+google_fonts = "family=Open+Sans:wght@400;600"
+
+# Font families
+heading_font = "Open Sans"
+body_font = "Open Sans"
+nav_font = "Open Sans"
+mono_font = "Open Sans"
