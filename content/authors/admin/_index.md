@@ -1,5 +1,5 @@
 ---
-bio: Descripción breve. 
+bio: 
 
   
 highlight_name: false
