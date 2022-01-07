@@ -9,7 +9,7 @@ links:
   icon_pack: fab
   name: Seguinos
   url: https://www.meetup.com/es/rladies-buenos-aires/
-slides: 
+slides: example
 summary: ¿Necesitás ordenar tus datos? En esta ocasión aprenderemos a remodelar datos con algunas funciones de TidyR y haremos un pequeño recorrido en tidyverse & ciencia de datos.
 tags:
 - Año-2021

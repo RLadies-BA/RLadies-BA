@@ -9,7 +9,7 @@ highlight_name: false
 social:
 - icon: twitter
   icon_pack: fab
-  link: https://twitter.com/RLadiesBA
+  link: https://twitter.com/Jime_Sauce
 - icon: facebook-f
   icon_pack: fab
   link: https://www.facebook.com/RladiesBA/
