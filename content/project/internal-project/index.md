@@ -2,19 +2,19 @@
 date: "2016-04-27T00:00:00Z"
 external_link: ""
 image:
-  caption: Imagen: Andrea Gomez Vargas
+  caption: Imagen por Andrea Gomez Vargas
   focal_point: Smart
 links:
 - icon: meetup
   icon_pack: fab
-  name: Seguinos!
+  name: Seguinos
   url: https://www.meetup.com/es/rladies-buenos-aires/
 slides: example
-summary: An example of using the in-built project page.
+summary: ¿Necesitás ordenar tus datos? En esta ocasión aprenderemos a remodelar datos con algunas funciones de TidyR y haremos un pequeño recorrido en tidyverse & ciencia de datos.
 tags:
-- 2021
-title: Tidyverse: reorganizando datos con TidyR
-url_code: ""
+- Año-2021
+title: Tidyverse reorganizando datos con TidyR
+url_code: "https://github.com/monialo2000/Taller_Tidyr"
 url_pdf: ""
 url_slides: ""
 url_video: ""
