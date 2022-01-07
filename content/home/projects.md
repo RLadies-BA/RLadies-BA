@@ -28,9 +28,9 @@ content:
   - name: Todos
     tag: '*'
   - name: 2020
-    tag: 2020
+    tag: Año-2020
   - name: 2021
-    tag: 2021
+    tag: Año-2021
 
 design:
   # Choose how many columns the section has. Valid values: '1' or '2'.
