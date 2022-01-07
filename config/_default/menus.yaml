@@ -19,4 +19,7 @@ main:
   - name: Participaciones
     url: '#accomplishments'
     weight: 50
+  - name: Media
+    url: '#gallery'
+    weight: 60  
 

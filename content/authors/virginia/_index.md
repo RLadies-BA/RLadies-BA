@@ -22,3 +22,5 @@ user_groups:
 title: Virginia García Alonso
 ---
 
+Soy investigadora postdoctoral en el Laboratorio de Zooplancton Marino del Instituto de Biodiversidad y Biología Experimental y Aplicada (IBBEA), UBA-CONICET. Me especializo en el estudio de rasgos de vida temprana de peces pelágicos y su relación con el ambiente de manera interdisciplinaria y llevo a cabo el análisis de los datos y su visualización con herramientas y softwares de libre acceso. Actualmente soy docente en la materia Biometría I en la Facultad de Ciencias Exactas y Naturales de la UBA. 
+
