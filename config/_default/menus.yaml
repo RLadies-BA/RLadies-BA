@@ -11,13 +11,13 @@ main:
     url: '#equipo'
     weight: 20
   - name: Meetups
-    url: '#talks'
+    url: '#projects'
     weight: 30
   - name: Posts
     url: '#posts'
     weight: 40
   - name: Participaciones
-    url: '#accomplishments'
+    url: '#publications'
     weight: 50
   - name: Media
     url: '#gallery'
