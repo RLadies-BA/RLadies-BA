@@ -7,12 +7,19 @@ social:
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/RLadiesBA
+- icon: instagram
+  icon_pack: fab
+  link: https://www.instagram.com/rladiesba/
 - icon: facebook-f
   icon_pack: fab
   link: https://www.facebook.com/RladiesBA/
 - icon: meetup
   icon_pack: fab
   link: https://www.meetup.com/es/rladies-buenos-aires/
+- icon: youtube
+  icon_pack: fab
+  link: https://www.youtube.com/channel/UCztAJhENVqsqv0cvyxs4sgg?view_as=subscriber
+
 superuser: true
 title: RLadies Buenos Aires
 ---
