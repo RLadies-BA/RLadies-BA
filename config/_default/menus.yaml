@@ -13,7 +13,7 @@ main:
   - name: Meetups
     url: '#projects'
     weight: 30
-  - name: Posts
+  - name: Blog
     url: '#posts'
     weight: 40
   - name: Participaciones
