@@ -7,13 +7,9 @@ widget: pages
 headless: true
 
 # Order that this section appears on the page.
-<<<<<<< HEAD
 weight: 65
-=======
-weight: 50
->>>>>>> fb4ba567d4dabfa9a43033a6fcda409577dd496d
 
-title: Recent Posts
+title: Blog
 subtitle:
 
 content:
