@@ -7,10 +7,10 @@ widget: pages
 headless: true
 
 # Order that this section appears on the page.
-weight: 65
+weight: 100
 
-title: Blog
-subtitle:
+title: Notas
+subtitle: 
 
 content:
   # Page type to display. E.g. post, talk, publication...
