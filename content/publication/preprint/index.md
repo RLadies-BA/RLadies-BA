@@ -30,7 +30,7 @@ summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere t
   ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 tags:
 - Source Themes
-title: An example preprint / working paper
+title: Ejemplo
 url_code: '#'
 url_dataset: '#'
 url_pdf: http://arxiv.org/pdf/1512.04133v1
@@ -41,8 +41,4 @@ url_source: '#'
 url_video: '#'
 ---
 
-{{% callout note %}}
-Create your slides in Markdown - click the *Slides* button to check out the example.
-{{% /callout %}}
 
-Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/).
