@@ -32,4 +32,4 @@ title: Andrea Gómez Vargas
 ---
 
 
-Soy socióloga, docente e investigadora con orientación en estudios de género(s) y Derechos Humanos.
+Andrea es socióloga, docente e investigadora con orientación en estudios de género(s) y Derechos Humanos.
