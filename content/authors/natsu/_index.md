@@ -23,4 +23,4 @@ title: Natsumi Shokida
 ---
 
 
-Economista (Universidad de Buenos Aires), maestranda en Información y Ciencias de la Computación (Universidad de Luxemburgo). Co-coordinadora de Ecofemidata, el equipo de datos de Ecofeminita.
+Natsumi es Economista (Universidad de Buenos Aires), maestranda en Información y Ciencias de la Computación (Universidad de Luxemburgo). Co-coordinadora de Ecofemidata, el equipo de datos de Ecofeminita.
