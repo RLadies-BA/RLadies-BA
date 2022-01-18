@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mónica | RLadies BA</title>
+    <link>/author/monica/</link>
+      <atom:link href="/author/monica/index.xml" rel="self" type="application/rss+xml" />
+    <description>Mónica</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>/author/monica/avatar_hu703be7d42bf137efe7d01e9a99f89642_75223_270x270_fill_q75_lanczos_center.jpg</url>
+      <title>Mónica</title>
+      <link>/author/monica/</link>
+    </image>
+    
+  </channel>
+</rss>
