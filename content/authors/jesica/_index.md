@@ -20,7 +20,7 @@ social:
 superuser: false
 user_groups: 
 - organizadoras
-title: Jesica
+title: Jesica Formoso
 ---
 
 ¡Hola! Mi nombre es Jesica y soy psicóloga cognitiva de la [<span style="font-weight:bold;">Universidad de Buenos Aires</span>](http://www.psi.uba.ar/) e investigadora de [<span style="font-weight:bold;">CONICET</span>](https://www.conicet.gov.ar/new_scp/detalle.php?id=52112&datos_academicos=yes). 

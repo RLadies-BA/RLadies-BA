@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>María | RLadies BA</title>
+    <link>/author/maria/</link>
+      <atom:link href="/author/maria/index.xml" rel="self" type="application/rss+xml" />
+    <description>María</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>/author/maria/avatar_hu1ba0a4c52d80cee8b45b25677b0e84ba_81682_270x270_fill_q75_lanczos_center.jpg</url>
+      <title>María</title>
+      <link>/author/maria/</link>
+    </image>
+    
+  </channel>
+</rss>

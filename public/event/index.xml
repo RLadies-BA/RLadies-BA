@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Meetups | RLadies BA</title>
+    <link>/event/</link>
+      <atom:link href="/event/index.xml" rel="self" type="application/rss+xml" />
+    <description>Meetups</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 04 May 2021 18:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/icon_hu4b9af3f567e0b0f9e5f99da57ed62ab5_26887_512x512_fill_lanczos_center_2.png</url>
+      <title>Meetups</title>
+      <link>/event/</link>
+    </image>
+    
+    <item>
+      <title>Reordenando datos con tidyR</title>
+      <link>/talk/reordenando-datos-con-tidyr/</link>
+      <pubDate>Tue, 04 May 2021 18:00:00 +0000</pubDate>
+      <guid>/talk/reordenando-datos-con-tidyr/</guid>
+      <description>&lt;p&gt;¿Necesitás ordenar tus datos? En esta ocasión aprenderemos a remodelar datos con algunas funciones de TidyR y haremos un pequeño recorrido en tidyverse &amp;amp; ciencia de datos. Para este meetup es necesario que tengas R &amp;amp; Rstudio en tu computadora con los paquetes Tidyverse y datos ya instalados.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

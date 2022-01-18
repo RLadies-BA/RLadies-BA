@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jimena Saucedo | RLadies BA</title>
+    <link>/author/jimena-saucedo/</link>
+      <atom:link href="/author/jimena-saucedo/index.xml" rel="self" type="application/rss+xml" />
+    <description>Jimena Saucedo</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>/author/jimena-saucedo/avatar_hu1a64109b6dfde29babf218badf3608fd_80328_270x270_fill_q75_lanczos_center.jpg</url>
+      <title>Jimena Saucedo</title>
+      <link>/author/jimena-saucedo/</link>
+    </image>
+    
+  </channel>
+</rss>

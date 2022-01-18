@@ -18,7 +18,7 @@ social:
 superuser: false
 user_groups: 
 - organizadoras
-title: María
+title: María Nanton
 ---
 
 info
