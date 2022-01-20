@@ -20,7 +20,7 @@ url_slides: ""
 url_video: ""
 ---
 
-Desde el Núcleo de Innovación Social (NIS) y RLadies Buenos Aires les traemos esta charla con 4 expositorxs egresadxs de carreras vinculadas a las Ciencias Sociales que trabajan en ciencia de datos.
+Desde el [**Núcleo de Innovación Social (NIS)**](https://www.nucleodeinnovacion.com/) y RLadies Buenos Aires les traemos esta charla con 4 expositorxs egresadxs de carreras vinculadas a las Ciencias Sociales que trabajan en ciencia de datos.
 
 Cada unx contará su experiencia de primera mano sobre cómo arrancaron en este tipo de roles, qué trabas tuvieron, qué dificultades enfrentaron, y qué herramientas consideran que les sumaron y que pueden servirle a unx egresadx que quiera inciarse en mundo de la ciencia de datos.
 

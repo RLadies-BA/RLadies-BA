@@ -20,7 +20,7 @@ url_slides: "https://guadag12.github.io/socialnetwork-rladies-talk/#1"
 url_video: ""
 ---
 
-Nos visita la politóloga Guadalupe González para presentar su paquete politicxsentwitteR. Con este paquete podrás obtener las publicaciones de politicxs argentinxs en Twitter y desarrollar proyectos de procesamiento del lenguaje natural, análisis de redes y visualización de datos.
+Nos visita la politóloga [**Guadalupe González**](https://github.com/Guadag12) para presentar su paquete [politicxsentwitteR](https://oderedes.shinyapps.io/politicosentwitter/). Con este paquete podrás obtener las publicaciones de politicxs argentinxs en Twitter y desarrollar proyectos de procesamiento del lenguaje natural, análisis de redes y visualización de datos.
 Guadalupe va a contarnos cómo desarrolló el paquete, sus características, y de qué maneras podemos analizar sus datos con las librerías de R igraph y visNetwork.
 
 

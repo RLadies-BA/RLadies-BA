@@ -23,8 +23,10 @@ user_groups:
 title: Jesica Formoso
 ---
 
-Jesica es soy psicóloga cognitiva de la [<span style="font-weight:bold;">Universidad de Buenos Aires</span>](http://www.psi.uba.ar/) e investigadora de [<span style="font-weight:bold;">CONICET</span>](https://www.conicet.gov.ar/new_scp/detalle.php?id=52112&datos_academicos=yes). 
-Le encanta R y el análisis y visualización de datos, por lo que se especializó en estadística. Actualmente, es docente de posgrado en la UBA y el Instituto Universitario Hospital Italiano donde dicta cursos de R y estadística. También es instructora certificada por [<span style="font-weight:bold;">RStudio</span>](https://education.rstudio.com/trainers/people/formoso+jesica/) y [<span style="font-weight:bold;">The Carpentries</span>](https://carpentries.org/instructors/).
+Jesica es psicóloga cognitiva de la [<span style="font-weight:bold;">Universidad de Buenos Aires</span>](http://www.psi.uba.ar/) e investigadora de [<span style="font-weight:bold;">CONICET</span>](https://www.conicet.gov.ar/new_scp/detalle.php?id=52112&datos_academicos=yes). 
+Le encanta R y el análisis y visualización de datos, por lo que se especializó en estadística. 
+
+Actualmente es docente de posgrado en la UBA y el Instituto Universitario Hospital Italiano donde dicta cursos de R y estadística. También es instructora certificada por [<span style="font-weight:bold;">RStudio</span>](https://education.rstudio.com/trainers/people/formoso+jesica/) y [<span style="font-weight:bold;">The Carpentries</span>](https://carpentries.org/instructors/).
 
 
 

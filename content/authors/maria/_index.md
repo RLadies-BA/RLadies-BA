@@ -33,4 +33,7 @@ user_groups:
 title: María Nanton
 ---
 
-María es comunicadora social y analista de datos. Fue docente universitaria en marketing e instructora en numerosos cursos y talleres de ciencia de datos. Se acercó a RLadies en el 2019 y desde ese momento comenzó a colaborar en iniciativas de producción de conocimiento abierto, enseñanza y divulgación de temas vinculados a ciencia de datos. Actualmente cursa la Maestría en explotación de datos y descubrimiento del conocimiento de la FCEN (UBA). Es instructora certificada por The Carpentries.
+María es comunicadora social y analista de datos. Fue docente universitaria en marketing e instructora en numerosos cursos y talleres de ciencia de datos. Se acercó a RLadies en el 2019 y desde ese momento comenzó a colaborar en iniciativas de producción de conocimiento abierto, enseñanza y divulgación de temas vinculados a ciencia de datos. 
+
+
+Actualmente cursa la Maestría en explotación de datos y descubrimiento del conocimiento de la FCEN (UBA). Es instructora certificada por The Carpentries.

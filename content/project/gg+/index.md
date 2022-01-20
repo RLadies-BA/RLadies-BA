@@ -9,7 +9,7 @@ links:
   icon_pack: fab
   name: Seguinos
   url: https://www.meetup.com/es/rladies-buenos-aires/
-slides: example
+
 summary: Los capítulos de R-Ladies Buenos Aires y R-Ladies Resistencia-Corrientes hostean este taller como parte de los tutoriales de LatirR 2021 
 tags:
 - Año-2021
@@ -20,7 +20,7 @@ url_slides: "https://github.com/luisDVA/ggmas"
 url_video: ""
 ---
 
-Los capítulos de R-Ladies Buenos Aires y R-Ladies Resistencia-Corrientes les traemos el tutorial "gg+ : paquetes para extender las capacidades de ggplot2" a cargo de Luis Verde (@LuisDVerde). Este taller es parte de los tutoriales de LatirR 2021
+Los capítulos de R-Ladies Buenos Aires y R-Ladies Resistencia-Corrientes les traemos el tutorial "gg+ : paquetes para extender las capacidades de ggplot2" a cargo de [Luis Verde (@LuisDVerde)](https://luisdva.github.io/). Este taller es parte de los tutoriales de [**LatinR 2021**](https://latin-r.com/).
 
 Si sos fan de ggplot2 y querés conocer como extender sus funcionalidades o si estás buscando visualizar datos de forma eficiente y llamativa, ¡este tutorial es para vos!.
 
