@@ -12,7 +12,7 @@ links:
 
 summary: Los capítulos de R-Ladies Buenos Aires y R-Ladies Resistencia-Corrientes hostean este taller como parte de los tutoriales de LatirR 2021 
 tags:
-- Año-2021
+- 2021
 title: Gg+ paquetes para extender las capacidades de ggplot2
 url_code: "https://www.dropbox.com/s/8psls76pyjndo8w/pkgsgg.R?dl=0"
 url_pdf: ""
