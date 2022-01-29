@@ -27,10 +27,18 @@ content:
   filter_button:
   - name: Todos
     tag: '*'
-  - name: 2020
-    tag: Año-2020
+  - name: 2022
+    tag: 2022
   - name: 2021
-    tag: Año-2021
+    tag: 2021
+  - name: 2020
+    tag: 2020
+  - name: 2019
+    tag: 2019    
+  - name: 2018
+    tag: 2018
+  - name: 2017
+    tag: 2017
 
 design:
   # Choose how many columns the section has. Valid values: '1' or '2'.
