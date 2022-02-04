@@ -15,24 +15,19 @@ links:
   url: https://github.com/rladies/meetup-presentations_buenosaires/blob/master/README.md
 
 
-summary: Leyendo datos ordenados con Tidyverse
+summary: Parte 6 de la serie "Charlar con R".
 tags:
 - 2020
 - Rladies
-title: Charlar con R - Toma 6
+title: Leyendo datos ordenados con Tidyverse
 url_code: ""
 url_pdf: ""
 url_slides: ""
 url_video: ""
 ---
 
-## Leyendo datos ordenados con Tidyverse
+Este meetup es parte de la serie "Charlar con R". Esta vez vamos a aprender qué son los datos ordenados y como importar datos tabulares a R con tidyverse. 
 
-Vamos a aprender qué son los datos ordenados y como importar datos tabulares en R con tidyverse. 
-
-Requisitos:
-
-Para aprovechar el tutorial al máximo, instalá previamente tidyverse. 
 
 ### Reviví la presentación en nuestro canal de youtube:
 
