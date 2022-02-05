@@ -8,7 +8,7 @@ links:
 - icon: meetup
   icon_pack: fab
   name: meetup
-  url: https://www.meetup.com/es/rladies-buenos-aires/events/270240110/
+  url: https://www.meetup.com/es/rladies-buenos-aires/events/269530963/
 - icon: github
   icon_pack: fab
   name: GitHub
