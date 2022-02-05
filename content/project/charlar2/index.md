@@ -15,21 +15,20 @@ links:
   url: https://github.com/rladies/meetup-presentations_buenosaires/blob/master/README.md
 
 
-summary: Parte 3 de la serie "Charlar con R".
+summary: Parte 2 de la serie "Charlar con R".
 tags:
 - 2020
 - Rladies
-title: Primeros pasos en RMarkdown
+title: Primeros pasos en RStudio
 url_code: ""
 url_pdf: ""
 url_slides: ""
 url_video: ""
 ---
 
-En este meetup, vamos a dar los primeros pasos en R Markdown. Qué es, para que sirve y algunos ejemplos de lo que puede hacerse con él.
-
+Vamos a charlar sobre RStudio, veremos trucos y consejos para trabajar en este IDE que nos da tantas facilidades! Acordate, tenelo ya instalado!
 
 ### Reviví la presentación en nuestro canal de youtube:
 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/zENhUzKfCws" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BN1j2TReP2Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
