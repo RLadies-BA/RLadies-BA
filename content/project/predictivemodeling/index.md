@@ -15,10 +15,11 @@ links:
   url: https://github.com/rladies/meetup-presentations_buenosaires/blob/master/README.md
 
 
-summary: Parte 6 de la serie "Charlar con R".
+summary: Tutorial useR!2020
 tags:
 - 2020
 - Rladies
+- useR!
 title: Modelado predictivo con texto utilizando principios de datos tidy - useR! 2020
 url_code: ""
 url_pdf: ""
@@ -39,7 +40,7 @@ El tutorial está pensando para personas con familiaridad intermedia con R, RStu
 
 
 
-### Reviví la presentación en nuestro canal de youtube:
+### Reviví la presentación en el canal de youtube de useR
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Sz8RB_fPYOk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

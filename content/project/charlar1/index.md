@@ -31,6 +31,3 @@ Este es el primer encuentro de la serie "Por eso pensamos en "Charlar con R". Es
 En esta ocasión vamos a charlar sobre como manejar proyectos de R y ordenar nuestro trabajo para no perdernos en un mar de scripts de R.
 
 
-### Reviví la presentación en nuestro canal de youtube:
-
-FALTA EL VIDEO

@@ -15,7 +15,7 @@ links:
   url: https://github.com/rladies/meetup-presentations_buenosaires/blob/master/README.md
 
 
-summary: En este meetup te contaremos algunos trucos y herramientas para que cualquier evento virtual interactivo sea un éxito sin estrés adicional al hacerlo. 
+summary: Trucos y herramientas para que cualquier evento virtual interactivo
 tags:
 - 2020
 - Rladies
@@ -34,7 +34,6 @@ Oradoras: Yanina Bellini Saibene y Paola Corrales.
 
 Organizan: Laura Ación, Yanina Bellini Saibene, Paola Corrales, Patricia Loto y Paloma Rojas
 
-### Reviví la presentación en nuestro canal de youtube:
+### Reviví la presentación en el canal de youtube de Rladies Global
 
-
-FALTA VIDEO
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lZICjcX7O0U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

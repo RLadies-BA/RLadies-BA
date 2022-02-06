@@ -26,8 +26,7 @@ url_slides: ""
 url_video: ""
 ---
 
-En este meetup, vamos a dar los primeros pasos en R Markdown. Qué es, para que sirve y algunos ejemplos de lo que puede hacerse con él.
-
+En esta tercera edición de Charlar con R dimos los primeros pasos en R Markdown. Qué es, para que sirve y algo de lo que se puede hacer de la mano de Jime Saucedo
 
 ### Reviví la presentación en nuestro canal de youtube:
 

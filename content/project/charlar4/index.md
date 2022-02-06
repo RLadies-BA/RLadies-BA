@@ -28,6 +28,10 @@ url_video: ""
 
 En este meetup, junto con Rladies Santa Rosa y Rladies General Pico,  daremos los primeros pasos en git. Qué es, para que sirve y como lo utilizamos desde RStudio.
 
+Las oradoras fueron Yanina Bellini Saibene de Santa Rosa y Marysol Gatti de General Pico. Y si querés revisar los materiales, por acá: https://yabellini.netlify.app/es/post/githubconr/
+
+
+
 
 ### Reviví la presentación en nuestro canal de youtube:
 

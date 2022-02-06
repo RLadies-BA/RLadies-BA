@@ -8,11 +8,11 @@ links:
 - icon: meetup
   icon_pack: fab
   name: meetup
-  url: https://www.meetup.com/es/rladies-buenos-aires/events/270963134/
+  url: https://www.meetup.com/rladies-buenos-aires/events/270963134/
 - icon: github
   icon_pack: fab
   name: GitHub
-  url: https://github.com/rladies/meetup-presentations_buenosaires/blob/master/README.md
+  url: https://github.com/mcnanton/RladiesBA-TallerDatosTextuales
 
 
 summary: Parte 5 de la serie "Charlar con R".
@@ -26,7 +26,9 @@ url_slides: ""
 url_video: ""
 ---
 
-Este meetup es parte de la serie "Charlar con R". María McNanton nos va a mostrar como visulializar datos usando ggplot y en particular vamos a trabajar con datos textuales para sumarnos al #30diasdegraficos organizado por la comunidad hispano hablante de R.
+Este meetup es parte de la serie "Charlar con R". María Nanton nos va a mostrar como visulializar datos usando ggplot y en particular vamos a trabajar con datos textuales para sumarnos al #30diasdegraficos organizado por la comunidad hispano hablante de R.
+
+
 
 
 ### Reviví la presentación en nuestro canal de youtube:
