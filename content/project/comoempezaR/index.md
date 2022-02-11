@@ -9,7 +9,7 @@ links:
   icon_pack: fab
   name: Seguinos
   url: https://www.meetup.com/es/rladies-buenos-aires/
-slides: example
+#slides: example
 summary: ¡Si venís de las Ciencias Sociales y no sabés como empezar en el mundo de la ciencia de datos este meetup es para vos!
 tags:
 - Año-2021

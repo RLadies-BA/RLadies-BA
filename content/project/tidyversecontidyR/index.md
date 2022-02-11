@@ -9,7 +9,7 @@ links:
   icon_pack: fab
   name: Seguinos
   url: https://www.meetup.com/es/rladies-buenos-aires/
-slides: example
+#slides: example
 summary: En esta ocasión aprenderemos a remodelar datos con algunas funciones de TidyR
 tags:
 - Año-2021
