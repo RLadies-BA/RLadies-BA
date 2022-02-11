@@ -9,7 +9,7 @@ links:
   icon_pack: fab
   name: Seguinos
   url: https://www.meetup.com/es/rladies-buenos-aires/
-slides: example
+#slides: example
 summary: Introducción a Social Network Analysis en R con el paquete politicxsentwitteR
 tags:
 - 2021

@@ -9,7 +9,7 @@ links:
   icon_pack: fab
   name: Seguinos
   url: https://www.meetup.com/es/rladies-buenos-aires/
-
+#slides: example
 summary: Los capítulos de R-Ladies Buenos Aires y R-Ladies Resistencia-Corrientes hostean este taller como parte de los tutoriales de LatirR 2021 
 tags:
 - 2021
