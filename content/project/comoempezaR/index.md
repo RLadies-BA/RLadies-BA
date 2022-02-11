@@ -13,6 +13,7 @@ links:
 summary: ¡Si venís de las Ciencias Sociales y no sabés como empezar en el mundo de la ciencia de datos este meetup es para vos!
 tags:
 - 2021
+- Ciencias sociales
 title: Cómo empezaR desde las Ciencias Sociales hacia las Ciencias de Datos
 url_code: ""
 url_pdf: ""

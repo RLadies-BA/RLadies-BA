@@ -13,6 +13,8 @@ links:
 summary: En esta ocasión aprenderemos a remodelar datos con algunas funciones de TidyR
 tags:
 - 2021
+- tidyverse
+- tidyr
 title: Tidyverse reorganizando datos con TidyR
 url_code: "https://github.com/monialo2000/Taller_Tidyr"
 url_pdf: ""

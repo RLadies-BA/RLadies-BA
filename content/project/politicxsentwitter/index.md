@@ -13,6 +13,9 @@ links:
 summary: Introducción a Social Network Analysis en R con el paquete politicxsentwitteR
 tags:
 - 2021
+- Ciencias sociales
+- Web scraping
+- Datos textuales
 title: Social Network con politicxsentwitteR
 url_code: "https://github.com/guadag12/socialnetwork-rladies-talk"
 url_pdf: ""
