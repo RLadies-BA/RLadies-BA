@@ -30,5 +30,3 @@ url_video: ""
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/chIwJ3hdlx0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-
-<blockquote class="twitter-tweet"><p lang="es" dir="ltr">Gracias a todes a les que asistieron al meet sobre <a href="https://twitter.com/hashtag/Politicxsentwitter?src=hash&amp;ref_src=twsrc%5Etfw">#Politicxsentwitter</a> y en especial a <a href="https://twitter.com/guadag12?ref_src=twsrc%5Etfw">@guadag12</a> por todo lo que nos enseñó! 💜😁<a href="https://twitter.com/hashtag/rladies?src=hash&amp;ref_src=twsrc%5Etfw">#rladies</a> <a href="https://t.co/cXYP5od9DL">pic.twitter.com/cXYP5od9DL</a></p>&mdash; R-Ladies BuenosAires (@RLadiesBA) <a href="https://twitter.com/RLadiesBA/status/1430679100860080128?ref_src=twsrc%5Etfw">August 25, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
