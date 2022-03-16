@@ -4,6 +4,12 @@ authors:
 
 bio: Descripción breve. 
 
+interests:
+-ecología marina.
+-variabilidad espacio-temporal.
+-zooplancton e ictioplancton.
+-visualización de datos.
+
 highlight_name: false
 social:
 - icon: twitter
