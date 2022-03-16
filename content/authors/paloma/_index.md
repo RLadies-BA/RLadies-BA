@@ -29,4 +29,4 @@ title: L. Paloma Rojas-Saunero
 Paloma es médica epidemióloga boliviana. Su investigación se enfoca en aplicar métodos de inferencia causal para estudios longitudinales, específicamente para evaluar exposiciones de largo plazo relacionadas a enfermedades crónicas durante el envejecimiento. 
 
 
-Le interesa mucho el concepto de ciencia abierta y el aprendizaje colectivo. Por este motivo he sido cofundadora de R-Ladies Buenos Aires y R-Ladies Rotterdam, como también coorganizadora de R-Ladies La Paz y Reprohack. Soy instructora Certificada por RStudio.
+Le interesa mucho el concepto de ciencia abierta y el aprendizaje colectivo. Por este motivo he sido cofundadora de R-Ladies Buenos Aires y R-Ladies Rotterdam, como también coorganizadora de R-Ladies La Paz y Reprohack. Es instructora Certificada por RStudio.

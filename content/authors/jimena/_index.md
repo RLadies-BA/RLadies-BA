@@ -4,6 +4,13 @@ authors:
 
 bio: Descripción breve. 
 
+interests:
+- 
+- 
+- 
+- 
+- 
+
   
 highlight_name: false
 social:

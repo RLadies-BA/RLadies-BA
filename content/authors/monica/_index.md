@@ -3,7 +3,13 @@ authors:
 - monica
 bio: Descripción breve. 
 
-  
+interests:
+- 
+- 
+- 
+- 
+- 
+
 highlight_name: false
 social:
 - icon: twitter
