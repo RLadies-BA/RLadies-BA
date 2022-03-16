@@ -3,19 +3,22 @@ authors:
 - virginia
 
 bio: Descripción breve. 
-  
 
 highlight_name: false
 social:
 - icon: twitter
   icon_pack: fab
-  link: https://twitter.com/RLadiesBA
-- icon: facebook-f
+  link: https://twitter.com/VA_GarciaAlonso
+- icon: researchgate
   icon_pack: fab
-  link: https://www.facebook.com/RladiesBA/
-- icon: meetup
+  link: https://www.researchgate.net/profile/Virginia-Garcia-Alonso-2
+- icon: linkedin
   icon_pack: fab
-  link: https://www.meetup.com/es/rladies-buenos-aires/
+  link: https://www.linkedin.com/in/virginia-a-garc%C3%ADa-alonso-53a78899/
+- icon: github
+  icon_pack: fab
+  link: https://github.com/virginiagarciaalonso
+  
 superuser: false
 user_groups: 
 - organizadoras
