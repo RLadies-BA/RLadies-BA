@@ -7,18 +7,12 @@ main:
   - name: Sobre nosotras
     url: '#about'
     weight: 10
-  - name: Integrantes
+  - name: Organizadoras
     url: '#equipo'
     weight: 20
   - name: Meetups
     url: '#projects'
     weight: 30
-  - name: Notas
-    url: '#posts'
-    weight: 60
-  - name: Participaciones
-    url: '#publications'
-    weight: 40
   - name: Media
     url: '#gallery'
     weight: 50  
