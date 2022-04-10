@@ -1,21 +1,21 @@
 ---
 authors:
-- renbaires
+- linux
 
-bio: R en Baires
+bio: linux
+
 
 highlight_name: false
 social:
 - icon: twitter
   icon_pack: fab
-  link: https://twitter.com/renbaires
+  link: https://linuxchixar.org/
 - icon: globe
   icon_pack: fas
-  link: https://renbaires.github.io/
+  link: https://twitter.com/linuxchixar
 
 superuser: false
 user_groups: 
 - comunidades
-title: R en Baires
+title: LinuxChix
 ---
-

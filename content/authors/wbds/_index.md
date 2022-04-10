@@ -1,21 +1,21 @@
 ---
 authors:
-- renbaires
+- lasdesistemas
 
-bio: R en Baires
+bio: Las de sistemas.
+
 
 highlight_name: false
 social:
 - icon: twitter
   icon_pack: fab
-  link: https://twitter.com/renbaires
+  link: https://twitter.com/lasdesistemas
 - icon: globe
   icon_pack: fas
-  link: https://renbaires.github.io/
+  link: https://lasdesistemas.org
 
 superuser: false
 user_groups: 
 - comunidades
-title: R en Baires
+title: Las de Sistemas
 ---
-
