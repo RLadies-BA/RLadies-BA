@@ -19,7 +19,7 @@ social:
 - icon: github
   icon_pack: fab
   link: https://github.com/flor14
-  - icon: globe
+- icon: globe
   icon_pack: fas
   link: https://florencia.netlify.app
 
