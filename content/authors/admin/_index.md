@@ -35,8 +35,7 @@ Nuestra meta es crear una atmósfera amigable para personas interesadas en progr
 No importa si nunca usaste R o si es tu principal herramienta principal de trabajo. El objetivo es promover su uso, intercambiar conocimiento y crear una red de contactos a nivel local y global.
 
 
-### Un poco de nuestra historia 
+#### Un poco de nuestra historia 
 
 
-Este año se cumplen 5 años desde que se creó el cápitulo de RLadies en Buenos Aires. Muchas personas han sido parte de esta iniciativa, pero si querés conocer un poco más sobre como se armó, te invitamos a leer esta [**nota**](https://blog.rladies.org/es/post/2018-10-27-vacation_grow_rladiesnetwork/).
-
+Este año se cumplen 5 años desde que se creó el cápitulo de RLadies en Buenos Aires. Muchas personas han sido parte de esta iniciativa, en esta nota [**vacaciones <- crecer(RedRLadies)**](https://blog.rladies.org/es/post/2018-10-27-vacation_grow_rladiesnetwork/) te contaremos sobre cómo unas vacaciones llevaron al crecimiento de la comunidad R-Ladies en América del Sur.

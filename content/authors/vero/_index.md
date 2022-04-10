@@ -4,23 +4,23 @@ authors:
 bio: Descripción breve. 
 
 interests:
-- 
-- 
-- 
-- 
-- 
+- Ecología de la vegetación
+- Sistemas pastoriles andinos
+- Conservacion de la biodiversidad
+- Desertificacion
+- Teledeteccion
   
 highlight_name: false
 social:
 - icon: twitter
   icon_pack: fab
-  link: https://twitter.com/pmnatural
-- icon: facebook-f
+  link: https://twitter.com/VeronicaRojo_
+- icon: researchgate
   icon_pack: fab
-  link: https://www.facebook.com/RladiesBA/
-- icon: meetup
-  icon_pack: fab
-  link: https://www.meetup.com/es/rladies-buenos-aires/
+  link: https://www.researchgate.net/profile/Veronica-Rojo
+- icon: globe
+  icon_pack: fas
+  link: https://www.vicam.org.ar/
 superuser: false
 user_groups: 
 - organizadoras
