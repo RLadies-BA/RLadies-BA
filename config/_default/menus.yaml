@@ -16,4 +16,7 @@ main:
   - name: Media
     url: '#gallery'
     weight: 50  
+  - name: Comunidades
+    url: '#comunidades'
+    weight: 60  
 
