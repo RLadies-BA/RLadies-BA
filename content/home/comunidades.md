@@ -5,7 +5,7 @@
   active = true  
   weight = 70  # Order that this section will appear.
   
-  title = "Comunidades"
+  title = "Comunidades amigas"
   subtitle = ""
   
   [design]
