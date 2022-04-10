@@ -15,7 +15,7 @@ links:
   url: https://github.com/rladies/meetup-presentations_buenosaires/blob/master/README.md
 
 
-summary: Trucos y herramientas para que cualquier evento virtual interactivo
+summary: Trucos y herramientas para realizar un evento virtual interactivo
 tags:
 - 2020
 - Rladies

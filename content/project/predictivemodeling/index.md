@@ -20,6 +20,9 @@ tags:
 - 2020
 - Rladies
 - useR!
+- Datos textuales
+- tidytext
+- tidymodels
 title: Modelado predictivo con texto utilizando principios de datos tidy - useR! 2020
 url_code: ""
 url_pdf: ""

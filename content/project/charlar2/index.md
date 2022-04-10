@@ -19,6 +19,7 @@ summary: Parte 2 de la serie "Charlar con R".
 tags:
 - 2020
 - Rladies
+- RStudio
 title: Primeros pasos en RStudio
 url_code: ""
 url_pdf: ""

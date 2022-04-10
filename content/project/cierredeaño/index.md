@@ -19,6 +19,7 @@ summary: Resumen de todos los eventos y un tour por tidymodels.
 tags:
 - 2020
 - Rladies
+- tidymodels
 title: CieRre de año!
 url_code: ""
 url_pdf: ""

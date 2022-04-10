@@ -19,6 +19,8 @@ summary: Parte 8 de la serie "Charlar con R".
 tags:
 - 2020
 - Rladies
+- Reproducibilidad
+- Binder
 title: Leyendo datos ordenados con Tidyverse
 url_code: ""
 url_pdf: ""

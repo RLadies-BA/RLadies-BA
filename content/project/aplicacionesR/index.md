@@ -19,6 +19,7 @@ summary: Tercer encuentro parte II 2017
 tags:
 - 2017
 - Rladies
+- Datos espaciales
 title: Aplicaciones intermedias y avanzadas de R
 url_code: ""
 url_pdf: ""

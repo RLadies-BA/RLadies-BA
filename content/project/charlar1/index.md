@@ -19,6 +19,7 @@ summary: Parte 1 de la serie "Charlar con R".
 tags:
 - 2020
 - Rladies
+- RStudio
 title: Trabajar con proyectos en R y cómo organizar nuestro trabajo.
 url_code: ""
 url_pdf: ""
