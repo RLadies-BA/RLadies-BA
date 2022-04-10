@@ -2,20 +2,20 @@
 authors:
 - lasdesistemas
 
-bio: Las de sistemas.
+bio: Women in Bioinformatic & Data Science LA.
 
 
 highlight_name: false
 social:
 - icon: twitter
   icon_pack: fab
-  link: https://twitter.com/lasdesistemas
+  link: https://twitter.com/WBDSLA
 - icon: globe
   icon_pack: fas
-  link: https://lasdesistemas.org
+  link: https://wbds.la/
 
 superuser: false
 user_groups: 
 - comunidades
-title: Las de Sistemas
+title: Women in Bioinformatic & Data Science LA
 ---
