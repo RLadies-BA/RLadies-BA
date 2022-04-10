@@ -8,7 +8,7 @@ links:
 - icon: meetup
   icon_pack: fab
   name: Seguinos
-  url: https://www.meetup.com/es/rladies-buenos-aires/events/251308458/
+  url: https://www.meetup.com/es/rladies-buenos-aires/
 #slides: example
 summary: Tamara Broderick nos hablará de inferencia bayesiana escalable automatizada mediante el resumen de datos (Automated Scalable Bayesian Inference via Data Summarization).
 tags:

@@ -8,7 +8,7 @@ links:
 - icon: meetup
   icon_pack: fab
   name: Seguinos
-  url: https://www.meetup.com/es/rladies-buenos-aires/events/252482279/
+  url: https://www.meetup.com/es/rladies-buenos-aires/
 #slides: example
 summary: Si querés analizar tus datos con R y no te animás, este taller es para vos!
 tags:

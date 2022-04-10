@@ -8,7 +8,7 @@ links:
 - icon: meetup
   icon_pack: fab
   name: Seguinos
-  url: https://www.meetup.com/es/rladies-buenos-aires/events/250612806/
+  url: https://www.meetup.com/es/rladies-buenos-aires/
 #slides: example
 summary: Priscilla Minotti y Fabiana Flores presentan un taller inicial "R desde cero". Luego Natsumi Shokida nos contará sobre el trabajo que está realizando llamado "Indicadores de desigualdad de género con datos abiertos de la Encuesta Permanente de Hogares".
 tags:
