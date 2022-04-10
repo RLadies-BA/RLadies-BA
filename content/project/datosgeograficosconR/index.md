@@ -19,6 +19,8 @@ summary: Cuarto encuentro 2017
 tags:
 - 2017
 - Rladies
+- Datos geográficos
+- Shiny
 title: Taller de Datos Geográficos con R + Intro a Shiny
 url_code: ""
 url_pdf: ""

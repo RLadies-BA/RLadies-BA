@@ -19,6 +19,8 @@ summary: Segundo encuentro 2017
 tags:
 - 2017
 - Rladies
+- Datos geográficos
+- Datos espaciales
 title: Taller de R para Ciencia de Datos Parte I 
 url_code: ""
 url_pdf: ""

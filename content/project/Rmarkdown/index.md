@@ -19,6 +19,7 @@ summary: Sexto encuentro 2017
 tags:
 - 2017
 - Rladies
+- Rmarkdown
 title: R Markdown y cierre del año!
 url_code: ""
 url_pdf: ""
