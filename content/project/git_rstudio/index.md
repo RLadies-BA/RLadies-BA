@@ -13,7 +13,8 @@ links:
 summary: Iniciación al uso de Git como herramienta complementaria y útil al momento de escribir código en R
 tags:
 - 2019
-- git
+- Git
+- RStudio
 title: Taller de Git y RStudio
 url_code: ""
 url_pdf: "https://github.com/rladies/meetup-presentations_buenosaires/blob/master/2019-09-14-Git_Rstudio/git_rstudio.pdf"

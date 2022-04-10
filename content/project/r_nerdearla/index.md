@@ -14,6 +14,7 @@ summary: Taller para quienes quieren arrancar a usar R para análisis de datos y
 tags:
 - 2019
 - tidyverse
+- Visualización
 title: R para nerds
 url_code: "https://github.com/rladies/meetup-presentations_buenosaires/tree/master/2019-10-19-R_para_nerds"
 url_pdf: ""

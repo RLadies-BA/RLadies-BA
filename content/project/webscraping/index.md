@@ -15,6 +15,7 @@ tags:
 - 2019
 - tidyverse
 - rvest
+- Web scraping
 title: Web Scraping con Rvest en Spotify Charts + R con datos meteorológicos
 url_code: ""
 url_pdf: "https://github.com/rladies/meetup-presentations_buenosaires/blob/master/2019-06-15-webscrapping-y-datos-meteorologicos/Aprendiendo%20R%20con%20datos%20meteorologicos_Final.pptx"
