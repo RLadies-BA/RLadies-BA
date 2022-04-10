@@ -17,7 +17,7 @@ social:
   link: https://twitter.com/d4tagirl
 superuser: false
 user_groups: 
-- organizadoras
+- historicas
 title: Daniela Vázquez
 ---
 
