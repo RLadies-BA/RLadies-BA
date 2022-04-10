@@ -1,37 +1,25 @@
 ---
 authors:
-- jesica
+- paola
 
 bio: Docente e investigadora. 
 
 interests:
-- Análisis y visualización de Datos.
-- Modelado de datos. 
-- Enseñar y aprender.
-- Las comunidades de práctica.
+- Ciencia de datos.
+- Process mining.
+- Automatización.
+- Tecnologías Cloud.
 
 highlight_name: false
 
 social:
 - icon: twitter
   icon_pack: fab
-  link: https://twitter.com/JesiFormoso
-- icon: github
-  icon_pack: fab
-  link: https://github.com/JFormoso
-- icon: linkedin
-  icon_pack: fab
-  link: https://www.linkedin.com/in/jesica-formoso-16ab4649/
+  link: https://twitter.com/PaoPrieto
 superuser: false
 user_groups: 
 - organizadoras
 title: Jesica Formoso
 ---
 
-Jesica es psicóloga cognitiva de la [<span style="font-weight:bold;">Universidad de Buenos Aires</span>](http://www.psi.uba.ar/) e investigadora de [<span style="font-weight:bold;">CONICET</span>](https://www.conicet.gov.ar/new_scp/detalle.php?id=52112&datos_academicos=yes). 
-Es especialista en estadística y doctora en ciencias éticas, humanísticas y sociales médicas de la UBA.
-
-Actualmente es docente de posgrado en la UBA y el Instituto Universitario Hospital Italiano donde dicta cursos de R y estadística. También es instructora certificada por [<span style="font-weight:bold;">RStudio</span>](https://education.rstudio.com/trainers/people/formoso+jesica/) y [<span style="font-weight:bold;">The Carpentries</span>](https://carpentries.org/instructors/).
-
-
-
+Paola Prieto es ingeniera de sistemas orientada a la ciencia de datos con más de 12 años de experiencia en tecnología. Durante su carrera se ha apasionado por las areas de resolución de problemas, automatización y minería de procesos y en los últimos años en ayudar a las empresas a innovar usando tecnologías cloud. En su tiempo libre disfruta de viajar, leer, ser mentora y voluntaria, y contribuir a que haya más mujeres en tecnología siendo parte de organizaciones com R-Ladies entre otras.
