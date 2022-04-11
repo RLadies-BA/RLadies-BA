@@ -19,6 +19,9 @@ social:
 - icon: youtube
   icon_pack: fab
   link: https://www.youtube.com/channel/UCztAJhENVqsqv0cvyxs4sgg?view_as=subscriber
+- icon: r-project
+  icon_pack: fab
+  link: https://rladies.org/
 
 superuser: true
 title: RLadies Buenos Aires
@@ -39,3 +42,8 @@ No importa si nunca usaste R o si es tu principal herramienta principal de traba
 
 
 Este año se cumplen 5 años desde que se creó el cápitulo de RLadies en Buenos Aires. Muchas personas han sido parte de esta iniciativa, en esta nota [**vacaciones <- crecer(RedRLadies)**](https://blog.rladies.org/es/post/2018-10-27-vacation_grow_rladiesnetwork/) te contaremos sobre cómo unas vacaciones llevaron al crecimiento de la comunidad R-Ladies en América del Sur.
+
+
+#### Código de conducta
+
+R-Ladies se dedica a proporcionar una experiencia libre de acoso para todos. Desde R-Ladies Buenos Aires no toleramos el acoso de los participantes en ninguna de las formas posibles. [**Conoce el Código de Conducta**](https://github.com/rladies/.github/blob/master/CODE_OF_CONDUCT.md#spanish) que se aplica en todos los espacios de participación de R-Ladies Global y del capitulo, incluyendo reuniones presenciales o virtuales, Twitter, Slack, listas de correo, tanto online como offline. 

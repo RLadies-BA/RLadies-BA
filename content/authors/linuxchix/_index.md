@@ -9,10 +9,10 @@ highlight_name: false
 social:
 - icon: twitter
   icon_pack: fab
-  link: https://linuxchixar.org/
+  link: https://twitter.com/linuxchixar
 - icon: globe
   icon_pack: fas
-  link: https://twitter.com/linuxchixar
+  link: https://linuxchixar.org/
 
 superuser: false
 user_groups: 
