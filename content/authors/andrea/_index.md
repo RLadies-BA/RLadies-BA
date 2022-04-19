@@ -2,7 +2,7 @@
 authors:
 - andrea
 
-bio: Socióloga 
+bio: Socióloga & analista de datos
 
 
 interests:
@@ -31,6 +31,6 @@ user_groups:
 title: Andrea Gómez Vargas
 ---
 
-Andrea es socióloga con orientación en estudios de Género(s) y Derechos Humanos. Es docente universitaria en teoría feminsita y ciencia de datos. 
+Andrea es socióloga con orientación en estudios de Género(s) y Derechos Humanos. Actualmente se desempeña como analista de datos poblacionales y es docente universitaria en teoría feminsita y ciencia de datos. 
 
 Desde que conoció Rladies le gusta participar en espacios colaborativos de aprendizaje en ciencias de datos y también forma parte del equipo organizador de LatinR: Conferencia Latinoamericana sobre Uso de R en Investigación + Desarrollo.

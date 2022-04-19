@@ -5,7 +5,7 @@ bio: Descripción breve.
 
 interests:
 - Ciencia de Datos
-- Enseñanza: Cursos, Talleres y Workshops 
+- Enseñanza: Cursos, Talleres y Workshops
 - Análisis, Diseño y Programación
 - Viajes 
 - Arte y Cultura
