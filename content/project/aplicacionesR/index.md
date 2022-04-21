@@ -19,6 +19,9 @@ summary: Tercer encuentro 2017
 tags:
 - 2017
 - Datos espaciales
+- Ciencias de la atmósfera
+- ggplot
+- Data mining
 title: Aplicaciones intermedias y avanzadas de R
 url_code: ""
 url_pdf: ""
