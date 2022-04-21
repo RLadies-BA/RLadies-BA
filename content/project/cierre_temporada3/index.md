@@ -13,6 +13,8 @@ links:
 summary: ¡Cerramos la tercer temporada de meetups con todo!
 tags:
 - 2019
+- Género
+- UseR
 title: ¡Último meetup del año!
 url_code: ""
 url_pdf: ""

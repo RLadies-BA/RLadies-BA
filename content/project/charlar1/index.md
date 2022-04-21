@@ -18,7 +18,6 @@ links:
 summary: Parte 1 de la serie "Charlar con R".
 tags:
 - 2020
-- Rladies
 - RStudio
 title: Trabajar con proyectos en R y cómo organizar nuestro trabajo.
 url_code: ""
@@ -27,8 +26,9 @@ url_slides: ""
 url_video: ""
 ---
 
-Este es el primer encuentro de la serie "Por eso pensamos en "Charlar con R". Esta incluye reuniones virtuales y cortas para compartir trucos y concejos sobre R pero también para hacer sociales y tener un espacio para charlar sobre lo que se nos ocurra.
+Este es el primer encuentro de la serie "Charlar con R". Esta incluye reuniones virtuales y cortas para compartir trucos y consejos sobre R pero también para hacer sociales y tener un espacio para charlar sobre lo que se nos ocurra.
 
 En esta ocasión vamos a charlar sobre como manejar proyectos de R y ordenar nuestro trabajo para no perdernos en un mar de scripts de R.
 
+De esta primera edición no se encuentra disponible el video en youtube. 
 

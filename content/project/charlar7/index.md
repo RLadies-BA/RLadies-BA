@@ -18,7 +18,6 @@ links:
 summary: Parte 7 de la serie "Charlar con R".
 tags:
 - 2020
-- Rladies
 - dplyr
 - Exploración de datos
 title: Taller de dplyr

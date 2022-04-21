@@ -18,7 +18,6 @@ links:
 summary: Parte 5 de la serie "Charlar con R".
 tags:
 - 2020
-- Rladies
 - Visualización
 - Datos demográficos
 title: Visualizando datos - especial #30díasdegráficos

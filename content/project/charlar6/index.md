@@ -18,7 +18,6 @@ links:
 summary: Parte 6 de la serie "Charlar con R".
 tags:
 - 2020
-- Rladies
 - tidyverse
 - ggplot
 title: Leyendo datos ordenados con Tidyverse

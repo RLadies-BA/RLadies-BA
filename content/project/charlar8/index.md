@@ -18,17 +18,14 @@ links:
 summary: Parte 8 de la serie "Charlar con R".
 tags:
 - 2020
-- Rladies
 - Reproducibilidad
 - Binder
-title: Leyendo datos ordenados con Tidyverse
+title: Reproducibilidad en R
 url_code: ""
 url_pdf: ""
 url_slides: ""
 url_video: ""
 ---
-
-Este meetup es parte de la serie "Charlar con R". Esta vez vamos a aprender qué son los datos ordenados y como importar datos tabulares a R con tidyverse.
 
 ¿Basta con dejar disponible el código y las bases de datos de tu trabajo para que otra persona (o tu yo del futuro) pueda volver a correrlo sin problemas?
 

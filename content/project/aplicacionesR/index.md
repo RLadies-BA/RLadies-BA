@@ -15,10 +15,9 @@ links:
   url: https://github.com/rladies/meetup-presentations_buenosaires/blob/master/README.md
 
 
-summary: Tercer encuentro parte II 2017
+summary: Tercer encuentro 2017
 tags:
 - 2017
-- Rladies
 - Datos espaciales
 title: Aplicaciones intermedias y avanzadas de R
 url_code: ""

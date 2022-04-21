@@ -18,7 +18,6 @@ links:
 summary: Parte 4 de la serie "Charlar con R".
 tags:
 - 2020
-- Rladies
 - Git
 title: Primeros pasos en git
 url_code: ""
