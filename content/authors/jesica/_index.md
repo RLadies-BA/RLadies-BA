@@ -5,10 +5,10 @@ authors:
 bio: Docente e investigadora. 
 
 interests:
-- Análisis y visualización de Datos.
-- Modelado de datos. 
-- Enseñar y aprender.
-- Las comunidades de práctica.
+- Análisis y visualización de datos
+- Modelado de datos
+- Enseñar y aprender
+- Las comunidades de práctica
 
 highlight_name: false
 

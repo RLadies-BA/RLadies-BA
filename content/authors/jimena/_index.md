@@ -5,11 +5,9 @@ authors:
 bio: Descripción breve. 
 
 interests:
-- 
-- 
-- 
-- 
-- 
+- Ambiente  
+- Ciencia de datos
+- Enseñar y aprender
 
   
 highlight_name: false
@@ -17,12 +15,9 @@ social:
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/Jime_Sauce
-- icon: facebook-f
+- icon: linkedin
   icon_pack: fab
-  link: https://www.facebook.com/RladiesBA/
-- icon: meetup
-  icon_pack: fab
-  link: https://www.meetup.com/es/rladies-buenos-aires/
+  link: https://www.linkedin.com/in/jimenasaucedo/
 superuser: false
 user_groups: 
 - organizadoras

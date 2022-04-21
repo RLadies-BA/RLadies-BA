@@ -29,4 +29,7 @@ user_groups:
 title: Priscilla Minotti
 ---
 
-info
+Priscilla es Licenciada en Cs. Biologicas de la UBA, Master of Science en Geografía de Oregon State University y Especialista en Mineria de Datos de la UBA. Es profesora asociada e investigadora de la Universidad Nacional de San Martin. Se dedica a la ecologia de humedales, usando imagenes satelitales para mapearlos y monitorearlos. Su principal interes se centra en la aplicacion de R para analisis espacial. 
+
+Es miembro organizadora de RLadies Buenos Aires y administradora del grupo de Telegram [R-Spatial_ES](https://t.me/rspatial_es)
+
