@@ -19,7 +19,9 @@ summary: Parte 5 de la serie "Charlar con R".
 tags:
 - 2020
 - Visualización
-- Datos demográficos
+- tidytext
+- Datos textuales
+- tidyverse
 title: Visualizando datos - especial #30díasdegráficos
 url_code: ""
 url_pdf: ""

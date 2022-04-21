@@ -19,7 +19,7 @@ summary: Parte 6 de la serie "Charlar con R".
 tags:
 - 2020
 - tidyverse
-- ggplot
+- Datos ordenados
 title: Leyendo datos ordenados con Tidyverse
 url_code: ""
 url_pdf: ""

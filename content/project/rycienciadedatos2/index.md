@@ -18,7 +18,8 @@ links:
 summary: Tercer encuentro parte I 2017
 tags:
 - 2017
-- Rladies
+- tidyverse
+- ggplot
 title: Taller de R para Ciencia de Datos (Parte II)
 url_code: ""
 url_pdf: ""

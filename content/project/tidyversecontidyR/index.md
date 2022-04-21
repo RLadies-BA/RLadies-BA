@@ -15,6 +15,7 @@ tags:
 - 2021
 - tidyverse
 - tidyr
+- Datos ordenados
 title: Tidyverse reorganizando datos con TidyR
 url_code: "https://github.com/monialo2000/Taller_Tidyr"
 url_pdf: ""

@@ -18,7 +18,6 @@ links:
 summary: Tutorial useR!2020
 tags:
 - 2020
-- Rladies
 - useR!
 - Datos textuales
 - tidytext

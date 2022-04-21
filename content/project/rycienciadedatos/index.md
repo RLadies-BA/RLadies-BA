@@ -18,9 +18,12 @@ links:
 summary: Segundo encuentro 2017
 tags:
 - 2017
-- Rladies
+- Análisis de datos
+- tidyverse
+- ggplot
 - Datos geográficos
 - Datos espaciales
+- tmap
 title: Taller de R para Ciencia de Datos Parte I 
 url_code: ""
 url_pdf: ""

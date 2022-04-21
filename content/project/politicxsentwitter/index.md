@@ -16,6 +16,7 @@ tags:
 - Ciencias sociales
 - Web scraping
 - Datos textuales
+- politicxsentwitteR
 title: Social Network con politicxsentwitteR
 url_code: "https://github.com/guadag12/socialnetwork-rladies-talk"
 url_pdf: ""

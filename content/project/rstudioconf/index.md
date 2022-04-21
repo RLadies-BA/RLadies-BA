@@ -18,7 +18,7 @@ links:
 summary: Primer meetup 2020 junto a R en Baires
 tags:
 - 2020
-- Rladies
+- RStudio::conf
 title: ¡Watchparty de la RStudio::conf 2020!
 url_code: ""
 url_pdf: ""

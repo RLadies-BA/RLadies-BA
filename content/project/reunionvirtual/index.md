@@ -19,6 +19,8 @@ summary: Trucos y herramientas para realizar un evento virtual interactivo
 tags:
 - 2020
 - Rladies
+- Evento virtual
+- Comunidad
 title: Cómo hacer una reunión virtual inolvidable (sin morir en el intento)
 url_code: ""
 url_pdf: ""

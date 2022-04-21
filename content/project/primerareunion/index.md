@@ -14,6 +14,7 @@ summary: Reunión lanzamiento 2017
 tags:
 - 2017
 - Rladies
+- Comunidad
 title: Primer evento de R-Ladies Buenos Aires
 url_code: ""
 url_pdf: ""
