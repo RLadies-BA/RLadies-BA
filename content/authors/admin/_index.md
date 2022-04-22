@@ -35,7 +35,7 @@ Somos RLadies Buenos Aires, el capítulo local de RLadies global, una organizaci
 Nuestra meta es crear una atmósfera amigable para personas interesadas en programar en R en Buenos Aires que se identifiquen con géneros menos representados en la comunidad de R (que incluye pero no se limita a mujeres cis/trans, hombres trans, personas no binarias, género fluído o agénero). 
 
 
-No importa si nunca usaste R o si es tu principal herramienta principal de trabajo. El objetivo es promover su uso, intercambiar conocimiento y crear una red de contactos a nivel local y global.
+No importa si nunca usaste R o si es tu herramienta principal de trabajo. El objetivo es promover su uso, intercambiar conocimiento y crear una red de contactos a nivel local y global.
 
 
 #### Un poco de nuestra historia 
