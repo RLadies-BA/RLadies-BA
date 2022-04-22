@@ -18,7 +18,6 @@ links:
 summary: Parte 3 de la serie "Charlar con R".
 tags:
 - 2020
-- Rladies
 - Rmarkdown
 - Reproducibilidad
 title: Primeros pasos en RMarkdown

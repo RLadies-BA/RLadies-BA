@@ -19,6 +19,8 @@ summary: Parte 1 de la serie "Charlar con R".
 tags:
 - 2020
 - RStudio
+- Proyectos en R
+- Reproducibilidad
 title: Trabajar con proyectos en R y cómo organizar nuestro trabajo.
 url_code: ""
 url_pdf: ""

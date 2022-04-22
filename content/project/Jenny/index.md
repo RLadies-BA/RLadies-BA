@@ -14,6 +14,7 @@ summary: Cómo escribir funciones por diversión y beneficio.
 tags:
 - 2018
 - RStudio
+- Funciones
 title: ¡Nos visita Jenny Brian!
 url_code: ""
 url_pdf: ""

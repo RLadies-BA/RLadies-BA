@@ -13,7 +13,6 @@ links:
 summary: Charla sobre Scalable Automatic Machine Learning con H2O
 tags:
 - 2019
-- tidyverse
 - Machine learning
 - H2o
 title: ¡Nos visita Erin LeDell! 

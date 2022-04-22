@@ -18,7 +18,7 @@ links:
 summary: Quinto encuentro 2017
 tags:
 - 2017
-- Rladies
+- Shiny
 title: Taller de Shiny + Clínica de Proyectos
 url_code: ""
 url_pdf: ""

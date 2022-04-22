@@ -14,6 +14,7 @@ summary: celebración aniversario.
 tags:
 - 2022
 - RLadies
+- Comunidad
 title: Cumplimos 5 años
 url_code: ""
 url_pdf: ""
