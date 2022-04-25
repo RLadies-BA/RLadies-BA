@@ -1,3 +1,4 @@
 # RLadies-BA
 
-Página oficial de RLadies Buenos Aires. Bienvenides!
+Bienvenides a la página oficial de Rladies Buenos Aires [**rladiesba.netlify.app**](https://rladiesba.netlify.app/)
+

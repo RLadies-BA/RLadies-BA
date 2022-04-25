@@ -13,9 +13,6 @@ interests:
   
 highlight_name: false
 social:
-- icon: twitter
-  icon_pack: fab
-  link: https://twitter.com/me_andre
 - icon: github
   icon_pack: fab
   link: https://github.com/SoyAndrea
@@ -24,7 +21,10 @@ social:
   link: https://www.linkedin.com/in/andreasociologa/
 - icon: globe
   icon_pack: fas
-  link: https://soyandrea.netlify.app/
+  link: https://soyandrea.netlify.app/ 
+- icon: twitter
+  icon_pack: fab
+  link: https://twitter.com/me_andre
 superuser: false
 user_groups: 
 - organizadoras
