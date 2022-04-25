@@ -4,6 +4,9 @@ bio:
   
 highlight_name: false
 social:
+- icon: github
+  icon_pack: fab
+  link: https://github.com/SoyAndrea
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/RLadiesBA
