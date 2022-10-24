@@ -10,6 +10,9 @@ social:
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/EcoFeminita
+- icon: instagram
+  icon_pack: fab
+  link: https://www.instagram.com/ecofeminita/
 - icon: globe
   icon_pack: fas
   link: https://ecofeminita.com/ecofemidata/
