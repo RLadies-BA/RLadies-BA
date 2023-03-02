@@ -28,10 +28,10 @@ social:
   link: https://twitter.com/me_andre
 superuser: false
 user_groups: 
-- organizadoras
+- historicas
 title: Andrea Gómez Vargas
 ---
 
-Andrea es socióloga con orientación en estudios de Género(s) y Derechos Humanos. Es instructora certificada por [The Carpentries](https://carpentries.org/instructors/) y actualmente se desempeña como analista de datos poblacionales en [INDEC](https://www.indec.gob.ar/) y ejerce la docencia en ciencia de datos. 
+Andrea es licenciada en sociología y analista de datos. Es instructora certificada por [The Carpentries](https://carpentries.org/instructors/) y actualmente se desempeña como analista de datos poblacionales en [INDEC](https://www.indec.gob.ar/). También ejerce la docencia en ciencia de datos en diferentes instituciones educativas. 
 
-Desde que conoció Rladies le gusta participar en espacios colaborativos de aprendizaje en ciencias de datos y código abierto, formó parte del equipo organizador de [LatinR](https://latin-r.com/) en las ediciones de 2020 y 2021 e integro el equipo colaborador de [Metadocencia](https://www.metadocencia.org/) en 2021.
+Desde que conoció Rladies le gusta participar en espacios colaborativos de aprendizaje en ciencias de datos y código abierto, formó parte del equipo organizador de  Rladies Buenos Aires desde 2019 hasta 2022 y en [LatinR](https://latin-r.com/) en las ediciones de 2020 y 2021 e integró el equipo colaborador de [Metadocencia](https://www.metadocencia.org/) en 2021.
