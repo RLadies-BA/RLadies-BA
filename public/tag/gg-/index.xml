@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>gg&#43; | RLadies BA</title>
+    <link>/tag/gg-/</link>
+      <atom:link href="/tag/gg-/index.xml" rel="self" type="application/rss+xml" />
+    <description>gg&#43;</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>es</language><lastBuildDate>Thu, 04 Nov 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/icon_hu4b9af3f567e0b0f9e5f99da57ed62ab5_26887_512x512_fill_lanczos_center_2.png</url>
+      <title>gg&#43;</title>
+      <link>/tag/gg-/</link>
+    </image>
+    
+    <item>
+      <title>Gg&#43; paquetes para extender las capacidades de ggplot2</title>
+      <link>/project/gg&#43;/</link>
+      <pubDate>Thu, 04 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>/project/gg&#43;/</guid>
+      <description>&lt;p&gt;Los capítulos de R-Ladies Buenos Aires y R-Ladies Resistencia-Corrientes les traemos el tutorial &amp;ldquo;gg+ : paquetes para extender las capacidades de ggplot2&amp;rdquo; a cargo de &lt;a href=&#34;https://luisdva.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Luis Verde (@LuisDVerde)&lt;/a&gt;. Este taller es parte de los tutoriales de &lt;a href=&#34;https://latin-r.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;LatinR 2021&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Si sos fan de ggplot2 y querés conocer como extender sus funcionalidades o si estás buscando visualizar datos de forma eficiente y llamativa, ¡este tutorial es para vos!.&lt;/p&gt;
+&lt;p&gt;Luis va a mostrarnos distintos paquetes que se suman a ggplot2 para incorporar nuevas paletas de colores, representaciones gráficas y capas (geoms), y herramientas para acomodar y rotular elementos gráficos.&lt;/p&gt;
+&lt;p&gt;Requisitos:
+Para aprovechar el tutorial al máximo, instalá previamente los paquetes dplyr, ggalt, ggridges, ggforce, patchwork, ggnewscale, scico, gghighlight, ggrepel, ggeasy, ggfx y ggh4x.&lt;/p&gt;
+&lt;h3 id=&#34;reviví-la-presentación-en-youtube&#34;&gt;Reviví la presentación en youtube&lt;/h3&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/R0Sj0qz3o4g&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

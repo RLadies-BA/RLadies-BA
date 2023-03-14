@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>María Nanton | RLadies BA</title>
+    <link>/author/maria-nanton/</link>
+      <atom:link href="/author/maria-nanton/index.xml" rel="self" type="application/rss+xml" />
+    <description>María Nanton</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>es</language>
+    <image>
+      <url>/author/maria-nanton/avatar_hu1ba0a4c52d80cee8b45b25677b0e84ba_81682_270x270_fill_q75_lanczos_center.jpg</url>
+      <title>María Nanton</title>
+      <link>/author/maria-nanton/</link>
+    </image>
+    
+  </channel>
+</rss>

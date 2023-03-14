@@ -5,7 +5,7 @@
     <link>/project/</link>
       <atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 04 Nov 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>es</language><lastBuildDate>Sat, 12 Mar 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/media/icon_hu4b9af3f567e0b0f9e5f99da57ed62ab5_26887_512x512_fill_lanczos_center_2.png</url>
       <title>Projects</title>
@@ -13,11 +13,46 @@
     </image>
     
     <item>
+      <title>Cumplimos 5 años</title>
+      <link>/project/cumple5/</link>
+      <pubDate>Sat, 12 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>/project/cumple5/</guid>
+      <description>&lt;p&gt;Estamos muy contentas de todo este camino recorrido juntas.
+Compartimos aprendizaje, nos ayudamos entre todes, enfrentamos dudas, aportamos conocimiento y soluciones con este lenguaje R que nos une para nuevas iniciativas o problemas del dia a dia. Y tambien vivimos lo que es sororidad, nos acompañamos en el festejo y en el &amp;ldquo;estoy furiosa&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;Es tiempo de festejar y de volvernos encontrar presencialmente.&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;es&#34; dir=&#34;ltr&#34;&gt;Hay comunidad &lt;a href=&#34;https://twitter.com/hashtag/Rladies?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#Rladies&lt;/a&gt; 🥳💜💜💜 &lt;a href=&#34;https://t.co/DCtqAeqsD6&#34;&gt;pic.twitter.com/DCtqAeqsD6&lt;/a&gt;&lt;/p&gt;&amp;mdash; R-Ladies BuenosAires (@RLadiesBA) &lt;a href=&#34;https://twitter.com/RLadiesBA/status/1502763807000735759?ref_src=twsrc%5Etfw&#34;&gt;March 12, 2022&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt; </description>
+    </item>
+    
+    <item>
+      <title>Generando tutoriales interactivos con el paquete learnr</title>
+      <link>/project/learnr2022/</link>
+      <pubDate>Sat, 12 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>/project/learnr2022/</guid>
+      <description>&lt;p&gt;¡Te invitamos a un nuevo meetup!&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;Generando tutoriales interactivos con el paquete learnr &amp;quot;
+Será el miércoles 11 de mayo de 2022, organizado por MetaDocencia &amp;amp; R-Ladies Buenos Aires de la mano de nuestras entrañables Yanina Bellini y Pao Corrales.&lt;/p&gt;
+&lt;p&gt;Este mensaje tiene información importante para ayudar a prepararte para el curso. Leelo detenidamente y avisanos si tenés alguna pregunta.&lt;/p&gt;
+&lt;p&gt;Requisitos:
+Necesitás una computadora con conexión a internet, parlantes y micrófono (o auriculares con micrófono o combinación similar). No hace falta que tengas cámara, aunque si la tenés, podés usarla.
+Además, necesitamos que tengas instalado R, RStudio y los paquetes: rmarkdown, datos y learnr.&lt;/p&gt;
+&lt;p&gt;Al participar de nuestros cursos aceptás este Código de Conducta.&lt;/p&gt;
+&lt;p&gt;IMPORTANTE
+Para participar seleccioná &amp;ldquo;Asistiré&amp;rdquo; en este evento y asegurate de tener instalado Zoom en tu computadora (&lt;a href=&#34;https://zoom.us/download)&#34;&gt;https://zoom.us/download)&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Por razones de seguridad no compartiremos el link para ingresar a Zoom de manera pública. El mismo día del evento a las 13 hs enviaremos un mail a través de Meetup a todas las personas que confirmaron asistencia con el link para que puedas unirte a la videollamada.&lt;/p&gt;
+&lt;p&gt;También por la seguridad de la reunión, es muy importante que ingreses con un nombre similar al que usaste cuando te pre-inscribiste. Tu ingreso será más rápido si lo hacés así y no tenemos que hacerte esperar hasta chequear tu identidad.
+Si llegás luego de la hora de comienzo, tendrás que esperar a que autoricemos tu ingreso. Lo haremos lo antes que podamos sin interrumpir el curso en marcha.&lt;/p&gt;
+&lt;p&gt;Si tenés alguna pregunta sobre el taller, la modalidad, o cualquier otra cosa, no dudes en ponerte en contacto.&lt;/p&gt;
+&lt;p&gt;¡Nos vemos en el curso!
+Metadocencia y RLadies Buenos Aires&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Gg&#43; paquetes para extender las capacidades de ggplot2</title>
       <link>/project/gg&#43;/</link>
       <pubDate>Thu, 04 Nov 2021 00:00:00 +0000</pubDate>
       <guid>/project/gg&#43;/</guid>
-      <description>&lt;p&gt;Los capítulos de R-Ladies Buenos Aires y R-Ladies Resistencia-Corrientes les traemos el tutorial &amp;ldquo;gg+ : paquetes para extender las capacidades de ggplot2&amp;rdquo; a cargo de Luis Verde (@LuisDVerde). Este taller es parte de los tutoriales de LatirR 2021&lt;/p&gt;
+      <description>&lt;p&gt;Los capítulos de R-Ladies Buenos Aires y R-Ladies Resistencia-Corrientes les traemos el tutorial &amp;ldquo;gg+ : paquetes para extender las capacidades de ggplot2&amp;rdquo; a cargo de &lt;a href=&#34;https://luisdva.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Luis Verde (@LuisDVerde)&lt;/a&gt;. Este taller es parte de los tutoriales de &lt;a href=&#34;https://latin-r.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;LatinR 2021&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Si sos fan de ggplot2 y querés conocer como extender sus funcionalidades o si estás buscando visualizar datos de forma eficiente y llamativa, ¡este tutorial es para vos!.&lt;/p&gt;
 &lt;p&gt;Luis va a mostrarnos distintos paquetes que se suman a ggplot2 para incorporar nuevas paletas de colores, representaciones gráficas y capas (geoms), y herramientas para acomodar y rotular elementos gráficos.&lt;/p&gt;
 &lt;p&gt;Requisitos:
@@ -31,7 +66,7 @@ Para aprovechar el tutorial al máximo, instalá previamente los paquetes dplyr,
       <link>/project/comoempezar/</link>
       <pubDate>Wed, 22 Sep 2021 00:00:00 +0000</pubDate>
       <guid>/project/comoempezar/</guid>
-      <description>&lt;p&gt;Desde el Núcleo de Innovación Social (NIS) y RLadies Buenos Aires les traemos esta charla con 4 expositorxs egresadxs de carreras vinculadas a las Ciencias Sociales que trabajan en ciencia de datos.&lt;/p&gt;
+      <description>&lt;p&gt;Desde el &lt;a href=&#34;https://www.nucleodeinnovacion.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Núcleo de Innovación Social (NIS)&lt;/strong&gt;&lt;/a&gt; y RLadies Buenos Aires les traemos esta charla con 4 expositorxs egresadxs de carreras vinculadas a las Ciencias Sociales que trabajan en ciencia de datos.&lt;/p&gt;
 &lt;p&gt;Cada unx contará su experiencia de primera mano sobre cómo arrancaron en este tipo de roles, qué trabas tuvieron, qué dificultades enfrentaron, y qué herramientas consideran que les sumaron y que pueden servirle a unx egresadx que quiera inciarse en mundo de la ciencia de datos.&lt;/p&gt;
 &lt;p&gt;Exponen:&lt;/p&gt;
 &lt;ul&gt;
@@ -53,7 +88,7 @@ Betsy Cohen (@betsy_ar) - Socióloga&lt;/p&gt;
       <link>/project/politicxsentwitter/</link>
       <pubDate>Wed, 25 Aug 2021 00:00:00 +0000</pubDate>
       <guid>/project/politicxsentwitter/</guid>
-      <description>&lt;p&gt;Nos visita la politóloga Guadalupe González para presentar su paquete politicxsentwitteR. Con este paquete podrás obtener las publicaciones de politicxs argentinxs en Twitter y desarrollar proyectos de procesamiento del lenguaje natural, análisis de redes y visualización de datos.
+      <description>&lt;p&gt;Nos visita la politóloga &lt;a href=&#34;https://github.com/Guadag12&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Guadalupe González&lt;/strong&gt;&lt;/a&gt; para presentar su paquete &lt;a href=&#34;https://oderedes.shinyapps.io/politicosentwitter/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;politicxsentwitteR&lt;/a&gt;. Con este paquete podrás obtener las publicaciones de politicxs argentinxs en Twitter y desarrollar proyectos de procesamiento del lenguaje natural, análisis de redes y visualización de datos.
 Guadalupe va a contarnos cómo desarrolló el paquete, sus características, y de qué maneras podemos analizar sus datos con las librerías de R igraph y visNetwork.&lt;/p&gt;
 &lt;p&gt;Si venís de las Ciencias Sociales (o no), querés profundizar en análisis de redes o te interesa el análisis de Twitter como fuente de información, este meetup es para vos.&lt;/p&gt;
 &lt;h3 id=&#34;reviví-la-presentación-en-youtube&#34;&gt;Reviví la presentación en youtube&lt;/h3&gt;
@@ -69,7 +104,458 @@ Guadalupe va a contarnos cómo desarrolló el paquete, sus características, y d
       <description>&lt;p&gt;¿Necesitás ordenar tus datos? En esta ocasión aprenderemos a remodelar datos con algunas funciones de TidyR y haremos un pequeño recorrido en tidyverse &amp;amp; ciencia de datos.&lt;/p&gt;
 &lt;h3 id=&#34;reviví-la-presentación-en-youtube&#34;&gt;Reviví la presentación en youtube&lt;/h3&gt;
 &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/chIwJ3hdlx0&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
-&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;es&#34; dir=&#34;ltr&#34;&gt;Gracias a todes a les que asistieron al meet sobre &lt;a href=&#34;https://twitter.com/hashtag/Politicxsentwitter?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#Politicxsentwitter&lt;/a&gt; y en especial a &lt;a href=&#34;https://twitter.com/guadag12?ref_src=twsrc%5Etfw&#34;&gt;@guadag12&lt;/a&gt; por todo lo que nos enseñó! 💜😁&lt;a href=&#34;https://twitter.com/hashtag/rladies?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#rladies&lt;/a&gt; &lt;a href=&#34;https://t.co/cXYP5od9DL&#34;&gt;pic.twitter.com/cXYP5od9DL&lt;/a&gt;&lt;/p&gt;&amp;mdash; R-Ladies BuenosAires (@RLadiesBA) &lt;a href=&#34;https://twitter.com/RLadiesBA/status/1430679100860080128?ref_src=twsrc%5Etfw&#34;&gt;August 25, 2021&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;</description>
+</description>
+    </item>
+    
+    <item>
+      <title>CieRre de año!</title>
+      <link>/project/cierredeano/</link>
+      <pubDate>Mon, 07 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>/project/cierredeano/</guid>
+      <description>&lt;p&gt;¡Se viene el último meetup del año y estamos felices porque lo co-organizamos en conjunto entre los capítulos de Bariloche, Mendoza, Córdoba, Santa Rosa, Ushuaia y Resistencia-Corrientes!&lt;/p&gt;
+&lt;p&gt;Vamos a aprovechar este último encuentro para repasar lo que hicimos durante este año tan particular. ¡Queremos celebrar el habernos encontrado a distancia con muchísimas personas que forman parte de la comunidad R en Argentina, Latinoamérica y el mundo! Si te perdiste algún meetup durante el año, aprovechá para ponerte al día sobre lo que hicimos, videos y materiales que generamos!&lt;/p&gt;
+&lt;p&gt;¡También habrá código de R! Ana Laura Diedrichs de R-Ladies Mendoza nos contará sobre Tidymodels&lt;/p&gt;
+&lt;p&gt;Si te interesa machine learning o ya lo venís usando, {tidymodels} es un conjunto de paquetes que puede ayudarte en tu experimento de aprendizaje automático supervisado. Así sea clasificar imágenes o predecir el precio en el mercado inmobiliario, puedes usar este paquete desde R para implementar tus modelos de aprendizaje automático: desde dejar volar la cabeza con redes neuronales, hasta acampar en bosques aleatorios. {tidymodels} permite implementar un flujo de trabajo ordenado para el entrenamiento y evaluación de tus modelos.&lt;/p&gt;
+&lt;p&gt;La charla se titula: “Un tour por tidymodels” y mostraremos algunos ejemplos en código. Está dirigida a quienes:&lt;/p&gt;
+&lt;p&gt;Conocen sobre ML (machine learning) y están buscando una librería para usar.
+Han usado caret u otras librerías de ML en R.
+Usan ML en otros lenguajes y quieren saber de las librerías en R.
+Quieren entender el ecosistema de {tidymodels}.
+O son personas curiosas y quieren tener un vistazo de {tidymodels} y de qué trata.&lt;/p&gt;
+&lt;h3 id=&#34;reviví-la-presentación-en-nuestro-canal-de-youtube&#34;&gt;Reviví la presentación en nuestro canal de youtube:&lt;/h3&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/o38PVdS3k_Q&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;</description>
+    </item>
+    
+    <item>
+      <title>Reproducibilidad en R</title>
+      <link>/project/charlar8/</link>
+      <pubDate>Wed, 02 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>/project/charlar8/</guid>
+      <description>&lt;p&gt;¿Basta con dejar disponible el código y las bases de datos de tu trabajo para que otra persona (o tu yo del futuro) pueda volver a correrlo sin problemas?&lt;/p&gt;
+&lt;p&gt;Las herramientas y prácticas que mejoran la reproducibilidad computacional no siempre se abordan en los cursos de programación. Algunas forman parte de “eso que se olvidaron de enseñarte de R”: control de versiones, sistemas de administración de dependencias, programación literaria, entre otras.&lt;/p&gt;
+&lt;p&gt;En este meetup de R-Ladies Buenos Aires, Florencia D’Andrea nos brinda un panorama de por qué es interesante abordar el tema de la reproducibilidad, publiques o no artículos científicos. Además presentamos la hackatón de reproducibilidad científica (reproHack) que tuvo lugar como parte de la edición virtual de LatinR 2020.&lt;/p&gt;
+&lt;h3 id=&#34;reviví-la-presentación-en-nuestro-canal-de-youtube&#34;&gt;Reviví la presentación en nuestro canal de youtube:&lt;/h3&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/-7G7tlmB2Ts&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Taller de dplyr</title>
+      <link>/project/charlar7/</link>
+      <pubDate>Wed, 05 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>/project/charlar7/</guid>
+      <description>&lt;p&gt;En este encuentro vamos a aprender a manipular nuestros datos tabulares en R con uno de los paquetes de tidyverse más usados: dplyr.&lt;/p&gt;
+&lt;h3 id=&#34;reviví-la-presentación-en-nuestro-canal-de-youtube&#34;&gt;Reviví la presentación en nuestro canal de youtube:&lt;/h3&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/FefLBPTTHzw&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Modelado predictivo con texto utilizando principios de datos tidy - useR! 2020</title>
+      <link>/project/predictivemodeling/</link>
+      <pubDate>Fri, 24 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>/project/predictivemodeling/</guid>
+      <description>&lt;p&gt;Los capítulos de R-Ladies en Argentina estamos felices de anunciar que Emil Hvitfeldt y Julia Silge se unirán a nosotras para traernos su tutorial &amp;ldquo;Predictive modeling with text using tidy data principles&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;¿Alguna vez encontraste datos de texto y sospechaste que había información útil en esos datos?, ¿ Te sentiste con frustración al intentan ver cómo encontrar esa información? ¿Estás familiarizade con los conceptos básicos del modelado predictivo y estás liste para aprender cómo se pueden usar los datos de texto no estructurados para la predicción dentro de los ecosistemas tidyverse y tidymodels?&lt;/p&gt;
+&lt;p&gt;¿Necesitas un marco flexible para manejar datos de texto que te permitan construir modelos predictivos supervisados?
+Los datos de texto son cada vez más importantes en muchos dominios, y los principios de tidymodels se pueden aplicar a las tareas de procesamiento del lenguaje natural. Esta presentación está diseñada para proporcionar orientación práctica y conocimiento directamente aplicable para científiques de datos y analistas que desean integrar texto en sus proyectos de modelado.&lt;/p&gt;
+&lt;p&gt;En este tutorial de 90 minutos, aprende a preprocesar datos de texto para modelar, entrenar modelos y evaluar el rendimiento del modelo. Usaremos diapositivas y codificación en vivo durante el tutorial para recorrer un estudio de caso realista. El tutorial se transmitirá, grabará y tendrá subtítulos en inglés. También habrá materiales de apoyo y código en GitHub para que puedas trabajar después.&lt;/p&gt;
+&lt;p&gt;El tutorial está pensando para personas con familiaridad intermedia con R, RStudio, conceptos básicos de modelos de regresión y clasificación y paquetes de tidyverse como dplyr y ggplot2.&lt;/p&gt;
+&lt;h3 id=&#34;reviví-la-presentación-en-el-canal-de-youtube-de-user&#34;&gt;Reviví la presentación en el canal de youtube de useR&lt;/h3&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/Sz8RB_fPYOk&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;</description>
+    </item>
+    
+    <item>
+      <title>Cómo hacer una reunión virtual inolvidable (sin morir en el intento)</title>
+      <link>/project/reunionvirtual/</link>
+      <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>/project/reunionvirtual/</guid>
+      <description>&lt;p&gt;En este meetup te contaremos algunos trucos y herramientas para que cualquier evento virtual interactivo (por ejemplo, clase, taller o panel online) sea un éxito sin estrés adicional al hacerlo. Si organizas meetups de R-Ladies, encontrarás dónde y cómo acceder a la infraestructura que te permitirá organizar meetups online para tu capítulo. Si no organizas meetups de R-Ladies, también encontrarás material útil para todo tipo de evento online que organices o del que participes.&lt;/p&gt;
+&lt;p&gt;Estos contenidos nos los traen R-Ladies latinoamericanas, en su mayoría certificadas para enseñar por RStudio Education y The Carpentries. La mayoría también es parte de MetaDocencia, una organización que desde fines de marzo realizó más de 25 talleres interactivos enseñando a enseñar online a más de 300 docentes hispanohablantes con excelentes resultados. Todas tienen vasta experiencia teletrabajando y enseñando online.&lt;/p&gt;
+&lt;p&gt;Oradoras: Yanina Bellini Saibene y Paola Corrales.&lt;/p&gt;
+&lt;p&gt;Organizan: Laura Ación, Yanina Bellini Saibene, Paola Corrales, Patricia Loto y Paloma Rojas&lt;/p&gt;
+&lt;h3 id=&#34;reviví-la-presentación-en-el-canal-de-youtube-de-rladies-global&#34;&gt;Reviví la presentación en el canal de youtube de Rladies Global&lt;/h3&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/lZICjcX7O0U&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Leyendo datos ordenados con Tidyverse</title>
+      <link>/project/charlar6/</link>
+      <pubDate>Tue, 23 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>/project/charlar6/</guid>
+      <description>&lt;p&gt;Este meetup es parte de la serie &amp;ldquo;Charlar con R&amp;rdquo;. Esta vez vamos a aprender qué son los datos ordenados y como importar datos tabulares a R con tidyverse.&lt;/p&gt;
+&lt;h3 id=&#34;reviví-la-presentación-en-nuestro-canal-de-youtube&#34;&gt;Reviví la presentación en nuestro canal de youtube:&lt;/h3&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/v39DeY0IDI0&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Visualizando datos - especial</title>
+      <link>/project/charlar5/</link>
+      <pubDate>Tue, 02 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>/project/charlar5/</guid>
+      <description>&lt;p&gt;Este meetup es parte de la serie &amp;ldquo;Charlar con R&amp;rdquo;. María Nanton nos va a mostrar como visulializar datos usando ggplot y en particular vamos a trabajar con datos textuales para sumarnos al #30diasdegraficos organizado por la comunidad hispano hablante de R.&lt;/p&gt;
+&lt;h3 id=&#34;reviví-la-presentación-en-nuestro-canal-de-youtube&#34;&gt;Reviví la presentación en nuestro canal de youtube:&lt;/h3&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/WXp1T9JEIRM&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;</description>
+    </item>
+    
+    <item>
+      <title>Primeros pasos en git</title>
+      <link>/project/charlar4/</link>
+      <pubDate>Mon, 18 May 2020 00:00:00 +0000</pubDate>
+      <guid>/project/charlar4/</guid>
+      <description>&lt;p&gt;En este meetup, junto con Rladies Santa Rosa y Rladies General Pico,  daremos los primeros pasos en git. Qué es, para que sirve y como lo utilizamos desde RStudio.&lt;/p&gt;
+&lt;p&gt;Las oradoras fueron Yanina Bellini Saibene de Santa Rosa y Marysol Gatti de General Pico. Y si querés revisar los materiales, por acá: &lt;a href=&#34;https://yabellini.netlify.app/es/post/githubconr/&#34;&gt;https://yabellini.netlify.app/es/post/githubconr/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;reviví-la-presentación-en-nuestro-canal-de-youtube&#34;&gt;Reviví la presentación en nuestro canal de youtube:&lt;/h3&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/33pZ9dtc-Co&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;</description>
+    </item>
+    
+    <item>
+      <title>Primeros pasos en RMarkdown</title>
+      <link>/project/charlar3/</link>
+      <pubDate>Mon, 27 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>/project/charlar3/</guid>
+      <description>&lt;p&gt;En esta tercera edición de Charlar con R dimos los primeros pasos en R Markdown. Qué es, para que sirve y algo de lo que se puede hacer de la mano de Jime Saucedo&lt;/p&gt;
+&lt;h3 id=&#34;reviví-la-presentación-en-nuestro-canal-de-youtube&#34;&gt;Reviví la presentación en nuestro canal de youtube:&lt;/h3&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/zENhUzKfCws&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;</description>
+    </item>
+    
+    <item>
+      <title>Primeros pasos en RStudio</title>
+      <link>/project/charlar2/</link>
+      <pubDate>Mon, 06 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>/project/charlar2/</guid>
+      <description>&lt;p&gt;Vamos a charlar sobre RStudio, veremos trucos y consejos para trabajar en este IDE que nos da tantas facilidades! Acordate, tenelo ya instalado!&lt;/p&gt;
+&lt;h3 id=&#34;reviví-la-presentación-en-nuestro-canal-de-youtube&#34;&gt;Reviví la presentación en nuestro canal de youtube:&lt;/h3&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/BN1j2TReP2Q&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;</description>
+    </item>
+    
+    <item>
+      <title>Trabajar con proyectos en R y cómo organizar nuestro trabajo.</title>
+      <link>/project/charlar1/</link>
+      <pubDate>Mon, 23 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>/project/charlar1/</guid>
+      <description>&lt;p&gt;Este es el primer encuentro de la serie &amp;ldquo;Charlar con R&amp;rdquo;. Esta incluye reuniones virtuales y cortas para compartir trucos y consejos sobre R pero también para hacer sociales y tener un espacio para charlar sobre lo que se nos ocurra.&lt;/p&gt;
+&lt;p&gt;En esta ocasión vamos a charlar sobre como manejar proyectos de R y ordenar nuestro trabajo para no perdernos en un mar de scripts de R.&lt;/p&gt;
+&lt;p&gt;De esta primera edición no se encuentra disponible el video en youtube.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>¡Watchparty de la RStudio::conf 2020!</title>
+      <link>/project/rstudioconf/</link>
+      <pubDate>Wed, 29 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/project/rstudioconf/</guid>
+      <description>&lt;p&gt;Con la excusa de ver el comienzo de la RStudio::conf 2020, muchos regalitos y unas tremendas medialunas arrancamos tremprano el año junto a R en Baires.&lt;/p&gt;
+&lt;p&gt;Nos juntamos a ver las charlas plenarias de la RStudio::conf de manera remota gracias a la magia del streaming. Además, participamos de un pre-evento junto a otras comunidades alrededor del mundo para charlar y hacer preguntas a oradores y oradoras en San Francisco!&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;es&#34; dir=&#34;ltr&#34;&gt;Faltan algunes pero miren que lindas comunidades tenemos &lt;a href=&#34;https://twitter.com/RLadiesBA?ref_src=twsrc%5Etfw&#34;&gt;@RLadiesBA&lt;/a&gt; &lt;a href=&#34;https://twitter.com/renbaires?ref_src=twsrc%5Etfw&#34;&gt;@renbaires&lt;/a&gt; 💜💜💜 &lt;a href=&#34;https://t.co/EdUTu1W3xK&#34;&gt;pic.twitter.com/EdUTu1W3xK&lt;/a&gt;&lt;/p&gt;&amp;mdash; R-Ladies BuenosAires (@RLadiesBA) &lt;a href=&#34;https://twitter.com/RLadiesBA/status/1222602889308274688?ref_src=twsrc%5Etfw&#34;&gt;January 29, 2020&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;es&#34; dir=&#34;ltr&#34;&gt;Gracias a &lt;a href=&#34;https://twitter.com/ccdelaciencia?ref_src=twsrc%5Etfw&#34;&gt;@ccdelaciencia&lt;/a&gt; por recibirnos y a &lt;a href=&#34;https://twitter.com/rstudio?ref_src=twsrc%5Etfw&#34;&gt;@rstudio&lt;/a&gt; por los regalitos!! &lt;br&gt;&lt;br&gt;Y miren el hexágono exclusivo de la watchparty Buenos Aires!! Es un imán 😱😱😱 &lt;a href=&#34;https://t.co/0ucJdNVU6e&#34;&gt;pic.twitter.com/0ucJdNVU6e&lt;/a&gt;&lt;/p&gt;&amp;mdash; R-Ladies BuenosAires (@RLadiesBA) &lt;a href=&#34;https://twitter.com/RLadiesBA/status/1222563262266474496?ref_src=twsrc%5Etfw&#34;&gt;January 29, 2020&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;es&#34; dir=&#34;ltr&#34;&gt;Los regalitos ya tienen dueños y dueñas!!! 🎁🎁&lt;a href=&#34;https://twitter.com/hashtag/rstudioconf2020?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#rstudioconf2020&lt;/a&gt; &lt;a href=&#34;https://t.co/yhVaTzqX4R&#34;&gt;pic.twitter.com/yhVaTzqX4R&lt;/a&gt;&lt;/p&gt;&amp;mdash; R-Ladies BuenosAires (@RLadiesBA) &lt;a href=&#34;https://twitter.com/RLadiesBA/status/1222564128688168962?ref_src=twsrc%5Etfw&#34;&gt;January 29, 2020&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>¡Último meetup del año!</title>
+      <link>/project/cierre_temporada3/</link>
+      <pubDate>Tue, 03 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>/project/cierre_temporada3/</guid>
+      <description>&lt;p&gt;¡Cerramos la tercer temporada de meetups con todo!&lt;/p&gt;
+&lt;p&gt;Despedimos a Natsu con la charla:&lt;/p&gt;
+&lt;h3 id=&#34;boosted_me---r_ladiesme-o-cómo-sumarme-a-r-ladies-me-impulsó-a-desprogramar-la-desigualdad-de-género&#34;&gt;&amp;ldquo;boosted_me &amp;lt;- r_ladies(me), o cómo sumarme a R-Ladies me impulsó a (des)programar la desigualdad de género&amp;rdquo;&lt;/h3&gt;
+&lt;p&gt;Nos comentó sobre su experiencia con R-Ladies y cómo a partir de aprender a programar en R terminó desplegando un activismo feminista &amp;lsquo;datero&amp;rsquo;, desarrollando un informe sobre la desigualdad de género en Argentina (&amp;lsquo;La desigualdad de género se puede medir&amp;rsquo;), estimando el costo de menstruar desde la campaña #MenstruAccion, realizando talleres gratuitos y autogestionados de introducción a R para mujeres e identidades disidentes, entre otras actividades.&amp;quot;&lt;/p&gt;
+&lt;p&gt;Y como si esto fuese poco Laura Ación presentará:&lt;/p&gt;
+&lt;h3 id=&#34;relatos-de-user-2019&#34;&gt;&amp;ldquo;Relatos de useR! 2019&amp;rdquo;&lt;/h3&gt;
+&lt;p&gt;El 2019 se organizó useR! 2019 en Toulouse (Francia). Con más de mil asistentes y muchísimos tutoriales y charlas, es una de las principales conferencias sobre uso de R. Laura tuvo la posibilidad de asistir personalmente gracias a una beca de diversidad.&lt;/p&gt;
+&lt;p&gt;Agradecemos a Medallia por brindarnos un lugar y catering para el evento.&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;es&#34; dir=&#34;ltr&#34;&gt;😉¿Querés saber qué pasó este año en &lt;a href=&#34;https://twitter.com/hashtag/rladiesBA?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#rladiesBA&lt;/a&gt; y que iniciativas se llevan a cabo desde el equipo de &lt;a href=&#34;https://twitter.com/hashtag/rladies?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#rladies&lt;/a&gt; global?👩‍💻 No te pierdas nuestro anuario 2019 💜 👉 &lt;a href=&#34;https://t.co/4IIcp4pf5Y&#34;&gt;https://t.co/4IIcp4pf5Y&lt;/a&gt;&lt;/p&gt;&amp;mdash; R-Ladies BuenosAires (@RLadiesBA) &lt;a href=&#34;https://twitter.com/RLadiesBA/status/1202057765197357057?ref_src=twsrc%5Etfw&#34;&gt;December 4, 2019&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;es&#34; dir=&#34;ltr&#34;&gt;Hoy se cerró el año de &lt;a href=&#34;https://twitter.com/hashtag/rladiesBA?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#rladiesBA&lt;/a&gt; 💜 Gracias &lt;a href=&#34;https://twitter.com/pmnatural?ref_src=twsrc%5Etfw&#34;&gt;@pmnatural&lt;/a&gt; &lt;a href=&#34;https://twitter.com/PaobCorrales?ref_src=twsrc%5Etfw&#34;&gt;@PaobCorrales&lt;/a&gt; &lt;a href=&#34;https://twitter.com/PaoPrieto?ref_src=twsrc%5Etfw&#34;&gt;@PaoPrieto&lt;/a&gt; &lt;a href=&#34;https://twitter.com/cantoflor_87?ref_src=twsrc%5Etfw&#34;&gt;@cantoflor_87&lt;/a&gt; &lt;a href=&#34;https://twitter.com/MonicaLA2000?ref_src=twsrc%5Etfw&#34;&gt;@MonicaLA2000&lt;/a&gt;, nuestras organizadoras, a &lt;a href=&#34;https://twitter.com/NatsuSh?ref_src=twsrc%5Etfw&#34;&gt;@NatsuSh&lt;/a&gt; y &lt;a href=&#34;https://twitter.com/_lacion_?ref_src=twsrc%5Etfw&#34;&gt;@_lacion_&lt;/a&gt; por sus charlas y a la genial comunidad de &lt;a href=&#34;https://twitter.com/hashtag/rstatsES?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#rstatsES&lt;/a&gt; por este hermoso cierre de año 💜👩‍💻💯 &lt;a href=&#34;https://t.co/h4q2dBB0VO&#34;&gt;pic.twitter.com/h4q2dBB0VO&lt;/a&gt;&lt;/p&gt;&amp;mdash; R-Ladies BuenosAires (@RLadiesBA) &lt;a href=&#34;https://twitter.com/RLadiesBA/status/1202056442305531904?ref_src=twsrc%5Etfw&#34;&gt;December 4, 2019&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>R para nerds</title>
+      <link>/project/r_nerdearla/</link>
+      <pubDate>Sat, 19 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>/project/r_nerdearla/</guid>
+      <description>&lt;p&gt;Desde R-Ladies Buenos Aires les proponemos un taller para quienes quieren arrancar a usar R para análisis de datos y visualización.&lt;/p&gt;
+&lt;p&gt;Si querés arrancar a usar R y formás parte de alguna minoría dentro del mundo de la programación, este taller es para vos! En nuestros encuentros buscamos crear un espacio amigable donde que cada persona se sienta comoda y aprendamos de la experiencia de quienes participan.&lt;/p&gt;
+&lt;p&gt;Trae tu compu (y cargador!) con:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;R y RStudio instalados&lt;/li&gt;
+&lt;li&gt;Los paquetes del tidyverse instalados (install.packages(&amp;ldquo;Tidyverse&amp;rdquo;))&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>¡Nos visita Erin LeDell!</title>
+      <link>/project/h20/</link>
+      <pubDate>Wed, 02 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>/project/h20/</guid>
+      <description>&lt;p&gt;En esta ocasión nos visitó Erin LeDell, co-fundadora de R-Ladies y fundadora WiMLDS. Erin nos sió una charla sobre Scalable Automatic Machine Learning con H2O (en inglés). ¿De qué se trata esto?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;H2O es una plataforma distribuida de aprendizaje automático de código abierto diseñada para big data. Los algoritmos principales de aprendizaje automático de H2O se implementan en Java de alto rendimiento, sin embargo, las API con todas las funciones están disponibles en R, Python, Scala, REST/JSON, y también a través de una interfaz web. Dado que las implementaciones de algoritmos de H2O se distribuyen, esto permite que el software escale a conjuntos de datos muy grandes -que superan la RAM en una sola máquina-. H2O actualmente presenta implementaciones distribuidas de modelos lineales generalizados, Gradient Boosting Machines, Random Forest, Deep Neural Nets, Stacked Ensembles (aka &amp;ldquo;Super Learners&amp;rdquo;), métodos de reducción de dimensionalidad (PCA, GLRM), clusterización (K-means), detección de anomalías, etc.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;H2O AutoML proporciona una interfaz fácil de usar que automatiza el pre-procesamiento de datos, el entrenamiento y el ajuste de una gran selección de modelos candidatos (incluidos múltiples modelos de conjuntos apilados para un rendimiento superior) y, debido a la naturaleza distribuida de la plataforma de H2O, H2O AutoML puede escalar a conjuntos de datos muy grandes. El resultado de la ejecución de H2O AutoML es una &amp;ldquo;tabla de clasificación&amp;rdquo; de modelos fácilmente exportable para su uso en producción. Ejemplos de código en R y en Python estarán disponibles en GitHub para que les participantes puedan seguirlos en sus laptops (de todos modos, no es necesario que traigas tu laptop!).&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Taller de Git y RStudio</title>
+      <link>/project/git_rstudio/</link>
+      <pubDate>Sat, 14 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>/project/git_rstudio/</guid>
+      <description>&lt;p&gt;¿Tenes una carpeta llena con distintas versiones del mismo archivo?¿Te gustaría poder llevar un seguimiento de los cambios en tu trabajo? ¿Te interesa participar de proyectos colaborativos?
+En este taller preparado en conjunto entre Las De Sistemas y R-Ladies Buenos Aires proponemos una iniciación al uso de Git como herramienta complementaria y útil al momento de escribir código en R.
+Sugerimos este taller a personas con una mínima experiencia en el uso de R y RStudio.&lt;/p&gt;
+&lt;p&gt;Las encargadas de la presentacion del taller serán:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Cynthia Monastirsky (Las de Sistemas)&lt;/li&gt;
+&lt;li&gt;Cintia Callamullo León (R-Ladies Buenos Aires)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Requerimientos imprescindibles:
+Trae tu compu con tu cargador y los siguientes programas instalados:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Git (&lt;a href=&#34;https://git-scm.com/book/es/v1/Empezando-Instalando-Git&#34;&gt;https://git-scm.com/book/es/v1/Empezando-Instalando-Git&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;R y RStudio&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Agradecemos al Centro Cultural Tierra Violeta por brindarnos un lugar para el evento.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>De SPSS a R</title>
+      <link>/project/spssar/</link>
+      <pubDate>Sat, 15 Jun 2019 00:00:00 +0000</pubDate>
+      <guid>/project/spssar/</guid>
+      <description>&lt;p&gt;Te proponemos un nuevo taller pensado para quienes habitualmente usan programas con interfaz gráfica y muchos clicks para hacer análisis de datos. Por ejemplo, si usás SPSS (Statistical Package for the Social Sciences) y muchos clicks para hacer tu análisis y tenés ganas de empezar a usar R, este taller es para vos. Este taller es de nivel inicial por lo que no requiere conocimientos previos.&lt;/p&gt;
+&lt;p&gt;El taller estará a cargo de Jesica Formoso, psicóloga, becaria postdoctoral de CONICET y docente de la UBA.&lt;/p&gt;
+&lt;p&gt;Es muy importante que traigas tu laptop con R y RStudio instalados (para más info de cómo hacer esto: &lt;a href=&#34;https://github.com/lauracion/R_Curso_de_Nivelacion/raw/master/Instalacion_R_RStudio.pdf&#34;&gt;https://github.com/lauracion/R_Curso_de_Nivelacion/raw/master/Instalacion_R_RStudio.pdf&lt;/a&gt; ).&lt;/p&gt;
+&lt;p&gt;Queremos agradecerle a EANT (&lt;a href=&#34;http://eant.tech/home&#34;&gt;http://eant.tech/home&lt;/a&gt;) por recibirnos nuevamente en sus aulas.&lt;/p&gt;
+&lt;p&gt;EANT (&lt;a href=&#34;http://eant.tech/home&#34;&gt;http://eant.tech/home&lt;/a&gt;) es una organización de escuelas especializadas en técnicas y tecnología digital reunidas para formar, entrenar y sinergizar a una nueva generación de desarrolladores digitales especialmente preparada para llevar la fuerza de la innovación a todos los ámbitos de la sociedad.&lt;/p&gt;
+&lt;p&gt;Como siempre nuestras actividades son gratuitas y arrancamos puntual. ¡No te lo pierdas! ¡Te esperamos!&lt;/p&gt;
+&lt;h2 id=&#34;reviví-la-presentación-en-nuestro-canal-de-youtube&#34;&gt;Reviví la presentación en nuestro canal de youtube:&lt;/h2&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/h_GW-uz-OoU&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;</description>
+    </item>
+    
+    <item>
+      <title>Segunda temporada de meetups de R-Ladies en Buenos Aires</title>
+      <link>/project/primer2018/</link>
+      <pubDate>Sat, 15 Jun 2019 00:00:00 +0000</pubDate>
+      <guid>/project/primer2018/</guid>
+      <description>&lt;p&gt;Abrimos la Segunda Temporada de Meetups con dos charlas espectaculares:&lt;/p&gt;
+&lt;p&gt;Flor D&amp;rsquo;Andrea, ganadora de la beca para asistir a la RStudio::Conf 2018 (&lt;a href=&#34;https://www.rstudio.com/conference/),&#34;&gt;https://www.rstudio.com/conference/),&lt;/a&gt; nos comparte &amp;ldquo;Material y Experiencias de la Rstudio Conf 2018&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;Rayna Harris (de visita por Buenos Aires desde Austin, Texas) nos cuenta su experiencia &amp;ldquo;Usando y Enseñando R para Investigación Reproducible&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;Ambas charlas son aptas para todos los niveles de R. Sos muy nueva con R y aún ni lo instalaste? Vení a conocer a otras R-Ladies que te pueden ayudar! Ambas charlas van a estar repletas de info que te va a ayudar a arrancar con R.&lt;/p&gt;
+&lt;p&gt;Hace años que usás R? Vení a enterarte de las últimas novedades y recursos y a conectarte con otras R-Ladies como vos.&lt;/p&gt;
+&lt;p&gt;No sos ni muy nueva ni súper experta? Te aseguramos que también te vas a llevar un montón de estas dos charlas y del encuentro con otras R-Ladies.&lt;/p&gt;
+&lt;p&gt;Te esperamos en el Auditorio de IBM Argentina que nos recibe generosamente para abrir un 2018 que viene recargado. Nuestro compromiso: te vas a sentir muy cómoda y le vamos a poner la buena onda de siempre. Ah, y de paso también te vamos a contar todas las novedades de R-Ladies este 2018. Nos vemos!&lt;/p&gt;
+&lt;h2 id=&#34;reviví-la-presentación-en-nuestro-canal-de-youtube&#34;&gt;Reviví la presentación en nuestro canal de youtube:&lt;/h2&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/GiLxGgZTr9Q&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;</description>
+    </item>
+    
+    <item>
+      <title>Taller &#34;R desde cero&#34; &#43; Charla &#34;Indicadores de desigualdad de género&#34;</title>
+      <link>/project/rdesde0/</link>
+      <pubDate>Sat, 15 Jun 2019 00:00:00 +0000</pubDate>
+      <guid>/project/rdesde0/</guid>
+      <description>&lt;p&gt;Felices de anunciar el próximo meetup el sábado 19 de mayo en EANT.&lt;/p&gt;
+&lt;p&gt;Les proponemos un grupo de oradoras de lujo: Priscilla Minotti y Fabiana Flores presentan un taller inicial &amp;ldquo;R desde cero&amp;rdquo; para todxs aquellxs que quieran empezar a aprender R o formalizar un poco más sus conocimientos sobre este lenguaje. Si tenes ganas de meter mano no te olvides de traer tu laptop.&lt;/p&gt;
+&lt;p&gt;Luego Natsumi Shokida (@NatsuSh), casi-Economista, analista de datos y metodologías sobre Pobreza e Ingresos en EPH-INDEC y colaboradora en Economía Femini(s)ta nos contará sobre el trabajo que está realizando llamado &amp;ldquo;Indicadores de desigualdad de género con datos abiertos de la Encuesta Permanente de Hogares&amp;rdquo; a partir de bases de datos abiertas del INDEC (disponible en &lt;a href=&#34;http://rpubs.com/natsumi_shokida/desigualdad_genero_EPH_3trim_2017&#34;&gt;http://rpubs.com/natsumi_shokida/desigualdad_genero_EPH_3trim_2017&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;Como siempre nuestras actividades son gratuitas.
+¡No te lo pierdas! ¡Te esperamos!&lt;/p&gt;
+&lt;p&gt;Es muy importante que des RSVP únicamente si podés asistir porque los lugares son limitados. Si confirmás asistencia pero luego no podés asistir, te pedimos por favor que dejes tu lugar disponible para otra persona.&lt;/p&gt;
+&lt;p&gt;Si no podés asistir, el día de la reunión anunciaremos el acceso al streaming del evento.&lt;/p&gt;
+&lt;p&gt;Cualquier consulta que tengas, la vemos por acá, por el Slack (si sos mujer y aún no tenés acceso al Slack, enviános un mail a &lt;a href=&#34;mailto:buenosaires@rladies.org&#34;&gt;buenosaires@rladies.org&lt;/a&gt;), o desde las 15:30 hs el sábado 19/05.&lt;/p&gt;
+&lt;p&gt;Queremos agradecerle a EANT (&lt;a href=&#34;http://eant.tech/home&#34;&gt;http://eant.tech/home&lt;/a&gt;) por recibirnos nuevamente en sus aulas.&lt;/p&gt;
+&lt;p&gt;EANT (&lt;a href=&#34;http://eant.tech/home&#34;&gt;http://eant.tech/home&lt;/a&gt;) es una organización de escuelas especializadas en técnicas y tecnología digital reunidas para formar, entrenar y sinergizar a una nueva generación de desarrolladores digitales especialmente preparada para llevar la fuerza de la innovación a todos los ámbitos de la sociedad.&lt;/p&gt;
+&lt;p&gt;Nos vemos pronto, arrancamos puntual!&lt;/p&gt;
+&lt;h2 id=&#34;reviví-la-presentación-en-nuestro-canal-de-youtube&#34;&gt;Reviví la presentación en nuestro canal de youtube:&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=5E07JNr32Ek&amp;amp;ab_channel=RLadiesBuenosAires&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;span style=&#34;font-weight:bold;&#34;&gt;R desde 0&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=XIGcMjz1VxE&amp;amp;ab_channel=RLadiesBuenosAires&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;span style=&#34;font-weight:bold;&#34;&gt;R desde 0&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Web Scraping con Rvest en Spotify Charts &#43; R con datos meteorológicos</title>
+      <link>/project/webscraping/</link>
+      <pubDate>Sat, 15 Jun 2019 00:00:00 +0000</pubDate>
+      <guid>/project/webscraping/</guid>
+      <description>&lt;h3 id=&#34;web-scraping-con-rvest-en-spotify-charts-taller&#34;&gt;Web Scraping con Rvest en Spotify Charts (taller)&lt;/h3&gt;
+&lt;p&gt;Paola Prieto nos trae una propuesta musical: ¿Cómo obtener datos desde la Web con el paquete Rvest? En este taller, los datos serán obtenidos directamente con R desde la popular plataforma Spotify.&lt;/p&gt;
+&lt;p&gt;Para el taller vas a necesitar tu laptop con R y RStudio instalados.&lt;/p&gt;
+&lt;h3 id=&#34;aprendiendo-a-usar-r-con-datos-meteorológicos-charla&#34;&gt;Aprendiendo a usar R con Datos Meteorológicos (charla)&lt;/h3&gt;
+&lt;p&gt;Natalia Gattinoni nos contará sobre el uso de R en su disciplina ¿Cómo está cambiando el procesamiento de los datos de estaciones meteorológicas en la Argentina? ¿Qué ventajas tiene R frente a otros lenguajes de programación clasicamente empleados en esta área?&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>¡Nos visita Jenny Brian!</title>
+      <link>/project/jenny/</link>
+      <pubDate>Sat, 15 Jun 2019 00:00:00 +0000</pubDate>
+      <guid>/project/jenny/</guid>
+      <description>&lt;p&gt;Te invitamos a un meetup de lujo donde tendremos un taller a cargo de Jenny Bryan.&lt;/p&gt;
+&lt;p&gt;Jenny Bryan (PhD, UC Berkeley) es Ingeniera de Software en RStudio. Jenny es referente internacionalmente reconocida de la comunidad R dentro de la cual es integrante ordinaria de la R Foundation y parte del Comité de Liderazgo de rOpenSci.&lt;/p&gt;
+&lt;p&gt;En este taller nos va enseñar funciones, un tema esencial en R.&lt;/p&gt;
+&lt;p&gt;Título del taller: Writing R functions for fun and profit&lt;/p&gt;
+&lt;p&gt;Resúmen del taller: Si hay código R que copiás y pegás repetidamente, ¡empaquetalo en una función! Las funciones escritas por vos son una excelente manera de aumentar tu efectividad en muchos contextos: scripts, documentos de R Markdown, R Notebooks, aplicaciones Shiny, y, por supuesto, paquetes R. En comparación con el código altamente repetitivo, las funciones pueden aumentar la calidad del código al tiempo que ayudan a reducir tu frustración. Este taller será útil tanto para principiantes en la escritura de funciones, como para quienes tienen más experiencia (por ejemplo, para quienes comenzar a escribir paquetes de R.&lt;/p&gt;
+&lt;p&gt;El taller se dictará en inglés, contando con ayudantes que pueden brindar asistencia en español. Es muy importante que traigas tu laptop con R, RStudio y los paquetes gapminder, testthat y tidyverse instalados (para más info de cómo hacer esto: &lt;a href=&#34;https://github.com/lauracion/R_Curso_de_Nivelacion/raw/master/Instalacion_R_RStudio.pdf&#34;&gt;https://github.com/lauracion/R_Curso_de_Nivelacion/raw/master/Instalacion_R_RStudio.pdf&lt;/a&gt; ).&lt;/p&gt;
+&lt;p&gt;Es muy importante que des RSVP únicamente si podés asistir porque los lugares son limitados. Si confirmás asistencia pero luego no podés asistir, te pedimos por favor que dejes tu lugar disponible para otra persona.&lt;/p&gt;
+&lt;p&gt;Cualquier consulta que tengas, la vemos por acá o por mail a &lt;a href=&#34;mailto:buenosaires@rladies.org&#34;&gt;buenosaires@rladies.org&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;En esta ocasión nos recibe generosamente Medallia quien también nos ofrecerá un rico catering acorde con esta ocasión tan especial.&lt;/p&gt;
+&lt;p&gt;¡Nos vemos!&lt;/p&gt;
+&lt;h2 id=&#34;reviví-la-presentación-en-nuestro-canal-de-youtube&#34;&gt;Reviví la presentación en nuestro canal de youtube:&lt;/h2&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/Z73JvEEzR7Y&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;</description>
+    </item>
+    
+    <item>
+      <title>¡Nos visita Tamara Broderick!</title>
+      <link>/project/tamarabroderick/</link>
+      <pubDate>Sat, 15 Jun 2019 00:00:00 +0000</pubDate>
+      <guid>/project/tamarabroderick/</guid>
+      <description>&lt;p&gt;Este 18 de junio a las 18:30 hs te invitamos a sumarte a un meetup de lujo que co-organizamos con WiMLDS Buenos Aires. Nos visitará una destacada investigadora que desarrolla herramientas de punta para aprendizaje automático, aplicables a los campos de inteligencia artificial y ciencia de datos.&lt;/p&gt;
+&lt;p&gt;Nos honra con una charla Tamara Broderick (&lt;a href=&#34;http://www.tamarabroderick.com/)&#34;&gt;http://www.tamarabroderick.com/)&lt;/a&gt;. Tamara es profesora en el MIT (EEUU) y trabaja en las áreas de aprendizaje automático y estadística. Su trabajo se basa en comprender cómo se puede cuantificar confiablemente la incertidumbre y la robustez en los procedimientos de análisis de datos modernos y complejos. Está particularmente interesada en inferencia bayesiana y modelos gráficos, con énfasis en el aprendizaje escalable, no paramétrico y no supervisado.&lt;/p&gt;
+&lt;p&gt;Es una de las disertantes de la Machine Learning Summer School que tendrá lugar en Buenos Aires la semana del 18 de junio. Antes de sus charlas allí, nos visita en los meetups de R-Ladies y WiMLDS Buenos Aires. ¡¡Muchas gracias, Tamara!! ¡Es una alegría recibirte!&lt;/p&gt;
+&lt;p&gt;La exposición será en inglés: Automated Scalable Bayesian Inference via Data Summarization&lt;/p&gt;
+&lt;p&gt;Abstract: The use of Bayesian methods in large-scale data settings is attractive because of the rich hierarchical relationships, uncertainty quantification, and prior specification these methods provide. Many standard Bayesian inference algorithms are often computationally expensive, however, so their direct application to large datasets can be difficult or infeasible. Other standard algorithms sacrifice accuracy in the pursuit of scalability. We take a new approach. Namely, we leverage the insight that data often exhibit approximate redundancies to instead obtain a weighted subset of the data (called a &amp;ldquo;coreset&amp;rdquo;) that is much smaller than the original dataset. We can then use this small coreset in existing Bayesian inference algorithms without modification. We provide theoretical guarantees on the size and approximation quality of the coreset. In particular, we show that our method provides geometric decay in posterior approximation error as a function of coreset size. We validate on both synthetic and real datasets, demonstrating that our method reduces posterior approximation error by orders of magnitude relative to uniform random subsampling.&lt;/p&gt;
+&lt;p&gt;Si tenés ganas de ir leyendo sobre el tema, encontrás referencias aquí: &lt;a href=&#34;https://bit.ly/2snvPb4&#34;&gt;https://bit.ly/2snvPb4&lt;/a&gt; y aquí: &lt;a href=&#34;https://bit.ly/2xwvoQA&#34;&gt;https://bit.ly/2xwvoQA&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;¿Te parece que este meetup no es para vos? Creemos que es una oportunidad única para conocer e interactuar con una de las mejores investigadoras de su disciplina en un ambiente relajado, amigable e inclusivo.&lt;/p&gt;
+&lt;p&gt;¿El inglés te saca las ganas? Si querés hacerle alguna pregunta a Tamara las organizadoras podemos ayudar.&lt;/p&gt;
+&lt;p&gt;¡Ojalá te sumes! Además de la charla de Tamara, te vamos a contar más sobre R-Ladies y WiMLDS. También habrá tiempo para hacer sociales y nuevas conexiones.&lt;/p&gt;
+&lt;p&gt;Nuestro compromiso: te vas a sentir muy bien y le vamos a poner la buena onda de siempre.&lt;/p&gt;
+&lt;p&gt;Si morís de ganas de venir, pero por la razón que sea no podés, justo antes de que comience la charla anunciaremos el acceso al streaming del evento por aquí y el resto de nuestras redes sociales. Cualquier consulta no dudes en escribirnos.&lt;/p&gt;
+&lt;p&gt;En esta ocasión nos recibe generosamente Medallia quien también nos ofrecerá un rico catering acorde con esta ocasión tan especial.&lt;/p&gt;
+&lt;p&gt;¡Nos vemos!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>¡Último meetup del año! ¡Traé tu compu, llevate tu web programada con R!</title>
+      <link>/project/finano2018/</link>
+      <pubDate>Sat, 15 Jun 2019 00:00:00 +0000</pubDate>
+      <guid>/project/finano2018/</guid>
+      <description>&lt;p&gt;¡Se viene el último evento del año! Estamos felices porque lo co-organizamos con R en Baires (&lt;a href=&#34;https://bit.ly/2RNcqdL),&#34;&gt;https://bit.ly/2RNcqdL),&lt;/a&gt; un nuevo grupo de usuaries de R en Buenos Aires.&lt;/p&gt;
+&lt;p&gt;Haremos una charla/taller introductoria a R Markdown y Blogdown. Para aprovecharlo traé tu laptop con R y RStudio instalados* (para más info de cómo hacer esto: &lt;a href=&#34;https://bit.ly/2zGT82j)&#34;&gt;https://bit.ly/2zGT82j)&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Si creés que te vendría bien una intro a R o un repaso antes de venir, hacé click aquí (&lt;a href=&#34;https://bit.ly/2JSfHpp&#34;&gt;https://bit.ly/2JSfHpp&lt;/a&gt;) para ir al repositorio donde encontrarás todos los materiales de nuestros encuentros anteriores.&lt;/p&gt;
+&lt;p&gt;Después del taller tendremos un espacio reservado para hacer sociales, así seguimos conociéndonos y podemos compartir ideas para el próximo año.&lt;/p&gt;
+&lt;p&gt;¡Marcá tu agenda y reservá tu lugar en el taller! Si no podés asistir, el día de la reunión anunciaremos el acceso al streaming del evento.&lt;/p&gt;
+&lt;p&gt;Cualquier consulta no dudes en escribirnos por meetup o por mail a &lt;a href=&#34;mailto:buenosaires@rladies.org&#34;&gt;buenosaires@rladies.org&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;En esta ocasión nos recibe nuevamente Medallia que también nos ofrecerá picada y birras.&lt;/p&gt;
+&lt;p&gt;¡Nos vemos!&lt;/p&gt;
+&lt;h2 id=&#34;reviví-la-presentación-en-nuestro-canal-de-youtube&#34;&gt;Reviví la presentación en nuestro canal de youtube:&lt;/h2&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/KLUkxJCz1ew&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;</description>
+    </item>
+    
+    <item>
+      <title>Taller de visualización con R, charlas y arranque del año</title>
+      <link>/project/visualizacion/</link>
+      <pubDate>Sat, 06 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>/project/visualizacion/</guid>
+      <description>&lt;p&gt;¡Primer encuentro de 2019!&lt;/p&gt;
+&lt;p&gt;Arrancamos el año con un Taller de visualización con R a cargo de Romi Méndez. El taller va a estar orientado a personas con un nivel inicial o intermedio para agarrarle la vuelta a ggplot2 y aprender un par de trucos.
+Si tenés ganas podés revisar uno de nuestros primeros encuentros sobre R para Ciencia de datos donde vimos algunas cosas relacionadas con este tema (&lt;a href=&#34;https://github.com/rladies/meetup-presentations_buenosaires/blob/master/README.md)para&#34;&gt;https://github.com/rladies/meetup-presentations_buenosaires/blob/master/README.md)para&lt;/a&gt; ir al git de las presentaciones).&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>R Markdown y cierre del año!</title>
+      <link>/project/rmarkdown/</link>
+      <pubDate>Sat, 25 Nov 2017 00:00:00 +0000</pubDate>
+      <guid>/project/rmarkdown/</guid>
+      <description>&lt;h2 id=&#34;sexto-encuentro--último-evento-del-año-con-rmarkdown&#34;&gt;Sexto encuentro:  último evento del año con Rmarkdown&lt;/h2&gt;
+&lt;p&gt;Taller a cargo de Laura Acion, Juliana Benitez y Paola Corrales&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Closing our first year with an amazing workshop on &lt;a href=&#34;https://twitter.com/hashtag/Rmarkdown?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#Rmarkdown&lt;/a&gt;. &lt;a href=&#34;https://twitter.com/hashtag/rladies?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#rladies&lt;/a&gt; magic gathering beautiful people. &lt;a href=&#34;https://t.co/7e5A6jtlR0&#34;&gt;pic.twitter.com/7e5A6jtlR0&lt;/a&gt;&lt;/p&gt;&amp;mdash; R-Ladies BuenosAires (@RLadiesBA) &lt;a href=&#34;https://twitter.com/RLadiesBA/status/934493460958187520?ref_src=twsrc%5Etfw&#34;&gt;November 25, 2017&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Celebrating our last meetup of 2017 with an Rcake thanks to &lt;a href=&#34;https://twitter.com/PaobCorrales?ref_src=twsrc%5Etfw&#34;&gt;@PaobCorrales&lt;/a&gt; ! &lt;a href=&#34;https://twitter.com/hashtag/RLadiestalent?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#RLadiestalent&lt;/a&gt; &lt;a href=&#34;https://t.co/Dwfn2bml7b&#34;&gt;pic.twitter.com/Dwfn2bml7b&lt;/a&gt;&lt;/p&gt;&amp;mdash; R-Ladies BuenosAires (@RLadiesBA) &lt;a href=&#34;https://twitter.com/RLadiesBA/status/934534319363776514?ref_src=twsrc%5Etfw&#34;&gt;November 25, 2017&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Taller de Shiny &#43; Clínica de Proyectos</title>
+      <link>/project/tallershiny/</link>
+      <pubDate>Sat, 30 Sep 2017 00:00:00 +0000</pubDate>
+      <guid>/project/tallershiny/</guid>
+      <description>&lt;h2 id=&#34;quinto-encuentro&#34;&gt;Quinto encuentro&lt;/h2&gt;
+&lt;p&gt;Las charlas del evento:&lt;/p&gt;
+&lt;p&gt;• La primera parte estará a cargo de Florencia D&amp;rsquo;Andrea del Instituto Nacional de Tecnología Agropecuaria que coordinará el taller &amp;ldquo;Distintas aplicaciones web con Shiny, explorando códigos&amp;rdquo; (nivel inicial/intermedio).&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;es&#34; dir=&#34;ltr&#34;&gt;Arrancando el quinto meetup. 🎉 Gracias &lt;a href=&#34;https://twitter.com/cantoflor_87?ref_src=twsrc%5Etfw&#34;&gt;@cantoflor_87&lt;/a&gt;! Gracias &lt;a href=&#34;https://twitter.com/hashtag/EANT?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#EANT&lt;/a&gt; por recibirnos! &lt;a href=&#34;https://twitter.com/hashtag/RLadies?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#RLadies&lt;/a&gt; &lt;a href=&#34;https://t.co/PbtCel4OO8&#34;&gt;pic.twitter.com/PbtCel4OO8&lt;/a&gt;&lt;/p&gt;&amp;mdash; R-Ladies BuenosAires (@RLadiesBA) &lt;a href=&#34;https://twitter.com/RLadiesBA/status/914207973580378112?ref_src=twsrc%5Etfw&#34;&gt;September 30, 2017&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;p&gt;• Inauguración de la serie de charlas Clínica de Proyectos.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Taller de Datos Geográficos con R &#43; Intro a Shiny</title>
+      <link>/project/datosgeograficosconr/</link>
+      <pubDate>Sat, 05 Aug 2017 00:00:00 +0000</pubDate>
+      <guid>/project/datosgeograficosconr/</guid>
+      <description>&lt;h2 id=&#34;tercera-reunión-parte-ii&#34;&gt;Tercera reunión parte II&lt;/h2&gt;
+&lt;p&gt;Las charlas del evento:&lt;/p&gt;
+&lt;p&gt;• La primera parte estará a cargo de Priscilla Minotti de la Universidad de San Martín que coordinará un taller para analizar datos geográficos con R (nivel incial).&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;es&#34; dir=&#34;ltr&#34;&gt;Taller de datos geograficos con R junto a la genia de &lt;a href=&#34;https://twitter.com/pmnatural?ref_src=twsrc%5Etfw&#34;&gt;@pmnatural&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/rladies?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#rladies&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/rstatsES?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#rstatsES&lt;/a&gt; &lt;a href=&#34;https://t.co/xjPLDjpsRo&#34;&gt;pic.twitter.com/xjPLDjpsRo&lt;/a&gt;&lt;/p&gt;&amp;mdash; R-Ladies BuenosAires (@RLadiesBA) &lt;a href=&#34;https://twitter.com/RLadiesBA/status/893899802852937728?ref_src=twsrc%5Etfw&#34;&gt;August 5, 2017&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/EJhZPhzwgJM&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;• charla a cargo de Florencia D&amp;rsquo;Andrea del Instituto Nacional de Tecnología Agropecuaria. Presentará &amp;ldquo;Haciendo Brillar tus Datos&amp;rdquo;, una introducción al paquete Shiny (o cómo desarrollar aplicaciones web a partir de tus bases de datos y scripts). La charla será para nivel intermedio/avanzado.&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Intro to Shiny with &lt;a href=&#34;https://twitter.com/cantoflor_87?ref_src=twsrc%5Etfw&#34;&gt;@cantoflor_87&lt;/a&gt;! Workshop on &amp;quot;How to make data shine&amp;quot;. &lt;a href=&#34;https://twitter.com/hashtag/Rladies?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#Rladies&lt;/a&gt; &lt;a href=&#34;https://t.co/6rAOC04DIN&#34;&gt;pic.twitter.com/6rAOC04DIN&lt;/a&gt;&lt;/p&gt;&amp;mdash; R-Ladies BuenosAires (@RLadiesBA) &lt;a href=&#34;https://twitter.com/RLadiesBA/status/893933159540195328?ref_src=twsrc%5Etfw&#34;&gt;August 5, 2017&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/FbmY86D3aJM&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;</description>
+    </item>
+    
+    <item>
+      <title>Aplicaciones intermedias y avanzadas de R</title>
+      <link>/project/aplicacionesr/</link>
+      <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
+      <guid>/project/aplicacionesr/</guid>
+      <description>&lt;h2 id=&#34;tercer-encuentro-parte-ii&#34;&gt;Tercer encuentro parte II&lt;/h2&gt;
+&lt;p&gt;Las charlas del evento:&lt;/p&gt;
+&lt;p&gt;• R y radares, muchos datos y algunos resultados. Presentado por Paola Corrales, estudiante de Ciencias de la Atmósfera con tesis en proceso&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;geom_arrow 😍 a ggplot layer &lt;a href=&#34;https://twitter.com/PaobCorrales?ref_src=twsrc%5Etfw&#34;&gt;@PaobCorrales&lt;/a&gt; &amp;amp; her favorite ally created to plot wind direction using arrows in ggplot &lt;a href=&#34;https://twitter.com/hashtag/rstats?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#rstats&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/rladies?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#rladies&lt;/a&gt; 💜 &lt;a href=&#34;https://t.co/XpDQFVdG36&#34;&gt;pic.twitter.com/XpDQFVdG36&lt;/a&gt;&lt;/p&gt;&amp;mdash; R-Ladies BuenosAires (@RLadiesBA) &lt;a href=&#34;https://twitter.com/RLadiesBA/status/881266699424731136?ref_src=twsrc%5Etfw&#34;&gt;July 1, 2017&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;p&gt;• Entender haciendo: Arriesgando código para descomponer papers de trabajo o estudio. Presentado por Gabriela Plantie, Data Mining Analyst de Riesgo de Crédito y Financiero&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;es&#34; dir=&#34;ltr&#34;&gt;Ya cerrando nuestro tercer &lt;a href=&#34;https://twitter.com/hashtag/meetup?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#meetup&lt;/a&gt; con aplicaciones para datos de la vida real en predicciones financieras por &lt;a href=&#34;https://twitter.com/gabyplantie?ref_src=twsrc%5Etfw&#34;&gt;@gabyplantie&lt;/a&gt; 💪💜👏 &lt;a href=&#34;https://twitter.com/hashtag/rladies?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#rladies&lt;/a&gt; &lt;a href=&#34;https://t.co/7bELyBe51v&#34;&gt;pic.twitter.com/7bELyBe51v&lt;/a&gt;&lt;/p&gt;&amp;mdash; R-Ladies BuenosAires (@RLadiesBA) &lt;a href=&#34;https://twitter.com/RLadiesBA/status/881269497616887808?ref_src=twsrc%5Etfw&#34;&gt;July 1, 2017&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Taller de R para Ciencia de Datos (Parte II)</title>
+      <link>/project/rycienciadedatos2/</link>
+      <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
+      <guid>/project/rycienciadedatos2/</guid>
+      <description>&lt;h2 id=&#34;tercer-encuentro&#34;&gt;Tercer encuentro&lt;/h2&gt;
+&lt;iframe src=&#34;https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FRladiesBA%2Fphotos%2Fa.561943970862087%2F561943807528770%2F%3Ftype%3D3%26av%3D457704507952701%26eav%3DAfY1Hk5MT5zV_lHfG67Jzu096Tds0sVQQ6Uvkt_o0h-QhPcE9m0KCUkwQKXy3UdD3cw&amp;show_text=true&amp;width=500&#34; width=&#34;500&#34; height=&#34;281&#34; style=&#34;border:none;overflow:hidden&#34; scrolling=&#34;no&#34; frameborder=&#34;0&#34; allowfullscreen=&#34;true&#34; allow=&#34;autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share&#34;&gt;&lt;/iframe&gt;
+&lt;iframe src=&#34;https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FRladiesBA%2Fphotos%2Fa.561943970862087%2F561943860862098%2F%3Ftype%3D3%26av%3D457704507952701%26eav%3DAfYfDeglOte_TF5igT0_KyoOo_LpLoDx1PVspFQyHa4AIfzs_svIZbN9gr2bbwGDx14&amp;show_text=true&amp;width=500&#34; width=&#34;500&#34; height=&#34;281&#34; style=&#34;border:none;overflow:hidden&#34; scrolling=&#34;no&#34; frameborder=&#34;0&#34; allowfullscreen=&#34;true&#34; allow=&#34;autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share&#34;&gt;&lt;/iframe&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Taller de R para Ciencia de Datos Parte I</title>
+      <link>/project/rycienciadedatos/</link>
+      <pubDate>Sat, 27 May 2017 00:00:00 +0000</pubDate>
+      <guid>/project/rycienciadedatos/</guid>
+      <description>&lt;h2 id=&#34;segundo-encuentro&#34;&gt;Segundo encuentro&lt;/h2&gt;
+&lt;p&gt;En esta ocasión el taller de Ciencia de Datos fue brindando por Laura Acion y el taller de Estructuras de Datos Geográficos y Espaciales en R  a cargo de Priscilla Minotti.&lt;/p&gt;
+&lt;iframe src=&#34;https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FRladiesBA%2Fphotos%2Fa.463088637414288%2F538422353214249%2F%3Ftype%3D3%26av%3D457704507952701%26eav%3DAfae9qZ_fokt769D1h0TYna5ontAAgvDHoJ-t58k44-QcKiXtYv4PkIjm-lX7rW8xLs&amp;show_text=true&amp;width=500&#34; width=&#34;500&#34; height=&#34;372&#34; style=&#34;border:none;overflow:hidden&#34; scrolling=&#34;no&#34; frameborder=&#34;0&#34; allowfullscreen=&#34;true&#34; allow=&#34;autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share&#34;&gt;&lt;/iframe&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;&lt;a href=&#34;https://twitter.com/hashtag/Rladies?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#Rladies&lt;/a&gt; ready to rock! &lt;a href=&#34;https://t.co/Md5zEXt35R&#34;&gt;pic.twitter.com/Md5zEXt35R&lt;/a&gt;&lt;/p&gt;&amp;mdash; R-Ladies BuenosAires (@RLadiesBA) &lt;a href=&#34;https://twitter.com/RLadiesBA/status/868540978717749248?ref_src=twsrc%5Etfw&#34;&gt;May 27, 2017&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;es&#34; dir=&#34;ltr&#34;&gt;En nuestro meetup! Datos Geográficos en R con &lt;a href=&#34;https://twitter.com/pmnatural?ref_src=twsrc%5Etfw&#34;&gt;@pmnatural&lt;/a&gt;!! &lt;a href=&#34;https://twitter.com/hashtag/rladies?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#rladies&lt;/a&gt; 💜💜 &lt;a href=&#34;https://t.co/NJDhYaSbdU&#34;&gt;pic.twitter.com/NJDhYaSbdU&lt;/a&gt;&lt;/p&gt;&amp;mdash; R-Ladies BuenosAires (@RLadiesBA) &lt;a href=&#34;https://twitter.com/RLadiesBA/status/868560413646102528?ref_src=twsrc%5Etfw&#34;&gt;May 27, 2017&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Primer evento de R-Ladies Buenos Aires</title>
+      <link>/project/primerareunion/</link>
+      <pubDate>Tue, 28 Mar 2017 00:00:00 +0000</pubDate>
+      <guid>/project/primerareunion/</guid>
+      <description>&lt;h2 id=&#34;la-magia-que-ocurre-cuando-nos-ayudamos-unas-a-otras&#34;&gt;La magia que ocurre cuando nos ayudamos unas a otras.&lt;/h2&gt;
+&lt;p&gt;En esta reunión nació el capítulo de Buenos Aires, reunimos todo el material digital disponible para recordar esta gran fecha.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&amp;ldquo;Estamos ansiosas por empezar a que las que aún no se animaron con R, conozcan todas las posibilidades que tiene y empiecen a animarse. Para las que ya están más avanzadas nos gustaría que nos traigan sus ideas para seguir armando entre todas esta comunidad.&amp;quot;&lt;/em&gt;&lt;/p&gt;
+&lt;iframe src=&#34;https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FRladiesBA%2Fphotos%2Fa.499942920395526%2F499943257062159%2F%3Ftype%3D3%26av%3D457704507952701%26eav%3DAfbw2tNfEBvfb2RQE_Nr955v1ihezn4D3L1hOalDJHY0jYXG5KGw-VOm1G-DVtEB9dk&amp;show_text=true&amp;width=500&#34; width=&#34;500&#34; height=&#34;332&#34; style=&#34;border:none;overflow:hidden&#34; scrolling=&#34;no&#34; frameborder=&#34;0&#34; allowfullscreen=&#34;true&#34; allow=&#34;autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share&#34;&gt;&lt;/iframe&gt;
+&lt;p&gt;De izquierda a derecha: Paloma Rojas Saunero, Daniela Vázquez y Laura Ación, organizadoras del capítulo.&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;es&#34; dir=&#34;ltr&#34;&gt;Llegó el momento tan esperado de anunciar nuestra primera reunión! &lt;a href=&#34;https://t.co/e6b6igFP82&#34;&gt;https://t.co/e6b6igFP82&lt;/a&gt; Muchas gracias &lt;a href=&#34;https://twitter.com/jampp?ref_src=twsrc%5Etfw&#34;&gt;@jampp&lt;/a&gt; por recibirnos! &lt;a href=&#34;https://twitter.com/hashtag/RLadies?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#RLadies&lt;/a&gt;&lt;/p&gt;&amp;mdash; R-Ladies BuenosAires (@RLadiesBA) &lt;a href=&#34;https://twitter.com/RLadiesBA/status/842715832786583552?ref_src=twsrc%5Etfw&#34;&gt;March 17, 2017&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;es&#34; dir=&#34;ltr&#34;&gt;A unos días del primer meetup! Ya te anotaste en el evento? &lt;a href=&#34;https://t.co/e6b6igFP82&#34;&gt;https://t.co/e6b6igFP82&lt;/a&gt; Te esperamos en &lt;a href=&#34;https://twitter.com/jampp?ref_src=twsrc%5Etfw&#34;&gt;@jampp&lt;/a&gt; &lt;a href=&#34;https://t.co/l8wMwUWg2T&#34;&gt;pic.twitter.com/l8wMwUWg2T&lt;/a&gt;&lt;/p&gt;&amp;mdash; R-Ladies BuenosAires (@RLadiesBA) &lt;a href=&#34;https://twitter.com/RLadiesBA/status/844878069462654976?ref_src=twsrc%5Etfw&#34;&gt;March 23, 2017&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;es&#34; dir=&#34;ltr&#34;&gt;En nuestro primer meetup &lt;a href=&#34;https://twitter.com/jampp?ref_src=twsrc%5Etfw&#34;&gt;@jampp&lt;/a&gt; escuchando a &lt;a href=&#34;https://twitter.com/d4tagirl?ref_src=twsrc%5Etfw&#34;&gt;@d4tagirl&lt;/a&gt; contándonos su historia &lt;a href=&#34;https://twitter.com/RLadiesGlobal?ref_src=twsrc%5Etfw&#34;&gt;@RLadiesGlobal&lt;/a&gt; &lt;a href=&#34;https://t.co/rEvv4SR9bV&#34;&gt;pic.twitter.com/rEvv4SR9bV&lt;/a&gt;&lt;/p&gt;&amp;mdash; R-Ladies BuenosAires (@RLadiesBA) &lt;a href=&#34;https://twitter.com/RLadiesBA/status/846850447746977794?ref_src=twsrc%5Etfw&#34;&gt;March 28, 2017&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;es&#34; dir=&#34;ltr&#34;&gt;Contentísimas con la convocatoria de &lt;a href=&#34;https://twitter.com/hashtag/RLadies?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#RLadies&lt;/a&gt;! Un montón de mujeres y muy participativas! &lt;a href=&#34;https://t.co/OF7lODJGxc&#34;&gt;pic.twitter.com/OF7lODJGxc&lt;/a&gt;&lt;/p&gt;&amp;mdash; R-Ladies BuenosAires (@RLadiesBA) &lt;a href=&#34;https://twitter.com/RLadiesBA/status/846859592575410176?ref_src=twsrc%5Etfw&#34;&gt;March 28, 2017&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;es&#34; dir=&#34;ltr&#34;&gt;Primera MeetUp de &lt;a href=&#34;https://twitter.com/RLadiesBA?ref_src=twsrc%5Etfw&#34;&gt;@RLadiesBA&lt;/a&gt;, en &lt;a href=&#34;https://twitter.com/jampp?ref_src=twsrc%5Etfw&#34;&gt;@jampp&lt;/a&gt; ! Gracias por recomendarnos 😍 &lt;a href=&#34;https://t.co/bgRPnava7l&#34;&gt;pic.twitter.com/bgRPnava7l&lt;/a&gt;&lt;/p&gt;&amp;mdash; LinuxChix Argentina (@linuxchixar) &lt;a href=&#34;https://twitter.com/linuxchixar/status/846906593560059906?ref_src=twsrc%5Etfw&#34;&gt;March 29, 2017&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+</description>
     </item>
     
   </channel>

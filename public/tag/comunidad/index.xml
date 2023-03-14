@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Comunidad | RLadies BA</title>
+    <link>/tag/comunidad/</link>
+      <atom:link href="/tag/comunidad/index.xml" rel="self" type="application/rss+xml" />
+    <description>Comunidad</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>es</language><lastBuildDate>Sat, 12 Mar 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/icon_hu4b9af3f567e0b0f9e5f99da57ed62ab5_26887_512x512_fill_lanczos_center_2.png</url>
+      <title>Comunidad</title>
+      <link>/tag/comunidad/</link>
+    </image>
+    
+    <item>
+      <title>Cumplimos 5 años</title>
+      <link>/project/cumple5/</link>
+      <pubDate>Sat, 12 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>/project/cumple5/</guid>
+      <description>&lt;p&gt;Estamos muy contentas de todo este camino recorrido juntas.
+Compartimos aprendizaje, nos ayudamos entre todes, enfrentamos dudas, aportamos conocimiento y soluciones con este lenguaje R que nos une para nuevas iniciativas o problemas del dia a dia. Y tambien vivimos lo que es sororidad, nos acompañamos en el festejo y en el &amp;ldquo;estoy furiosa&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;Es tiempo de festejar y de volvernos encontrar presencialmente.&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;es&#34; dir=&#34;ltr&#34;&gt;Hay comunidad &lt;a href=&#34;https://twitter.com/hashtag/Rladies?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#Rladies&lt;/a&gt; 🥳💜💜💜 &lt;a href=&#34;https://t.co/DCtqAeqsD6&#34;&gt;pic.twitter.com/DCtqAeqsD6&lt;/a&gt;&lt;/p&gt;&amp;mdash; R-Ladies BuenosAires (@RLadiesBA) &lt;a href=&#34;https://twitter.com/RLadiesBA/status/1502763807000735759?ref_src=twsrc%5Etfw&#34;&gt;March 12, 2022&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt; </description>
+    </item>
+    
+    <item>
+      <title>Cómo hacer una reunión virtual inolvidable (sin morir en el intento)</title>
+      <link>/project/reunionvirtual/</link>
+      <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>/project/reunionvirtual/</guid>
+      <description>&lt;p&gt;En este meetup te contaremos algunos trucos y herramientas para que cualquier evento virtual interactivo (por ejemplo, clase, taller o panel online) sea un éxito sin estrés adicional al hacerlo. Si organizas meetups de R-Ladies, encontrarás dónde y cómo acceder a la infraestructura que te permitirá organizar meetups online para tu capítulo. Si no organizas meetups de R-Ladies, también encontrarás material útil para todo tipo de evento online que organices o del que participes.&lt;/p&gt;
+&lt;p&gt;Estos contenidos nos los traen R-Ladies latinoamericanas, en su mayoría certificadas para enseñar por RStudio Education y The Carpentries. La mayoría también es parte de MetaDocencia, una organización que desde fines de marzo realizó más de 25 talleres interactivos enseñando a enseñar online a más de 300 docentes hispanohablantes con excelentes resultados. Todas tienen vasta experiencia teletrabajando y enseñando online.&lt;/p&gt;
+&lt;p&gt;Oradoras: Yanina Bellini Saibene y Paola Corrales.&lt;/p&gt;
+&lt;p&gt;Organizan: Laura Ación, Yanina Bellini Saibene, Paola Corrales, Patricia Loto y Paloma Rojas&lt;/p&gt;
+&lt;h3 id=&#34;reviví-la-presentación-en-el-canal-de-youtube-de-rladies-global&#34;&gt;Reviví la presentación en el canal de youtube de Rladies Global&lt;/h3&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/lZICjcX7O0U&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Primer evento de R-Ladies Buenos Aires</title>
+      <link>/project/primerareunion/</link>
+      <pubDate>Tue, 28 Mar 2017 00:00:00 +0000</pubDate>
+      <guid>/project/primerareunion/</guid>
+      <description>&lt;h2 id=&#34;la-magia-que-ocurre-cuando-nos-ayudamos-unas-a-otras&#34;&gt;La magia que ocurre cuando nos ayudamos unas a otras.&lt;/h2&gt;
+&lt;p&gt;En esta reunión nació el capítulo de Buenos Aires, reunimos todo el material digital disponible para recordar esta gran fecha.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&amp;ldquo;Estamos ansiosas por empezar a que las que aún no se animaron con R, conozcan todas las posibilidades que tiene y empiecen a animarse. Para las que ya están más avanzadas nos gustaría que nos traigan sus ideas para seguir armando entre todas esta comunidad.&amp;quot;&lt;/em&gt;&lt;/p&gt;
+&lt;iframe src=&#34;https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FRladiesBA%2Fphotos%2Fa.499942920395526%2F499943257062159%2F%3Ftype%3D3%26av%3D457704507952701%26eav%3DAfbw2tNfEBvfb2RQE_Nr955v1ihezn4D3L1hOalDJHY0jYXG5KGw-VOm1G-DVtEB9dk&amp;show_text=true&amp;width=500&#34; width=&#34;500&#34; height=&#34;332&#34; style=&#34;border:none;overflow:hidden&#34; scrolling=&#34;no&#34; frameborder=&#34;0&#34; allowfullscreen=&#34;true&#34; allow=&#34;autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share&#34;&gt;&lt;/iframe&gt;
+&lt;p&gt;De izquierda a derecha: Paloma Rojas Saunero, Daniela Vázquez y Laura Ación, organizadoras del capítulo.&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;es&#34; dir=&#34;ltr&#34;&gt;Llegó el momento tan esperado de anunciar nuestra primera reunión! &lt;a href=&#34;https://t.co/e6b6igFP82&#34;&gt;https://t.co/e6b6igFP82&lt;/a&gt; Muchas gracias &lt;a href=&#34;https://twitter.com/jampp?ref_src=twsrc%5Etfw&#34;&gt;@jampp&lt;/a&gt; por recibirnos! &lt;a href=&#34;https://twitter.com/hashtag/RLadies?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#RLadies&lt;/a&gt;&lt;/p&gt;&amp;mdash; R-Ladies BuenosAires (@RLadiesBA) &lt;a href=&#34;https://twitter.com/RLadiesBA/status/842715832786583552?ref_src=twsrc%5Etfw&#34;&gt;March 17, 2017&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;es&#34; dir=&#34;ltr&#34;&gt;A unos días del primer meetup! Ya te anotaste en el evento? &lt;a href=&#34;https://t.co/e6b6igFP82&#34;&gt;https://t.co/e6b6igFP82&lt;/a&gt; Te esperamos en &lt;a href=&#34;https://twitter.com/jampp?ref_src=twsrc%5Etfw&#34;&gt;@jampp&lt;/a&gt; &lt;a href=&#34;https://t.co/l8wMwUWg2T&#34;&gt;pic.twitter.com/l8wMwUWg2T&lt;/a&gt;&lt;/p&gt;&amp;mdash; R-Ladies BuenosAires (@RLadiesBA) &lt;a href=&#34;https://twitter.com/RLadiesBA/status/844878069462654976?ref_src=twsrc%5Etfw&#34;&gt;March 23, 2017&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;es&#34; dir=&#34;ltr&#34;&gt;En nuestro primer meetup &lt;a href=&#34;https://twitter.com/jampp?ref_src=twsrc%5Etfw&#34;&gt;@jampp&lt;/a&gt; escuchando a &lt;a href=&#34;https://twitter.com/d4tagirl?ref_src=twsrc%5Etfw&#34;&gt;@d4tagirl&lt;/a&gt; contándonos su historia &lt;a href=&#34;https://twitter.com/RLadiesGlobal?ref_src=twsrc%5Etfw&#34;&gt;@RLadiesGlobal&lt;/a&gt; &lt;a href=&#34;https://t.co/rEvv4SR9bV&#34;&gt;pic.twitter.com/rEvv4SR9bV&lt;/a&gt;&lt;/p&gt;&amp;mdash; R-Ladies BuenosAires (@RLadiesBA) &lt;a href=&#34;https://twitter.com/RLadiesBA/status/846850447746977794?ref_src=twsrc%5Etfw&#34;&gt;March 28, 2017&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;es&#34; dir=&#34;ltr&#34;&gt;Contentísimas con la convocatoria de &lt;a href=&#34;https://twitter.com/hashtag/RLadies?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#RLadies&lt;/a&gt;! Un montón de mujeres y muy participativas! &lt;a href=&#34;https://t.co/OF7lODJGxc&#34;&gt;pic.twitter.com/OF7lODJGxc&lt;/a&gt;&lt;/p&gt;&amp;mdash; R-Ladies BuenosAires (@RLadiesBA) &lt;a href=&#34;https://twitter.com/RLadiesBA/status/846859592575410176?ref_src=twsrc%5Etfw&#34;&gt;March 28, 2017&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;es&#34; dir=&#34;ltr&#34;&gt;Primera MeetUp de &lt;a href=&#34;https://twitter.com/RLadiesBA?ref_src=twsrc%5Etfw&#34;&gt;@RLadiesBA&lt;/a&gt;, en &lt;a href=&#34;https://twitter.com/jampp?ref_src=twsrc%5Etfw&#34;&gt;@jampp&lt;/a&gt; ! Gracias por recomendarnos 😍 &lt;a href=&#34;https://t.co/bgRPnava7l&#34;&gt;pic.twitter.com/bgRPnava7l&lt;/a&gt;&lt;/p&gt;&amp;mdash; LinuxChix Argentina (@linuxchixar) &lt;a href=&#34;https://twitter.com/linuxchixar/status/846906593560059906?ref_src=twsrc%5Etfw&#34;&gt;March 29, 2017&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

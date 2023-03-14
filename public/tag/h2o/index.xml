@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>H2o | RLadies BA</title>
+    <link>/tag/h2o/</link>
+      <atom:link href="/tag/h2o/index.xml" rel="self" type="application/rss+xml" />
+    <description>H2o</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>es</language><lastBuildDate>Wed, 02 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/icon_hu4b9af3f567e0b0f9e5f99da57ed62ab5_26887_512x512_fill_lanczos_center_2.png</url>
+      <title>H2o</title>
+      <link>/tag/h2o/</link>
+    </image>
+    
+    <item>
+      <title>¡Nos visita Erin LeDell!</title>
+      <link>/project/h20/</link>
+      <pubDate>Wed, 02 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>/project/h20/</guid>
+      <description>&lt;p&gt;En esta ocasión nos visitó Erin LeDell, co-fundadora de R-Ladies y fundadora WiMLDS. Erin nos sió una charla sobre Scalable Automatic Machine Learning con H2O (en inglés). ¿De qué se trata esto?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;H2O es una plataforma distribuida de aprendizaje automático de código abierto diseñada para big data. Los algoritmos principales de aprendizaje automático de H2O se implementan en Java de alto rendimiento, sin embargo, las API con todas las funciones están disponibles en R, Python, Scala, REST/JSON, y también a través de una interfaz web. Dado que las implementaciones de algoritmos de H2O se distribuyen, esto permite que el software escale a conjuntos de datos muy grandes -que superan la RAM en una sola máquina-. H2O actualmente presenta implementaciones distribuidas de modelos lineales generalizados, Gradient Boosting Machines, Random Forest, Deep Neural Nets, Stacked Ensembles (aka &amp;ldquo;Super Learners&amp;rdquo;), métodos de reducción de dimensionalidad (PCA, GLRM), clusterización (K-means), detección de anomalías, etc.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;H2O AutoML proporciona una interfaz fácil de usar que automatiza el pre-procesamiento de datos, el entrenamiento y el ajuste de una gran selección de modelos candidatos (incluidos múltiples modelos de conjuntos apilados para un rendimiento superior) y, debido a la naturaleza distribuida de la plataforma de H2O, H2O AutoML puede escalar a conjuntos de datos muy grandes. El resultado de la ejecución de H2O AutoML es una &amp;ldquo;tabla de clasificación&amp;rdquo; de modelos fácilmente exportable para su uso en producción. Ejemplos de código en R y en Python estarán disponibles en GitHub para que les participantes puedan seguirlos en sus laptops (de todos modos, no es necesario que traigas tu laptop!).&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

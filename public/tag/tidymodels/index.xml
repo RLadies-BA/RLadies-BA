@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tidymodels | RLadies BA</title>
+    <link>/tag/tidymodels/</link>
+      <atom:link href="/tag/tidymodels/index.xml" rel="self" type="application/rss+xml" />
+    <description>tidymodels</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>es</language><lastBuildDate>Mon, 07 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/icon_hu4b9af3f567e0b0f9e5f99da57ed62ab5_26887_512x512_fill_lanczos_center_2.png</url>
+      <title>tidymodels</title>
+      <link>/tag/tidymodels/</link>
+    </image>
+    
+    <item>
+      <title>CieRre de año!</title>
+      <link>/project/cierredeano/</link>
+      <pubDate>Mon, 07 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>/project/cierredeano/</guid>
+      <description>&lt;p&gt;¡Se viene el último meetup del año y estamos felices porque lo co-organizamos en conjunto entre los capítulos de Bariloche, Mendoza, Córdoba, Santa Rosa, Ushuaia y Resistencia-Corrientes!&lt;/p&gt;
+&lt;p&gt;Vamos a aprovechar este último encuentro para repasar lo que hicimos durante este año tan particular. ¡Queremos celebrar el habernos encontrado a distancia con muchísimas personas que forman parte de la comunidad R en Argentina, Latinoamérica y el mundo! Si te perdiste algún meetup durante el año, aprovechá para ponerte al día sobre lo que hicimos, videos y materiales que generamos!&lt;/p&gt;
+&lt;p&gt;¡También habrá código de R! Ana Laura Diedrichs de R-Ladies Mendoza nos contará sobre Tidymodels&lt;/p&gt;
+&lt;p&gt;Si te interesa machine learning o ya lo venís usando, {tidymodels} es un conjunto de paquetes que puede ayudarte en tu experimento de aprendizaje automático supervisado. Así sea clasificar imágenes o predecir el precio en el mercado inmobiliario, puedes usar este paquete desde R para implementar tus modelos de aprendizaje automático: desde dejar volar la cabeza con redes neuronales, hasta acampar en bosques aleatorios. {tidymodels} permite implementar un flujo de trabajo ordenado para el entrenamiento y evaluación de tus modelos.&lt;/p&gt;
+&lt;p&gt;La charla se titula: “Un tour por tidymodels” y mostraremos algunos ejemplos en código. Está dirigida a quienes:&lt;/p&gt;
+&lt;p&gt;Conocen sobre ML (machine learning) y están buscando una librería para usar.
+Han usado caret u otras librerías de ML en R.
+Usan ML en otros lenguajes y quieren saber de las librerías en R.
+Quieren entender el ecosistema de {tidymodels}.
+O son personas curiosas y quieren tener un vistazo de {tidymodels} y de qué trata.&lt;/p&gt;
+&lt;h3 id=&#34;reviví-la-presentación-en-nuestro-canal-de-youtube&#34;&gt;Reviví la presentación en nuestro canal de youtube:&lt;/h3&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/o38PVdS3k_Q&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;</description>
+    </item>
+    
+    <item>
+      <title>Modelado predictivo con texto utilizando principios de datos tidy - useR! 2020</title>
+      <link>/project/predictivemodeling/</link>
+      <pubDate>Fri, 24 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>/project/predictivemodeling/</guid>
+      <description>&lt;p&gt;Los capítulos de R-Ladies en Argentina estamos felices de anunciar que Emil Hvitfeldt y Julia Silge se unirán a nosotras para traernos su tutorial &amp;ldquo;Predictive modeling with text using tidy data principles&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;¿Alguna vez encontraste datos de texto y sospechaste que había información útil en esos datos?, ¿ Te sentiste con frustración al intentan ver cómo encontrar esa información? ¿Estás familiarizade con los conceptos básicos del modelado predictivo y estás liste para aprender cómo se pueden usar los datos de texto no estructurados para la predicción dentro de los ecosistemas tidyverse y tidymodels?&lt;/p&gt;
+&lt;p&gt;¿Necesitas un marco flexible para manejar datos de texto que te permitan construir modelos predictivos supervisados?
+Los datos de texto son cada vez más importantes en muchos dominios, y los principios de tidymodels se pueden aplicar a las tareas de procesamiento del lenguaje natural. Esta presentación está diseñada para proporcionar orientación práctica y conocimiento directamente aplicable para científiques de datos y analistas que desean integrar texto en sus proyectos de modelado.&lt;/p&gt;
+&lt;p&gt;En este tutorial de 90 minutos, aprende a preprocesar datos de texto para modelar, entrenar modelos y evaluar el rendimiento del modelo. Usaremos diapositivas y codificación en vivo durante el tutorial para recorrer un estudio de caso realista. El tutorial se transmitirá, grabará y tendrá subtítulos en inglés. También habrá materiales de apoyo y código en GitHub para que puedas trabajar después.&lt;/p&gt;
+&lt;p&gt;El tutorial está pensando para personas con familiaridad intermedia con R, RStudio, conceptos básicos de modelos de regresión y clasificación y paquetes de tidyverse como dplyr y ggplot2.&lt;/p&gt;
+&lt;h3 id=&#34;reviví-la-presentación-en-el-canal-de-youtube-de-user&#34;&gt;Reviví la presentación en el canal de youtube de useR&lt;/h3&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/Sz8RB_fPYOk&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

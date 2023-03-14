@@ -5,25 +5,19 @@
     <link>/author/rladies-buenos-aires/</link>
       <atom:link href="/author/rladies-buenos-aires/index.xml" rel="self" type="application/rss+xml" />
     <description>RLadies Buenos Aires</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 07 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>es</language><lastBuildDate>Sun, 07 Apr 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/author/rladies-buenos-aires/avatar_hu5ab65961c872662b3e54c1eefc19c5c0_6885_270x270_fill_q75_lanczos_center.jpg</url>
+      <url>/author/rladies-buenos-aires/avatar_huae50964fd4ece6c135015c99a5e9a56e_144270_270x270_fill_lanczos_center_2.png</url>
       <title>RLadies Buenos Aires</title>
       <link>/author/rladies-buenos-aires/</link>
     </image>
     
     <item>
-      <title>An example preprint / working paper</title>
+      <title>Ejemplo</title>
       <link>/publication/preprint/</link>
       <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
       <guid>/publication/preprint/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
-</description>
+      <description></description>
     </item>
     
     <item>

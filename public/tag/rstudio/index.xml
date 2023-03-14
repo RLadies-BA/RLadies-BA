@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>RStudio | RLadies BA</title>
+    <link>/tag/rstudio/</link>
+      <atom:link href="/tag/rstudio/index.xml" rel="self" type="application/rss+xml" />
+    <description>RStudio</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>es</language><lastBuildDate>Mon, 06 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/icon_hu4b9af3f567e0b0f9e5f99da57ed62ab5_26887_512x512_fill_lanczos_center_2.png</url>
+      <title>RStudio</title>
+      <link>/tag/rstudio/</link>
+    </image>
+    
+    <item>
+      <title>Primeros pasos en RStudio</title>
+      <link>/project/charlar2/</link>
+      <pubDate>Mon, 06 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>/project/charlar2/</guid>
+      <description>&lt;p&gt;Vamos a charlar sobre RStudio, veremos trucos y consejos para trabajar en este IDE que nos da tantas facilidades! Acordate, tenelo ya instalado!&lt;/p&gt;
+&lt;h3 id=&#34;reviví-la-presentación-en-nuestro-canal-de-youtube&#34;&gt;Reviví la presentación en nuestro canal de youtube:&lt;/h3&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/BN1j2TReP2Q&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;</description>
+    </item>
+    
+    <item>
+      <title>Trabajar con proyectos en R y cómo organizar nuestro trabajo.</title>
+      <link>/project/charlar1/</link>
+      <pubDate>Mon, 23 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>/project/charlar1/</guid>
+      <description>&lt;p&gt;Este es el primer encuentro de la serie &amp;ldquo;Charlar con R&amp;rdquo;. Esta incluye reuniones virtuales y cortas para compartir trucos y consejos sobre R pero también para hacer sociales y tener un espacio para charlar sobre lo que se nos ocurra.&lt;/p&gt;
+&lt;p&gt;En esta ocasión vamos a charlar sobre como manejar proyectos de R y ordenar nuestro trabajo para no perdernos en un mar de scripts de R.&lt;/p&gt;
+&lt;p&gt;De esta primera edición no se encuentra disponible el video en youtube.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Taller de Git y RStudio</title>
+      <link>/project/git_rstudio/</link>
+      <pubDate>Sat, 14 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>/project/git_rstudio/</guid>
+      <description>&lt;p&gt;¿Tenes una carpeta llena con distintas versiones del mismo archivo?¿Te gustaría poder llevar un seguimiento de los cambios en tu trabajo? ¿Te interesa participar de proyectos colaborativos?
+En este taller preparado en conjunto entre Las De Sistemas y R-Ladies Buenos Aires proponemos una iniciación al uso de Git como herramienta complementaria y útil al momento de escribir código en R.
+Sugerimos este taller a personas con una mínima experiencia en el uso de R y RStudio.&lt;/p&gt;
+&lt;p&gt;Las encargadas de la presentacion del taller serán:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Cynthia Monastirsky (Las de Sistemas)&lt;/li&gt;
+&lt;li&gt;Cintia Callamullo León (R-Ladies Buenos Aires)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Requerimientos imprescindibles:
+Trae tu compu con tu cargador y los siguientes programas instalados:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Git (&lt;a href=&#34;https://git-scm.com/book/es/v1/Empezando-Instalando-Git&#34;&gt;https://git-scm.com/book/es/v1/Empezando-Instalando-Git&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;R y RStudio&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Agradecemos al Centro Cultural Tierra Violeta por brindarnos un lugar para el evento.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>De SPSS a R</title>
+      <link>/project/spssar/</link>
+      <pubDate>Sat, 15 Jun 2019 00:00:00 +0000</pubDate>
+      <guid>/project/spssar/</guid>
+      <description>&lt;p&gt;Te proponemos un nuevo taller pensado para quienes habitualmente usan programas con interfaz gráfica y muchos clicks para hacer análisis de datos. Por ejemplo, si usás SPSS (Statistical Package for the Social Sciences) y muchos clicks para hacer tu análisis y tenés ganas de empezar a usar R, este taller es para vos. Este taller es de nivel inicial por lo que no requiere conocimientos previos.&lt;/p&gt;
+&lt;p&gt;El taller estará a cargo de Jesica Formoso, psicóloga, becaria postdoctoral de CONICET y docente de la UBA.&lt;/p&gt;
+&lt;p&gt;Es muy importante que traigas tu laptop con R y RStudio instalados (para más info de cómo hacer esto: &lt;a href=&#34;https://github.com/lauracion/R_Curso_de_Nivelacion/raw/master/Instalacion_R_RStudio.pdf&#34;&gt;https://github.com/lauracion/R_Curso_de_Nivelacion/raw/master/Instalacion_R_RStudio.pdf&lt;/a&gt; ).&lt;/p&gt;
+&lt;p&gt;Queremos agradecerle a EANT (&lt;a href=&#34;http://eant.tech/home&#34;&gt;http://eant.tech/home&lt;/a&gt;) por recibirnos nuevamente en sus aulas.&lt;/p&gt;
+&lt;p&gt;EANT (&lt;a href=&#34;http://eant.tech/home&#34;&gt;http://eant.tech/home&lt;/a&gt;) es una organización de escuelas especializadas en técnicas y tecnología digital reunidas para formar, entrenar y sinergizar a una nueva generación de desarrolladores digitales especialmente preparada para llevar la fuerza de la innovación a todos los ámbitos de la sociedad.&lt;/p&gt;
+&lt;p&gt;Como siempre nuestras actividades son gratuitas y arrancamos puntual. ¡No te lo pierdas! ¡Te esperamos!&lt;/p&gt;
+&lt;h2 id=&#34;reviví-la-presentación-en-nuestro-canal-de-youtube&#34;&gt;Reviví la presentación en nuestro canal de youtube:&lt;/h2&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/h_GW-uz-OoU&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;</description>
+    </item>
+    
+    <item>
+      <title>¡Nos visita Jenny Brian!</title>
+      <link>/project/jenny/</link>
+      <pubDate>Sat, 15 Jun 2019 00:00:00 +0000</pubDate>
+      <guid>/project/jenny/</guid>
+      <description>&lt;p&gt;Te invitamos a un meetup de lujo donde tendremos un taller a cargo de Jenny Bryan.&lt;/p&gt;
+&lt;p&gt;Jenny Bryan (PhD, UC Berkeley) es Ingeniera de Software en RStudio. Jenny es referente internacionalmente reconocida de la comunidad R dentro de la cual es integrante ordinaria de la R Foundation y parte del Comité de Liderazgo de rOpenSci.&lt;/p&gt;
+&lt;p&gt;En este taller nos va enseñar funciones, un tema esencial en R.&lt;/p&gt;
+&lt;p&gt;Título del taller: Writing R functions for fun and profit&lt;/p&gt;
+&lt;p&gt;Resúmen del taller: Si hay código R que copiás y pegás repetidamente, ¡empaquetalo en una función! Las funciones escritas por vos son una excelente manera de aumentar tu efectividad en muchos contextos: scripts, documentos de R Markdown, R Notebooks, aplicaciones Shiny, y, por supuesto, paquetes R. En comparación con el código altamente repetitivo, las funciones pueden aumentar la calidad del código al tiempo que ayudan a reducir tu frustración. Este taller será útil tanto para principiantes en la escritura de funciones, como para quienes tienen más experiencia (por ejemplo, para quienes comenzar a escribir paquetes de R.&lt;/p&gt;
+&lt;p&gt;El taller se dictará en inglés, contando con ayudantes que pueden brindar asistencia en español. Es muy importante que traigas tu laptop con R, RStudio y los paquetes gapminder, testthat y tidyverse instalados (para más info de cómo hacer esto: &lt;a href=&#34;https://github.com/lauracion/R_Curso_de_Nivelacion/raw/master/Instalacion_R_RStudio.pdf&#34;&gt;https://github.com/lauracion/R_Curso_de_Nivelacion/raw/master/Instalacion_R_RStudio.pdf&lt;/a&gt; ).&lt;/p&gt;
+&lt;p&gt;Es muy importante que des RSVP únicamente si podés asistir porque los lugares son limitados. Si confirmás asistencia pero luego no podés asistir, te pedimos por favor que dejes tu lugar disponible para otra persona.&lt;/p&gt;
+&lt;p&gt;Cualquier consulta que tengas, la vemos por acá o por mail a &lt;a href=&#34;mailto:buenosaires@rladies.org&#34;&gt;buenosaires@rladies.org&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;En esta ocasión nos recibe generosamente Medallia quien también nos ofrecerá un rico catering acorde con esta ocasión tan especial.&lt;/p&gt;
+&lt;p&gt;¡Nos vemos!&lt;/p&gt;
+&lt;h2 id=&#34;reviví-la-presentación-en-nuestro-canal-de-youtube&#34;&gt;Reviví la presentación en nuestro canal de youtube:&lt;/h2&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/Z73JvEEzR7Y&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;</description>
+    </item>
+    
+    <item>
+      <title>¡Último meetup del año! ¡Traé tu compu, llevate tu web programada con R!</title>
+      <link>/project/finano2018/</link>
+      <pubDate>Sat, 15 Jun 2019 00:00:00 +0000</pubDate>
+      <guid>/project/finano2018/</guid>
+      <description>&lt;p&gt;¡Se viene el último evento del año! Estamos felices porque lo co-organizamos con R en Baires (&lt;a href=&#34;https://bit.ly/2RNcqdL),&#34;&gt;https://bit.ly/2RNcqdL),&lt;/a&gt; un nuevo grupo de usuaries de R en Buenos Aires.&lt;/p&gt;
+&lt;p&gt;Haremos una charla/taller introductoria a R Markdown y Blogdown. Para aprovecharlo traé tu laptop con R y RStudio instalados* (para más info de cómo hacer esto: &lt;a href=&#34;https://bit.ly/2zGT82j)&#34;&gt;https://bit.ly/2zGT82j)&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Si creés que te vendría bien una intro a R o un repaso antes de venir, hacé click aquí (&lt;a href=&#34;https://bit.ly/2JSfHpp&#34;&gt;https://bit.ly/2JSfHpp&lt;/a&gt;) para ir al repositorio donde encontrarás todos los materiales de nuestros encuentros anteriores.&lt;/p&gt;
+&lt;p&gt;Después del taller tendremos un espacio reservado para hacer sociales, así seguimos conociéndonos y podemos compartir ideas para el próximo año.&lt;/p&gt;
+&lt;p&gt;¡Marcá tu agenda y reservá tu lugar en el taller! Si no podés asistir, el día de la reunión anunciaremos el acceso al streaming del evento.&lt;/p&gt;
+&lt;p&gt;Cualquier consulta no dudes en escribirnos por meetup o por mail a &lt;a href=&#34;mailto:buenosaires@rladies.org&#34;&gt;buenosaires@rladies.org&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;En esta ocasión nos recibe nuevamente Medallia que también nos ofrecerá picada y birras.&lt;/p&gt;
+&lt;p&gt;¡Nos vemos!&lt;/p&gt;
+&lt;h2 id=&#34;reviví-la-presentación-en-nuestro-canal-de-youtube&#34;&gt;Reviví la presentación en nuestro canal de youtube:&lt;/h2&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/KLUkxJCz1ew&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

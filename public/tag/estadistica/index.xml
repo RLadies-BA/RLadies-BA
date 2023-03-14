@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Estadística | RLadies BA</title>
+    <link>/tag/estadistica/</link>
+      <atom:link href="/tag/estadistica/index.xml" rel="self" type="application/rss+xml" />
+    <description>Estadística</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>es</language><lastBuildDate>Sat, 15 Jun 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/icon_hu4b9af3f567e0b0f9e5f99da57ed62ab5_26887_512x512_fill_lanczos_center_2.png</url>
+      <title>Estadística</title>
+      <link>/tag/estadistica/</link>
+    </image>
+    
+    <item>
+      <title>De SPSS a R</title>
+      <link>/project/spssar/</link>
+      <pubDate>Sat, 15 Jun 2019 00:00:00 +0000</pubDate>
+      <guid>/project/spssar/</guid>
+      <description>&lt;p&gt;Te proponemos un nuevo taller pensado para quienes habitualmente usan programas con interfaz gráfica y muchos clicks para hacer análisis de datos. Por ejemplo, si usás SPSS (Statistical Package for the Social Sciences) y muchos clicks para hacer tu análisis y tenés ganas de empezar a usar R, este taller es para vos. Este taller es de nivel inicial por lo que no requiere conocimientos previos.&lt;/p&gt;
+&lt;p&gt;El taller estará a cargo de Jesica Formoso, psicóloga, becaria postdoctoral de CONICET y docente de la UBA.&lt;/p&gt;
+&lt;p&gt;Es muy importante que traigas tu laptop con R y RStudio instalados (para más info de cómo hacer esto: &lt;a href=&#34;https://github.com/lauracion/R_Curso_de_Nivelacion/raw/master/Instalacion_R_RStudio.pdf&#34;&gt;https://github.com/lauracion/R_Curso_de_Nivelacion/raw/master/Instalacion_R_RStudio.pdf&lt;/a&gt; ).&lt;/p&gt;
+&lt;p&gt;Queremos agradecerle a EANT (&lt;a href=&#34;http://eant.tech/home&#34;&gt;http://eant.tech/home&lt;/a&gt;) por recibirnos nuevamente en sus aulas.&lt;/p&gt;
+&lt;p&gt;EANT (&lt;a href=&#34;http://eant.tech/home&#34;&gt;http://eant.tech/home&lt;/a&gt;) es una organización de escuelas especializadas en técnicas y tecnología digital reunidas para formar, entrenar y sinergizar a una nueva generación de desarrolladores digitales especialmente preparada para llevar la fuerza de la innovación a todos los ámbitos de la sociedad.&lt;/p&gt;
+&lt;p&gt;Como siempre nuestras actividades son gratuitas y arrancamos puntual. ¡No te lo pierdas! ¡Te esperamos!&lt;/p&gt;
+&lt;h2 id=&#34;reviví-la-presentación-en-nuestro-canal-de-youtube&#34;&gt;Reviví la presentación en nuestro canal de youtube:&lt;/h2&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/h_GW-uz-OoU&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;</description>
+    </item>
+    
+    <item>
+      <title>¡Nos visita Tamara Broderick!</title>
+      <link>/project/tamarabroderick/</link>
+      <pubDate>Sat, 15 Jun 2019 00:00:00 +0000</pubDate>
+      <guid>/project/tamarabroderick/</guid>
+      <description>&lt;p&gt;Este 18 de junio a las 18:30 hs te invitamos a sumarte a un meetup de lujo que co-organizamos con WiMLDS Buenos Aires. Nos visitará una destacada investigadora que desarrolla herramientas de punta para aprendizaje automático, aplicables a los campos de inteligencia artificial y ciencia de datos.&lt;/p&gt;
+&lt;p&gt;Nos honra con una charla Tamara Broderick (&lt;a href=&#34;http://www.tamarabroderick.com/)&#34;&gt;http://www.tamarabroderick.com/)&lt;/a&gt;. Tamara es profesora en el MIT (EEUU) y trabaja en las áreas de aprendizaje automático y estadística. Su trabajo se basa en comprender cómo se puede cuantificar confiablemente la incertidumbre y la robustez en los procedimientos de análisis de datos modernos y complejos. Está particularmente interesada en inferencia bayesiana y modelos gráficos, con énfasis en el aprendizaje escalable, no paramétrico y no supervisado.&lt;/p&gt;
+&lt;p&gt;Es una de las disertantes de la Machine Learning Summer School que tendrá lugar en Buenos Aires la semana del 18 de junio. Antes de sus charlas allí, nos visita en los meetups de R-Ladies y WiMLDS Buenos Aires. ¡¡Muchas gracias, Tamara!! ¡Es una alegría recibirte!&lt;/p&gt;
+&lt;p&gt;La exposición será en inglés: Automated Scalable Bayesian Inference via Data Summarization&lt;/p&gt;
+&lt;p&gt;Abstract: The use of Bayesian methods in large-scale data settings is attractive because of the rich hierarchical relationships, uncertainty quantification, and prior specification these methods provide. Many standard Bayesian inference algorithms are often computationally expensive, however, so their direct application to large datasets can be difficult or infeasible. Other standard algorithms sacrifice accuracy in the pursuit of scalability. We take a new approach. Namely, we leverage the insight that data often exhibit approximate redundancies to instead obtain a weighted subset of the data (called a &amp;ldquo;coreset&amp;rdquo;) that is much smaller than the original dataset. We can then use this small coreset in existing Bayesian inference algorithms without modification. We provide theoretical guarantees on the size and approximation quality of the coreset. In particular, we show that our method provides geometric decay in posterior approximation error as a function of coreset size. We validate on both synthetic and real datasets, demonstrating that our method reduces posterior approximation error by orders of magnitude relative to uniform random subsampling.&lt;/p&gt;
+&lt;p&gt;Si tenés ganas de ir leyendo sobre el tema, encontrás referencias aquí: &lt;a href=&#34;https://bit.ly/2snvPb4&#34;&gt;https://bit.ly/2snvPb4&lt;/a&gt; y aquí: &lt;a href=&#34;https://bit.ly/2xwvoQA&#34;&gt;https://bit.ly/2xwvoQA&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;¿Te parece que este meetup no es para vos? Creemos que es una oportunidad única para conocer e interactuar con una de las mejores investigadoras de su disciplina en un ambiente relajado, amigable e inclusivo.&lt;/p&gt;
+&lt;p&gt;¿El inglés te saca las ganas? Si querés hacerle alguna pregunta a Tamara las organizadoras podemos ayudar.&lt;/p&gt;
+&lt;p&gt;¡Ojalá te sumes! Además de la charla de Tamara, te vamos a contar más sobre R-Ladies y WiMLDS. También habrá tiempo para hacer sociales y nuevas conexiones.&lt;/p&gt;
+&lt;p&gt;Nuestro compromiso: te vas a sentir muy bien y le vamos a poner la buena onda de siempre.&lt;/p&gt;
+&lt;p&gt;Si morís de ganas de venir, pero por la razón que sea no podés, justo antes de que comience la charla anunciaremos el acceso al streaming del evento por aquí y el resto de nuestras redes sociales. Cualquier consulta no dudes en escribirnos.&lt;/p&gt;
+&lt;p&gt;En esta ocasión nos recibe generosamente Medallia quien también nos ofrecerá un rico catering acorde con esta ocasión tan especial.&lt;/p&gt;
+&lt;p&gt;¡Nos vemos!&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

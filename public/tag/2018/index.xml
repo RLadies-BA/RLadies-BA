@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2018 | RLadies BA</title>
+    <link>/tag/2018/</link>
+      <atom:link href="/tag/2018/index.xml" rel="self" type="application/rss+xml" />
+    <description>2018</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>es</language><lastBuildDate>Sat, 15 Jun 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/icon_hu4b9af3f567e0b0f9e5f99da57ed62ab5_26887_512x512_fill_lanczos_center_2.png</url>
+      <title>2018</title>
+      <link>/tag/2018/</link>
+    </image>
+    
+    <item>
+      <title>De SPSS a R</title>
+      <link>/project/spssar/</link>
+      <pubDate>Sat, 15 Jun 2019 00:00:00 +0000</pubDate>
+      <guid>/project/spssar/</guid>
+      <description>&lt;p&gt;Te proponemos un nuevo taller pensado para quienes habitualmente usan programas con interfaz gráfica y muchos clicks para hacer análisis de datos. Por ejemplo, si usás SPSS (Statistical Package for the Social Sciences) y muchos clicks para hacer tu análisis y tenés ganas de empezar a usar R, este taller es para vos. Este taller es de nivel inicial por lo que no requiere conocimientos previos.&lt;/p&gt;
+&lt;p&gt;El taller estará a cargo de Jesica Formoso, psicóloga, becaria postdoctoral de CONICET y docente de la UBA.&lt;/p&gt;
+&lt;p&gt;Es muy importante que traigas tu laptop con R y RStudio instalados (para más info de cómo hacer esto: &lt;a href=&#34;https://github.com/lauracion/R_Curso_de_Nivelacion/raw/master/Instalacion_R_RStudio.pdf&#34;&gt;https://github.com/lauracion/R_Curso_de_Nivelacion/raw/master/Instalacion_R_RStudio.pdf&lt;/a&gt; ).&lt;/p&gt;
+&lt;p&gt;Queremos agradecerle a EANT (&lt;a href=&#34;http://eant.tech/home&#34;&gt;http://eant.tech/home&lt;/a&gt;) por recibirnos nuevamente en sus aulas.&lt;/p&gt;
+&lt;p&gt;EANT (&lt;a href=&#34;http://eant.tech/home&#34;&gt;http://eant.tech/home&lt;/a&gt;) es una organización de escuelas especializadas en técnicas y tecnología digital reunidas para formar, entrenar y sinergizar a una nueva generación de desarrolladores digitales especialmente preparada para llevar la fuerza de la innovación a todos los ámbitos de la sociedad.&lt;/p&gt;
+&lt;p&gt;Como siempre nuestras actividades son gratuitas y arrancamos puntual. ¡No te lo pierdas! ¡Te esperamos!&lt;/p&gt;
+&lt;h2 id=&#34;reviví-la-presentación-en-nuestro-canal-de-youtube&#34;&gt;Reviví la presentación en nuestro canal de youtube:&lt;/h2&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/h_GW-uz-OoU&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;</description>
+    </item>
+    
+    <item>
+      <title>Segunda temporada de meetups de R-Ladies en Buenos Aires</title>
+      <link>/project/primer2018/</link>
+      <pubDate>Sat, 15 Jun 2019 00:00:00 +0000</pubDate>
+      <guid>/project/primer2018/</guid>
+      <description>&lt;p&gt;Abrimos la Segunda Temporada de Meetups con dos charlas espectaculares:&lt;/p&gt;
+&lt;p&gt;Flor D&amp;rsquo;Andrea, ganadora de la beca para asistir a la RStudio::Conf 2018 (&lt;a href=&#34;https://www.rstudio.com/conference/),&#34;&gt;https://www.rstudio.com/conference/),&lt;/a&gt; nos comparte &amp;ldquo;Material y Experiencias de la Rstudio Conf 2018&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;Rayna Harris (de visita por Buenos Aires desde Austin, Texas) nos cuenta su experiencia &amp;ldquo;Usando y Enseñando R para Investigación Reproducible&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;Ambas charlas son aptas para todos los niveles de R. Sos muy nueva con R y aún ni lo instalaste? Vení a conocer a otras R-Ladies que te pueden ayudar! Ambas charlas van a estar repletas de info que te va a ayudar a arrancar con R.&lt;/p&gt;
+&lt;p&gt;Hace años que usás R? Vení a enterarte de las últimas novedades y recursos y a conectarte con otras R-Ladies como vos.&lt;/p&gt;
+&lt;p&gt;No sos ni muy nueva ni súper experta? Te aseguramos que también te vas a llevar un montón de estas dos charlas y del encuentro con otras R-Ladies.&lt;/p&gt;
+&lt;p&gt;Te esperamos en el Auditorio de IBM Argentina que nos recibe generosamente para abrir un 2018 que viene recargado. Nuestro compromiso: te vas a sentir muy cómoda y le vamos a poner la buena onda de siempre. Ah, y de paso también te vamos a contar todas las novedades de R-Ladies este 2018. Nos vemos!&lt;/p&gt;
+&lt;h2 id=&#34;reviví-la-presentación-en-nuestro-canal-de-youtube&#34;&gt;Reviví la presentación en nuestro canal de youtube:&lt;/h2&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/GiLxGgZTr9Q&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;</description>
+    </item>
+    
+    <item>
+      <title>Taller &#34;R desde cero&#34; &#43; Charla &#34;Indicadores de desigualdad de género&#34;</title>
+      <link>/project/rdesde0/</link>
+      <pubDate>Sat, 15 Jun 2019 00:00:00 +0000</pubDate>
+      <guid>/project/rdesde0/</guid>
+      <description>&lt;p&gt;Felices de anunciar el próximo meetup el sábado 19 de mayo en EANT.&lt;/p&gt;
+&lt;p&gt;Les proponemos un grupo de oradoras de lujo: Priscilla Minotti y Fabiana Flores presentan un taller inicial &amp;ldquo;R desde cero&amp;rdquo; para todxs aquellxs que quieran empezar a aprender R o formalizar un poco más sus conocimientos sobre este lenguaje. Si tenes ganas de meter mano no te olvides de traer tu laptop.&lt;/p&gt;
+&lt;p&gt;Luego Natsumi Shokida (@NatsuSh), casi-Economista, analista de datos y metodologías sobre Pobreza e Ingresos en EPH-INDEC y colaboradora en Economía Femini(s)ta nos contará sobre el trabajo que está realizando llamado &amp;ldquo;Indicadores de desigualdad de género con datos abiertos de la Encuesta Permanente de Hogares&amp;rdquo; a partir de bases de datos abiertas del INDEC (disponible en &lt;a href=&#34;http://rpubs.com/natsumi_shokida/desigualdad_genero_EPH_3trim_2017&#34;&gt;http://rpubs.com/natsumi_shokida/desigualdad_genero_EPH_3trim_2017&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;Como siempre nuestras actividades son gratuitas.
+¡No te lo pierdas! ¡Te esperamos!&lt;/p&gt;
+&lt;p&gt;Es muy importante que des RSVP únicamente si podés asistir porque los lugares son limitados. Si confirmás asistencia pero luego no podés asistir, te pedimos por favor que dejes tu lugar disponible para otra persona.&lt;/p&gt;
+&lt;p&gt;Si no podés asistir, el día de la reunión anunciaremos el acceso al streaming del evento.&lt;/p&gt;
+&lt;p&gt;Cualquier consulta que tengas, la vemos por acá, por el Slack (si sos mujer y aún no tenés acceso al Slack, enviános un mail a &lt;a href=&#34;mailto:buenosaires@rladies.org&#34;&gt;buenosaires@rladies.org&lt;/a&gt;), o desde las 15:30 hs el sábado 19/05.&lt;/p&gt;
+&lt;p&gt;Queremos agradecerle a EANT (&lt;a href=&#34;http://eant.tech/home&#34;&gt;http://eant.tech/home&lt;/a&gt;) por recibirnos nuevamente en sus aulas.&lt;/p&gt;
+&lt;p&gt;EANT (&lt;a href=&#34;http://eant.tech/home&#34;&gt;http://eant.tech/home&lt;/a&gt;) es una organización de escuelas especializadas en técnicas y tecnología digital reunidas para formar, entrenar y sinergizar a una nueva generación de desarrolladores digitales especialmente preparada para llevar la fuerza de la innovación a todos los ámbitos de la sociedad.&lt;/p&gt;
+&lt;p&gt;Nos vemos pronto, arrancamos puntual!&lt;/p&gt;
+&lt;h2 id=&#34;reviví-la-presentación-en-nuestro-canal-de-youtube&#34;&gt;Reviví la presentación en nuestro canal de youtube:&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=5E07JNr32Ek&amp;amp;ab_channel=RLadiesBuenosAires&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;span style=&#34;font-weight:bold;&#34;&gt;R desde 0&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=XIGcMjz1VxE&amp;amp;ab_channel=RLadiesBuenosAires&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;span style=&#34;font-weight:bold;&#34;&gt;R desde 0&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>¡Nos visita Jenny Brian!</title>
+      <link>/project/jenny/</link>
+      <pubDate>Sat, 15 Jun 2019 00:00:00 +0000</pubDate>
+      <guid>/project/jenny/</guid>
+      <description>&lt;p&gt;Te invitamos a un meetup de lujo donde tendremos un taller a cargo de Jenny Bryan.&lt;/p&gt;
+&lt;p&gt;Jenny Bryan (PhD, UC Berkeley) es Ingeniera de Software en RStudio. Jenny es referente internacionalmente reconocida de la comunidad R dentro de la cual es integrante ordinaria de la R Foundation y parte del Comité de Liderazgo de rOpenSci.&lt;/p&gt;
+&lt;p&gt;En este taller nos va enseñar funciones, un tema esencial en R.&lt;/p&gt;
+&lt;p&gt;Título del taller: Writing R functions for fun and profit&lt;/p&gt;
+&lt;p&gt;Resúmen del taller: Si hay código R que copiás y pegás repetidamente, ¡empaquetalo en una función! Las funciones escritas por vos son una excelente manera de aumentar tu efectividad en muchos contextos: scripts, documentos de R Markdown, R Notebooks, aplicaciones Shiny, y, por supuesto, paquetes R. En comparación con el código altamente repetitivo, las funciones pueden aumentar la calidad del código al tiempo que ayudan a reducir tu frustración. Este taller será útil tanto para principiantes en la escritura de funciones, como para quienes tienen más experiencia (por ejemplo, para quienes comenzar a escribir paquetes de R.&lt;/p&gt;
+&lt;p&gt;El taller se dictará en inglés, contando con ayudantes que pueden brindar asistencia en español. Es muy importante que traigas tu laptop con R, RStudio y los paquetes gapminder, testthat y tidyverse instalados (para más info de cómo hacer esto: &lt;a href=&#34;https://github.com/lauracion/R_Curso_de_Nivelacion/raw/master/Instalacion_R_RStudio.pdf&#34;&gt;https://github.com/lauracion/R_Curso_de_Nivelacion/raw/master/Instalacion_R_RStudio.pdf&lt;/a&gt; ).&lt;/p&gt;
+&lt;p&gt;Es muy importante que des RSVP únicamente si podés asistir porque los lugares son limitados. Si confirmás asistencia pero luego no podés asistir, te pedimos por favor que dejes tu lugar disponible para otra persona.&lt;/p&gt;
+&lt;p&gt;Cualquier consulta que tengas, la vemos por acá o por mail a &lt;a href=&#34;mailto:buenosaires@rladies.org&#34;&gt;buenosaires@rladies.org&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;En esta ocasión nos recibe generosamente Medallia quien también nos ofrecerá un rico catering acorde con esta ocasión tan especial.&lt;/p&gt;
+&lt;p&gt;¡Nos vemos!&lt;/p&gt;
+&lt;h2 id=&#34;reviví-la-presentación-en-nuestro-canal-de-youtube&#34;&gt;Reviví la presentación en nuestro canal de youtube:&lt;/h2&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/Z73JvEEzR7Y&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;</description>
+    </item>
+    
+    <item>
+      <title>¡Nos visita Tamara Broderick!</title>
+      <link>/project/tamarabroderick/</link>
+      <pubDate>Sat, 15 Jun 2019 00:00:00 +0000</pubDate>
+      <guid>/project/tamarabroderick/</guid>
+      <description>&lt;p&gt;Este 18 de junio a las 18:30 hs te invitamos a sumarte a un meetup de lujo que co-organizamos con WiMLDS Buenos Aires. Nos visitará una destacada investigadora que desarrolla herramientas de punta para aprendizaje automático, aplicables a los campos de inteligencia artificial y ciencia de datos.&lt;/p&gt;
+&lt;p&gt;Nos honra con una charla Tamara Broderick (&lt;a href=&#34;http://www.tamarabroderick.com/)&#34;&gt;http://www.tamarabroderick.com/)&lt;/a&gt;. Tamara es profesora en el MIT (EEUU) y trabaja en las áreas de aprendizaje automático y estadística. Su trabajo se basa en comprender cómo se puede cuantificar confiablemente la incertidumbre y la robustez en los procedimientos de análisis de datos modernos y complejos. Está particularmente interesada en inferencia bayesiana y modelos gráficos, con énfasis en el aprendizaje escalable, no paramétrico y no supervisado.&lt;/p&gt;
+&lt;p&gt;Es una de las disertantes de la Machine Learning Summer School que tendrá lugar en Buenos Aires la semana del 18 de junio. Antes de sus charlas allí, nos visita en los meetups de R-Ladies y WiMLDS Buenos Aires. ¡¡Muchas gracias, Tamara!! ¡Es una alegría recibirte!&lt;/p&gt;
+&lt;p&gt;La exposición será en inglés: Automated Scalable Bayesian Inference via Data Summarization&lt;/p&gt;
+&lt;p&gt;Abstract: The use of Bayesian methods in large-scale data settings is attractive because of the rich hierarchical relationships, uncertainty quantification, and prior specification these methods provide. Many standard Bayesian inference algorithms are often computationally expensive, however, so their direct application to large datasets can be difficult or infeasible. Other standard algorithms sacrifice accuracy in the pursuit of scalability. We take a new approach. Namely, we leverage the insight that data often exhibit approximate redundancies to instead obtain a weighted subset of the data (called a &amp;ldquo;coreset&amp;rdquo;) that is much smaller than the original dataset. We can then use this small coreset in existing Bayesian inference algorithms without modification. We provide theoretical guarantees on the size and approximation quality of the coreset. In particular, we show that our method provides geometric decay in posterior approximation error as a function of coreset size. We validate on both synthetic and real datasets, demonstrating that our method reduces posterior approximation error by orders of magnitude relative to uniform random subsampling.&lt;/p&gt;
+&lt;p&gt;Si tenés ganas de ir leyendo sobre el tema, encontrás referencias aquí: &lt;a href=&#34;https://bit.ly/2snvPb4&#34;&gt;https://bit.ly/2snvPb4&lt;/a&gt; y aquí: &lt;a href=&#34;https://bit.ly/2xwvoQA&#34;&gt;https://bit.ly/2xwvoQA&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;¿Te parece que este meetup no es para vos? Creemos que es una oportunidad única para conocer e interactuar con una de las mejores investigadoras de su disciplina en un ambiente relajado, amigable e inclusivo.&lt;/p&gt;
+&lt;p&gt;¿El inglés te saca las ganas? Si querés hacerle alguna pregunta a Tamara las organizadoras podemos ayudar.&lt;/p&gt;
+&lt;p&gt;¡Ojalá te sumes! Además de la charla de Tamara, te vamos a contar más sobre R-Ladies y WiMLDS. También habrá tiempo para hacer sociales y nuevas conexiones.&lt;/p&gt;
+&lt;p&gt;Nuestro compromiso: te vas a sentir muy bien y le vamos a poner la buena onda de siempre.&lt;/p&gt;
+&lt;p&gt;Si morís de ganas de venir, pero por la razón que sea no podés, justo antes de que comience la charla anunciaremos el acceso al streaming del evento por aquí y el resto de nuestras redes sociales. Cualquier consulta no dudes en escribirnos.&lt;/p&gt;
+&lt;p&gt;En esta ocasión nos recibe generosamente Medallia quien también nos ofrecerá un rico catering acorde con esta ocasión tan especial.&lt;/p&gt;
+&lt;p&gt;¡Nos vemos!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>¡Último meetup del año! ¡Traé tu compu, llevate tu web programada con R!</title>
+      <link>/project/finano2018/</link>
+      <pubDate>Sat, 15 Jun 2019 00:00:00 +0000</pubDate>
+      <guid>/project/finano2018/</guid>
+      <description>&lt;p&gt;¡Se viene el último evento del año! Estamos felices porque lo co-organizamos con R en Baires (&lt;a href=&#34;https://bit.ly/2RNcqdL),&#34;&gt;https://bit.ly/2RNcqdL),&lt;/a&gt; un nuevo grupo de usuaries de R en Buenos Aires.&lt;/p&gt;
+&lt;p&gt;Haremos una charla/taller introductoria a R Markdown y Blogdown. Para aprovecharlo traé tu laptop con R y RStudio instalados* (para más info de cómo hacer esto: &lt;a href=&#34;https://bit.ly/2zGT82j)&#34;&gt;https://bit.ly/2zGT82j)&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Si creés que te vendría bien una intro a R o un repaso antes de venir, hacé click aquí (&lt;a href=&#34;https://bit.ly/2JSfHpp&#34;&gt;https://bit.ly/2JSfHpp&lt;/a&gt;) para ir al repositorio donde encontrarás todos los materiales de nuestros encuentros anteriores.&lt;/p&gt;
+&lt;p&gt;Después del taller tendremos un espacio reservado para hacer sociales, así seguimos conociéndonos y podemos compartir ideas para el próximo año.&lt;/p&gt;
+&lt;p&gt;¡Marcá tu agenda y reservá tu lugar en el taller! Si no podés asistir, el día de la reunión anunciaremos el acceso al streaming del evento.&lt;/p&gt;
+&lt;p&gt;Cualquier consulta no dudes en escribirnos por meetup o por mail a &lt;a href=&#34;mailto:buenosaires@rladies.org&#34;&gt;buenosaires@rladies.org&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;En esta ocasión nos recibe nuevamente Medallia que también nos ofrecerá picada y birras.&lt;/p&gt;
+&lt;p&gt;¡Nos vemos!&lt;/p&gt;
+&lt;h2 id=&#34;reviví-la-presentación-en-nuestro-canal-de-youtube&#34;&gt;Reviví la presentación en nuestro canal de youtube:&lt;/h2&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/KLUkxJCz1ew&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

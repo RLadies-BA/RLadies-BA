@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Las de Sistemas | RLadies BA</title>
+    <link>/author/las-de-sistemas/</link>
+      <atom:link href="/author/las-de-sistemas/index.xml" rel="self" type="application/rss+xml" />
+    <description>Las de Sistemas</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>es</language>
+    <image>
+      <url>/author/las-de-sistemas/avatar_hu4b5632ef83e49012b882200b7f909458_19386_270x270_fill_lanczos_center_2.png</url>
+      <title>Las de Sistemas</title>
+      <link>/author/las-de-sistemas/</link>
+    </image>
+    
+  </channel>
+</rss>

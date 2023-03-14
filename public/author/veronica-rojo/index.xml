@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Verónica Rojo | RLadies BA</title>
+    <link>/author/veronica-rojo/</link>
+      <atom:link href="/author/veronica-rojo/index.xml" rel="self" type="application/rss+xml" />
+    <description>Verónica Rojo</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>es</language>
+    <image>
+      <url>/author/veronica-rojo/avatar_hue980e1911fad8eb5a5a4730755b88567_95171_270x270_fill_q75_lanczos_center.jpeg</url>
+      <title>Verónica Rojo</title>
+      <link>/author/veronica-rojo/</link>
+    </image>
+    
+  </channel>
+</rss>

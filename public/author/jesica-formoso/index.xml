@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jesica Formoso | RLadies BA</title>
+    <link>/author/jesica-formoso/</link>
+      <atom:link href="/author/jesica-formoso/index.xml" rel="self" type="application/rss+xml" />
+    <description>Jesica Formoso</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>es</language>
+    <image>
+      <url>/author/jesica-formoso/avatar_hu973a26bbc97caf7dae875a6a7cd4a574_109379_270x270_fill_q75_lanczos_center.jpg</url>
+      <title>Jesica Formoso</title>
+      <link>/author/jesica-formoso/</link>
+    </image>
+    
+  </channel>
+</rss>

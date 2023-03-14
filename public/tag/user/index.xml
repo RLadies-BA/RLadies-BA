@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>useR! | RLadies BA</title>
+    <link>/tag/user/</link>
+      <atom:link href="/tag/user/index.xml" rel="self" type="application/rss+xml" />
+    <description>useR!</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>es</language><lastBuildDate>Fri, 24 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/icon_hu4b9af3f567e0b0f9e5f99da57ed62ab5_26887_512x512_fill_lanczos_center_2.png</url>
+      <title>useR!</title>
+      <link>/tag/user/</link>
+    </image>
+    
+    <item>
+      <title>Modelado predictivo con texto utilizando principios de datos tidy - useR! 2020</title>
+      <link>/project/predictivemodeling/</link>
+      <pubDate>Fri, 24 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>/project/predictivemodeling/</guid>
+      <description>&lt;p&gt;Los capítulos de R-Ladies en Argentina estamos felices de anunciar que Emil Hvitfeldt y Julia Silge se unirán a nosotras para traernos su tutorial &amp;ldquo;Predictive modeling with text using tidy data principles&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;¿Alguna vez encontraste datos de texto y sospechaste que había información útil en esos datos?, ¿ Te sentiste con frustración al intentan ver cómo encontrar esa información? ¿Estás familiarizade con los conceptos básicos del modelado predictivo y estás liste para aprender cómo se pueden usar los datos de texto no estructurados para la predicción dentro de los ecosistemas tidyverse y tidymodels?&lt;/p&gt;
+&lt;p&gt;¿Necesitas un marco flexible para manejar datos de texto que te permitan construir modelos predictivos supervisados?
+Los datos de texto son cada vez más importantes en muchos dominios, y los principios de tidymodels se pueden aplicar a las tareas de procesamiento del lenguaje natural. Esta presentación está diseñada para proporcionar orientación práctica y conocimiento directamente aplicable para científiques de datos y analistas que desean integrar texto en sus proyectos de modelado.&lt;/p&gt;
+&lt;p&gt;En este tutorial de 90 minutos, aprende a preprocesar datos de texto para modelar, entrenar modelos y evaluar el rendimiento del modelo. Usaremos diapositivas y codificación en vivo durante el tutorial para recorrer un estudio de caso realista. El tutorial se transmitirá, grabará y tendrá subtítulos en inglés. También habrá materiales de apoyo y código en GitHub para que puedas trabajar después.&lt;/p&gt;
+&lt;p&gt;El tutorial está pensando para personas con familiaridad intermedia con R, RStudio, conceptos básicos de modelos de regresión y clasificación y paquetes de tidyverse como dplyr y ggplot2.&lt;/p&gt;
+&lt;h3 id=&#34;reviví-la-presentación-en-el-canal-de-youtube-de-user&#34;&gt;Reviví la presentación en el canal de youtube de useR&lt;/h3&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/Sz8RB_fPYOk&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;</description>
+    </item>
+    
+    <item>
+      <title>¡Último meetup del año!</title>
+      <link>/project/cierre_temporada3/</link>
+      <pubDate>Tue, 03 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>/project/cierre_temporada3/</guid>
+      <description>&lt;p&gt;¡Cerramos la tercer temporada de meetups con todo!&lt;/p&gt;
+&lt;p&gt;Despedimos a Natsu con la charla:&lt;/p&gt;
+&lt;h3 id=&#34;boosted_me---r_ladiesme-o-cómo-sumarme-a-r-ladies-me-impulsó-a-desprogramar-la-desigualdad-de-género&#34;&gt;&amp;ldquo;boosted_me &amp;lt;- r_ladies(me), o cómo sumarme a R-Ladies me impulsó a (des)programar la desigualdad de género&amp;rdquo;&lt;/h3&gt;
+&lt;p&gt;Nos comentó sobre su experiencia con R-Ladies y cómo a partir de aprender a programar en R terminó desplegando un activismo feminista &amp;lsquo;datero&amp;rsquo;, desarrollando un informe sobre la desigualdad de género en Argentina (&amp;lsquo;La desigualdad de género se puede medir&amp;rsquo;), estimando el costo de menstruar desde la campaña #MenstruAccion, realizando talleres gratuitos y autogestionados de introducción a R para mujeres e identidades disidentes, entre otras actividades.&amp;quot;&lt;/p&gt;
+&lt;p&gt;Y como si esto fuese poco Laura Ación presentará:&lt;/p&gt;
+&lt;h3 id=&#34;relatos-de-user-2019&#34;&gt;&amp;ldquo;Relatos de useR! 2019&amp;rdquo;&lt;/h3&gt;
+&lt;p&gt;El 2019 se organizó useR! 2019 en Toulouse (Francia). Con más de mil asistentes y muchísimos tutoriales y charlas, es una de las principales conferencias sobre uso de R. Laura tuvo la posibilidad de asistir personalmente gracias a una beca de diversidad.&lt;/p&gt;
+&lt;p&gt;Agradecemos a Medallia por brindarnos un lugar y catering para el evento.&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;es&#34; dir=&#34;ltr&#34;&gt;😉¿Querés saber qué pasó este año en &lt;a href=&#34;https://twitter.com/hashtag/rladiesBA?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#rladiesBA&lt;/a&gt; y que iniciativas se llevan a cabo desde el equipo de &lt;a href=&#34;https://twitter.com/hashtag/rladies?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#rladies&lt;/a&gt; global?👩‍💻 No te pierdas nuestro anuario 2019 💜 👉 &lt;a href=&#34;https://t.co/4IIcp4pf5Y&#34;&gt;https://t.co/4IIcp4pf5Y&lt;/a&gt;&lt;/p&gt;&amp;mdash; R-Ladies BuenosAires (@RLadiesBA) &lt;a href=&#34;https://twitter.com/RLadiesBA/status/1202057765197357057?ref_src=twsrc%5Etfw&#34;&gt;December 4, 2019&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;es&#34; dir=&#34;ltr&#34;&gt;Hoy se cerró el año de &lt;a href=&#34;https://twitter.com/hashtag/rladiesBA?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#rladiesBA&lt;/a&gt; 💜 Gracias &lt;a href=&#34;https://twitter.com/pmnatural?ref_src=twsrc%5Etfw&#34;&gt;@pmnatural&lt;/a&gt; &lt;a href=&#34;https://twitter.com/PaobCorrales?ref_src=twsrc%5Etfw&#34;&gt;@PaobCorrales&lt;/a&gt; &lt;a href=&#34;https://twitter.com/PaoPrieto?ref_src=twsrc%5Etfw&#34;&gt;@PaoPrieto&lt;/a&gt; &lt;a href=&#34;https://twitter.com/cantoflor_87?ref_src=twsrc%5Etfw&#34;&gt;@cantoflor_87&lt;/a&gt; &lt;a href=&#34;https://twitter.com/MonicaLA2000?ref_src=twsrc%5Etfw&#34;&gt;@MonicaLA2000&lt;/a&gt;, nuestras organizadoras, a &lt;a href=&#34;https://twitter.com/NatsuSh?ref_src=twsrc%5Etfw&#34;&gt;@NatsuSh&lt;/a&gt; y &lt;a href=&#34;https://twitter.com/_lacion_?ref_src=twsrc%5Etfw&#34;&gt;@_lacion_&lt;/a&gt; por sus charlas y a la genial comunidad de &lt;a href=&#34;https://twitter.com/hashtag/rstatsES?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#rstatsES&lt;/a&gt; por este hermoso cierre de año 💜👩‍💻💯 &lt;a href=&#34;https://t.co/h4q2dBB0VO&#34;&gt;pic.twitter.com/h4q2dBB0VO&lt;/a&gt;&lt;/p&gt;&amp;mdash; R-Ladies BuenosAires (@RLadiesBA) &lt;a href=&#34;https://twitter.com/RLadiesBA/status/1202056442305531904?ref_src=twsrc%5Etfw&#34;&gt;December 4, 2019&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
