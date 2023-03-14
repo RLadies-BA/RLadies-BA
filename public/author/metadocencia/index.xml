@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Metadocencia | RLadies BA</title>
+    <link>/author/metadocencia/</link>
+      <atom:link href="/author/metadocencia/index.xml" rel="self" type="application/rss+xml" />
+    <description>Metadocencia</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>es</language>
+    <image>
+      <url>/author/metadocencia/avatar_hu210da21c575a9e6a12f6adb5a00fa943_31324_270x270_fill_lanczos_center_2.png</url>
+      <title>Metadocencia</title>
+      <link>/author/metadocencia/</link>
+    </image>
+    
+  </channel>
+</rss>

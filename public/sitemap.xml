@@ -11,25 +11,73 @@
     <loc>/courses/example/stats/</loc>
     <lastmod>2021-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tag/ano-2021/</loc>
+    <loc>/tag/2022/</loc>
+    <lastmod>2022-03-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tag/comunidad/</loc>
+    <lastmod>2022-03-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/project/cumple5/</loc>
+    <lastmod>2022-03-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/project/learnr2022/</loc>
+    <lastmod>2022-03-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tag/learnr/</loc>
+    <lastmod>2022-03-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/project/</loc>
+    <lastmod>2022-03-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tag/rladies/</loc>
+    <lastmod>2022-03-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/</loc>
+    <lastmod>2022-03-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2022-03-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/post/intro-r2022/</loc>
+    <lastmod>2022-02-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/post/</loc>
+    <lastmod>2022-02-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tag/2021/</loc>
+    <lastmod>2021-11-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tag/gg-/</loc>
     <lastmod>2021-11-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/project/gg&#43;/</loc>
     <lastmod>2021-11-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/project/</loc>
+    <loc>/tag/ggplot/</loc>
     <lastmod>2021-11-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/</loc>
+    <loc>/tag/latinr/</loc>
     <lastmod>2021-11-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/</loc>
+    <loc>/tag/visualizacion/</loc>
     <lastmod>2021-11-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tag/ciencias-sociales/</loc>
+    <lastmod>2021-09-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/project/comoempezar/</loc>
     <lastmod>2021-09-22T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>/tag/datos-textuales/</loc>
+    <lastmod>2021-08-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tag/politicxsentwitter/</loc>
+    <lastmod>2021-08-25T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/project/politicxsentwitter/</loc>
+    <lastmod>2021-08-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tag/web-scraping/</loc>
     <lastmod>2021-08-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/event/</loc>
@@ -37,6 +85,15 @@
   </url><url>
     <loc>/talk/reordenando-datos-con-tidyr/</loc>
     <lastmod>2021-05-04T18:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tag/datos-ordenados/</loc>
+    <lastmod>2021-05-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tag/tidyr/</loc>
+    <lastmod>2021-05-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tag/tidyverse/</loc>
+    <lastmod>2021-05-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/project/tidyversecontidyr/</loc>
     <lastmod>2021-05-04T00:00:00+00:00</lastmod>
@@ -47,13 +104,154 @@
     <loc>/courses/example/</loc>
     <lastmod>2021-01-24T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>/tag/2020/</loc>
+    <lastmod>2020-12-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/project/cierredeano/</loc>
+    <lastmod>2020-12-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tag/machine-learning/</loc>
+    <lastmod>2020-12-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tag/tidymodels/</loc>
+    <lastmod>2020-12-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tag/binder/</loc>
+    <lastmod>2020-09-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tag/reproducibilidad/</loc>
+    <lastmod>2020-09-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/project/charlar8/</loc>
+    <lastmod>2020-09-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tag/dplyr/</loc>
+    <lastmod>2020-08-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tag/exploracion-de-datos/</loc>
+    <lastmod>2020-08-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/project/charlar7/</loc>
+    <lastmod>2020-08-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/project/predictivemodeling/</loc>
+    <lastmod>2020-07-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tag/tidytext/</loc>
+    <lastmod>2020-07-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tag/user/</loc>
+    <lastmod>2020-07-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/project/reunionvirtual/</loc>
+    <lastmod>2020-07-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tag/evento-virtual/</loc>
+    <lastmod>2020-07-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/project/charlar6/</loc>
+    <lastmod>2020-06-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/project/charlar5/</loc>
+    <lastmod>2020-06-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tag/git/</loc>
+    <lastmod>2020-05-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/project/charlar4/</loc>
+    <lastmod>2020-05-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/project/charlar3/</loc>
+    <lastmod>2020-04-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tag/rmarkdown/</loc>
+    <lastmod>2020-04-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/project/charlar2/</loc>
+    <lastmod>2020-04-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tag/rstudio/</loc>
+    <lastmod>2020-04-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tag/proyectos-en-r/</loc>
+    <lastmod>2020-03-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/project/charlar1/</loc>
+    <lastmod>2020-03-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tag/rstudioconf/</loc>
+    <lastmod>2020-01-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/project/rstudioconf/</loc>
+    <lastmod>2020-01-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tag/2019/</loc>
+    <lastmod>2019-12-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tag/genero/</loc>
+    <lastmod>2019-12-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/project/cierre_temporada3/</loc>
+    <lastmod>2019-12-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tag/analisis-de-datos/</loc>
+    <lastmod>2019-10-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/project/r_nerdearla/</loc>
+    <lastmod>2019-10-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tag/h2o/</loc>
+    <lastmod>2019-10-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/project/h20/</loc>
+    <lastmod>2019-10-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/project/git_rstudio/</loc>
+    <lastmod>2019-09-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tag/2018/</loc>
+    <lastmod>2019-06-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tag/blogdown/</loc>
+    <lastmod>2019-06-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/project/spssar/</loc>
+    <lastmod>2019-06-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tag/estadistica/</loc>
+    <lastmod>2019-06-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tag/funciones/</loc>
+    <lastmod>2019-06-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tag/rvest/</loc>
+    <lastmod>2019-06-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/project/primer2018/</loc>
+    <lastmod>2019-06-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/project/rdesde0/</loc>
+    <lastmod>2019-06-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/project/webscraping/</loc>
+    <lastmod>2019-06-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/project/jenny/</loc>
+    <lastmod>2019-06-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/project/tamarabroderick/</loc>
+    <lastmod>2019-06-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/project/finano2018/</loc>
+    <lastmod>2019-06-15T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/publication-type/3/</loc>
     <lastmod>2019-04-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publication/preprint/</loc>
+    <loc>/authors/</loc>
     <lastmod>2019-04-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/authors/</loc>
+    <loc>/publication/preprint/</loc>
     <lastmod>2019-04-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/publication_types/</loc>
@@ -65,14 +263,56 @@
     <loc>/author/rladies-buenos-aires/</loc>
     <lastmod>2019-04-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tag/source-themes/</loc>
-    <lastmod>2019-04-07T00:00:00+00:00</lastmod>
+    <loc>/project/visualizacion/</loc>
+    <lastmod>2019-04-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/slides/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/slides/example/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tag/2017/</loc>
+    <lastmod>2017-11-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/project/rmarkdown/</loc>
+    <lastmod>2017-11-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tag/shiny/</loc>
+    <lastmod>2017-09-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/project/tallershiny/</loc>
+    <lastmod>2017-09-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tag/datos-espaciales/</loc>
+    <lastmod>2017-08-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/project/datosgeograficosconr/</loc>
+    <lastmod>2017-08-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/project/aplicacionesr/</loc>
+    <lastmod>2017-07-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tag/ciencias-de-la-atmosfera/</loc>
+    <lastmod>2017-07-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tag/data-mining/</loc>
+    <lastmod>2017-07-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/project/rycienciadedatos2/</loc>
+    <lastmod>2017-07-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tag/datos-geograficos/</loc>
+    <lastmod>2017-05-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/project/rycienciadedatos/</loc>
+    <lastmod>2017-05-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tag/tmap/</loc>
+    <lastmod>2017-05-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/project/primerareunion/</loc>
+    <lastmod>2017-03-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/publication-type/2/</loc>
     <lastmod>2015-09-01T00:00:00+00:00</lastmod>
@@ -95,26 +335,52 @@
   </url><url>
     <loc>/categories/</loc>
   </url><url>
-    <loc>/author/jesica/</loc>
+    <loc>/author/daniela-vazquez/</loc>
+  </url><url>
+    <loc>/author/ecofeminita/</loc>
+  </url><url>
+    <loc>/author/femitconf/</loc>
+  </url><url>
+    <loc>/author/florencia-dandrea/</loc>
+  </url><url>
+    <loc>/author/jesica-formoso/</loc>
   </url><url>
     <loc>/author/jimena-saucedo/</loc>
   </url><url>
+    <loc>/author/karina-bartolome/</loc>
+  </url><url>
+    <loc>/author/l.-paloma-rojas-saunero/</loc>
+  </url><url>
+    <loc>/author/las-de-sistemas/</loc>
+  </url><url>
+    <loc>/author/latin-r/</loc>
+  </url><url>
     <loc>/author/laura-acion/</loc>
   </url><url>
-    <loc>/author/maria/</loc>
+    <loc>/author/linuxchix/</loc>
   </url><url>
-    <loc>/author/monica/</loc>
+    <loc>/author/maria-nanton/</loc>
+  </url><url>
+    <loc>/author/metadocencia/</loc>
+  </url><url>
+    <loc>/author/mujeres-en-tecnologia/</loc>
+  </url><url>
+    <loc>/author/monica-alonso/</loc>
   </url><url>
     <loc>/author/natsumi-shokida/</loc>
   </url><url>
     <loc>/author/paola-corrales/</loc>
   </url><url>
-    <loc>/post/</loc>
+    <loc>/author/paola-prieto/</loc>
   </url><url>
     <loc>/author/priscilla-minotti/</loc>
   </url><url>
+    <loc>/author/r-en-baires/</loc>
+  </url><url>
+    <loc>/author/veronica-rojo/</loc>
+  </url><url>
     <loc>/author/virginia-garcia-alonso/</loc>
   </url><url>
-    <loc>/author/%E5%90%B3%E6%81%A9%E9%81%94/</loc>
+    <loc>/author/women-in-bioinformatic-data-science-la/</loc>
   </url>
 </urlset>

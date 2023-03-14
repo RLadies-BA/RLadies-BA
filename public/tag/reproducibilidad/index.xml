@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Reproducibilidad | RLadies BA</title>
+    <link>/tag/reproducibilidad/</link>
+      <atom:link href="/tag/reproducibilidad/index.xml" rel="self" type="application/rss+xml" />
+    <description>Reproducibilidad</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>es</language><lastBuildDate>Wed, 02 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/icon_hu4b9af3f567e0b0f9e5f99da57ed62ab5_26887_512x512_fill_lanczos_center_2.png</url>
+      <title>Reproducibilidad</title>
+      <link>/tag/reproducibilidad/</link>
+    </image>
+    
+    <item>
+      <title>Reproducibilidad en R</title>
+      <link>/project/charlar8/</link>
+      <pubDate>Wed, 02 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>/project/charlar8/</guid>
+      <description>&lt;p&gt;¿Basta con dejar disponible el código y las bases de datos de tu trabajo para que otra persona (o tu yo del futuro) pueda volver a correrlo sin problemas?&lt;/p&gt;
+&lt;p&gt;Las herramientas y prácticas que mejoran la reproducibilidad computacional no siempre se abordan en los cursos de programación. Algunas forman parte de “eso que se olvidaron de enseñarte de R”: control de versiones, sistemas de administración de dependencias, programación literaria, entre otras.&lt;/p&gt;
+&lt;p&gt;En este meetup de R-Ladies Buenos Aires, Florencia D’Andrea nos brinda un panorama de por qué es interesante abordar el tema de la reproducibilidad, publiques o no artículos científicos. Además presentamos la hackatón de reproducibilidad científica (reproHack) que tuvo lugar como parte de la edición virtual de LatinR 2020.&lt;/p&gt;
+&lt;h3 id=&#34;reviví-la-presentación-en-nuestro-canal-de-youtube&#34;&gt;Reviví la presentación en nuestro canal de youtube:&lt;/h3&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/-7G7tlmB2Ts&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Primeros pasos en RMarkdown</title>
+      <link>/project/charlar3/</link>
+      <pubDate>Mon, 27 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>/project/charlar3/</guid>
+      <description>&lt;p&gt;En esta tercera edición de Charlar con R dimos los primeros pasos en R Markdown. Qué es, para que sirve y algo de lo que se puede hacer de la mano de Jime Saucedo&lt;/p&gt;
+&lt;h3 id=&#34;reviví-la-presentación-en-nuestro-canal-de-youtube&#34;&gt;Reviví la presentación en nuestro canal de youtube:&lt;/h3&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/zENhUzKfCws&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;</description>
+    </item>
+    
+    <item>
+      <title>Trabajar con proyectos en R y cómo organizar nuestro trabajo.</title>
+      <link>/project/charlar1/</link>
+      <pubDate>Mon, 23 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>/project/charlar1/</guid>
+      <description>&lt;p&gt;Este es el primer encuentro de la serie &amp;ldquo;Charlar con R&amp;rdquo;. Esta incluye reuniones virtuales y cortas para compartir trucos y consejos sobre R pero también para hacer sociales y tener un espacio para charlar sobre lo que se nos ocurra.&lt;/p&gt;
+&lt;p&gt;En esta ocasión vamos a charlar sobre como manejar proyectos de R y ordenar nuestro trabajo para no perdernos en un mar de scripts de R.&lt;/p&gt;
+&lt;p&gt;De esta primera edición no se encuentra disponible el video en youtube.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Segunda temporada de meetups de R-Ladies en Buenos Aires</title>
+      <link>/project/primer2018/</link>
+      <pubDate>Sat, 15 Jun 2019 00:00:00 +0000</pubDate>
+      <guid>/project/primer2018/</guid>
+      <description>&lt;p&gt;Abrimos la Segunda Temporada de Meetups con dos charlas espectaculares:&lt;/p&gt;
+&lt;p&gt;Flor D&amp;rsquo;Andrea, ganadora de la beca para asistir a la RStudio::Conf 2018 (&lt;a href=&#34;https://www.rstudio.com/conference/),&#34;&gt;https://www.rstudio.com/conference/),&lt;/a&gt; nos comparte &amp;ldquo;Material y Experiencias de la Rstudio Conf 2018&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;Rayna Harris (de visita por Buenos Aires desde Austin, Texas) nos cuenta su experiencia &amp;ldquo;Usando y Enseñando R para Investigación Reproducible&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;Ambas charlas son aptas para todos los niveles de R. Sos muy nueva con R y aún ni lo instalaste? Vení a conocer a otras R-Ladies que te pueden ayudar! Ambas charlas van a estar repletas de info que te va a ayudar a arrancar con R.&lt;/p&gt;
+&lt;p&gt;Hace años que usás R? Vení a enterarte de las últimas novedades y recursos y a conectarte con otras R-Ladies como vos.&lt;/p&gt;
+&lt;p&gt;No sos ni muy nueva ni súper experta? Te aseguramos que también te vas a llevar un montón de estas dos charlas y del encuentro con otras R-Ladies.&lt;/p&gt;
+&lt;p&gt;Te esperamos en el Auditorio de IBM Argentina que nos recibe generosamente para abrir un 2018 que viene recargado. Nuestro compromiso: te vas a sentir muy cómoda y le vamos a poner la buena onda de siempre. Ah, y de paso también te vamos a contar todas las novedades de R-Ladies este 2018. Nos vemos!&lt;/p&gt;
+&lt;h2 id=&#34;reviví-la-presentación-en-nuestro-canal-de-youtube&#34;&gt;Reviví la presentación en nuestro canal de youtube:&lt;/h2&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/GiLxGgZTr9Q&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

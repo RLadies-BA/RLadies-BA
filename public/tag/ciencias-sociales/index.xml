@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ciencias sociales | RLadies BA</title>
+    <link>/tag/ciencias-sociales/</link>
+      <atom:link href="/tag/ciencias-sociales/index.xml" rel="self" type="application/rss+xml" />
+    <description>Ciencias sociales</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>es</language><lastBuildDate>Wed, 22 Sep 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/icon_hu4b9af3f567e0b0f9e5f99da57ed62ab5_26887_512x512_fill_lanczos_center_2.png</url>
+      <title>Ciencias sociales</title>
+      <link>/tag/ciencias-sociales/</link>
+    </image>
+    
+    <item>
+      <title>Cómo empezaR desde las Ciencias Sociales hacia las Ciencias de Datos</title>
+      <link>/project/comoempezar/</link>
+      <pubDate>Wed, 22 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>/project/comoempezar/</guid>
+      <description>&lt;p&gt;Desde el &lt;a href=&#34;https://www.nucleodeinnovacion.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Núcleo de Innovación Social (NIS)&lt;/strong&gt;&lt;/a&gt; y RLadies Buenos Aires les traemos esta charla con 4 expositorxs egresadxs de carreras vinculadas a las Ciencias Sociales que trabajan en ciencia de datos.&lt;/p&gt;
+&lt;p&gt;Cada unx contará su experiencia de primera mano sobre cómo arrancaron en este tipo de roles, qué trabas tuvieron, qué dificultades enfrentaron, y qué herramientas consideran que les sumaron y que pueden servirle a unx egresadx que quiera inciarse en mundo de la ciencia de datos.&lt;/p&gt;
+&lt;p&gt;Exponen:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Andrea Gómez Vargas (@me_andre) - Socióloga&lt;/li&gt;
+&lt;li&gt;Pedro Orden (@pedroorden) - Sociólogo, investigador y científico de datos.&lt;/li&gt;
+&lt;li&gt;Ramiro Fernández (@ramaol) - Sociólogo y científico de datos&lt;/li&gt;
+&lt;li&gt;María Cristina Nanton (@bynans1) - Comunicadora social y analista de datos&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Coordina:
+Betsy Cohen (@betsy_ar) - Socióloga&lt;/p&gt;
+&lt;h3 id=&#34;reviví-la-presentación-en-youtube&#34;&gt;Reviví la presentación en youtube&lt;/h3&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/isoSCXA2gqo&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;es&#34; dir=&#34;ltr&#34;&gt;Gracias a todes les que asistieron a Cómo empezaR de &lt;a href=&#34;https://twitter.com/hashtag/rladies?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#rladies&lt;/a&gt; y el NIS! Son todes parte de esta comunidad &lt;a href=&#34;https://twitter.com/hashtag/RStats?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#RStats&lt;/a&gt; &lt;br&gt;&lt;br&gt;Acá toda la alegría del team organizador :D&lt;a href=&#34;https://twitter.com/bynans1?ref_src=twsrc%5Etfw&#34;&gt;@bynans1&lt;/a&gt; &lt;a href=&#34;https://twitter.com/JesiFormoso?ref_src=twsrc%5Etfw&#34;&gt;@JesiFormoso&lt;/a&gt; &lt;a href=&#34;https://twitter.com/MonicaLA2000?ref_src=twsrc%5Etfw&#34;&gt;@MonicaLA2000&lt;/a&gt; &lt;a href=&#34;https://twitter.com/pmnatural?ref_src=twsrc%5Etfw&#34;&gt;@pmnatural&lt;/a&gt; &lt;a href=&#34;https://twitter.com/VA_GarciaAlonso?ref_src=twsrc%5Etfw&#34;&gt;@VA_GarciaAlonso&lt;/a&gt; &lt;a href=&#34;https://twitter.com/me_andre?ref_src=twsrc%5Etfw&#34;&gt;@me_andre&lt;/a&gt; &lt;a href=&#34;https://twitter.com/pedroorden?ref_src=twsrc%5Etfw&#34;&gt;@pedroorden&lt;/a&gt; &lt;a href=&#34;https://twitter.com/ramaol?ref_src=twsrc%5Etfw&#34;&gt;@ramaol&lt;/a&gt; &lt;a href=&#34;https://twitter.com/betsy_ar?ref_src=twsrc%5Etfw&#34;&gt;@betsy_ar&lt;/a&gt; &lt;a href=&#34;https://t.co/OFsqI8Ii5d&#34;&gt;pic.twitter.com/OFsqI8Ii5d&lt;/a&gt;&lt;/p&gt;&amp;mdash; R-Ladies BuenosAires (@RLadiesBA) &lt;a href=&#34;https://twitter.com/RLadiesBA/status/1440821762204127234?ref_src=twsrc%5Etfw&#34;&gt;September 22, 2021&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Social Network con politicxsentwitteR</title>
+      <link>/project/politicxsentwitter/</link>
+      <pubDate>Wed, 25 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>/project/politicxsentwitter/</guid>
+      <description>&lt;p&gt;Nos visita la politóloga &lt;a href=&#34;https://github.com/Guadag12&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Guadalupe González&lt;/strong&gt;&lt;/a&gt; para presentar su paquete &lt;a href=&#34;https://oderedes.shinyapps.io/politicosentwitter/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;politicxsentwitteR&lt;/a&gt;. Con este paquete podrás obtener las publicaciones de politicxs argentinxs en Twitter y desarrollar proyectos de procesamiento del lenguaje natural, análisis de redes y visualización de datos.
+Guadalupe va a contarnos cómo desarrolló el paquete, sus características, y de qué maneras podemos analizar sus datos con las librerías de R igraph y visNetwork.&lt;/p&gt;
+&lt;p&gt;Si venís de las Ciencias Sociales (o no), querés profundizar en análisis de redes o te interesa el análisis de Twitter como fuente de información, este meetup es para vos.&lt;/p&gt;
+&lt;h3 id=&#34;reviví-la-presentación-en-youtube&#34;&gt;Reviví la presentación en youtube&lt;/h3&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/BSU82auREmw&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;es&#34; dir=&#34;ltr&#34;&gt;Gracias a todes a les que asistieron al meet sobre &lt;a href=&#34;https://twitter.com/hashtag/Politicxsentwitter?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#Politicxsentwitter&lt;/a&gt; y en especial a &lt;a href=&#34;https://twitter.com/guadag12?ref_src=twsrc%5Etfw&#34;&gt;@guadag12&lt;/a&gt; por todo lo que nos enseñó! 💜😁&lt;a href=&#34;https://twitter.com/hashtag/rladies?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#rladies&lt;/a&gt; &lt;a href=&#34;https://t.co/cXYP5od9DL&#34;&gt;pic.twitter.com/cXYP5od9DL&lt;/a&gt;&lt;/p&gt;&amp;mdash; R-Ladies BuenosAires (@RLadiesBA) &lt;a href=&#34;https://twitter.com/RLadiesBA/status/1430679100860080128?ref_src=twsrc%5Etfw&#34;&gt;August 25, 2021&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;</description>
+    </item>
+    
+    <item>
+      <title>Taller &#34;R desde cero&#34; &#43; Charla &#34;Indicadores de desigualdad de género&#34;</title>
+      <link>/project/rdesde0/</link>
+      <pubDate>Sat, 15 Jun 2019 00:00:00 +0000</pubDate>
+      <guid>/project/rdesde0/</guid>
+      <description>&lt;p&gt;Felices de anunciar el próximo meetup el sábado 19 de mayo en EANT.&lt;/p&gt;
+&lt;p&gt;Les proponemos un grupo de oradoras de lujo: Priscilla Minotti y Fabiana Flores presentan un taller inicial &amp;ldquo;R desde cero&amp;rdquo; para todxs aquellxs que quieran empezar a aprender R o formalizar un poco más sus conocimientos sobre este lenguaje. Si tenes ganas de meter mano no te olvides de traer tu laptop.&lt;/p&gt;
+&lt;p&gt;Luego Natsumi Shokida (@NatsuSh), casi-Economista, analista de datos y metodologías sobre Pobreza e Ingresos en EPH-INDEC y colaboradora en Economía Femini(s)ta nos contará sobre el trabajo que está realizando llamado &amp;ldquo;Indicadores de desigualdad de género con datos abiertos de la Encuesta Permanente de Hogares&amp;rdquo; a partir de bases de datos abiertas del INDEC (disponible en &lt;a href=&#34;http://rpubs.com/natsumi_shokida/desigualdad_genero_EPH_3trim_2017&#34;&gt;http://rpubs.com/natsumi_shokida/desigualdad_genero_EPH_3trim_2017&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;Como siempre nuestras actividades son gratuitas.
+¡No te lo pierdas! ¡Te esperamos!&lt;/p&gt;
+&lt;p&gt;Es muy importante que des RSVP únicamente si podés asistir porque los lugares son limitados. Si confirmás asistencia pero luego no podés asistir, te pedimos por favor que dejes tu lugar disponible para otra persona.&lt;/p&gt;
+&lt;p&gt;Si no podés asistir, el día de la reunión anunciaremos el acceso al streaming del evento.&lt;/p&gt;
+&lt;p&gt;Cualquier consulta que tengas, la vemos por acá, por el Slack (si sos mujer y aún no tenés acceso al Slack, enviános un mail a &lt;a href=&#34;mailto:buenosaires@rladies.org&#34;&gt;buenosaires@rladies.org&lt;/a&gt;), o desde las 15:30 hs el sábado 19/05.&lt;/p&gt;
+&lt;p&gt;Queremos agradecerle a EANT (&lt;a href=&#34;http://eant.tech/home&#34;&gt;http://eant.tech/home&lt;/a&gt;) por recibirnos nuevamente en sus aulas.&lt;/p&gt;
+&lt;p&gt;EANT (&lt;a href=&#34;http://eant.tech/home&#34;&gt;http://eant.tech/home&lt;/a&gt;) es una organización de escuelas especializadas en técnicas y tecnología digital reunidas para formar, entrenar y sinergizar a una nueva generación de desarrolladores digitales especialmente preparada para llevar la fuerza de la innovación a todos los ámbitos de la sociedad.&lt;/p&gt;
+&lt;p&gt;Nos vemos pronto, arrancamos puntual!&lt;/p&gt;
+&lt;h2 id=&#34;reviví-la-presentación-en-nuestro-canal-de-youtube&#34;&gt;Reviví la presentación en nuestro canal de youtube:&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=5E07JNr32Ek&amp;amp;ab_channel=RLadiesBuenosAires&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;span style=&#34;font-weight:bold;&#34;&gt;R desde 0&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=XIGcMjz1VxE&amp;amp;ab_channel=RLadiesBuenosAires&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;span style=&#34;font-weight:bold;&#34;&gt;R desde 0&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

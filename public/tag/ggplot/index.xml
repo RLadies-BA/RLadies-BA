@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ggplot | RLadies BA</title>
+    <link>/tag/ggplot/</link>
+      <atom:link href="/tag/ggplot/index.xml" rel="self" type="application/rss+xml" />
+    <description>ggplot</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>es</language><lastBuildDate>Thu, 04 Nov 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/icon_hu4b9af3f567e0b0f9e5f99da57ed62ab5_26887_512x512_fill_lanczos_center_2.png</url>
+      <title>ggplot</title>
+      <link>/tag/ggplot/</link>
+    </image>
+    
+    <item>
+      <title>Gg&#43; paquetes para extender las capacidades de ggplot2</title>
+      <link>/project/gg&#43;/</link>
+      <pubDate>Thu, 04 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>/project/gg&#43;/</guid>
+      <description>&lt;p&gt;Los capítulos de R-Ladies Buenos Aires y R-Ladies Resistencia-Corrientes les traemos el tutorial &amp;ldquo;gg+ : paquetes para extender las capacidades de ggplot2&amp;rdquo; a cargo de &lt;a href=&#34;https://luisdva.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Luis Verde (@LuisDVerde)&lt;/a&gt;. Este taller es parte de los tutoriales de &lt;a href=&#34;https://latin-r.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;LatinR 2021&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Si sos fan de ggplot2 y querés conocer como extender sus funcionalidades o si estás buscando visualizar datos de forma eficiente y llamativa, ¡este tutorial es para vos!.&lt;/p&gt;
+&lt;p&gt;Luis va a mostrarnos distintos paquetes que se suman a ggplot2 para incorporar nuevas paletas de colores, representaciones gráficas y capas (geoms), y herramientas para acomodar y rotular elementos gráficos.&lt;/p&gt;
+&lt;p&gt;Requisitos:
+Para aprovechar el tutorial al máximo, instalá previamente los paquetes dplyr, ggalt, ggridges, ggforce, patchwork, ggnewscale, scico, gghighlight, ggrepel, ggeasy, ggfx y ggh4x.&lt;/p&gt;
+&lt;h3 id=&#34;reviví-la-presentación-en-youtube&#34;&gt;Reviví la presentación en youtube&lt;/h3&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/R0Sj0qz3o4g&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;</description>
+    </item>
+    
+    <item>
+      <title>Taller de visualización con R, charlas y arranque del año</title>
+      <link>/project/visualizacion/</link>
+      <pubDate>Sat, 06 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>/project/visualizacion/</guid>
+      <description>&lt;p&gt;¡Primer encuentro de 2019!&lt;/p&gt;
+&lt;p&gt;Arrancamos el año con un Taller de visualización con R a cargo de Romi Méndez. El taller va a estar orientado a personas con un nivel inicial o intermedio para agarrarle la vuelta a ggplot2 y aprender un par de trucos.
+Si tenés ganas podés revisar uno de nuestros primeros encuentros sobre R para Ciencia de datos donde vimos algunas cosas relacionadas con este tema (&lt;a href=&#34;https://github.com/rladies/meetup-presentations_buenosaires/blob/master/README.md)para&#34;&gt;https://github.com/rladies/meetup-presentations_buenosaires/blob/master/README.md)para&lt;/a&gt; ir al git de las presentaciones).&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Aplicaciones intermedias y avanzadas de R</title>
+      <link>/project/aplicacionesr/</link>
+      <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
+      <guid>/project/aplicacionesr/</guid>
+      <description>&lt;h2 id=&#34;tercer-encuentro-parte-ii&#34;&gt;Tercer encuentro parte II&lt;/h2&gt;
+&lt;p&gt;Las charlas del evento:&lt;/p&gt;
+&lt;p&gt;• R y radares, muchos datos y algunos resultados. Presentado por Paola Corrales, estudiante de Ciencias de la Atmósfera con tesis en proceso&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;geom_arrow 😍 a ggplot layer &lt;a href=&#34;https://twitter.com/PaobCorrales?ref_src=twsrc%5Etfw&#34;&gt;@PaobCorrales&lt;/a&gt; &amp;amp; her favorite ally created to plot wind direction using arrows in ggplot &lt;a href=&#34;https://twitter.com/hashtag/rstats?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#rstats&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/rladies?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#rladies&lt;/a&gt; 💜 &lt;a href=&#34;https://t.co/XpDQFVdG36&#34;&gt;pic.twitter.com/XpDQFVdG36&lt;/a&gt;&lt;/p&gt;&amp;mdash; R-Ladies BuenosAires (@RLadiesBA) &lt;a href=&#34;https://twitter.com/RLadiesBA/status/881266699424731136?ref_src=twsrc%5Etfw&#34;&gt;July 1, 2017&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;p&gt;• Entender haciendo: Arriesgando código para descomponer papers de trabajo o estudio. Presentado por Gabriela Plantie, Data Mining Analyst de Riesgo de Crédito y Financiero&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;es&#34; dir=&#34;ltr&#34;&gt;Ya cerrando nuestro tercer &lt;a href=&#34;https://twitter.com/hashtag/meetup?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#meetup&lt;/a&gt; con aplicaciones para datos de la vida real en predicciones financieras por &lt;a href=&#34;https://twitter.com/gabyplantie?ref_src=twsrc%5Etfw&#34;&gt;@gabyplantie&lt;/a&gt; 💪💜👏 &lt;a href=&#34;https://twitter.com/hashtag/rladies?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#rladies&lt;/a&gt; &lt;a href=&#34;https://t.co/7bELyBe51v&#34;&gt;pic.twitter.com/7bELyBe51v&lt;/a&gt;&lt;/p&gt;&amp;mdash; R-Ladies BuenosAires (@RLadiesBA) &lt;a href=&#34;https://twitter.com/RLadiesBA/status/881269497616887808?ref_src=twsrc%5Etfw&#34;&gt;July 1, 2017&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Taller de R para Ciencia de Datos (Parte II)</title>
+      <link>/project/rycienciadedatos2/</link>
+      <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
+      <guid>/project/rycienciadedatos2/</guid>
+      <description>&lt;h2 id=&#34;tercer-encuentro&#34;&gt;Tercer encuentro&lt;/h2&gt;
+&lt;iframe src=&#34;https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FRladiesBA%2Fphotos%2Fa.561943970862087%2F561943807528770%2F%3Ftype%3D3%26av%3D457704507952701%26eav%3DAfY1Hk5MT5zV_lHfG67Jzu096Tds0sVQQ6Uvkt_o0h-QhPcE9m0KCUkwQKXy3UdD3cw&amp;show_text=true&amp;width=500&#34; width=&#34;500&#34; height=&#34;281&#34; style=&#34;border:none;overflow:hidden&#34; scrolling=&#34;no&#34; frameborder=&#34;0&#34; allowfullscreen=&#34;true&#34; allow=&#34;autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share&#34;&gt;&lt;/iframe&gt;
+&lt;iframe src=&#34;https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FRladiesBA%2Fphotos%2Fa.561943970862087%2F561943860862098%2F%3Ftype%3D3%26av%3D457704507952701%26eav%3DAfYfDeglOte_TF5igT0_KyoOo_LpLoDx1PVspFQyHa4AIfzs_svIZbN9gr2bbwGDx14&amp;show_text=true&amp;width=500&#34; width=&#34;500&#34; height=&#34;281&#34; style=&#34;border:none;overflow:hidden&#34; scrolling=&#34;no&#34; frameborder=&#34;0&#34; allowfullscreen=&#34;true&#34; allow=&#34;autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share&#34;&gt;&lt;/iframe&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Taller de R para Ciencia de Datos Parte I</title>
+      <link>/project/rycienciadedatos/</link>
+      <pubDate>Sat, 27 May 2017 00:00:00 +0000</pubDate>
+      <guid>/project/rycienciadedatos/</guid>
+      <description>&lt;h2 id=&#34;segundo-encuentro&#34;&gt;Segundo encuentro&lt;/h2&gt;
+&lt;p&gt;En esta ocasión el taller de Ciencia de Datos fue brindando por Laura Acion y el taller de Estructuras de Datos Geográficos y Espaciales en R  a cargo de Priscilla Minotti.&lt;/p&gt;
+&lt;iframe src=&#34;https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FRladiesBA%2Fphotos%2Fa.463088637414288%2F538422353214249%2F%3Ftype%3D3%26av%3D457704507952701%26eav%3DAfae9qZ_fokt769D1h0TYna5ontAAgvDHoJ-t58k44-QcKiXtYv4PkIjm-lX7rW8xLs&amp;show_text=true&amp;width=500&#34; width=&#34;500&#34; height=&#34;372&#34; style=&#34;border:none;overflow:hidden&#34; scrolling=&#34;no&#34; frameborder=&#34;0&#34; allowfullscreen=&#34;true&#34; allow=&#34;autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share&#34;&gt;&lt;/iframe&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;&lt;a href=&#34;https://twitter.com/hashtag/Rladies?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#Rladies&lt;/a&gt; ready to rock! &lt;a href=&#34;https://t.co/Md5zEXt35R&#34;&gt;pic.twitter.com/Md5zEXt35R&lt;/a&gt;&lt;/p&gt;&amp;mdash; R-Ladies BuenosAires (@RLadiesBA) &lt;a href=&#34;https://twitter.com/RLadiesBA/status/868540978717749248?ref_src=twsrc%5Etfw&#34;&gt;May 27, 2017&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;es&#34; dir=&#34;ltr&#34;&gt;En nuestro meetup! Datos Geográficos en R con &lt;a href=&#34;https://twitter.com/pmnatural?ref_src=twsrc%5Etfw&#34;&gt;@pmnatural&lt;/a&gt;!! &lt;a href=&#34;https://twitter.com/hashtag/rladies?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#rladies&lt;/a&gt; 💜💜 &lt;a href=&#34;https://t.co/NJDhYaSbdU&#34;&gt;pic.twitter.com/NJDhYaSbdU&lt;/a&gt;&lt;/p&gt;&amp;mdash; R-Ladies BuenosAires (@RLadiesBA) &lt;a href=&#34;https://twitter.com/RLadiesBA/status/868560413646102528?ref_src=twsrc%5Etfw&#34;&gt;May 27, 2017&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

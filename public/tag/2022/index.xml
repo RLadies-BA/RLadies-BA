@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2022 | RLadies BA</title>
+    <link>/tag/2022/</link>
+      <atom:link href="/tag/2022/index.xml" rel="self" type="application/rss+xml" />
+    <description>2022</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>es</language><lastBuildDate>Sat, 12 Mar 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/icon_hu4b9af3f567e0b0f9e5f99da57ed62ab5_26887_512x512_fill_lanczos_center_2.png</url>
+      <title>2022</title>
+      <link>/tag/2022/</link>
+    </image>
+    
+    <item>
+      <title>Cumplimos 5 años</title>
+      <link>/project/cumple5/</link>
+      <pubDate>Sat, 12 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>/project/cumple5/</guid>
+      <description>&lt;p&gt;Estamos muy contentas de todo este camino recorrido juntas.
+Compartimos aprendizaje, nos ayudamos entre todes, enfrentamos dudas, aportamos conocimiento y soluciones con este lenguaje R que nos une para nuevas iniciativas o problemas del dia a dia. Y tambien vivimos lo que es sororidad, nos acompañamos en el festejo y en el &amp;ldquo;estoy furiosa&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;Es tiempo de festejar y de volvernos encontrar presencialmente.&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;es&#34; dir=&#34;ltr&#34;&gt;Hay comunidad &lt;a href=&#34;https://twitter.com/hashtag/Rladies?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#Rladies&lt;/a&gt; 🥳💜💜💜 &lt;a href=&#34;https://t.co/DCtqAeqsD6&#34;&gt;pic.twitter.com/DCtqAeqsD6&lt;/a&gt;&lt;/p&gt;&amp;mdash; R-Ladies BuenosAires (@RLadiesBA) &lt;a href=&#34;https://twitter.com/RLadiesBA/status/1502763807000735759?ref_src=twsrc%5Etfw&#34;&gt;March 12, 2022&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt; </description>
+    </item>
+    
+    <item>
+      <title>Generando tutoriales interactivos con el paquete learnr</title>
+      <link>/project/learnr2022/</link>
+      <pubDate>Sat, 12 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>/project/learnr2022/</guid>
+      <description>&lt;p&gt;¡Te invitamos a un nuevo meetup!&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;Generando tutoriales interactivos con el paquete learnr &amp;quot;
+Será el miércoles 11 de mayo de 2022, organizado por MetaDocencia &amp;amp; R-Ladies Buenos Aires de la mano de nuestras entrañables Yanina Bellini y Pao Corrales.&lt;/p&gt;
+&lt;p&gt;Este mensaje tiene información importante para ayudar a prepararte para el curso. Leelo detenidamente y avisanos si tenés alguna pregunta.&lt;/p&gt;
+&lt;p&gt;Requisitos:
+Necesitás una computadora con conexión a internet, parlantes y micrófono (o auriculares con micrófono o combinación similar). No hace falta que tengas cámara, aunque si la tenés, podés usarla.
+Además, necesitamos que tengas instalado R, RStudio y los paquetes: rmarkdown, datos y learnr.&lt;/p&gt;
+&lt;p&gt;Al participar de nuestros cursos aceptás este Código de Conducta.&lt;/p&gt;
+&lt;p&gt;IMPORTANTE
+Para participar seleccioná &amp;ldquo;Asistiré&amp;rdquo; en este evento y asegurate de tener instalado Zoom en tu computadora (&lt;a href=&#34;https://zoom.us/download)&#34;&gt;https://zoom.us/download)&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Por razones de seguridad no compartiremos el link para ingresar a Zoom de manera pública. El mismo día del evento a las 13 hs enviaremos un mail a través de Meetup a todas las personas que confirmaron asistencia con el link para que puedas unirte a la videollamada.&lt;/p&gt;
+&lt;p&gt;También por la seguridad de la reunión, es muy importante que ingreses con un nombre similar al que usaste cuando te pre-inscribiste. Tu ingreso será más rápido si lo hacés así y no tenemos que hacerte esperar hasta chequear tu identidad.
+Si llegás luego de la hora de comienzo, tendrás que esperar a que autoricemos tu ingreso. Lo haremos lo antes que podamos sin interrumpir el curso en marcha.&lt;/p&gt;
+&lt;p&gt;Si tenés alguna pregunta sobre el taller, la modalidad, o cualquier otra cosa, no dudes en ponerte en contacto.&lt;/p&gt;
+&lt;p&gt;¡Nos vemos en el curso!
+Metadocencia y RLadies Buenos Aires&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

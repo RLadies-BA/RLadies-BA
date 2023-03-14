@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2020 | RLadies BA</title>
+    <link>/tag/2020/</link>
+      <atom:link href="/tag/2020/index.xml" rel="self" type="application/rss+xml" />
+    <description>2020</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>es</language><lastBuildDate>Mon, 07 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/icon_hu4b9af3f567e0b0f9e5f99da57ed62ab5_26887_512x512_fill_lanczos_center_2.png</url>
+      <title>2020</title>
+      <link>/tag/2020/</link>
+    </image>
+    
+    <item>
+      <title>CieRre de año!</title>
+      <link>/project/cierredeano/</link>
+      <pubDate>Mon, 07 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>/project/cierredeano/</guid>
+      <description>&lt;p&gt;¡Se viene el último meetup del año y estamos felices porque lo co-organizamos en conjunto entre los capítulos de Bariloche, Mendoza, Córdoba, Santa Rosa, Ushuaia y Resistencia-Corrientes!&lt;/p&gt;
+&lt;p&gt;Vamos a aprovechar este último encuentro para repasar lo que hicimos durante este año tan particular. ¡Queremos celebrar el habernos encontrado a distancia con muchísimas personas que forman parte de la comunidad R en Argentina, Latinoamérica y el mundo! Si te perdiste algún meetup durante el año, aprovechá para ponerte al día sobre lo que hicimos, videos y materiales que generamos!&lt;/p&gt;
+&lt;p&gt;¡También habrá código de R! Ana Laura Diedrichs de R-Ladies Mendoza nos contará sobre Tidymodels&lt;/p&gt;
+&lt;p&gt;Si te interesa machine learning o ya lo venís usando, {tidymodels} es un conjunto de paquetes que puede ayudarte en tu experimento de aprendizaje automático supervisado. Así sea clasificar imágenes o predecir el precio en el mercado inmobiliario, puedes usar este paquete desde R para implementar tus modelos de aprendizaje automático: desde dejar volar la cabeza con redes neuronales, hasta acampar en bosques aleatorios. {tidymodels} permite implementar un flujo de trabajo ordenado para el entrenamiento y evaluación de tus modelos.&lt;/p&gt;
+&lt;p&gt;La charla se titula: “Un tour por tidymodels” y mostraremos algunos ejemplos en código. Está dirigida a quienes:&lt;/p&gt;
+&lt;p&gt;Conocen sobre ML (machine learning) y están buscando una librería para usar.
+Han usado caret u otras librerías de ML en R.
+Usan ML en otros lenguajes y quieren saber de las librerías en R.
+Quieren entender el ecosistema de {tidymodels}.
+O son personas curiosas y quieren tener un vistazo de {tidymodels} y de qué trata.&lt;/p&gt;
+&lt;h3 id=&#34;reviví-la-presentación-en-nuestro-canal-de-youtube&#34;&gt;Reviví la presentación en nuestro canal de youtube:&lt;/h3&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/o38PVdS3k_Q&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;</description>
+    </item>
+    
+    <item>
+      <title>Reproducibilidad en R</title>
+      <link>/project/charlar8/</link>
+      <pubDate>Wed, 02 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>/project/charlar8/</guid>
+      <description>&lt;p&gt;¿Basta con dejar disponible el código y las bases de datos de tu trabajo para que otra persona (o tu yo del futuro) pueda volver a correrlo sin problemas?&lt;/p&gt;
+&lt;p&gt;Las herramientas y prácticas que mejoran la reproducibilidad computacional no siempre se abordan en los cursos de programación. Algunas forman parte de “eso que se olvidaron de enseñarte de R”: control de versiones, sistemas de administración de dependencias, programación literaria, entre otras.&lt;/p&gt;
+&lt;p&gt;En este meetup de R-Ladies Buenos Aires, Florencia D’Andrea nos brinda un panorama de por qué es interesante abordar el tema de la reproducibilidad, publiques o no artículos científicos. Además presentamos la hackatón de reproducibilidad científica (reproHack) que tuvo lugar como parte de la edición virtual de LatinR 2020.&lt;/p&gt;
+&lt;h3 id=&#34;reviví-la-presentación-en-nuestro-canal-de-youtube&#34;&gt;Reviví la presentación en nuestro canal de youtube:&lt;/h3&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/-7G7tlmB2Ts&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Taller de dplyr</title>
+      <link>/project/charlar7/</link>
+      <pubDate>Wed, 05 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>/project/charlar7/</guid>
+      <description>&lt;p&gt;En este encuentro vamos a aprender a manipular nuestros datos tabulares en R con uno de los paquetes de tidyverse más usados: dplyr.&lt;/p&gt;
+&lt;h3 id=&#34;reviví-la-presentación-en-nuestro-canal-de-youtube&#34;&gt;Reviví la presentación en nuestro canal de youtube:&lt;/h3&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/FefLBPTTHzw&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Modelado predictivo con texto utilizando principios de datos tidy - useR! 2020</title>
+      <link>/project/predictivemodeling/</link>
+      <pubDate>Fri, 24 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>/project/predictivemodeling/</guid>
+      <description>&lt;p&gt;Los capítulos de R-Ladies en Argentina estamos felices de anunciar que Emil Hvitfeldt y Julia Silge se unirán a nosotras para traernos su tutorial &amp;ldquo;Predictive modeling with text using tidy data principles&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;¿Alguna vez encontraste datos de texto y sospechaste que había información útil en esos datos?, ¿ Te sentiste con frustración al intentan ver cómo encontrar esa información? ¿Estás familiarizade con los conceptos básicos del modelado predictivo y estás liste para aprender cómo se pueden usar los datos de texto no estructurados para la predicción dentro de los ecosistemas tidyverse y tidymodels?&lt;/p&gt;
+&lt;p&gt;¿Necesitas un marco flexible para manejar datos de texto que te permitan construir modelos predictivos supervisados?
+Los datos de texto son cada vez más importantes en muchos dominios, y los principios de tidymodels se pueden aplicar a las tareas de procesamiento del lenguaje natural. Esta presentación está diseñada para proporcionar orientación práctica y conocimiento directamente aplicable para científiques de datos y analistas que desean integrar texto en sus proyectos de modelado.&lt;/p&gt;
+&lt;p&gt;En este tutorial de 90 minutos, aprende a preprocesar datos de texto para modelar, entrenar modelos y evaluar el rendimiento del modelo. Usaremos diapositivas y codificación en vivo durante el tutorial para recorrer un estudio de caso realista. El tutorial se transmitirá, grabará y tendrá subtítulos en inglés. También habrá materiales de apoyo y código en GitHub para que puedas trabajar después.&lt;/p&gt;
+&lt;p&gt;El tutorial está pensando para personas con familiaridad intermedia con R, RStudio, conceptos básicos de modelos de regresión y clasificación y paquetes de tidyverse como dplyr y ggplot2.&lt;/p&gt;
+&lt;h3 id=&#34;reviví-la-presentación-en-el-canal-de-youtube-de-user&#34;&gt;Reviví la presentación en el canal de youtube de useR&lt;/h3&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/Sz8RB_fPYOk&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;</description>
+    </item>
+    
+    <item>
+      <title>Cómo hacer una reunión virtual inolvidable (sin morir en el intento)</title>
+      <link>/project/reunionvirtual/</link>
+      <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>/project/reunionvirtual/</guid>
+      <description>&lt;p&gt;En este meetup te contaremos algunos trucos y herramientas para que cualquier evento virtual interactivo (por ejemplo, clase, taller o panel online) sea un éxito sin estrés adicional al hacerlo. Si organizas meetups de R-Ladies, encontrarás dónde y cómo acceder a la infraestructura que te permitirá organizar meetups online para tu capítulo. Si no organizas meetups de R-Ladies, también encontrarás material útil para todo tipo de evento online que organices o del que participes.&lt;/p&gt;
+&lt;p&gt;Estos contenidos nos los traen R-Ladies latinoamericanas, en su mayoría certificadas para enseñar por RStudio Education y The Carpentries. La mayoría también es parte de MetaDocencia, una organización que desde fines de marzo realizó más de 25 talleres interactivos enseñando a enseñar online a más de 300 docentes hispanohablantes con excelentes resultados. Todas tienen vasta experiencia teletrabajando y enseñando online.&lt;/p&gt;
+&lt;p&gt;Oradoras: Yanina Bellini Saibene y Paola Corrales.&lt;/p&gt;
+&lt;p&gt;Organizan: Laura Ación, Yanina Bellini Saibene, Paola Corrales, Patricia Loto y Paloma Rojas&lt;/p&gt;
+&lt;h3 id=&#34;reviví-la-presentación-en-el-canal-de-youtube-de-rladies-global&#34;&gt;Reviví la presentación en el canal de youtube de Rladies Global&lt;/h3&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/lZICjcX7O0U&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Leyendo datos ordenados con Tidyverse</title>
+      <link>/project/charlar6/</link>
+      <pubDate>Tue, 23 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>/project/charlar6/</guid>
+      <description>&lt;p&gt;Este meetup es parte de la serie &amp;ldquo;Charlar con R&amp;rdquo;. Esta vez vamos a aprender qué son los datos ordenados y como importar datos tabulares a R con tidyverse.&lt;/p&gt;
+&lt;h3 id=&#34;reviví-la-presentación-en-nuestro-canal-de-youtube&#34;&gt;Reviví la presentación en nuestro canal de youtube:&lt;/h3&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/v39DeY0IDI0&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Visualizando datos - especial</title>
+      <link>/project/charlar5/</link>
+      <pubDate>Tue, 02 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>/project/charlar5/</guid>
+      <description>&lt;p&gt;Este meetup es parte de la serie &amp;ldquo;Charlar con R&amp;rdquo;. María Nanton nos va a mostrar como visulializar datos usando ggplot y en particular vamos a trabajar con datos textuales para sumarnos al #30diasdegraficos organizado por la comunidad hispano hablante de R.&lt;/p&gt;
+&lt;h3 id=&#34;reviví-la-presentación-en-nuestro-canal-de-youtube&#34;&gt;Reviví la presentación en nuestro canal de youtube:&lt;/h3&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/WXp1T9JEIRM&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;</description>
+    </item>
+    
+    <item>
+      <title>Primeros pasos en git</title>
+      <link>/project/charlar4/</link>
+      <pubDate>Mon, 18 May 2020 00:00:00 +0000</pubDate>
+      <guid>/project/charlar4/</guid>
+      <description>&lt;p&gt;En este meetup, junto con Rladies Santa Rosa y Rladies General Pico,  daremos los primeros pasos en git. Qué es, para que sirve y como lo utilizamos desde RStudio.&lt;/p&gt;
+&lt;p&gt;Las oradoras fueron Yanina Bellini Saibene de Santa Rosa y Marysol Gatti de General Pico. Y si querés revisar los materiales, por acá: &lt;a href=&#34;https://yabellini.netlify.app/es/post/githubconr/&#34;&gt;https://yabellini.netlify.app/es/post/githubconr/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;reviví-la-presentación-en-nuestro-canal-de-youtube&#34;&gt;Reviví la presentación en nuestro canal de youtube:&lt;/h3&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/33pZ9dtc-Co&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;</description>
+    </item>
+    
+    <item>
+      <title>Primeros pasos en RMarkdown</title>
+      <link>/project/charlar3/</link>
+      <pubDate>Mon, 27 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>/project/charlar3/</guid>
+      <description>&lt;p&gt;En esta tercera edición de Charlar con R dimos los primeros pasos en R Markdown. Qué es, para que sirve y algo de lo que se puede hacer de la mano de Jime Saucedo&lt;/p&gt;
+&lt;h3 id=&#34;reviví-la-presentación-en-nuestro-canal-de-youtube&#34;&gt;Reviví la presentación en nuestro canal de youtube:&lt;/h3&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/zENhUzKfCws&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;</description>
+    </item>
+    
+    <item>
+      <title>Primeros pasos en RStudio</title>
+      <link>/project/charlar2/</link>
+      <pubDate>Mon, 06 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>/project/charlar2/</guid>
+      <description>&lt;p&gt;Vamos a charlar sobre RStudio, veremos trucos y consejos para trabajar en este IDE que nos da tantas facilidades! Acordate, tenelo ya instalado!&lt;/p&gt;
+&lt;h3 id=&#34;reviví-la-presentación-en-nuestro-canal-de-youtube&#34;&gt;Reviví la presentación en nuestro canal de youtube:&lt;/h3&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/BN1j2TReP2Q&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;</description>
+    </item>
+    
+    <item>
+      <title>Trabajar con proyectos en R y cómo organizar nuestro trabajo.</title>
+      <link>/project/charlar1/</link>
+      <pubDate>Mon, 23 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>/project/charlar1/</guid>
+      <description>&lt;p&gt;Este es el primer encuentro de la serie &amp;ldquo;Charlar con R&amp;rdquo;. Esta incluye reuniones virtuales y cortas para compartir trucos y consejos sobre R pero también para hacer sociales y tener un espacio para charlar sobre lo que se nos ocurra.&lt;/p&gt;
+&lt;p&gt;En esta ocasión vamos a charlar sobre como manejar proyectos de R y ordenar nuestro trabajo para no perdernos en un mar de scripts de R.&lt;/p&gt;
+&lt;p&gt;De esta primera edición no se encuentra disponible el video en youtube.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>¡Watchparty de la RStudio::conf 2020!</title>
+      <link>/project/rstudioconf/</link>
+      <pubDate>Wed, 29 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/project/rstudioconf/</guid>
+      <description>&lt;p&gt;Con la excusa de ver el comienzo de la RStudio::conf 2020, muchos regalitos y unas tremendas medialunas arrancamos tremprano el año junto a R en Baires.&lt;/p&gt;
+&lt;p&gt;Nos juntamos a ver las charlas plenarias de la RStudio::conf de manera remota gracias a la magia del streaming. Además, participamos de un pre-evento junto a otras comunidades alrededor del mundo para charlar y hacer preguntas a oradores y oradoras en San Francisco!&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;es&#34; dir=&#34;ltr&#34;&gt;Faltan algunes pero miren que lindas comunidades tenemos &lt;a href=&#34;https://twitter.com/RLadiesBA?ref_src=twsrc%5Etfw&#34;&gt;@RLadiesBA&lt;/a&gt; &lt;a href=&#34;https://twitter.com/renbaires?ref_src=twsrc%5Etfw&#34;&gt;@renbaires&lt;/a&gt; 💜💜💜 &lt;a href=&#34;https://t.co/EdUTu1W3xK&#34;&gt;pic.twitter.com/EdUTu1W3xK&lt;/a&gt;&lt;/p&gt;&amp;mdash; R-Ladies BuenosAires (@RLadiesBA) &lt;a href=&#34;https://twitter.com/RLadiesBA/status/1222602889308274688?ref_src=twsrc%5Etfw&#34;&gt;January 29, 2020&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;es&#34; dir=&#34;ltr&#34;&gt;Gracias a &lt;a href=&#34;https://twitter.com/ccdelaciencia?ref_src=twsrc%5Etfw&#34;&gt;@ccdelaciencia&lt;/a&gt; por recibirnos y a &lt;a href=&#34;https://twitter.com/rstudio?ref_src=twsrc%5Etfw&#34;&gt;@rstudio&lt;/a&gt; por los regalitos!! &lt;br&gt;&lt;br&gt;Y miren el hexágono exclusivo de la watchparty Buenos Aires!! Es un imán 😱😱😱 &lt;a href=&#34;https://t.co/0ucJdNVU6e&#34;&gt;pic.twitter.com/0ucJdNVU6e&lt;/a&gt;&lt;/p&gt;&amp;mdash; R-Ladies BuenosAires (@RLadiesBA) &lt;a href=&#34;https://twitter.com/RLadiesBA/status/1222563262266474496?ref_src=twsrc%5Etfw&#34;&gt;January 29, 2020&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;es&#34; dir=&#34;ltr&#34;&gt;Los regalitos ya tienen dueños y dueñas!!! 🎁🎁&lt;a href=&#34;https://twitter.com/hashtag/rstudioconf2020?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#rstudioconf2020&lt;/a&gt; &lt;a href=&#34;https://t.co/yhVaTzqX4R&#34;&gt;pic.twitter.com/yhVaTzqX4R&lt;/a&gt;&lt;/p&gt;&amp;mdash; R-Ladies BuenosAires (@RLadiesBA) &lt;a href=&#34;https://twitter.com/RLadiesBA/status/1222564128688168962?ref_src=twsrc%5Etfw&#34;&gt;January 29, 2020&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

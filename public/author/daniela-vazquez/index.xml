@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Daniela Vázquez | RLadies BA</title>
+    <link>/author/daniela-vazquez/</link>
+      <atom:link href="/author/daniela-vazquez/index.xml" rel="self" type="application/rss+xml" />
+    <description>Daniela Vázquez</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>es</language>
+    <image>
+      <url>/author/daniela-vazquez/avatar_hu3820c10509a805828cc8dda656e8c84d_172787_270x270_fill_q75_lanczos_center.jpg</url>
+      <title>Daniela Vázquez</title>
+      <link>/author/daniela-vazquez/</link>
+    </image>
+    
+  </channel>
+</rss>

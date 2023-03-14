@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>FemITconf | RLadies BA</title>
+    <link>/author/femitconf/</link>
+      <atom:link href="/author/femitconf/index.xml" rel="self" type="application/rss+xml" />
+    <description>FemITconf</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>es</language>
+    <image>
+      <url>/author/femitconf/avatar_hu7682fc435acedb17438622b82191f624_45593_270x270_fill_lanczos_center_2.png</url>
+      <title>FemITconf</title>
+      <link>/author/femitconf/</link>
+    </image>
+    
+  </channel>
+</rss>
