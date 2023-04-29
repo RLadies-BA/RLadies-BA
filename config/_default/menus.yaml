@@ -13,12 +13,15 @@ main:
   - name: Meetups
     url: '#projects'
     weight: 30
+  - name: Blog
+    url: '#posts'
+    weight: 40
   - name: Comunidades
     url: '#comunidades'
-    weight: 40  
+    weight: 50  
   - name: Media
     url: '#gallery'
-    weight: 50  
+    weight: 60  
   - name: Contacto
     url: '#contact'
     weight: 70  
