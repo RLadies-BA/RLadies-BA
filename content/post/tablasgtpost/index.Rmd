@@ -3,20 +3,22 @@ title: "Creando tablas en {gt} con Spotify API & Bad Bunny"
 output: html_document
 authors: ["kari", "andrea"]
 type: post
+date: 2022-11-23
 draft: true
 tags: ["{gt}", "Tablas", "Spotify"]
 summary: 'En este tutorial vas a aprender cómo obtener información desde Spotify y plasmarla en una tabla usando el paquete {gt} 🐰🎵'
-
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(
   echo = TRUE,
-  eval = FALSE,
+  eval = TRUE,
   warning = FALSE,
   message = FALSE,
   code_folding = TRUE,
-  align = 'center'
+  align = 'center', 
+  out.width = '100%',
+  fig.path = "image/"
 )
 
 options(scipen = 999)
@@ -24,15 +26,29 @@ options(scipen = 999)
 color_spotify = "#1DB954"
 ```
 
+```{r, echo=FALSE}
+# Param para regenerar las tablas en el knit
+# If knit_eval=FALSE, solo renderiza celdas de display de tablas, es un knit muy rápido. 
+knit_eval = FALSE
+```
 
+# Introducción
 
+Utilización del paquete **{gt}** 📦 para visualizar datos obtenidos mediante la API de **Spotify🎶**.
 
+Este post hace referencia al taller del 2022-11-23:
+
+🔸 [Repositorio](https://github.com/RLadies-BA/gt-spotify) 🔸 [Grabación](https://www.youtube.com/watch?v=wciGM5rMBos&ab_channel=RLadiesBuenosAires) 🔸
+
+<iframe src="https://karbartolome.github.io/gt-spotify/01_slides/rladies_gt_spotify.html" title="RLadies, Spotify GT" style="width: 100%; height: 1000" allowfullscreen>
+
+</iframe>
 
 # 1. Librerías
 
 Se definen los **paquetes** 📦 a utilizar:
 
-```{r}
+```{r, eval=knit_eval}
 library(tidyverse) # Manipulación de datos
 library(gt)        # Tablas gt: grammar of tables
 library(gtExtras)  # Extras de tablas gt
@@ -57,7 +73,6 @@ El formato del archivo **credentials.json** está incluido en el .gitignore del 
 {
   "SPOTIFY_CLIENT_ID" : "SPOTIFY_CLIENT_ID",
   "SPOTIFY_CLIENT_SECRET" : "SPOTIFY_CLIENT_SECRET"
-
 }
 ```
 
@@ -70,7 +85,7 @@ Sys.setenv(SPOTIFY_CLIENT_ID = credentials$SPOTIFY_CLIENT_ID)
 Sys.setenv(SPOTIFY_CLIENT_SECRET = credentials$SPOTIFY_CLIENT_SECRET)
 ```
 
-Se utiliza la función **get_spotify_access_token**() del paquete {**spotifyr**} 📦para autenticarse a la API:
+Mediante la función **get_spotify_access_token**() del paquete {**spotifyr**} 📦, se realiza la autenticación a la API:
 
 ```{r, eval=FALSE}
 access_token <- get_spotify_access_token()
@@ -93,15 +108,15 @@ tabla_user <- get_my_top_artists_or_tracks(
 
 # Caso: análisis de un artista particular
 
-Se define el artista a utilizar:
+En este caso, el artista a analizar es Bad Bunny:
 
-```{r}
+```{r, eval=knit_eval}
 ARTISTA = 'bad bunny'
 ```
 
 La función **get_artist_audio_features()** del paquete {**spotifyr**} 📦 permite generar una búsqueda de variables vinculadas al audio de cada track.
 
-```{r}
+```{r, eval=knit_eval}
 vars_audio = c('danceability',
                'energy',
                'loudness',
@@ -133,21 +148,20 @@ tracks_features <- get_artist_audio_features(artist = ARTISTA) %>%
 
 De no haber podido autenticarte con la API de Spotify, dejamos un archivo .rds con los datos necesarios para seguir con el resto del taller:
 
-```{r}
-# tracks_features %>% saveRDS('tracks_features.rds')
-tracks_features <- readRDS('tracks_features.rds')
+```{r, eval=knit_eval}
+tracks_features <- read_rds('https://github.com/karbartolome/gt-spotify/blob/main/02_caso_spotify/tracks_features.rds?raw=true')
 ```
 
 Se cuenta con un df de variables vinculadas a cada canción de cada álbum del artista seleccionado:
 
-```{r}
+```{r, eval=knit_eval}
 tracks_features %>%
   glimpse()
 ```
 
 ## 3.1 Intro a gt
 
-```{r}
+```{r, eval=knit_eval}
 tabla <- tracks_features %>%
   head() %>%
   select(artist_name, album_name, track_name, all_of(vars_audio)) %>%
@@ -156,8 +170,19 @@ tabla <- tracks_features %>%
   gt()
 ```
 
-```{r}
+```{r, eval=FALSE}
 tabla
+```
+
+```{r, eval=knit_eval, echo=FALSE}
+gt::gtsave(tabla,
+           'images/tabla_1.png',
+           vwidth = 2000,
+           vheight = 3000)
+```
+
+```{r, echo=FALSE, eval=TRUE}
+knitr::include_graphics('images/tabla_1.png')
 ```
 
 Notar que las variables numéricas aparecen con muchos decimales. Una forma sencilla de arreglar esto en {gt} es la siguiente:
@@ -167,11 +192,25 @@ tabla %>%
   fmt_number(columns = where(is.numeric), decimals = 2)
 ```
 
+```{r, eval=knit_eval, echo=FALSE}
+tabla_2 <- tabla %>%
+  fmt_number(columns = where(is.numeric), decimals = 2)
+
+gt::gtsave(tabla_2,
+           'images/tabla_2.png',
+           vwidth = 2000,
+           vheight = 3000)
+```
+
+```{r, echo=FALSE, eval=TRUE}
+knitr::include_graphics('images/tabla_2.png')
+```
+
 ## 3.2 Tabla a nivel álbumes
 
 Se agregan los datos a nivel de cada álbum. Notar que, en el caso de las variables de audio, se decidió convertirlas en una lista (N observaciones numéricas que representan cada una de las canciones incluidas en el álbum). En los próximos pasos se explicará el por qué de la decisión:
 
-```{r}
+```{r, eval=knit_eval}
 df_albums <- tracks_features %>%
   
   group_by(album_images,
@@ -189,21 +228,32 @@ df_albums <- tracks_features %>%
   ungroup()
 ```
 
-```{r}
+```{r, eval=knit_eval}
 tabla_albums <- df_albums %>%
   select(-album_images) %>%
   gt() 
 ```
 
-```{r}
+```{r, eval=FALSE}
 tabla_albums
+```
+
+```{r, eval=knit_eval, echo=FALSE}
+gt::gtsave(tabla_albums,
+           'images/tabla_3.png',
+           vwidth = 2000,
+           vheight = 3000)
+```
+
+```{r, echo=FALSE, eval=TRUE}
+knitr::include_graphics('images/tabla_3.png')
 ```
 
 ## 3.3 Imágenes en tablas gt
 
 Se quiere añadir la imagen del álbum. Para ello, se construye la siguiente función. Para cada álbum se cuenta con distintos tamaños de imágenes, donde cada imagen se encuentra representada por un url. Se decide seleccionar la imagen de tamaño=64, extrayendo el url:
 
-```{r}
+```{r, eval=knit_eval}
 get_imagen = function(album_images) {
   album_images %>%
     data.frame() %>%
@@ -215,21 +265,25 @@ get_imagen = function(album_images) {
 
 Se aplica la función al dataframe. Para ello, se utiliza la función **map()** del paquete {purrr} 📦:
 
-```{r}
+```{r, eval=knit_eval}
 df_albums <- df_albums %>%
-  mutate(album_images = map(album_images, ~ get_imagen(album_images = .x))) %>%
+  mutate(
+    album_images = map(album_images, 
+                       ~ get_imagen(album_images = .x))
+  ) %>%
   distinct()
 ```
 
 Para visualizar los urls como imagenes, se utiliza la función **text_transform()** de {gt}. Además, la función **tab_header()** permite añadir título y subtítulo.
 
-```{r}
+```{r, eval=knit_eval}
 tabla_albums <- df_albums %>%  select(-album_id) %>%
   
   gt() %>%
   
-  tab_header(title = md(glue::glue('**{str_to_title(ARTISTA)}** en Spotify')),
-             subtitle = 'Álbumes más recientes') %>%
+  tab_header(
+    title = md(glue::glue('**{str_to_title(ARTISTA)}** en Spotify')),
+    subtitle = 'Álbumes más recientes') %>%
   
   text_transform(
     locations = cells_body(columns = c(album_images)),
@@ -241,28 +295,50 @@ tabla_albums <- df_albums %>%  select(-album_id) %>%
 
 De momento, se ocultan las variables de audio para visualizar la tabla:
 
-```{r}
+```{r, eval=FALSE}
 tabla_albums %>%
   cols_hide(all_of(vars_audio))
 ```
 
+```{r, eval=knit_eval, echo=FALSE}
+gt::gtsave(tabla_albums %>%  cols_hide(all_of(vars_audio)),
+           'images/tabla_4.png',
+           vwidth = 2000,
+           vheight = 3000)
+```
+
+```{r, echo=FALSE, eval=TRUE}
+knitr::include_graphics('images/tabla_4.png')
+```
+
 Otra función útil para visualizar este tipo de información es **gt_merge_stack()** que permite concatenar dos variables en una única:
 
-```{r}
+```{r, eval=knit_eval}
 tabla_albums <- tabla_albums %>%
   
   gt_merge_stack(col1 = album_name,
                  col2 = artist_name) 
 ```
 
-```{r}
+```{r, eval=FALSE}
 tabla_albums %>% 
   cols_hide(all_of(vars_audio)) 
 ```
 
+```{r, eval=knit_eval, echo=FALSE}
+gt::gtsave(tabla_albums %>%  cols_hide(all_of(vars_audio)),
+           'images/tabla_5.png',
+           vwidth = 2000,
+           vheight = 3000)
+```
+
+```{r, echo=FALSE, eval=TRUE}
+knitr::include_graphics('images/tabla_5.png')
+```
+
 Para visualizar las variables de audio, se utilizarán algunas funcionalidades del paquete **{gtExtras}** 📦:
 
-```{r}
+```{r, eval=knit_eval}
 tabla_albums <- tabla_albums %>%
   
   gt_color_box(
@@ -300,9 +376,20 @@ tabla_albums <- tabla_albums %>%
   )
 ```
 
-```{r}
+```{r, eval=FALSE}
 tabla_albums %>%
   cols_hide('instrumentalness')
+```
+
+```{r, eval=knit_eval, echo=FALSE}
+gt::gtsave(tabla_albums %>%  cols_hide('instrumentalness'),
+           'images/tabla_6.png',
+           vwidth = 2000,
+           vheight = 3000)
+```
+
+```{r, echo=FALSE, eval=TRUE}
+knitr::include_graphics('images/tabla_6.png')
 ```
 
 ## 3.4 Ggplot en gt
@@ -319,9 +406,28 @@ tabla_albums %>%
   ) 
 ```
 
+```{r, eval=knit_eval, echo=FALSE}
+tabla_7 <- tabla_albums %>%
+  gt_plt_dist(
+    column = instrumentalness,
+    type = "boxplot",
+    line_color = "black",
+    fill_color = color_spotify
+  ) 
+
+gt::gtsave(tabla_7,
+           'images/tabla_7.png',
+           vwidth = 2000,
+           vheight = 3000)
+```
+
+```{r, echo=FALSE, eval=TRUE}
+knitr::include_graphics('images/tabla_7.png')
+```
+
 Por esta razón, se utilizará el caso de esta variable para explicar cómo se podría identificar a estos valores atípicos mediante el uso de {ggplot2} 📦
 
-```{r}
+```{r, eval=knit_eval}
 gen_outliers_plots <- function(.df,
                                .variable,
                                .font_size = 22,
@@ -357,8 +463,8 @@ gen_outliers_plots <- function(.df,
 
 Realizando la prueba de la función, se observa el gráfico que genera:
 
-```{r}
-gen_outliers_plots(
+```{r, eval=knit_eval}
+plot <- gen_outliers_plots(
   .df = tracks_features %>% filter(album_name == 'X 100PRE'),
   .variable = 'instrumentalness',
   .font_size = 10,
@@ -366,20 +472,33 @@ gen_outliers_plots(
 )
 ```
 
+```{r, eval=FALSE}
+plot
+```
+
+```{r, eval=knit_eval, echo=FALSE}
+ggplot2::ggsave('images/plot_1.png')
+```
+
+```{r, echo=FALSE, eval=TRUE, out.width='50%'}
+knitr::include_graphics('images/plot_1.png')
+```
+
 Ahora se incluyen estos plots en la tabla. Primero, se mappea la función al df:
 
-```{r}
+```{r, eval=knit_eval}
 df_albums <- df_albums %>%
   mutate(instrumentalness = map(
     album_id,
-    ~ gen_outliers_plots(.df = tracks_features %>% filter(album_id == .x),
-                         .variable = 'instrumentalness')
+    ~ gen_outliers_plots(
+        .df = tracks_features %>% filter(album_id == .x),
+        .variable = 'instrumentalness')
   ))
 ```
 
 Se visualiza la tabla completa:
 
-```{r}
+```{r, eval=knit_eval}
 tabla_albums <- tabla_albums %>%
   
   text_transform(
@@ -395,32 +514,45 @@ tabla_albums <- tabla_albums %>%
   ) 
 ```
 
-```{r}
+```{r, eval=FALSE}
 tabla_albums
+```
+
+```{r, eval=knit_eval, echo=FALSE}
+gt::gtsave(tabla_albums,
+           'images/tabla_8.png',
+           vwidth = 2000,
+           vheight = 3000)
+```
+
+```{r, echo=FALSE, eval=TRUE}
+knitr::include_graphics('images/tabla_8.png')
 ```
 
 ## Formato
 
-```{r}
+```{r, eval=knit_eval}
 tabla_albums <- tabla_albums %>%
   
-  gt::tab_spanner(label = 'Un tipo de variables',
-                  columns = danceability:loudness) %>%
-  gt::tab_spanner(label = 'Otro tipo de variables',
-                  columns = c('acousticness', 'instrumentalness')) %>%
+  tab_spanner(label = 'Un tipo de variables',
+              columns = danceability:loudness) %>%
+  tab_spanner(label = 'Otro tipo de variables',
+              columns = c('acousticness', 'instrumentalness')) %>%
   
-  gt::tab_footnote(locations = cells_column_labels('duration_mins'),
-                   footnote = 'Duración en minutos = suma de la duración de 
+  tab_footnote(
+    locations = cells_column_labels('duration_mins'),
+    footnote = 'Duración en minutos = suma de la duración de
                                cada una de las canciones que componen el álbum.'
-                   ) %>%
+  ) %>%
   
-  gt::tab_footnote(locations = cells_column_labels('instrumentalness'),
-                   footnote = 'En el caso de instrumentalness, al existir 
-                               valores muy atípicos se muestra la canción a la 
+  tab_footnote(
+    locations = cells_column_labels('instrumentalness'),
+    footnote = 'En el caso de instrumentalness, al existir
+                               valores muy atípicos se muestra la canción a la
                                que corresponde el máximo valor en cada álbum.'
-                   ) %>%
+  ) %>%
   
-  gt::tab_source_note(source_note = 'Fuente: API de Spotify') %>%
+  tab_source_note(source_note = 'Fuente: API de Spotify') %>%
   
   cols_label(
     album_images = '',
@@ -432,16 +564,27 @@ tabla_albums <- tabla_albums %>%
     loudness = 'Loudness 🔊',
     acousticness = 'Acousticness 🎹',
     instrumentalness = 'Instrumentalness 🎼'
-  )  
+  )
 ```
 
-```{r}
+```{r, eval=FALSE}
 tabla_albums
 ```
 
-Además, se añade un theme específico para asignarle colores y formatos adicionales:
+```{r, eval=knit_eval, echo=FALSE}
+gt::gtsave(tabla_albums,
+           'images/tabla_9.png',
+           vwidth = 2000,
+           vheight = 3000)
+```
 
-```{r}
+```{r, echo=FALSE, eval=FALSE}
+knitr::include_graphics('images/tabla_9.png')
+```
+
+Además, se añade un ✨**theme** ✨ específico para asignarle colores y formatos adicionales:
+
+```{r, eval=knit_eval}
 my_theme <- function(gt_object, ...) {
   gt_object %>%
     tab_options(
@@ -457,22 +600,33 @@ my_theme <- function(gt_object, ...) {
 }
 ```
 
-```{r}
+```{r, eval=knit_eval}
 tabla_albums <- tabla_albums %>%
   my_theme()
 ```
 
-```{r}
+```{r, eval=FALSE}
 tabla_albums
+```
+
+```{r, eval=knit_eval, echo=FALSE}
+gt::gtsave(tabla_albums,
+           'images/tabla_10.png',
+           vwidth = 2000,
+           vheight = 3000)
+```
+
+```{r, echo=FALSE, eval=TRUE}
+knitr::include_graphics('images/tabla_10.png')
 ```
 
 ## 3.5 Guardar la tabla gt como archivo .png
 
 Para guardar la tabla, se utiliza la función **gtsave()** de {gt} 📦:
 
-```{r, echo=FALSE, layout='l-page'}
-gt::gtsave(tabla_albums,
-           'tablas/tabla_8.png',
-           vwidth = 2000,
-           vheight = 3000)
+```{r, eval=FALSE, echo=TRUE}
+gtsave(tabla_albums,
+       'tablas/tabla_final.png',
+       vwidth = 2000,
+       vheight = 3000)
 ```
