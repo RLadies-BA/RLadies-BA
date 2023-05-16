@@ -32,6 +32,6 @@ main:
   - name: Contacto
     url: '#contact'
     weight: 80
-  - name: RSS
+  - name: rss
     url: "/index.xml"
 
