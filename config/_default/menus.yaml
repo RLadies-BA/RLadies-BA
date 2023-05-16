@@ -33,5 +33,5 @@ main:
     url: '#contact'
     weight: 80
   - name: rss
-    url: "/index.xml"
+    url: "/post/index.xml"
 
