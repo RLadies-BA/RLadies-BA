@@ -31,5 +31,7 @@ main:
     parent: Quiénes somos
   - name: Contacto
     url: '#contact'
-    weight: 80  
+    weight: 80
+  - name: RSS
+    url: "https://rladiesba.netlify.app/index.xml"
 
