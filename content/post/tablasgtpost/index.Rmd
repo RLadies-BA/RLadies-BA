@@ -33,7 +33,7 @@ knit_eval = FALSE
 
 # Introducción
 
-Utilización del paquete **{gt}** 📦 para visualizar datos obtenidos mediante la API de **Spotify🎶**.
+Utilización del paquete **{gt}** 📦 para visualizar datos de artistas obtenidos mediante la API de **Spotify🎶**.
 
 Este post hace referencia al [taller del 2022-11-23](https://rladiesba.netlify.app/project/tablagt/):
 
