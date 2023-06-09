@@ -1,5 +1,5 @@
 ---
-title: "Creando una tabla sobre tu artista favorito con {gt} y la API de Spotify"
+title: "Creando tablas sobre tus artistas favorites con {gt} y la API de Spotify"
 output: html_document
 authors: ["kari", "andrea"]
 type: post
