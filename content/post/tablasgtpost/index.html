@@ -1,16 +1,25 @@
 ---
-title: "Creando tablas en {gt} con Spotify API & Bad Bunny"
+title: "Creando una tabla sobre tu artista favorito con {gt} y la API de Spotify"
 output: html_document
 authors: ["kari", "andrea"]
 type: post
-draft: true
+date: 2023-06-08
+draft: false
 tags: ["{gt}", "Tablas", "Spotify"]
 summary: 'En este tutorial vas a aprender cómo obtener información desde Spotify y plasmarla en una tabla usando el paquete {gt} 🐰🎵'
-
 ---
 
 
 
+<div id="introducción" class="section level1">
+<h1>Introducción</h1>
+<p>Utilización del paquete <strong>{gt}</strong> 📦 para visualizar datos obtenidos mediante la API de <strong>Spotify🎶</strong>.</p>
+<p>Este post hace referencia al <a href="https://rladiesba.netlify.app/project/tablagt/">taller del 2022-11-23</a>:</p>
+<p>🔸 <a href="https://github.com/RLadies-BA/gt-spotify">Repositorio</a> 🔸 <a href="https://www.youtube.com/watch?v=wciGM5rMBos&amp;ab_channel=RLadiesBuenosAires">Grabación</a> 🔸</p>
+<iframe src="https://karbartolome.github.io/gt-spotify/01_slides/rladies_gt_spotify.html" width="100%" height="400px" data-external="1">
+</iframe>
+</iframe>
+</div>
 <div id="librerías" class="section level1">
 <h1>1. Librerías</h1>
 <p>Se definen los <strong>paquetes</strong> 📦 a utilizar:</p>
@@ -32,14 +41,13 @@ library(ggrepel)   # Para textos en ggplot</code></pre>
 <pre class="r"><code>{
   &quot;SPOTIFY_CLIENT_ID&quot; : &quot;SPOTIFY_CLIENT_ID&quot;,
   &quot;SPOTIFY_CLIENT_SECRET&quot; : &quot;SPOTIFY_CLIENT_SECRET&quot;
-
 }</code></pre>
 <p>Se realiza la lectura de las credenciales mediante la función <strong>fromJSON()</strong>. Luego, se setean como variables de entorno:</p>
 <pre class="r"><code>credentials &lt;- fromJSON(file = &quot;credentials.json&quot;)
 
 Sys.setenv(SPOTIFY_CLIENT_ID = credentials$SPOTIFY_CLIENT_ID)
 Sys.setenv(SPOTIFY_CLIENT_SECRET = credentials$SPOTIFY_CLIENT_SECRET)</code></pre>
-<p>Se utiliza la función <strong>get_spotify_access_token</strong>() del paquete {<strong>spotifyr</strong>} 📦para autenticarse a la API:</p>
+<p>Mediante la función <strong>get_spotify_access_token</strong>() del paquete {<strong>spotifyr</strong>} 📦, se realiza la autenticación a la API:</p>
 <pre class="r"><code>access_token &lt;- get_spotify_access_token()</code></pre>
 <p>Para verificar que la autenticación haya sido exitosa, se realiza una consulta de los artistas más escuchados:</p>
 <pre class="r"><code>tabla_user &lt;- get_my_top_artists_or_tracks(
@@ -56,7 +64,7 @@ Sys.setenv(SPOTIFY_CLIENT_SECRET = credentials$SPOTIFY_CLIENT_SECRET)</code></pr
 </div>
 <div id="caso-análisis-de-un-artista-particular" class="section level1">
 <h1>Caso: análisis de un artista particular</h1>
-<p>Se define el artista a utilizar:</p>
+<p>En este caso, el artista a analizar es Bad Bunny:</p>
 <pre class="r"><code>ARTISTA = &#39;bad bunny&#39;</code></pre>
 <p>La función <strong>get_artist_audio_features()</strong> del paquete {<strong>spotifyr</strong>} 📦 permite generar una búsqueda de variables vinculadas al audio de cada track.</p>
 <pre class="r"><code>vars_audio = c(&#39;danceability&#39;,
@@ -85,8 +93,7 @@ Sys.setenv(SPOTIFY_CLIENT_SECRET = credentials$SPOTIFY_CLIENT_SECRET)</code></pr
 <div id="the-grammar-of-tables-gt" class="section level1">
 <h1>3. The grammar of tables (gt)</h1>
 <p>De no haber podido autenticarte con la API de Spotify, dejamos un archivo .rds con los datos necesarios para seguir con el resto del taller:</p>
-<pre class="r"><code># tracks_features %&gt;% saveRDS(&#39;tracks_features.rds&#39;)
-tracks_features &lt;- readRDS(&#39;tracks_features.rds&#39;)</code></pre>
+<pre class="r"><code>tracks_features &lt;- read_rds(&#39;https://github.com/karbartolome/gt-spotify/blob/main/02_caso_spotify/tracks_features.rds?raw=true&#39;)</code></pre>
 <p>Se cuenta con un df de variables vinculadas a cada canción de cada álbum del artista seleccionado:</p>
 <pre class="r"><code>tracks_features %&gt;%
   glimpse()</code></pre>
@@ -99,9 +106,11 @@ tracks_features &lt;- readRDS(&#39;tracks_features.rds&#39;)</code></pre>
   # En este paso se transforma el df en un objeto gt:
   gt()</code></pre>
 <pre class="r"><code>tabla</code></pre>
+<p><img src="images/tabla_1.png" width="100%" /></p>
 <p>Notar que las variables numéricas aparecen con muchos decimales. Una forma sencilla de arreglar esto en {gt} es la siguiente:</p>
 <pre class="r"><code>tabla %&gt;%
   fmt_number(columns = where(is.numeric), decimals = 2)</code></pre>
+<p><img src="images/tabla_2.png" width="100%" /></p>
 </div>
 <div id="tabla-a-nivel-álbumes" class="section level2">
 <h2>3.2 Tabla a nivel álbumes</h2>
@@ -125,6 +134,7 @@ tracks_features &lt;- readRDS(&#39;tracks_features.rds&#39;)</code></pre>
   select(-album_images) %&gt;%
   gt() </code></pre>
 <pre class="r"><code>tabla_albums</code></pre>
+<p><img src="images/tabla_3.png" width="100%" /></p>
 </div>
 <div id="imágenes-en-tablas-gt" class="section level2">
 <h2>3.3 Imágenes en tablas gt</h2>
@@ -138,15 +148,26 @@ tracks_features &lt;- readRDS(&#39;tracks_features.rds&#39;)</code></pre>
 }</code></pre>
 <p>Se aplica la función al dataframe. Para ello, se utiliza la función <strong>map()</strong> del paquete {purrr} 📦:</p>
 <pre class="r"><code>df_albums &lt;- df_albums %&gt;%
-  mutate(album_images = map(album_images, ~ get_imagen(album_images = .x))) %&gt;%
+  mutate(
+    album_images = map(album_images, 
+                       ~ get_imagen(album_images = .x))
+  ) %&gt;%
   distinct()</code></pre>
 <p>Para visualizar los urls como imagenes, se utiliza la función <strong>text_transform()</strong> de {gt}. Además, la función <strong>tab_header()</strong> permite añadir título y subtítulo.</p>
-<pre class="r"><code>tabla_albums &lt;- df_albums %&gt;%  select(-album_id) %&gt;%
+<pre class="r"><code>imagen_path = &#39;https://raw.githubusercontent.com/karbartolome/gt-spotify/main/02_caso_spotify/imagenes/bad_bunny.png&#39;
+image_size = 50
+
+imagen_artista &lt;- paste0(
+    &quot;&lt;img src=&#39;&quot;, imagen_path,&quot;&#39; style=&#39;height:&quot;,image_size,&quot;px;&#39;&gt;&quot;
+  )
+
+tabla_albums &lt;- df_albums %&gt;%  select(-album_id) %&gt;%
   
   gt() %&gt;%
   
-  tab_header(title = md(glue::glue(&#39;**{str_to_title(ARTISTA)}** en Spotify&#39;)),
-             subtitle = &#39;Álbumes más recientes&#39;) %&gt;%
+  tab_header(
+    title = md(glue::glue(&#39;{imagen_artista} **{str_to_title(ARTISTA)}** en Spotify&#39;)),
+    subtitle = &#39;Álbumes más recientes&#39;) %&gt;%
   
   text_transform(
     locations = cells_body(columns = c(album_images)),
@@ -157,6 +178,7 @@ tracks_features &lt;- readRDS(&#39;tracks_features.rds&#39;)</code></pre>
 <p>De momento, se ocultan las variables de audio para visualizar la tabla:</p>
 <pre class="r"><code>tabla_albums %&gt;%
   cols_hide(all_of(vars_audio))</code></pre>
+<p><img src="images/tabla_4.png" width="100%" /></p>
 <p>Otra función útil para visualizar este tipo de información es <strong>gt_merge_stack()</strong> que permite concatenar dos variables en una única:</p>
 <pre class="r"><code>tabla_albums &lt;- tabla_albums %&gt;%
   
@@ -164,6 +186,7 @@ tracks_features &lt;- readRDS(&#39;tracks_features.rds&#39;)</code></pre>
                  col2 = artist_name) </code></pre>
 <pre class="r"><code>tabla_albums %&gt;% 
   cols_hide(all_of(vars_audio)) </code></pre>
+<p><img src="images/tabla_5.png" width="100%" /></p>
 <p>Para visualizar las variables de audio, se utilizarán algunas funcionalidades del paquete <strong>{gtExtras}</strong> 📦:</p>
 <pre class="r"><code>tabla_albums &lt;- tabla_albums %&gt;%
   
@@ -202,6 +225,7 @@ tracks_features &lt;- readRDS(&#39;tracks_features.rds&#39;)</code></pre>
   )</code></pre>
 <pre class="r"><code>tabla_albums %&gt;%
   cols_hide(&#39;instrumentalness&#39;)</code></pre>
+<p><img src="images/tabla_6.png" width="100%" /></p>
 </div>
 <div id="ggplot-en-gt" class="section level2">
 <h2>3.4 Ggplot en gt</h2>
@@ -213,6 +237,7 @@ tracks_features &lt;- readRDS(&#39;tracks_features.rds&#39;)</code></pre>
     line_color = &quot;black&quot;,
     fill_color = color_spotify
   ) </code></pre>
+<p><img src="images/tabla_7.png" width="100%" /></p>
 <p>Por esta razón, se utilizará el caso de esta variable para explicar cómo se podría identificar a estos valores atípicos mediante el uso de {ggplot2} 📦</p>
 <pre class="r"><code>gen_outliers_plots &lt;- function(.df,
                                .variable,
@@ -246,18 +271,21 @@ tracks_features &lt;- readRDS(&#39;tracks_features.rds&#39;)</code></pre>
     theme_void()
 }</code></pre>
 <p>Realizando la prueba de la función, se observa el gráfico que genera:</p>
-<pre class="r"><code>gen_outliers_plots(
+<pre class="r"><code>plot &lt;- gen_outliers_plots(
   .df = tracks_features %&gt;% filter(album_name == &#39;X 100PRE&#39;),
   .variable = &#39;instrumentalness&#39;,
   .font_size = 10,
   .lwd = 0.5
 )</code></pre>
+<pre class="r"><code>plot</code></pre>
+<p><img src="images/plot_1.png" width="50%" /></p>
 <p>Ahora se incluyen estos plots en la tabla. Primero, se mappea la función al df:</p>
 <pre class="r"><code>df_albums &lt;- df_albums %&gt;%
   mutate(instrumentalness = map(
     album_id,
-    ~ gen_outliers_plots(.df = tracks_features %&gt;% filter(album_id == .x),
-                         .variable = &#39;instrumentalness&#39;)
+    ~ gen_outliers_plots(
+        .df = tracks_features %&gt;% filter(album_id == .x),
+        .variable = &#39;instrumentalness&#39;)
   ))</code></pre>
 <p>Se visualiza la tabla completa:</p>
 <pre class="r"><code>tabla_albums &lt;- tabla_albums %&gt;%
@@ -274,28 +302,31 @@ tracks_features &lt;- readRDS(&#39;tracks_features.rds&#39;)</code></pre>
     }
   ) </code></pre>
 <pre class="r"><code>tabla_albums</code></pre>
+<p><img src="images/tabla_8.png" width="100%" /></p>
 </div>
 <div id="formato" class="section level2">
 <h2>Formato</h2>
 <pre class="r"><code>tabla_albums &lt;- tabla_albums %&gt;%
   
-  gt::tab_spanner(label = &#39;Un tipo de variables&#39;,
-                  columns = danceability:loudness) %&gt;%
-  gt::tab_spanner(label = &#39;Otro tipo de variables&#39;,
-                  columns = c(&#39;acousticness&#39;, &#39;instrumentalness&#39;)) %&gt;%
+  tab_spanner(label = &#39;Un tipo de variables&#39;,
+              columns = danceability:loudness) %&gt;%
+  tab_spanner(label = &#39;Otro tipo de variables&#39;,
+              columns = c(&#39;acousticness&#39;, &#39;instrumentalness&#39;)) %&gt;%
   
-  gt::tab_footnote(locations = cells_column_labels(&#39;duration_mins&#39;),
-                   footnote = &#39;Duración en minutos = suma de la duración de 
+  tab_footnote(
+    locations = cells_column_labels(&#39;duration_mins&#39;),
+    footnote = &#39;Duración en minutos = suma de la duración de
                                cada una de las canciones que componen el álbum.&#39;
-                   ) %&gt;%
+  ) %&gt;%
   
-  gt::tab_footnote(locations = cells_column_labels(&#39;instrumentalness&#39;),
-                   footnote = &#39;En el caso de instrumentalness, al existir 
-                               valores muy atípicos se muestra la canción a la 
+  tab_footnote(
+    locations = cells_column_labels(&#39;instrumentalness&#39;),
+    footnote = &#39;En el caso de instrumentalness, al existir
+                               valores muy atípicos se muestra la canción a la
                                que corresponde el máximo valor en cada álbum.&#39;
-                   ) %&gt;%
+  ) %&gt;%
   
-  gt::tab_source_note(source_note = &#39;Fuente: API de Spotify&#39;) %&gt;%
+  tab_source_note(source_note = &#39;Fuente: API de Spotify&#39;) %&gt;%
   
   cols_label(
     album_images = &#39;&#39;,
@@ -307,28 +338,28 @@ tracks_features &lt;- readRDS(&#39;tracks_features.rds&#39;)</code></pre>
     loudness = &#39;Loudness 🔊&#39;,
     acousticness = &#39;Acousticness 🎹&#39;,
     instrumentalness = &#39;Instrumentalness 🎼&#39;
-  )  </code></pre>
+  )</code></pre>
 <pre class="r"><code>tabla_albums</code></pre>
-<p>Además, se añade un theme específico para asignarle colores y formatos adicionales:</p>
-<pre class="r"><code>my_theme &lt;- function(gt_object, ...) {
-  gt_object %&gt;%
-    tab_options(
+<p>Además, se añade un ✨<strong>theme</strong> ✨ específico para asignarle colores y formatos adicionales:</p>
+<pre class="r"><code>tabla_albums &lt;- tabla_albums %&gt;%
+   tab_options(
       column_labels.background.color = &quot;#39423c&quot;,
       footnotes.background.color = &quot;#39423c&quot;,
       source_notes.background.color = &quot;#39423c&quot;,
       heading.background.color = &quot;#39423c&quot;,
       heading.align = &quot;left&quot;,
-      ...
     ) %&gt;%
     tab_style(style = cell_text(color = color_spotify, size = px(32)),
-              locations = cells_title(&quot;title&quot;))
-}</code></pre>
-<pre class="r"><code>tabla_albums &lt;- tabla_albums %&gt;%
-  my_theme()</code></pre>
+              locations = cells_title(&quot;title&quot;))</code></pre>
 <pre class="r"><code>tabla_albums</code></pre>
+<p><img src="images/tabla_10.png" width="100%" /></p>
 </div>
 <div id="guardar-la-tabla-gt-como-archivo-.png" class="section level2">
 <h2>3.5 Guardar la tabla gt como archivo .png</h2>
 <p>Para guardar la tabla, se utiliza la función <strong>gtsave()</strong> de {gt} 📦:</p>
+<pre class="r"><code>gtsave(tabla_albums,
+       &#39;tablas/tabla_final.png&#39;,
+       vwidth = 2000,
+       vheight = 3000)</code></pre>
 </div>
 </div>

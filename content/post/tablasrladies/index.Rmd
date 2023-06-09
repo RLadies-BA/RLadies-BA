@@ -1,0 +1,287 @@
+---
+title: "Visualizando los capítulos de RLadies 💜"
+output: html_document
+type: post
+date: 2023-05-01
+draft: true
+tags: ["{gt}", "Tablas", "RLadies"]
+summary: 'Visualizando los capítulos de RLadies mediante tablas y gráficos'
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  echo = TRUE, 
+  warning = FALSE,
+  message = FALSE, 
+  code_folding=TRUE,
+  out.width = "100%"
+)
+```
+
+# Introducción
+
+Se utilizan los datos de RLadies Global para visualizar dónde se encuentran los distintos capítulos de RLadies en el mundo. 
+
+
+# Librerías
+
+Se importan las librerías a utilizar:
+
+```{r}
+library(jsonlite)
+library(tidyverse)
+library(gt)
+library(countrycode)
+```
+
+```{r}
+N=5
+```
+
+
+# Datos
+
+Los datos se obtienen del repositorio de RLadies Global:
+
+```{r, eval=FALSE}
+path <- 'https://raw.githubusercontent.com/rladies/rladies.github.io/main/data/meetup/chapters.json'
+df <- as.data.frame(fromJSON(path))
+```
+
+```{r}
+#df %>% write.csv('df_rladies_global.csv', row.names = FALSE)
+df <- read.csv('df_rladies_global.csv') %>%
+  mutate(country = countrycode(
+    country_acronym, origin = 'iso2c', destination = 'country.name')
+  ) %>% 
+  mutate(
+    country = case_when(
+      country=='United States' ~'USA',
+      country=='United Kingdom'~'UK',
+      TRUE ~ country
+    )
+  )
+```
+
+```{r}
+df %>% glimpse()
+```
+
+# Tablas
+
+```{r}
+color_rladies = '#562457'
+rladies_theme <- function(data, ...){
+  data %>%
+    tab_options(
+      table.background.color = 'white',
+      column_labels.background.color = "white",
+      footnotes.background.color = "white",
+      source_notes.background.color = "white",
+      heading.background.color = "white",
+      heading.align = "left"
+    ) %>%
+    tab_style(style = cell_text(color = color_rladies, size = px(32)),
+              locations = cells_title("title")) %>%
+    
+    tab_style(locations = cells_source_notes(),
+              style = list(
+                cell_text(
+                  font  = google_font(name = 'Raleway'),
+                  size  = 'medium',
+                  align = 'left',
+                  color = '#666666'
+                )
+              )) %>%
+    
+    tab_style(locations = cells_footnotes(),
+              style   = list(
+                cell_text(
+                  font  = google_font(name = 'Raleway'),
+                  size  = 'medium',
+                  align = 'left',
+                  color = '#666666'
+                )
+              )) %>%
+    
+    # Opciones de la tabla
+    tab_options(
+      data_row.padding                  = px(0),
+      table.border.top.style            = "hidden",
+      table.border.bottom.style         = "hidden",
+      table_body.border.top.style       = "solid",
+      column_labels.border.bottom.style = "solid"
+    )
+}
+```
+
+
+## Tabla inicial
+
+
+```{r}
+df %>% 
+  slice_max(n=N, order_by=members) %>% 
+  gt() %>% 
+  tab_header(
+    title = md('**RLadies**'),
+    subtitle = glue::glue('Top {N} de capítulos con mayor cantidad de participantes')
+  ) %>% 
+  rladies_theme()
+```
+
+## Cantidad de participantes por capítulo por país
+
+Se utiliza la función fmt_bins() para visualizar la cantidad de participantes por capítulo. Además, la función fmt_flag() permite incorporar las banderas de cada uno de los países.
+
+```{r}
+df %>%
+  mutate(members_bin = cut(members,
+                           breaks = scales::breaks_log(n = 10)(members))
+                           #breaks=10)
+         )  %>%
+  arrange(country_acronym) %>% 
+  group_by(members_bin) %>%
+  summarize(count = n(),
+            countries = paste0(country_acronym, collapse = ",")) %>%
+  arrange(desc(members_bin)) %>%
+  gt() %>%
+  fmt_flag(columns = countries) %>%
+  fmt_bins(columns = members_bin,
+           fmt = ~ fmt_integer(., suffixing = TRUE)) %>%
+  tab_header(
+    title = md('**RLadies**'),
+    subtitle = 'Capítulos y cantidad de miembros por país'
+  ) %>% 
+  rladies_theme()
+```
+
+
+
+## ¿Dónde se encuentran los capítulos de RLadies?
+
+Se cargan datos geográficos para visualizar mapas de cada uno de los países, dado que se cuenta con la ubicación (latitud-longitud) de cada capítulo.
+
+```{r}
+world <- map_data("world") %>% 
+  filter((subregion!='Alaska') | is.na(subregion)) %>% 
+  filter((region!='USA' | (region=='USA' & long<=-50)))
+```
+
+Si se selecciona un país (Argentina), se observa dónde se encuentra cada uno de los capítulos de este país:
+
+```{r, eval=FALSE}
+selected_country <- 'Argentina'
+
+ggplot()+
+    geom_map(
+      data = world %>% filter(region == selected_country),
+      map = world %>% filter(region == selected_country),
+      aes(long, lat, map_id = region),
+      fill = 'lightgrey',
+    ) +
+    geom_point(
+      data = df %>% filter(country == selected_country),
+      mapping = aes(x = lon, y = lat, size=members),
+      color = color_rladies,
+      alpha=0.5
+    ) +
+    theme_void()+
+    theme(
+      legend.position = 'None', 
+      axis.text = element_blank(), 
+      plot.margin = unit(c(0, 0, 0, 0), "null")
+    )
+```
+
+## Agrupando por país
+
+Mediante la función plot_map(), se obtiene un mapa para cada uno de los `r N`` países con más capítulos de RLadies:
+
+```{r}
+plot_map <- function(df, selected_country) {
+  p <- ggplot() +
+    geom_map(
+      data = world %>% filter(region == selected_country),
+      map = world %>% filter(region == selected_country),
+      aes(long, lat, map_id = region),
+      fill = 'lightgrey',
+    ) +
+    geom_point(
+      data = df %>% filter(country == selected_country),
+      mapping = aes(x = lon, y = lat, size=members),
+      color = color_rladies,
+      alpha=0.5
+    ) +
+    theme_void()+
+    theme(
+      legend.position = 'none', 
+      axis.text = element_blank(), 
+      plot.margin = unit(c(0, 0, 0, 0), "null")
+    )
+  
+  return(p)
+}
+```
+
+Dentro de la tabla {gt}, se visualiza cada uno de los mapas.
+
+```{r}
+table_data <- df %>% 
+  group_by(country) %>% 
+  summarise(
+    n=n(), 
+    participantes_promedio = round(mean(members), 2),
+    participantes_min = min(members),
+    participantes_max = max(members)
+  ) %>% 
+  arrange(desc(n)) %>% 
+  head(N) %>% 
+  mutate(plot = map(country, ~plot_map(selected_country=., df=df)))
+
+table_data %>% 
+  gt() %>% 
+  text_transform(
+    locations = cells_body(columns = plot),
+    fn = function(x) {
+      map(
+        table_data$plot,
+        gt::ggplot_image,
+        height = px(100),
+        aspect_ratio = 1
+      )
+    }
+  ) %>% 
+  tab_header(
+    title = md('**RLadies**'),
+    subtitle = 'Capítulos y cantidad de participantes en Meetup por país'
+  ) %>% 
+  cols_label(
+    country = "Name",
+    n = "N participantes",
+    participantes_promedio = "N promedio",
+    participantes_min = "N en el capítulo más chico",
+    participantes_max = "N en el capítulo más grande", 
+    plot = "Ubicaciones"
+  ) %>% 
+  
+  cols_width(
+    country ~ px(90),
+    n ~ px(100),
+    participantes_promedio ~ px(100),
+    participantes_min ~ px(100),
+    participantes_max ~ px(100), 
+    plot ~ px(200)
+  ) %>% 
+  rladies_theme()
+```
+
+
+
+
+
+
+
+
+
+
