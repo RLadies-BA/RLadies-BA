@@ -1,10 +1,10 @@
 ---
-title: "Creando tablas en {gt} con Spotify API & Bad Bunny"
+title: "Creando una tabla sobre tu artista favorito con {gt} y la API de Spotify"
 output: html_document
 authors: ["kari", "andrea"]
 type: post
-date: 2022-11-23
-draft: true
+date: 2023-06-08
+draft: false
 tags: ["{gt}", "Tablas", "Spotify"]
 summary: 'En este tutorial vas a aprender cómo obtener información desde Spotify y plasmarla en una tabla usando el paquete {gt} 🐰🎵'
 ---
@@ -14,9 +14,10 @@ summary: 'En este tutorial vas a aprender cómo obtener información desde Spoti
 <div id="introducción" class="section level1">
 <h1>Introducción</h1>
 <p>Utilización del paquete <strong>{gt}</strong> 📦 para visualizar datos obtenidos mediante la API de <strong>Spotify🎶</strong>.</p>
-<p>Este post hace referencia al taller del 2022-11-23:</p>
+<p>Este post hace referencia al <a href="https://rladiesba.netlify.app/project/tablagt/">taller del 2022-11-23</a>:</p>
 <p>🔸 <a href="https://github.com/RLadies-BA/gt-spotify">Repositorio</a> 🔸 <a href="https://www.youtube.com/watch?v=wciGM5rMBos&amp;ab_channel=RLadiesBuenosAires">Grabación</a> 🔸</p>
-<iframe src="https://karbartolome.github.io/gt-spotify/01_slides/rladies_gt_spotify.html" title="RLadies, Spotify GT" style="width: 100%; height: 1000" allowfullscreen>
+<iframe src="https://karbartolome.github.io/gt-spotify/01_slides/rladies_gt_spotify.html" width="100%" height="400px" data-external="1">
+</iframe>
 </iframe>
 </div>
 <div id="librerías" class="section level1">
@@ -153,12 +154,19 @@ Sys.setenv(SPOTIFY_CLIENT_SECRET = credentials$SPOTIFY_CLIENT_SECRET)</code></pr
   ) %&gt;%
   distinct()</code></pre>
 <p>Para visualizar los urls como imagenes, se utiliza la función <strong>text_transform()</strong> de {gt}. Además, la función <strong>tab_header()</strong> permite añadir título y subtítulo.</p>
-<pre class="r"><code>tabla_albums &lt;- df_albums %&gt;%  select(-album_id) %&gt;%
+<pre class="r"><code>imagen_path = &#39;https://raw.githubusercontent.com/karbartolome/gt-spotify/main/02_caso_spotify/imagenes/bad_bunny.png&#39;
+image_size = 50
+
+imagen_artista &lt;- paste0(
+    &quot;&lt;img src=&#39;&quot;, imagen_path,&quot;&#39; style=&#39;height:&quot;,image_size,&quot;px;&#39;&gt;&quot;
+  )
+
+tabla_albums &lt;- df_albums %&gt;%  select(-album_id) %&gt;%
   
   gt() %&gt;%
   
   tab_header(
-    title = md(glue::glue(&#39;**{str_to_title(ARTISTA)}** en Spotify&#39;)),
+    title = md(glue::glue(&#39;{imagen_artista} **{str_to_title(ARTISTA)}** en Spotify&#39;)),
     subtitle = &#39;Álbumes más recientes&#39;) %&gt;%
   
   text_transform(
@@ -333,21 +341,16 @@ Sys.setenv(SPOTIFY_CLIENT_SECRET = credentials$SPOTIFY_CLIENT_SECRET)</code></pr
   )</code></pre>
 <pre class="r"><code>tabla_albums</code></pre>
 <p>Además, se añade un ✨<strong>theme</strong> ✨ específico para asignarle colores y formatos adicionales:</p>
-<pre class="r"><code>my_theme &lt;- function(gt_object, ...) {
-  gt_object %&gt;%
-    tab_options(
+<pre class="r"><code>tabla_albums &lt;- tabla_albums %&gt;%
+   tab_options(
       column_labels.background.color = &quot;#39423c&quot;,
       footnotes.background.color = &quot;#39423c&quot;,
       source_notes.background.color = &quot;#39423c&quot;,
       heading.background.color = &quot;#39423c&quot;,
       heading.align = &quot;left&quot;,
-      ...
     ) %&gt;%
     tab_style(style = cell_text(color = color_spotify, size = px(32)),
-              locations = cells_title(&quot;title&quot;))
-}</code></pre>
-<pre class="r"><code>tabla_albums &lt;- tabla_albums %&gt;%
-  my_theme()</code></pre>
+              locations = cells_title(&quot;title&quot;))</code></pre>
 <pre class="r"><code>tabla_albums</code></pre>
 <p><img src="images/tabla_10.png" width="100%" /></p>
 </div>

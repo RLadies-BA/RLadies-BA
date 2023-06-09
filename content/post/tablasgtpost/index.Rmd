@@ -1,10 +1,10 @@
 ---
-title: "Creando tablas en {gt} con Spotify API & Bad Bunny"
+title: "Creando una tabla sobre tu artista favorito con {gt} y la API de Spotify"
 output: html_document
 authors: ["kari", "andrea"]
 type: post
-date: 2022-11-23
-draft: true
+date: 2023-06-08
+draft: false
 tags: ["{gt}", "Tablas", "Spotify"]
 summary: 'En este tutorial vas a aprender cómo obtener información desde Spotify y plasmarla en una tabla usando el paquete {gt} 🐰🎵'
 ---
@@ -22,7 +22,6 @@ knitr::opts_chunk$set(
 )
 
 options(scipen = 999)
-
 color_spotify = "#1DB954"
 ```
 
@@ -36,11 +35,14 @@ knit_eval = FALSE
 
 Utilización del paquete **{gt}** 📦 para visualizar datos obtenidos mediante la API de **Spotify🎶**.
 
-Este post hace referencia al taller del 2022-11-23:
+Este post hace referencia al [taller del 2022-11-23](https://rladiesba.netlify.app/project/tablagt/):
 
 🔸 [Repositorio](https://github.com/RLadies-BA/gt-spotify) 🔸 [Grabación](https://www.youtube.com/watch?v=wciGM5rMBos&ab_channel=RLadiesBuenosAires) 🔸
 
-<iframe src="https://karbartolome.github.io/gt-spotify/01_slides/rladies_gt_spotify.html" title="RLadies, Spotify GT" style="width: 100%; height: 1000" allowfullscreen>
+```{r, echo=FALSE}
+knitr::include_url('https://karbartolome.github.io/gt-spotify/01_slides/rladies_gt_spotify.html')
+```
+
 
 </iframe>
 
@@ -277,12 +279,19 @@ df_albums <- df_albums %>%
 Para visualizar los urls como imagenes, se utiliza la función **text_transform()** de {gt}. Además, la función **tab_header()** permite añadir título y subtítulo.
 
 ```{r, eval=knit_eval}
+imagen_path = 'https://raw.githubusercontent.com/karbartolome/gt-spotify/main/02_caso_spotify/imagenes/bad_bunny.png'
+image_size = 50
+
+imagen_artista <- paste0(
+    "<img src='", imagen_path,"' style='height:",image_size,"px;'>"
+  )
+
 tabla_albums <- df_albums %>%  select(-album_id) %>%
   
   gt() %>%
   
   tab_header(
-    title = md(glue::glue('**{str_to_title(ARTISTA)}** en Spotify')),
+    title = md(glue::glue('{imagen_artista} **{str_to_title(ARTISTA)}** en Spotify')),
     subtitle = 'Álbumes más recientes') %>%
   
   text_transform(
@@ -292,6 +301,7 @@ tabla_albums <- df_albums %>%  select(-album_id) %>%
     }
   ) 
 ```
+
 
 De momento, se ocultan las variables de audio para visualizar la tabla:
 
@@ -310,6 +320,8 @@ gt::gtsave(tabla_albums %>%  cols_hide(all_of(vars_audio)),
 ```{r, echo=FALSE, eval=TRUE}
 knitr::include_graphics('images/tabla_4.png')
 ```
+
+
 
 Otra función útil para visualizar este tipo de información es **gt_merge_stack()** que permite concatenar dos variables en una única:
 
@@ -585,24 +597,16 @@ knitr::include_graphics('images/tabla_9.png')
 Además, se añade un ✨**theme** ✨ específico para asignarle colores y formatos adicionales:
 
 ```{r, eval=knit_eval}
-my_theme <- function(gt_object, ...) {
-  gt_object %>%
-    tab_options(
+tabla_albums <- tabla_albums %>%
+   tab_options(
       column_labels.background.color = "#39423c",
       footnotes.background.color = "#39423c",
       source_notes.background.color = "#39423c",
       heading.background.color = "#39423c",
       heading.align = "left",
-      ...
     ) %>%
     tab_style(style = cell_text(color = color_spotify, size = px(32)),
               locations = cells_title("title"))
-}
-```
-
-```{r, eval=knit_eval}
-tabla_albums <- tabla_albums %>%
-  my_theme()
 ```
 
 ```{r, eval=FALSE}
