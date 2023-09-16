@@ -2,116 +2,410 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>RLadies BA</title>
-    <link>/</link>
-      <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://rladiesba.netlify.app/</link>
+      <atom:link href="https://rladiesba.netlify.app/index.xml" rel="self" type="application/rss+xml" />
     <description>RLadies BA</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>es</language><lastBuildDate>Sat, 12 Mar 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>es</language><lastBuildDate>Thu, 07 Sep 2023 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/media/icon_hu4b9af3f567e0b0f9e5f99da57ed62ab5_26887_512x512_fill_lanczos_center_2.png</url>
+      <url>https://rladiesba.netlify.app/media/icon_hu4b9af3f567e0b0f9e5f99da57ed62ab5_26887_512x512_fill_lanczos_center_2.png</url>
       <title>RLadies BA</title>
-      <link>/</link>
+      <link>https://rladiesba.netlify.app/</link>
     </image>
     
     <item>
-      <title>Python basics</title>
-      <link>/courses/example/python/</link>
-      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>/courses/example/python/</guid>
-      <description>&lt;p&gt;Build a foundation in Python.&lt;/p&gt;
-&lt;p&gt;
-  &lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; 1-2 hours per week, for 8 weeks&lt;/p&gt;
-&lt;h2 id=&#34;learn&#34;&gt;Learn&lt;/h2&gt;
-
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube.com/embed/rfscVS0vtbw&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&#34;quiz&#34;&gt;Quiz&lt;/h2&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-2&#34;&gt;
-  &lt;summary&gt;What is the difference between lists and tuples?&lt;/summary&gt;
-  &lt;p&gt;&lt;p&gt;Lists&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Lists are mutable - they can be changed&lt;/li&gt;
-&lt;li&gt;Slower than tuples&lt;/li&gt;
-&lt;li&gt;Syntax: &lt;code&gt;a_list = [1, 2.0, &#39;Hello world&#39;]&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Tuples&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Tuples are immutable - they can&amp;rsquo;t be changed&lt;/li&gt;
-&lt;li&gt;Tuples are faster than lists&lt;/li&gt;
-&lt;li&gt;Syntax: &lt;code&gt;a_tuple = (1, 2.0, &#39;Hello world&#39;)&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/p&gt;
-&lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-3&#34;&gt;
-  &lt;summary&gt;Is Python case-sensitive?&lt;/summary&gt;
-  &lt;p&gt;Yes&lt;/p&gt;
-&lt;/details&gt;</description>
+      <title>Introducción al análisis de la EPH con R en Sociales</title>
+      <link>https://rladiesba.netlify.app/project/eph/</link>
+      <pubDate>Thu, 07 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://rladiesba.netlify.app/project/eph/</guid>
+      <description>&lt;p&gt;¡Primer encuentro de 2023!&lt;/p&gt;
+&lt;p&gt;Arrancamos el año con un Taller de Introducción a la Encuesta Permanente de Hogares de INDEC usando el paquete EPH y Tidyverse.&lt;/p&gt;
+&lt;p&gt;Andrea Gomez Vargas y Betsy Cohen nos mostraron cómo podemos obtener información directamente desde RStudio con el paquete {eph} y traducirla en indicadores de condiciones de actividad fundamentales para arrancar cualquier análisis en ciencias sociales y presentarlo en una tabla con {gt}&lt;/p&gt;
+&lt;p&gt;El encuentro se llevó a cabo en la Facultad de Ciencias Sociales de la UBA y contó con más de 140 inscriptxs.&lt;/p&gt;
+&lt;p&gt;Si tenés ganas podés revisar la documentación en el sitio del taller &lt;a href=&#34;https://eph-ubasociales.netlify.app/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;eph-ubasociales.netlify.app&lt;/a&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
-      <title>Visualization</title>
-      <link>/courses/example/visualization/</link>
-      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>/courses/example/visualization/</guid>
-      <description>&lt;p&gt;Learn how to visualize data with Plotly.&lt;/p&gt;
-&lt;p&gt;
-  &lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; 1-2 hours per week, for 8 weeks&lt;/p&gt;
-&lt;h2 id=&#34;learn&#34;&gt;Learn&lt;/h2&gt;
+      <title>Creando tablas sobre tus artistas favorites con {gt} y la API de Spotify</title>
+      <link>https://rladiesba.netlify.app/post/tablasgtpost/</link>
+      <pubDate>Thu, 08 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>https://rladiesba.netlify.app/post/tablasgtpost/</guid>
+      <description>
 
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube.com/embed/hSPmj7mK6ng&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+
+&lt;div id=&#34;introducción&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Introducción&lt;/h1&gt;
+&lt;p&gt;Utilización del paquete &lt;strong&gt;{gt}&lt;/strong&gt; 📦 para visualizar datos de artistas obtenidos mediante la API de &lt;strong&gt;Spotify🎶&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Este post hace referencia al &lt;a href=&#34;https://rladiesba.netlify.app/project/tablagt/&#34;&gt;taller del 2022-11-23&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;🔸 &lt;a href=&#34;https://github.com/RLadies-BA/gt-spotify&#34;&gt;Repositorio&lt;/a&gt; 🔸 &lt;a href=&#34;https://www.youtube.com/watch?v=wciGM5rMBos&amp;amp;ab_channel=RLadiesBuenosAires&#34;&gt;Grabación&lt;/a&gt; 🔸&lt;/p&gt;
+&lt;iframe src=&#34;https://karbartolome.github.io/gt-spotify/01_slides/rladies_gt_spotify.html&#34; width=&#34;100%&#34; height=&#34;400px&#34; data-external=&#34;1&#34;&gt;
+&lt;/iframe&gt;
+&lt;/iframe&gt;
 &lt;/div&gt;
+&lt;div id=&#34;librerías&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;1. Librerías&lt;/h1&gt;
+&lt;p&gt;Se definen los &lt;strong&gt;paquetes&lt;/strong&gt; 📦 a utilizar:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(tidyverse) # Manipulación de datos
+library(gt)        # Tablas gt: grammar of tables
+library(gtExtras)  # Extras de tablas gt
+library(spotifyr)  # Trabajar con la API de spotify
+library(rjson)     # Lectura de archivo json
+library(ggrepel)   # Para textos en ggplot&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;⚠️ De no haber podido obtener las credenciales para consultar a la API de Spotify, pasar al punto 3, en donde se leen los datos de un dataframe almacenado en el repositorio.&lt;/strong&gt; &lt;strong&gt;⚠️&lt;/strong&gt;&lt;/p&gt;
+&lt;div id=&#34;api-spotify---credenciales&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;2. API Spotify - Credenciales&lt;/h2&gt;
+&lt;p&gt;Se cuenta con un archivo &lt;strong&gt;(credentials..json)&lt;/strong&gt;, que contiene las siguientes variables obtenidas de la página de desarrolladores de Spotify:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;SPOTIFY_CLIENT_ID&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;SPOTIFY_CLIENT_SECRET&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;El formato del archivo &lt;strong&gt;credentials.json&lt;/strong&gt; está incluido en el .gitignore del repositorio. Esto permite mantener las credenciales anónimas (sin publicar en repositorios), dado que son personales y no deben compartirse. A continuación se muestra el formato de este archivo:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;{
+  &amp;quot;SPOTIFY_CLIENT_ID&amp;quot; : &amp;quot;SPOTIFY_CLIENT_ID&amp;quot;,
+  &amp;quot;SPOTIFY_CLIENT_SECRET&amp;quot; : &amp;quot;SPOTIFY_CLIENT_SECRET&amp;quot;
+}&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Se realiza la lectura de las credenciales mediante la función &lt;strong&gt;fromJSON()&lt;/strong&gt;. Luego, se setean como variables de entorno:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;credentials &amp;lt;- fromJSON(file = &amp;quot;credentials.json&amp;quot;)
 
-&lt;h2 id=&#34;quiz&#34;&gt;Quiz&lt;/h2&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-2&#34;&gt;
-  &lt;summary&gt;When is a heatmap useful?&lt;/summary&gt;
-  &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit.&lt;/p&gt;
-&lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-3&#34;&gt;
-  &lt;summary&gt;Write Plotly code to render a bar chart&lt;/summary&gt;
-  &lt;p&gt;&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import plotly.express as px
-data_canada = px.data.gapminder().query(&amp;quot;country == &#39;Canada&#39;&amp;quot;)
-fig = px.bar(data_canada, x=&#39;year&#39;, y=&#39;pop&#39;)
-fig.show()
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/p&gt;
-&lt;/details&gt;</description>
+Sys.setenv(SPOTIFY_CLIENT_ID = credentials$SPOTIFY_CLIENT_ID)
+Sys.setenv(SPOTIFY_CLIENT_SECRET = credentials$SPOTIFY_CLIENT_SECRET)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Mediante la función &lt;strong&gt;get_spotify_access_token&lt;/strong&gt;() del paquete {&lt;strong&gt;spotifyr&lt;/strong&gt;} 📦, se realiza la autenticación a la API:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;access_token &amp;lt;- get_spotify_access_token()&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Para verificar que la autenticación haya sido exitosa, se realiza una consulta de los artistas más escuchados:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;tabla_user &amp;lt;- get_my_top_artists_or_tracks(
+                type = &amp;#39;artists&amp;#39;,
+                time_range = &amp;#39;short_term&amp;#39;, # &amp;#39;medium_term&amp;#39;, &amp;#39;long_term&amp;#39;
+                limit = 5
+              ) %&amp;gt;%
+  select(name, genres) %&amp;gt;%
+  rowwise() %&amp;gt;%
+  mutate(genres = paste(genres, collapse = &amp;#39;, &amp;#39;)) %&amp;gt;%
+  ungroup %&amp;gt;%
+  gt()&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;caso-análisis-de-un-artista-particular&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Caso: análisis de un artista particular&lt;/h1&gt;
+&lt;p&gt;En este caso, el artista a analizar es Bad Bunny:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;ARTISTA = &amp;#39;bad bunny&amp;#39;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;La función &lt;strong&gt;get_artist_audio_features()&lt;/strong&gt; del paquete {&lt;strong&gt;spotifyr&lt;/strong&gt;} 📦 permite generar una búsqueda de variables vinculadas al audio de cada track.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;vars_audio = c(&amp;#39;danceability&amp;#39;,
+               &amp;#39;energy&amp;#39;,
+               &amp;#39;loudness&amp;#39;,
+               &amp;#39;acousticness&amp;#39;,
+               &amp;#39;instrumentalness&amp;#39;)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;tracks_features &amp;lt;- get_artist_audio_features(artist = ARTISTA) %&amp;gt;%
+  
+  select(
+    artist_id,
+    artist_name,
+    album_id,
+    album_name,
+    album_release_date,
+    album_images,
+    track_name,
+    duration_ms,
+    
+    # Variables vinculadas al audio:
+    all_of(vars_audio)
+  ) %&amp;gt;%
+  
+  arrange(desc(album_release_date))&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;the-grammar-of-tables-gt&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;3. The grammar of tables (gt)&lt;/h1&gt;
+&lt;p&gt;De no haber podido autenticarte con la API de Spotify, dejamos un archivo .rds con los datos necesarios para seguir con el resto del taller:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;tracks_features &amp;lt;- read_rds(&amp;#39;https://github.com/karbartolome/gt-spotify/blob/main/02_caso_spotify/tracks_features.rds?raw=true&amp;#39;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Se cuenta con un df de variables vinculadas a cada canción de cada álbum del artista seleccionado:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;tracks_features %&amp;gt;%
+  glimpse()&lt;/code&gt;&lt;/pre&gt;
+&lt;div id=&#34;intro-a-gt&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;3.1 Intro a gt&lt;/h2&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;tabla &amp;lt;- tracks_features %&amp;gt;%
+  head() %&amp;gt;%
+  select(artist_name, album_name, track_name, all_of(vars_audio)) %&amp;gt;%
+  
+  # En este paso se transforma el df en un objeto gt:
+  gt()&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;tabla&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;images/tabla_1.png&#34; width=&#34;100%&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Notar que las variables numéricas aparecen con muchos decimales. Una forma sencilla de arreglar esto en {gt} es la siguiente:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;tabla %&amp;gt;%
+  fmt_number(columns = where(is.numeric), decimals = 2)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;images/tabla_2.png&#34; width=&#34;100%&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;tabla-a-nivel-álbumes&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;3.2 Tabla a nivel álbumes&lt;/h2&gt;
+&lt;p&gt;Se agregan los datos a nivel de cada álbum. Notar que, en el caso de las variables de audio, se decidió convertirlas en una lista (N observaciones numéricas que representan cada una de las canciones incluidas en el álbum). En los próximos pasos se explicará el por qué de la decisión:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;df_albums &amp;lt;- tracks_features %&amp;gt;%
+  
+  group_by(album_images,
+           artist_name,
+           album_id,
+           album_name,
+           album_release_date) %&amp;gt;%
+  
+  summarise(# Duración del álbum: suma de duración de cada canción
+    duration_mins = sum(duration_ms / (1000 * 60)),
+    
+    # Lista de cada variable de audio
+    across(all_of(vars_audio), ~ list(.x)),) %&amp;gt;%
+  
+  ungroup()&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;tabla_albums &amp;lt;- df_albums %&amp;gt;%
+  select(-album_images) %&amp;gt;%
+  gt() &lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;tabla_albums&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;images/tabla_3.png&#34; width=&#34;100%&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;imágenes-en-tablas-gt&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;3.3 Imágenes en tablas gt&lt;/h2&gt;
+&lt;p&gt;Se quiere añadir la imagen del álbum. Para ello, se construye la siguiente función. Para cada álbum se cuenta con distintos tamaños de imágenes, donde cada imagen se encuentra representada por un url. Se decide seleccionar la imagen de tamaño=64, extrayendo el url:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;get_imagen = function(album_images) {
+  album_images %&amp;gt;%
+    data.frame() %&amp;gt;%
+    filter(height == 64) %&amp;gt;%
+    pull(url) %&amp;gt;%
+    as.character()
+}&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Se aplica la función al dataframe. Para ello, se utiliza la función &lt;strong&gt;map()&lt;/strong&gt; del paquete {purrr} 📦:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;df_albums &amp;lt;- df_albums %&amp;gt;%
+  mutate(
+    album_images = map(album_images, 
+                       ~ get_imagen(album_images = .x))
+  ) %&amp;gt;%
+  distinct()&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Para visualizar los urls como imagenes, se utiliza la función &lt;strong&gt;text_transform()&lt;/strong&gt; de {gt}. Además, la función &lt;strong&gt;tab_header()&lt;/strong&gt; permite añadir título y subtítulo.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;imagen_path = &amp;#39;https://raw.githubusercontent.com/karbartolome/gt-spotify/main/02_caso_spotify/imagenes/bad_bunny.png&amp;#39;
+image_size = 50
+
+imagen_artista &amp;lt;- paste0(
+    &amp;quot;&amp;lt;img src=&amp;#39;&amp;quot;, imagen_path,&amp;quot;&amp;#39; style=&amp;#39;height:&amp;quot;,image_size,&amp;quot;px;&amp;#39;&amp;gt;&amp;quot;
+  )
+
+tabla_albums &amp;lt;- df_albums %&amp;gt;%  select(-album_id) %&amp;gt;%
+  
+  gt() %&amp;gt;%
+  
+  tab_header(
+    title = md(glue::glue(&amp;#39;{imagen_artista} **{str_to_title(ARTISTA)}** en Spotify&amp;#39;)),
+    subtitle = &amp;#39;Álbumes más recientes&amp;#39;) %&amp;gt;%
+  
+  text_transform(
+    locations = cells_body(columns = c(album_images)),
+    fn = function(album_images) {
+      lapply(album_images, web_image, height = 50)
+    }
+  ) &lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;De momento, se ocultan las variables de audio para visualizar la tabla:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;tabla_albums %&amp;gt;%
+  cols_hide(all_of(vars_audio))&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;images/tabla_4.png&#34; width=&#34;100%&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Otra función útil para visualizar este tipo de información es &lt;strong&gt;gt_merge_stack()&lt;/strong&gt; que permite concatenar dos variables en una única:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;tabla_albums &amp;lt;- tabla_albums %&amp;gt;%
+  
+  gt_merge_stack(col1 = album_name,
+                 col2 = artist_name) &lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;tabla_albums %&amp;gt;% 
+  cols_hide(all_of(vars_audio)) &lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;images/tabla_5.png&#34; width=&#34;100%&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Para visualizar las variables de audio, se utilizarán algunas funcionalidades del paquete &lt;strong&gt;{gtExtras}&lt;/strong&gt; 📦:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;tabla_albums &amp;lt;- tabla_albums %&amp;gt;%
+  
+  gt_color_box(
+    columns = duration_mins,
+    palette = c(&amp;#39;white&amp;#39;, color_spotify),
+    domain = c(0, round(max(df_albums$duration_mins)) + 1)
+  ) %&amp;gt;%
+  
+  gt_plt_dist(
+    column = danceability,
+    type = &amp;quot;density&amp;quot;,
+    line_color = &amp;quot;black&amp;quot;,
+    fill_color = color_spotify
+  ) %&amp;gt;%
+  
+  gt_plt_dist(
+    column = energy,
+    type = &amp;quot;density&amp;quot;,
+    line_color = &amp;quot;black&amp;quot;,
+    fill_color = color_spotify
+  ) %&amp;gt;%
+  
+  gt_plt_dist(
+    column = loudness,
+    type = &amp;quot;density&amp;quot;,
+    line_color = &amp;quot;black&amp;quot;,
+    fill_color = color_spotify
+  ) %&amp;gt;%
+  
+  gt_plt_dist(
+    column = acousticness,
+    type = &amp;quot;boxplot&amp;quot;,
+    line_color = &amp;quot;black&amp;quot;,
+    fill_color = color_spotify
+  )&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;tabla_albums %&amp;gt;%
+  cols_hide(&amp;#39;instrumentalness&amp;#39;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;images/tabla_6.png&#34; width=&#34;100%&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ggplot-en-gt&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;3.4 Ggplot en gt&lt;/h2&gt;
+&lt;p&gt;Notar que si se agregara el boxplot para el caso de la variable instrumentalness, se observa, para todos los álbumes, distribuciones con valores atípicos:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;tabla_albums %&amp;gt;%
+  gt_plt_dist(
+    column = instrumentalness,
+    type = &amp;quot;boxplot&amp;quot;,
+    line_color = &amp;quot;black&amp;quot;,
+    fill_color = color_spotify
+  ) &lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;images/tabla_7.png&#34; width=&#34;100%&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Por esta razón, se utilizará el caso de esta variable para explicar cómo se podría identificar a estos valores atípicos mediante el uso de {ggplot2} 📦&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;gen_outliers_plots &amp;lt;- function(.df,
+                               .variable,
+                               .font_size = 22,
+                               .lwd = 3) {
+  temp &amp;lt;- .df %&amp;gt;%
+    select(all_of(c(&amp;#39;track_name&amp;#39;, .variable))) %&amp;gt;%
+    pivot_longer(cols = -track_name)
+  
+  track &amp;lt;- temp %&amp;gt;%
+    slice(which.max(value)) %&amp;gt;%
+    pull(track_name)
+  
+  temp %&amp;gt;%
+    mutate(is_outlier = ifelse(track_name == track, track_name, NA)) %&amp;gt;%
+    
+    ggplot(aes(y = value, x = name)) +
+    geom_boxplot(
+      fill = color_spotify,
+      width = 0.2,
+      lwd = .lwd,
+      outlier.size = 5
+    ) +
+    geom_text_repel(
+      aes(label = is_outlier),
+      na.rm = TRUE,
+      nudge_x = 0.4,
+      size = .font_size
+    ) +
+    coord_flip() +
+    theme_void()
+}&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Realizando la prueba de la función, se observa el gráfico que genera:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;plot &amp;lt;- gen_outliers_plots(
+  .df = tracks_features %&amp;gt;% filter(album_name == &amp;#39;X 100PRE&amp;#39;),
+  .variable = &amp;#39;instrumentalness&amp;#39;,
+  .font_size = 10,
+  .lwd = 0.5
+)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;plot&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;images/plot_1.png&#34; width=&#34;50%&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Ahora se incluyen estos plots en la tabla. Primero, se mappea la función al df:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;df_albums &amp;lt;- df_albums %&amp;gt;%
+  mutate(instrumentalness = map(
+    album_id,
+    ~ gen_outliers_plots(
+        .df = tracks_features %&amp;gt;% filter(album_id == .x),
+        .variable = &amp;#39;instrumentalness&amp;#39;)
+  ))&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Se visualiza la tabla completa:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;tabla_albums &amp;lt;- tabla_albums %&amp;gt;%
+  
+  text_transform(
+    locations = cells_body(columns = instrumentalness),
+    fn = function(x) {
+      map(
+        df_albums$instrumentalness,
+        gt::ggplot_image,
+        height = px(60),
+        aspect_ratio = 2
+      )
+    }
+  ) &lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;tabla_albums&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;images/tabla_8.png&#34; width=&#34;100%&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;formato&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Formato&lt;/h2&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;tabla_albums &amp;lt;- tabla_albums %&amp;gt;%
+  
+  tab_spanner(label = &amp;#39;Un tipo de variables&amp;#39;,
+              columns = danceability:loudness) %&amp;gt;%
+  tab_spanner(label = &amp;#39;Otro tipo de variables&amp;#39;,
+              columns = c(&amp;#39;acousticness&amp;#39;, &amp;#39;instrumentalness&amp;#39;)) %&amp;gt;%
+  
+  tab_footnote(
+    locations = cells_column_labels(&amp;#39;duration_mins&amp;#39;),
+    footnote = &amp;#39;Duración en minutos = suma de la duración de
+                               cada una de las canciones que componen el álbum.&amp;#39;
+  ) %&amp;gt;%
+  
+  tab_footnote(
+    locations = cells_column_labels(&amp;#39;instrumentalness&amp;#39;),
+    footnote = &amp;#39;En el caso de instrumentalness, al existir
+                               valores muy atípicos se muestra la canción a la
+                               que corresponde el máximo valor en cada álbum.&amp;#39;
+  ) %&amp;gt;%
+  
+  tab_source_note(source_note = &amp;#39;Fuente: API de Spotify&amp;#39;) %&amp;gt;%
+  
+  cols_label(
+    album_images = &amp;#39;&amp;#39;,
+    album_name = &amp;#39;&amp;#39;,
+    album_release_date = &amp;#39;Lanzamiento&amp;#39;,
+    duration_mins = &amp;#39;Duración&amp;#39;,
+    danceability = &amp;#39;Danceability 🕺&amp;#39;,
+    energy = &amp;#39;Energy ✨&amp;#39;,
+    loudness = &amp;#39;Loudness 🔊&amp;#39;,
+    acousticness = &amp;#39;Acousticness 🎹&amp;#39;,
+    instrumentalness = &amp;#39;Instrumentalness 🎼&amp;#39;
+  )&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;tabla_albums&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Además, se añade un ✨&lt;strong&gt;theme&lt;/strong&gt; ✨ específico para asignarle colores y formatos adicionales:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;tabla_albums &amp;lt;- tabla_albums %&amp;gt;%
+   tab_options(
+      column_labels.background.color = &amp;quot;#39423c&amp;quot;,
+      footnotes.background.color = &amp;quot;#39423c&amp;quot;,
+      source_notes.background.color = &amp;quot;#39423c&amp;quot;,
+      heading.background.color = &amp;quot;#39423c&amp;quot;,
+      heading.align = &amp;quot;left&amp;quot;,
+    ) %&amp;gt;%
+    tab_style(style = cell_text(color = color_spotify, size = px(32)),
+              locations = cells_title(&amp;quot;title&amp;quot;))&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;tabla_albums&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;images/tabla_10.png&#34; width=&#34;100%&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;guardar-la-tabla-gt-como-archivo-.png&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;3.5 Guardar la tabla gt como archivo .png&lt;/h2&gt;
+&lt;p&gt;Para guardar la tabla, se utiliza la función &lt;strong&gt;gtsave()&lt;/strong&gt; de {gt} 📦:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;gtsave(tabla_albums,
+       &amp;#39;tablas/tabla_final.png&amp;#39;,
+       vwidth = 2000,
+       vheight = 3000)&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
     </item>
     
     <item>
-      <title>Statistics</title>
-      <link>/courses/example/stats/</link>
-      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>/courses/example/stats/</guid>
-      <description>&lt;p&gt;Introduction to statistics for data science.&lt;/p&gt;
-&lt;p&gt;
-  &lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; 1-2 hours per week, for 8 weeks&lt;/p&gt;
-&lt;h2 id=&#34;learn&#34;&gt;Learn&lt;/h2&gt;
-&lt;p&gt;The general form of the &lt;strong&gt;normal&lt;/strong&gt; probability density function is:&lt;/p&gt;
-&lt;p&gt;$$
-f(x) = \frac{1}{\sigma \sqrt{2\pi} } e^{-\frac{1}{2}\left(\frac{x-\mu}{\sigma}\right)^2}
-$$&lt;/p&gt;
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    The parameter $\mu$ is the mean or expectation of the distribution.
-$\sigma$ is its standard deviation.
-The variance of the distribution is $\sigma^{2}$.
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&#34;quiz&#34;&gt;Quiz&lt;/h2&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-2&#34;&gt;
-  &lt;summary&gt;What is the parameter $\mu$?&lt;/summary&gt;
-  &lt;p&gt;The parameter $\mu$ is the mean or expectation of the distribution.&lt;/p&gt;
-&lt;/details&gt;</description>
+      <title>Creando tablas en {gt} con Spotify API &amp; Bad Bunny</title>
+      <link>https://rladiesba.netlify.app/project/tablagt/</link>
+      <pubDate>Sat, 12 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>https://rladiesba.netlify.app/project/tablagt/</guid>
+      <description>&lt;p&gt;¡Se viene un nuevo Meetup organizado por R-Ladies Buenos Aires!&lt;/p&gt;
+&lt;p&gt;Esta vez les traemos el tutorial &amp;ldquo;Creando tablas en {gt} con Spotify API &amp;amp; Bad Bunny&amp;rdquo; a cargo de Andrea Gomez Vargas (@me_andre) y Karina Bartolomé (@karbartolome).&lt;/p&gt;
+&lt;p&gt;Andre y Kari les van a mostrar cómo podemos obtener información desde Spotify y plasmarla en una tabla usando el paquete {gt} que permite mostrar mucho más que solo números. Aunque el paquete no es parte del Tydiverse, su sintaxis y estructura es compatible con esta poderosa herramienta para el análisis de datos. Y cómo si fuera poco, nos traen un ejemplo con info de nada más y nada menos que Bad Bunny 🐰🎵&lt;/p&gt;
+&lt;p&gt;Si sos fan del Tidyverse o de Bad Bunny, o si querés aprender a extraer datos de Spotify o simplemente aprender como hacer tablas desde R, este Meetup es para vos!&lt;/p&gt;
+&lt;h3 id=&#34;reviví-la-presentación-en-nuestro-canal-de-youtube&#34;&gt;Reviví la presentación en nuestro canal de youtube:&lt;/h3&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/wciGM5rMBos&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;</description>
     </item>
     
     <item>
       <title>Cumplimos 5 años</title>
-      <link>/project/cumple5/</link>
+      <link>https://rladiesba.netlify.app/project/cumple5/</link>
       <pubDate>Sat, 12 Mar 2022 00:00:00 +0000</pubDate>
-      <guid>/project/cumple5/</guid>
+      <guid>https://rladiesba.netlify.app/project/cumple5/</guid>
       <description>&lt;p&gt;Estamos muy contentas de todo este camino recorrido juntas.
 Compartimos aprendizaje, nos ayudamos entre todes, enfrentamos dudas, aportamos conocimiento y soluciones con este lenguaje R que nos une para nuevas iniciativas o problemas del dia a dia. Y tambien vivimos lo que es sororidad, nos acompañamos en el festejo y en el &amp;ldquo;estoy furiosa&amp;rdquo;.&lt;/p&gt;
 &lt;p&gt;Es tiempo de festejar y de volvernos encontrar presencialmente.&lt;/p&gt;
@@ -120,9 +414,9 @@ Compartimos aprendizaje, nos ayudamos entre todes, enfrentamos dudas, aportamos 
     
     <item>
       <title>Generando tutoriales interactivos con el paquete learnr</title>
-      <link>/project/learnr2022/</link>
+      <link>https://rladiesba.netlify.app/project/learnr2022/</link>
       <pubDate>Sat, 12 Mar 2022 00:00:00 +0000</pubDate>
-      <guid>/project/learnr2022/</guid>
+      <guid>https://rladiesba.netlify.app/project/learnr2022/</guid>
       <description>&lt;p&gt;¡Te invitamos a un nuevo meetup!&lt;/p&gt;
 &lt;p&gt;&amp;ldquo;Generando tutoriales interactivos con el paquete learnr &amp;quot;
 Será el miércoles 11 de mayo de 2022, organizado por MetaDocencia &amp;amp; R-Ladies Buenos Aires de la mano de nuestras entrañables Yanina Bellini y Pao Corrales.&lt;/p&gt;
@@ -143,274 +437,10 @@ Metadocencia y RLadies Buenos Aires&lt;/p&gt;
     </item>
     
     <item>
-      <title>Introducción a R y RStudio</title>
-      <link>/post/intro-r2022/</link>
-      <pubDate>Sat, 12 Feb 2022 00:00:00 +0000</pubDate>
-      <guid>/post/intro-r2022/</guid>
-      <description>&lt;p&gt;Academic is designed to give technical content creators a seamless experience. You can focus on the content and Academic handles the rest.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Highlight your code snippets, take notes on math classes, and draw diagrams from textual representation.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;On this page, you&amp;rsquo;ll find some examples of the types of technical content that can be rendered with Academic.&lt;/p&gt;
-&lt;h2 id=&#34;examples&#34;&gt;Examples&lt;/h2&gt;
-&lt;h3 id=&#34;code&#34;&gt;Code&lt;/h3&gt;
-&lt;p&gt;Academic supports a Markdown extension for highlighting code syntax. You can enable this feature by toggling the &lt;code&gt;highlight&lt;/code&gt; option in your &lt;code&gt;config/_default/params.toml&lt;/code&gt; file.&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;```python
-import pandas as pd
-data = pd.read_csv(&amp;quot;data.csv&amp;quot;)
-data.head()
-```
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import pandas as pd
-data = pd.read_csv(&amp;quot;data.csv&amp;quot;)
-data.head()
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h3 id=&#34;charts&#34;&gt;Charts&lt;/h3&gt;
-&lt;p&gt;Academic supports the popular &lt;a href=&#34;https://plot.ly/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Plotly&lt;/a&gt; chart format.&lt;/p&gt;
-&lt;p&gt;Save your Plotly JSON in your page folder, for example &lt;code&gt;chart.json&lt;/code&gt;, and then add the &lt;code&gt;{{&amp;lt; chart data=&amp;quot;chart&amp;quot; &amp;gt;}}&lt;/code&gt; shortcode where you would like the chart to appear.&lt;/p&gt;
-&lt;p&gt;Demo:&lt;/p&gt;
-
-
-&lt;div id=&#34;chart-168534729&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
-&lt;script&gt;
-  (function() {
-    let a = setInterval( function() {
-      if ( typeof window.Plotly === &#39;undefined&#39; ) {
-        return;
-      }
-      clearInterval( a );
-
-      Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-168534729&#39;, chart.data, chart.layout, {responsive: true});
-      });
-    }, 500 );
-  })();
-&lt;/script&gt;
-&lt;p&gt;You might also find the &lt;a href=&#34;http://plotly-json-editor.getforge.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Plotly JSON Editor&lt;/a&gt; useful.&lt;/p&gt;
-&lt;h3 id=&#34;math&#34;&gt;Math&lt;/h3&gt;
-&lt;p&gt;Academic supports a Markdown extension for $\LaTeX$ math. You can enable this feature by toggling the &lt;code&gt;math&lt;/code&gt; option in your &lt;code&gt;config/_default/params.toml&lt;/code&gt; file.&lt;/p&gt;
-&lt;p&gt;To render &lt;em&gt;inline&lt;/em&gt; or &lt;em&gt;block&lt;/em&gt; math, wrap your LaTeX math with &lt;code&gt;$...$&lt;/code&gt; or &lt;code&gt;$$...$$&lt;/code&gt;, respectively.&lt;/p&gt;
-&lt;p&gt;Example &lt;strong&gt;math block&lt;/strong&gt;:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-latex&#34;&gt;$$\gamma_{n} = \frac{ 
-\left | \left (\mathbf x_{n} - \mathbf x_{n-1} \right )^T 
-\left [\nabla F (\mathbf x_{n}) - \nabla F (\mathbf x_{n-1}) \right ] \right |}
-{\left \|\nabla F(\mathbf{x}_{n}) - \nabla F(\mathbf{x}_{n-1}) \right \|^2}$$
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;p&gt;$$\gamma_{n} = \frac{ \left | \left (\mathbf x_{n} - \mathbf x_{n-1} \right )^T \left [\nabla F (\mathbf x_{n}) - \nabla F (\mathbf x_{n-1}) \right ] \right |}{\left |\nabla F(\mathbf{x}_{n}) - \nabla F(\mathbf{x}_{n-1}) \right |^2}$$&lt;/p&gt;
-&lt;p&gt;Example &lt;strong&gt;inline math&lt;/strong&gt; &lt;code&gt;$\nabla F(\mathbf{x}_{n})$&lt;/code&gt; renders as $\nabla F(\mathbf{x}_{n})$.&lt;/p&gt;
-&lt;p&gt;Example &lt;strong&gt;multi-line math&lt;/strong&gt; using the &lt;code&gt;\\\\&lt;/code&gt; math linebreak:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-latex&#34;&gt;$$f(k;p_{0}^{*}) = \begin{cases}p_{0}^{*} &amp;amp; \text{if }k=1, \\\\
-1-p_{0}^{*} &amp;amp; \text{if }k=0.\end{cases}$$
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;p&gt;$$f(k;p_{0}^{*}) = \begin{cases}p_{0}^{*} &amp;amp; \text{if }k=1, \\&lt;br&gt;
-1-p_{0}^{*} &amp;amp; \text{if }k=0.\end{cases}$$&lt;/p&gt;
-&lt;h3 id=&#34;diagrams&#34;&gt;Diagrams&lt;/h3&gt;
-&lt;p&gt;Academic supports a Markdown extension for diagrams. You can enable this feature by toggling the &lt;code&gt;diagram&lt;/code&gt; option in your &lt;code&gt;config/_default/params.toml&lt;/code&gt; file or by adding &lt;code&gt;diagram: true&lt;/code&gt; to your page front matter.&lt;/p&gt;
-&lt;p&gt;An example &lt;strong&gt;flowchart&lt;/strong&gt;:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;```mermaid
-graph TD
-A[Hard] --&amp;gt;|Text| B(Round)
-B --&amp;gt; C{Decision}
-C --&amp;gt;|One| D[Result 1]
-C --&amp;gt;|Two| E[Result 2]
-```
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-mermaid&#34;&gt;graph TD
-A[Hard] --&amp;gt;|Text| B(Round)
-B --&amp;gt; C{Decision}
-C --&amp;gt;|One| D[Result 1]
-C --&amp;gt;|Two| E[Result 2]
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;An example &lt;strong&gt;sequence diagram&lt;/strong&gt;:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;```mermaid
-sequenceDiagram
-Alice-&amp;gt;&amp;gt;John: Hello John, how are you?
-loop Healthcheck
-    John-&amp;gt;&amp;gt;John: Fight against hypochondria
-end
-Note right of John: Rational thoughts!
-John--&amp;gt;&amp;gt;Alice: Great!
-John-&amp;gt;&amp;gt;Bob: How about you?
-Bob--&amp;gt;&amp;gt;John: Jolly good!
-```
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-mermaid&#34;&gt;sequenceDiagram
-Alice-&amp;gt;&amp;gt;John: Hello John, how are you?
-loop Healthcheck
-    John-&amp;gt;&amp;gt;John: Fight against hypochondria
-end
-Note right of John: Rational thoughts!
-John--&amp;gt;&amp;gt;Alice: Great!
-John-&amp;gt;&amp;gt;Bob: How about you?
-Bob--&amp;gt;&amp;gt;John: Jolly good!
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;An example &lt;strong&gt;Gantt diagram&lt;/strong&gt;:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;```mermaid
-gantt
-section Section
-Completed :done,    des1, 2014-01-06,2014-01-08
-Active        :active,  des2, 2014-01-07, 3d
-Parallel 1   :         des3, after des1, 1d
-Parallel 2   :         des4, after des1, 1d
-Parallel 3   :         des5, after des3, 1d
-Parallel 4   :         des6, after des4, 1d
-```
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-mermaid&#34;&gt;gantt
-section Section
-Completed :done,    des1, 2014-01-06,2014-01-08
-Active        :active,  des2, 2014-01-07, 3d
-Parallel 1   :         des3, after des1, 1d
-Parallel 2   :         des4, after des1, 1d
-Parallel 3   :         des5, after des3, 1d
-Parallel 4   :         des6, after des4, 1d
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;An example &lt;strong&gt;class diagram&lt;/strong&gt;:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;```mermaid
-classDiagram
-Class01 &amp;lt;|-- AveryLongClass : Cool
-&amp;lt;&amp;lt;interface&amp;gt;&amp;gt; Class01
-Class09 --&amp;gt; C2 : Where am i?
-Class09 --* C3
-Class09 --|&amp;gt; Class07
-Class07 : equals()
-Class07 : Object[] elementData
-Class01 : size()
-Class01 : int chimp
-Class01 : int gorilla
-class Class10 {
-  &amp;lt;&amp;lt;service&amp;gt;&amp;gt;
-  int id
-  size()
-}
-```
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-mermaid&#34;&gt;classDiagram
-Class01 &amp;lt;|-- AveryLongClass : Cool
-&amp;lt;&amp;lt;interface&amp;gt;&amp;gt; Class01
-Class09 --&amp;gt; C2 : Where am i?
-Class09 --* C3
-Class09 --|&amp;gt; Class07
-Class07 : equals()
-Class07 : Object[] elementData
-Class01 : size()
-Class01 : int chimp
-Class01 : int gorilla
-class Class10 {
-  &amp;lt;&amp;lt;service&amp;gt;&amp;gt;
-  int id
-  size()
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;An example &lt;strong&gt;state diagram&lt;/strong&gt;:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;```mermaid
-stateDiagram
-[*] --&amp;gt; Still
-Still --&amp;gt; [*]
-Still --&amp;gt; Moving
-Moving --&amp;gt; Still
-Moving --&amp;gt; Crash
-Crash --&amp;gt; [*]
-```
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-mermaid&#34;&gt;stateDiagram
-[*] --&amp;gt; Still
-Still --&amp;gt; [*]
-Still --&amp;gt; Moving
-Moving --&amp;gt; Still
-Moving --&amp;gt; Crash
-Crash --&amp;gt; [*]
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h3 id=&#34;todo-lists&#34;&gt;Todo lists&lt;/h3&gt;
-&lt;p&gt;You can even write your todo lists in Academic too:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;- [x] Write math example
-- [x] Write diagram example
-- [ ] Do something else
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Write math example&lt;/li&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Write diagram example&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Do something else&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;tables&#34;&gt;Tables&lt;/h3&gt;
-&lt;p&gt;Represent your data in tables:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;First Header&lt;/th&gt;
-&lt;th&gt;Second Header&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Content Cell&lt;/td&gt;
-&lt;td&gt;Content Cell&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Content Cell&lt;/td&gt;
-&lt;td&gt;Content Cell&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h3 id=&#34;callouts&#34;&gt;Callouts&lt;/h3&gt;
-&lt;p&gt;Academic supports a &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/#callouts&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;shortcode for callouts&lt;/a&gt;, also referred to as &lt;em&gt;asides&lt;/em&gt;, &lt;em&gt;hints&lt;/em&gt;, or &lt;em&gt;alerts&lt;/em&gt;. By wrapping a paragraph in &lt;code&gt;{{% callout note %}} ... {{% /callout %}}&lt;/code&gt;, it will render as an aside.&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{% callout note %}}
-A Markdown aside is useful for displaying notices, hints, or definitions to your readers.
-{{% /callout %}}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    A Markdown aside is useful for displaying notices, hints, or definitions to your readers.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;h3 id=&#34;spoilers&#34;&gt;Spoilers&lt;/h3&gt;
-&lt;p&gt;Add a spoiler to a page to reveal text, such as an answer to a question, after a button is clicked.&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{&amp;lt; spoiler text=&amp;quot;Click to view the spoiler&amp;quot; &amp;gt;}}
-You found me!
-{{&amp;lt; /spoiler &amp;gt;}}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-2&#34;&gt;
-  &lt;summary&gt;Click to view the spoiler&lt;/summary&gt;
-  &lt;p&gt;You found me!&lt;/p&gt;
-&lt;/details&gt;
-&lt;h3 id=&#34;icons&#34;&gt;Icons&lt;/h3&gt;
-&lt;p&gt;Academic enables you to use a wide range of &lt;a href=&#34;https://sourcethemes.com/academic/docs/page-builder/#icons&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;icons from &lt;em&gt;Font Awesome&lt;/em&gt; and &lt;em&gt;Academicons&lt;/em&gt;&lt;/a&gt; in addition to &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/#emojis&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;emojis&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Here are some examples using the &lt;code&gt;icon&lt;/code&gt; shortcode to render icons:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{&amp;lt; icon name=&amp;quot;terminal&amp;quot; pack=&amp;quot;fas&amp;quot; &amp;gt;}} Terminal  
-{{&amp;lt; icon name=&amp;quot;python&amp;quot; pack=&amp;quot;fab&amp;quot; &amp;gt;}} Python  
-{{&amp;lt; icon name=&amp;quot;r-project&amp;quot; pack=&amp;quot;fab&amp;quot; &amp;gt;}} R
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;renders as&lt;/p&gt;
-&lt;p&gt;
-  &lt;i class=&#34;fas fa-terminal  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Terminal&lt;br&gt;
-
-  &lt;i class=&#34;fab fa-python  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Python&lt;br&gt;
-
-  &lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt; R&lt;/p&gt;
-&lt;h3 id=&#34;did-you-find-this-page-helpful-consider-sharing-it-&#34;&gt;Did you find this page helpful? Consider sharing it 🙌&lt;/h3&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Gg&#43; paquetes para extender las capacidades de ggplot2</title>
-      <link>/project/gg&#43;/</link>
+      <link>https://rladiesba.netlify.app/project/gg&#43;/</link>
       <pubDate>Thu, 04 Nov 2021 00:00:00 +0000</pubDate>
-      <guid>/project/gg&#43;/</guid>
+      <guid>https://rladiesba.netlify.app/project/gg&#43;/</guid>
       <description>&lt;p&gt;Los capítulos de R-Ladies Buenos Aires y R-Ladies Resistencia-Corrientes les traemos el tutorial &amp;ldquo;gg+ : paquetes para extender las capacidades de ggplot2&amp;rdquo; a cargo de &lt;a href=&#34;https://luisdva.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Luis Verde (@LuisDVerde)&lt;/a&gt;. Este taller es parte de los tutoriales de &lt;a href=&#34;https://latin-r.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;LatinR 2021&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Si sos fan de ggplot2 y querés conocer como extender sus funcionalidades o si estás buscando visualizar datos de forma eficiente y llamativa, ¡este tutorial es para vos!.&lt;/p&gt;
 &lt;p&gt;Luis va a mostrarnos distintos paquetes que se suman a ggplot2 para incorporar nuevas paletas de colores, representaciones gráficas y capas (geoms), y herramientas para acomodar y rotular elementos gráficos.&lt;/p&gt;
@@ -422,9 +452,9 @@ Para aprovechar el tutorial al máximo, instalá previamente los paquetes dplyr,
     
     <item>
       <title>Cómo empezaR desde las Ciencias Sociales hacia las Ciencias de Datos</title>
-      <link>/project/comoempezar/</link>
+      <link>https://rladiesba.netlify.app/project/comoempezar/</link>
       <pubDate>Wed, 22 Sep 2021 00:00:00 +0000</pubDate>
-      <guid>/project/comoempezar/</guid>
+      <guid>https://rladiesba.netlify.app/project/comoempezar/</guid>
       <description>&lt;p&gt;Desde el &lt;a href=&#34;https://www.nucleodeinnovacion.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Núcleo de Innovación Social (NIS)&lt;/strong&gt;&lt;/a&gt; y RLadies Buenos Aires les traemos esta charla con 4 expositorxs egresadxs de carreras vinculadas a las Ciencias Sociales que trabajan en ciencia de datos.&lt;/p&gt;
 &lt;p&gt;Cada unx contará su experiencia de primera mano sobre cómo arrancaron en este tipo de roles, qué trabas tuvieron, qué dificultades enfrentaron, y qué herramientas consideran que les sumaron y que pueden servirle a unx egresadx que quiera inciarse en mundo de la ciencia de datos.&lt;/p&gt;
 &lt;p&gt;Exponen:&lt;/p&gt;
@@ -444,9 +474,9 @@ Betsy Cohen (@betsy_ar) - Socióloga&lt;/p&gt;
     
     <item>
       <title>Social Network con politicxsentwitteR</title>
-      <link>/project/politicxsentwitter/</link>
+      <link>https://rladiesba.netlify.app/project/politicxsentwitter/</link>
       <pubDate>Wed, 25 Aug 2021 00:00:00 +0000</pubDate>
-      <guid>/project/politicxsentwitter/</guid>
+      <guid>https://rladiesba.netlify.app/project/politicxsentwitter/</guid>
       <description>&lt;p&gt;Nos visita la politóloga &lt;a href=&#34;https://github.com/Guadag12&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Guadalupe González&lt;/strong&gt;&lt;/a&gt; para presentar su paquete &lt;a href=&#34;https://oderedes.shinyapps.io/politicosentwitter/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;politicxsentwitteR&lt;/a&gt;. Con este paquete podrás obtener las publicaciones de politicxs argentinxs en Twitter y desarrollar proyectos de procesamiento del lenguaje natural, análisis de redes y visualización de datos.
 Guadalupe va a contarnos cómo desarrolló el paquete, sus características, y de qué maneras podemos analizar sus datos con las librerías de R igraph y visNetwork.&lt;/p&gt;
 &lt;p&gt;Si venís de las Ciencias Sociales (o no), querés profundizar en análisis de redes o te interesa el análisis de Twitter como fuente de información, este meetup es para vos.&lt;/p&gt;
@@ -457,18 +487,18 @@ Guadalupe va a contarnos cómo desarrolló el paquete, sus características, y d
     
     <item>
       <title>Reordenando datos con tidyR</title>
-      <link>/talk/reordenando-datos-con-tidyr/</link>
+      <link>https://rladiesba.netlify.app/talk/reordenando-datos-con-tidyr/</link>
       <pubDate>Tue, 04 May 2021 18:00:00 +0000</pubDate>
-      <guid>/talk/reordenando-datos-con-tidyr/</guid>
+      <guid>https://rladiesba.netlify.app/talk/reordenando-datos-con-tidyr/</guid>
       <description>&lt;p&gt;¿Necesitás ordenar tus datos? En esta ocasión aprenderemos a remodelar datos con algunas funciones de TidyR y haremos un pequeño recorrido en tidyverse &amp;amp; ciencia de datos. Para este meetup es necesario que tengas R &amp;amp; Rstudio en tu computadora con los paquetes Tidyverse y datos ya instalados.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Tidyverse reorganizando datos con TidyR</title>
-      <link>/project/tidyversecontidyr/</link>
+      <link>https://rladiesba.netlify.app/project/tidyversecontidyr/</link>
       <pubDate>Tue, 04 May 2021 00:00:00 +0000</pubDate>
-      <guid>/project/tidyversecontidyr/</guid>
+      <guid>https://rladiesba.netlify.app/project/tidyversecontidyr/</guid>
       <description>&lt;p&gt;¿Necesitás ordenar tus datos? En esta ocasión aprenderemos a remodelar datos con algunas funciones de TidyR y haremos un pequeño recorrido en tidyverse &amp;amp; ciencia de datos.&lt;/p&gt;
 &lt;h3 id=&#34;reviví-la-presentación-en-youtube&#34;&gt;Reviví la presentación en youtube&lt;/h3&gt;
 &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/chIwJ3hdlx0&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
@@ -477,9 +507,9 @@ Guadalupe va a contarnos cómo desarrolló el paquete, sus características, y d
     
     <item>
       <title>CieRre de año!</title>
-      <link>/project/cierredeano/</link>
+      <link>https://rladiesba.netlify.app/project/cierredeano/</link>
       <pubDate>Mon, 07 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>/project/cierredeano/</guid>
+      <guid>https://rladiesba.netlify.app/project/cierredeano/</guid>
       <description>&lt;p&gt;¡Se viene el último meetup del año y estamos felices porque lo co-organizamos en conjunto entre los capítulos de Bariloche, Mendoza, Córdoba, Santa Rosa, Ushuaia y Resistencia-Corrientes!&lt;/p&gt;
 &lt;p&gt;Vamos a aprovechar este último encuentro para repasar lo que hicimos durante este año tan particular. ¡Queremos celebrar el habernos encontrado a distancia con muchísimas personas que forman parte de la comunidad R en Argentina, Latinoamérica y el mundo! Si te perdiste algún meetup durante el año, aprovechá para ponerte al día sobre lo que hicimos, videos y materiales que generamos!&lt;/p&gt;
 &lt;p&gt;¡También habrá código de R! Ana Laura Diedrichs de R-Ladies Mendoza nos contará sobre Tidymodels&lt;/p&gt;
@@ -496,9 +526,9 @@ O son personas curiosas y quieren tener un vistazo de {tidymodels} y de qué tra
     
     <item>
       <title>Reproducibilidad en R</title>
-      <link>/project/charlar8/</link>
+      <link>https://rladiesba.netlify.app/project/charlar8/</link>
       <pubDate>Wed, 02 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>/project/charlar8/</guid>
+      <guid>https://rladiesba.netlify.app/project/charlar8/</guid>
       <description>&lt;p&gt;¿Basta con dejar disponible el código y las bases de datos de tu trabajo para que otra persona (o tu yo del futuro) pueda volver a correrlo sin problemas?&lt;/p&gt;
 &lt;p&gt;Las herramientas y prácticas que mejoran la reproducibilidad computacional no siempre se abordan en los cursos de programación. Algunas forman parte de “eso que se olvidaron de enseñarte de R”: control de versiones, sistemas de administración de dependencias, programación literaria, entre otras.&lt;/p&gt;
 &lt;p&gt;En este meetup de R-Ladies Buenos Aires, Florencia D’Andrea nos brinda un panorama de por qué es interesante abordar el tema de la reproducibilidad, publiques o no artículos científicos. Además presentamos la hackatón de reproducibilidad científica (reproHack) que tuvo lugar como parte de la edición virtual de LatinR 2020.&lt;/p&gt;
@@ -509,9 +539,9 @@ O son personas curiosas y quieren tener un vistazo de {tidymodels} y de qué tra
     
     <item>
       <title>Taller de dplyr</title>
-      <link>/project/charlar7/</link>
+      <link>https://rladiesba.netlify.app/project/charlar7/</link>
       <pubDate>Wed, 05 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>/project/charlar7/</guid>
+      <guid>https://rladiesba.netlify.app/project/charlar7/</guid>
       <description>&lt;p&gt;En este encuentro vamos a aprender a manipular nuestros datos tabulares en R con uno de los paquetes de tidyverse más usados: dplyr.&lt;/p&gt;
 &lt;h3 id=&#34;reviví-la-presentación-en-nuestro-canal-de-youtube&#34;&gt;Reviví la presentación en nuestro canal de youtube:&lt;/h3&gt;
 &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/FefLBPTTHzw&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
@@ -520,9 +550,9 @@ O son personas curiosas y quieren tener un vistazo de {tidymodels} y de qué tra
     
     <item>
       <title>Modelado predictivo con texto utilizando principios de datos tidy - useR! 2020</title>
-      <link>/project/predictivemodeling/</link>
+      <link>https://rladiesba.netlify.app/project/predictivemodeling/</link>
       <pubDate>Fri, 24 Jul 2020 00:00:00 +0000</pubDate>
-      <guid>/project/predictivemodeling/</guid>
+      <guid>https://rladiesba.netlify.app/project/predictivemodeling/</guid>
       <description>&lt;p&gt;Los capítulos de R-Ladies en Argentina estamos felices de anunciar que Emil Hvitfeldt y Julia Silge se unirán a nosotras para traernos su tutorial &amp;ldquo;Predictive modeling with text using tidy data principles&amp;rdquo;.&lt;/p&gt;
 &lt;p&gt;¿Alguna vez encontraste datos de texto y sospechaste que había información útil en esos datos?, ¿ Te sentiste con frustración al intentan ver cómo encontrar esa información? ¿Estás familiarizade con los conceptos básicos del modelado predictivo y estás liste para aprender cómo se pueden usar los datos de texto no estructurados para la predicción dentro de los ecosistemas tidyverse y tidymodels?&lt;/p&gt;
 &lt;p&gt;¿Necesitas un marco flexible para manejar datos de texto que te permitan construir modelos predictivos supervisados?
@@ -535,9 +565,9 @@ Los datos de texto son cada vez más importantes en muchos dominios, y los princ
     
     <item>
       <title>Cómo hacer una reunión virtual inolvidable (sin morir en el intento)</title>
-      <link>/project/reunionvirtual/</link>
+      <link>https://rladiesba.netlify.app/project/reunionvirtual/</link>
       <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
-      <guid>/project/reunionvirtual/</guid>
+      <guid>https://rladiesba.netlify.app/project/reunionvirtual/</guid>
       <description>&lt;p&gt;En este meetup te contaremos algunos trucos y herramientas para que cualquier evento virtual interactivo (por ejemplo, clase, taller o panel online) sea un éxito sin estrés adicional al hacerlo. Si organizas meetups de R-Ladies, encontrarás dónde y cómo acceder a la infraestructura que te permitirá organizar meetups online para tu capítulo. Si no organizas meetups de R-Ladies, también encontrarás material útil para todo tipo de evento online que organices o del que participes.&lt;/p&gt;
 &lt;p&gt;Estos contenidos nos los traen R-Ladies latinoamericanas, en su mayoría certificadas para enseñar por RStudio Education y The Carpentries. La mayoría también es parte de MetaDocencia, una organización que desde fines de marzo realizó más de 25 talleres interactivos enseñando a enseñar online a más de 300 docentes hispanohablantes con excelentes resultados. Todas tienen vasta experiencia teletrabajando y enseñando online.&lt;/p&gt;
 &lt;p&gt;Oradoras: Yanina Bellini Saibene y Paola Corrales.&lt;/p&gt;
@@ -549,9 +579,9 @@ Los datos de texto son cada vez más importantes en muchos dominios, y los princ
     
     <item>
       <title>Leyendo datos ordenados con Tidyverse</title>
-      <link>/project/charlar6/</link>
+      <link>https://rladiesba.netlify.app/project/charlar6/</link>
       <pubDate>Tue, 23 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>/project/charlar6/</guid>
+      <guid>https://rladiesba.netlify.app/project/charlar6/</guid>
       <description>&lt;p&gt;Este meetup es parte de la serie &amp;ldquo;Charlar con R&amp;rdquo;. Esta vez vamos a aprender qué son los datos ordenados y como importar datos tabulares a R con tidyverse.&lt;/p&gt;
 &lt;h3 id=&#34;reviví-la-presentación-en-nuestro-canal-de-youtube&#34;&gt;Reviví la presentación en nuestro canal de youtube:&lt;/h3&gt;
 &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/v39DeY0IDI0&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
@@ -560,9 +590,9 @@ Los datos de texto son cada vez más importantes en muchos dominios, y los princ
     
     <item>
       <title>Visualizando datos - especial</title>
-      <link>/project/charlar5/</link>
+      <link>https://rladiesba.netlify.app/project/charlar5/</link>
       <pubDate>Tue, 02 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>/project/charlar5/</guid>
+      <guid>https://rladiesba.netlify.app/project/charlar5/</guid>
       <description>&lt;p&gt;Este meetup es parte de la serie &amp;ldquo;Charlar con R&amp;rdquo;. María Nanton nos va a mostrar como visulializar datos usando ggplot y en particular vamos a trabajar con datos textuales para sumarnos al #30diasdegraficos organizado por la comunidad hispano hablante de R.&lt;/p&gt;
 &lt;h3 id=&#34;reviví-la-presentación-en-nuestro-canal-de-youtube&#34;&gt;Reviví la presentación en nuestro canal de youtube:&lt;/h3&gt;
 &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/WXp1T9JEIRM&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;</description>
@@ -570,9 +600,9 @@ Los datos de texto son cada vez más importantes en muchos dominios, y los princ
     
     <item>
       <title>Primeros pasos en git</title>
-      <link>/project/charlar4/</link>
+      <link>https://rladiesba.netlify.app/project/charlar4/</link>
       <pubDate>Mon, 18 May 2020 00:00:00 +0000</pubDate>
-      <guid>/project/charlar4/</guid>
+      <guid>https://rladiesba.netlify.app/project/charlar4/</guid>
       <description>&lt;p&gt;En este meetup, junto con Rladies Santa Rosa y Rladies General Pico,  daremos los primeros pasos en git. Qué es, para que sirve y como lo utilizamos desde RStudio.&lt;/p&gt;
 &lt;p&gt;Las oradoras fueron Yanina Bellini Saibene de Santa Rosa y Marysol Gatti de General Pico. Y si querés revisar los materiales, por acá: &lt;a href=&#34;https://yabellini.netlify.app/es/post/githubconr/&#34;&gt;https://yabellini.netlify.app/es/post/githubconr/&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;reviví-la-presentación-en-nuestro-canal-de-youtube&#34;&gt;Reviví la presentación en nuestro canal de youtube:&lt;/h3&gt;
@@ -581,9 +611,9 @@ Los datos de texto son cada vez más importantes en muchos dominios, y los princ
     
     <item>
       <title>Primeros pasos en RMarkdown</title>
-      <link>/project/charlar3/</link>
+      <link>https://rladiesba.netlify.app/project/charlar3/</link>
       <pubDate>Mon, 27 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>/project/charlar3/</guid>
+      <guid>https://rladiesba.netlify.app/project/charlar3/</guid>
       <description>&lt;p&gt;En esta tercera edición de Charlar con R dimos los primeros pasos en R Markdown. Qué es, para que sirve y algo de lo que se puede hacer de la mano de Jime Saucedo&lt;/p&gt;
 &lt;h3 id=&#34;reviví-la-presentación-en-nuestro-canal-de-youtube&#34;&gt;Reviví la presentación en nuestro canal de youtube:&lt;/h3&gt;
 &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/zENhUzKfCws&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;</description>
@@ -591,9 +621,9 @@ Los datos de texto son cada vez más importantes en muchos dominios, y los princ
     
     <item>
       <title>Primeros pasos en RStudio</title>
-      <link>/project/charlar2/</link>
+      <link>https://rladiesba.netlify.app/project/charlar2/</link>
       <pubDate>Mon, 06 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>/project/charlar2/</guid>
+      <guid>https://rladiesba.netlify.app/project/charlar2/</guid>
       <description>&lt;p&gt;Vamos a charlar sobre RStudio, veremos trucos y consejos para trabajar en este IDE que nos da tantas facilidades! Acordate, tenelo ya instalado!&lt;/p&gt;
 &lt;h3 id=&#34;reviví-la-presentación-en-nuestro-canal-de-youtube&#34;&gt;Reviví la presentación en nuestro canal de youtube:&lt;/h3&gt;
 &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/BN1j2TReP2Q&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;</description>
@@ -601,9 +631,9 @@ Los datos de texto son cada vez más importantes en muchos dominios, y los princ
     
     <item>
       <title>Trabajar con proyectos en R y cómo organizar nuestro trabajo.</title>
-      <link>/project/charlar1/</link>
+      <link>https://rladiesba.netlify.app/project/charlar1/</link>
       <pubDate>Mon, 23 Mar 2020 00:00:00 +0000</pubDate>
-      <guid>/project/charlar1/</guid>
+      <guid>https://rladiesba.netlify.app/project/charlar1/</guid>
       <description>&lt;p&gt;Este es el primer encuentro de la serie &amp;ldquo;Charlar con R&amp;rdquo;. Esta incluye reuniones virtuales y cortas para compartir trucos y consejos sobre R pero también para hacer sociales y tener un espacio para charlar sobre lo que se nos ocurra.&lt;/p&gt;
 &lt;p&gt;En esta ocasión vamos a charlar sobre como manejar proyectos de R y ordenar nuestro trabajo para no perdernos en un mar de scripts de R.&lt;/p&gt;
 &lt;p&gt;De esta primera edición no se encuentra disponible el video en youtube.&lt;/p&gt;
@@ -612,9 +642,9 @@ Los datos de texto son cada vez más importantes en muchos dominios, y los princ
     
     <item>
       <title>¡Watchparty de la RStudio::conf 2020!</title>
-      <link>/project/rstudioconf/</link>
+      <link>https://rladiesba.netlify.app/project/rstudioconf/</link>
       <pubDate>Wed, 29 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>/project/rstudioconf/</guid>
+      <guid>https://rladiesba.netlify.app/project/rstudioconf/</guid>
       <description>&lt;p&gt;Con la excusa de ver el comienzo de la RStudio::conf 2020, muchos regalitos y unas tremendas medialunas arrancamos tremprano el año junto a R en Baires.&lt;/p&gt;
 &lt;p&gt;Nos juntamos a ver las charlas plenarias de la RStudio::conf de manera remota gracias a la magia del streaming. Además, participamos de un pre-evento junto a otras comunidades alrededor del mundo para charlar y hacer preguntas a oradores y oradoras en San Francisco!&lt;/p&gt;
 &lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;es&#34; dir=&#34;ltr&#34;&gt;Faltan algunes pero miren que lindas comunidades tenemos &lt;a href=&#34;https://twitter.com/RLadiesBA?ref_src=twsrc%5Etfw&#34;&gt;@RLadiesBA&lt;/a&gt; &lt;a href=&#34;https://twitter.com/renbaires?ref_src=twsrc%5Etfw&#34;&gt;@renbaires&lt;/a&gt; 💜💜💜 &lt;a href=&#34;https://t.co/EdUTu1W3xK&#34;&gt;pic.twitter.com/EdUTu1W3xK&lt;/a&gt;&lt;/p&gt;&amp;mdash; R-Ladies BuenosAires (@RLadiesBA) &lt;a href=&#34;https://twitter.com/RLadiesBA/status/1222602889308274688?ref_src=twsrc%5Etfw&#34;&gt;January 29, 2020&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
@@ -625,9 +655,9 @@ Los datos de texto son cada vez más importantes en muchos dominios, y los princ
     
     <item>
       <title>¡Último meetup del año!</title>
-      <link>/project/cierre_temporada3/</link>
+      <link>https://rladiesba.netlify.app/project/cierre_temporada3/</link>
       <pubDate>Tue, 03 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>/project/cierre_temporada3/</guid>
+      <guid>https://rladiesba.netlify.app/project/cierre_temporada3/</guid>
       <description>&lt;p&gt;¡Cerramos la tercer temporada de meetups con todo!&lt;/p&gt;
 &lt;p&gt;Despedimos a Natsu con la charla:&lt;/p&gt;
 &lt;h3 id=&#34;boosted_me---r_ladiesme-o-cómo-sumarme-a-r-ladies-me-impulsó-a-desprogramar-la-desigualdad-de-género&#34;&gt;&amp;ldquo;boosted_me &amp;lt;- r_ladies(me), o cómo sumarme a R-Ladies me impulsó a (des)programar la desigualdad de género&amp;rdquo;&lt;/h3&gt;
@@ -643,9 +673,9 @@ Los datos de texto son cada vez más importantes en muchos dominios, y los princ
     
     <item>
       <title>R para nerds</title>
-      <link>/project/r_nerdearla/</link>
+      <link>https://rladiesba.netlify.app/project/r_nerdearla/</link>
       <pubDate>Sat, 19 Oct 2019 00:00:00 +0000</pubDate>
-      <guid>/project/r_nerdearla/</guid>
+      <guid>https://rladiesba.netlify.app/project/r_nerdearla/</guid>
       <description>&lt;p&gt;Desde R-Ladies Buenos Aires les proponemos un taller para quienes quieren arrancar a usar R para análisis de datos y visualización.&lt;/p&gt;
 &lt;p&gt;Si querés arrancar a usar R y formás parte de alguna minoría dentro del mundo de la programación, este taller es para vos! En nuestros encuentros buscamos crear un espacio amigable donde que cada persona se sienta comoda y aprendamos de la experiencia de quienes participan.&lt;/p&gt;
 &lt;p&gt;Trae tu compu (y cargador!) con:&lt;/p&gt;
@@ -658,9 +688,9 @@ Los datos de texto son cada vez más importantes en muchos dominios, y los princ
     
     <item>
       <title>¡Nos visita Erin LeDell!</title>
-      <link>/project/h20/</link>
+      <link>https://rladiesba.netlify.app/project/h20/</link>
       <pubDate>Wed, 02 Oct 2019 00:00:00 +0000</pubDate>
-      <guid>/project/h20/</guid>
+      <guid>https://rladiesba.netlify.app/project/h20/</guid>
       <description>&lt;p&gt;En esta ocasión nos visitó Erin LeDell, co-fundadora de R-Ladies y fundadora WiMLDS. Erin nos sió una charla sobre Scalable Automatic Machine Learning con H2O (en inglés). ¿De qué se trata esto?&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -675,9 +705,9 @@ Los datos de texto son cada vez más importantes en muchos dominios, y los princ
     
     <item>
       <title>Taller de Git y RStudio</title>
-      <link>/project/git_rstudio/</link>
+      <link>https://rladiesba.netlify.app/project/git_rstudio/</link>
       <pubDate>Sat, 14 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>/project/git_rstudio/</guid>
+      <guid>https://rladiesba.netlify.app/project/git_rstudio/</guid>
       <description>&lt;p&gt;¿Tenes una carpeta llena con distintas versiones del mismo archivo?¿Te gustaría poder llevar un seguimiento de los cambios en tu trabajo? ¿Te interesa participar de proyectos colaborativos?
 En este taller preparado en conjunto entre Las De Sistemas y R-Ladies Buenos Aires proponemos una iniciación al uso de Git como herramienta complementaria y útil al momento de escribir código en R.
 Sugerimos este taller a personas con una mínima experiencia en el uso de R y RStudio.&lt;/p&gt;
@@ -698,9 +728,9 @@ Trae tu compu con tu cargador y los siguientes programas instalados:&lt;/p&gt;
     
     <item>
       <title>De SPSS a R</title>
-      <link>/project/spssar/</link>
+      <link>https://rladiesba.netlify.app/project/spssar/</link>
       <pubDate>Sat, 15 Jun 2019 00:00:00 +0000</pubDate>
-      <guid>/project/spssar/</guid>
+      <guid>https://rladiesba.netlify.app/project/spssar/</guid>
       <description>&lt;p&gt;Te proponemos un nuevo taller pensado para quienes habitualmente usan programas con interfaz gráfica y muchos clicks para hacer análisis de datos. Por ejemplo, si usás SPSS (Statistical Package for the Social Sciences) y muchos clicks para hacer tu análisis y tenés ganas de empezar a usar R, este taller es para vos. Este taller es de nivel inicial por lo que no requiere conocimientos previos.&lt;/p&gt;
 &lt;p&gt;El taller estará a cargo de Jesica Formoso, psicóloga, becaria postdoctoral de CONICET y docente de la UBA.&lt;/p&gt;
 &lt;p&gt;Es muy importante que traigas tu laptop con R y RStudio instalados (para más info de cómo hacer esto: &lt;a href=&#34;https://github.com/lauracion/R_Curso_de_Nivelacion/raw/master/Instalacion_R_RStudio.pdf&#34;&gt;https://github.com/lauracion/R_Curso_de_Nivelacion/raw/master/Instalacion_R_RStudio.pdf&lt;/a&gt; ).&lt;/p&gt;
@@ -713,9 +743,9 @@ Trae tu compu con tu cargador y los siguientes programas instalados:&lt;/p&gt;
     
     <item>
       <title>Segunda temporada de meetups de R-Ladies en Buenos Aires</title>
-      <link>/project/primer2018/</link>
+      <link>https://rladiesba.netlify.app/project/primer2018/</link>
       <pubDate>Sat, 15 Jun 2019 00:00:00 +0000</pubDate>
-      <guid>/project/primer2018/</guid>
+      <guid>https://rladiesba.netlify.app/project/primer2018/</guid>
       <description>&lt;p&gt;Abrimos la Segunda Temporada de Meetups con dos charlas espectaculares:&lt;/p&gt;
 &lt;p&gt;Flor D&amp;rsquo;Andrea, ganadora de la beca para asistir a la RStudio::Conf 2018 (&lt;a href=&#34;https://www.rstudio.com/conference/),&#34;&gt;https://www.rstudio.com/conference/),&lt;/a&gt; nos comparte &amp;ldquo;Material y Experiencias de la Rstudio Conf 2018&amp;rdquo;.&lt;/p&gt;
 &lt;p&gt;Rayna Harris (de visita por Buenos Aires desde Austin, Texas) nos cuenta su experiencia &amp;ldquo;Usando y Enseñando R para Investigación Reproducible&amp;rdquo;.&lt;/p&gt;
@@ -729,9 +759,9 @@ Trae tu compu con tu cargador y los siguientes programas instalados:&lt;/p&gt;
     
     <item>
       <title>Taller &#34;R desde cero&#34; &#43; Charla &#34;Indicadores de desigualdad de género&#34;</title>
-      <link>/project/rdesde0/</link>
+      <link>https://rladiesba.netlify.app/project/rdesde0/</link>
       <pubDate>Sat, 15 Jun 2019 00:00:00 +0000</pubDate>
-      <guid>/project/rdesde0/</guid>
+      <guid>https://rladiesba.netlify.app/project/rdesde0/</guid>
       <description>&lt;p&gt;Felices de anunciar el próximo meetup el sábado 19 de mayo en EANT.&lt;/p&gt;
 &lt;p&gt;Les proponemos un grupo de oradoras de lujo: Priscilla Minotti y Fabiana Flores presentan un taller inicial &amp;ldquo;R desde cero&amp;rdquo; para todxs aquellxs que quieran empezar a aprender R o formalizar un poco más sus conocimientos sobre este lenguaje. Si tenes ganas de meter mano no te olvides de traer tu laptop.&lt;/p&gt;
 &lt;p&gt;Luego Natsumi Shokida (@NatsuSh), casi-Economista, analista de datos y metodologías sobre Pobreza e Ingresos en EPH-INDEC y colaboradora en Economía Femini(s)ta nos contará sobre el trabajo que está realizando llamado &amp;ldquo;Indicadores de desigualdad de género con datos abiertos de la Encuesta Permanente de Hogares&amp;rdquo; a partir de bases de datos abiertas del INDEC (disponible en &lt;a href=&#34;http://rpubs.com/natsumi_shokida/desigualdad_genero_EPH_3trim_2017&#34;&gt;http://rpubs.com/natsumi_shokida/desigualdad_genero_EPH_3trim_2017&lt;/a&gt;)&lt;/p&gt;
@@ -751,9 +781,9 @@ Trae tu compu con tu cargador y los siguientes programas instalados:&lt;/p&gt;
     
     <item>
       <title>Web Scraping con Rvest en Spotify Charts &#43; R con datos meteorológicos</title>
-      <link>/project/webscraping/</link>
+      <link>https://rladiesba.netlify.app/project/webscraping/</link>
       <pubDate>Sat, 15 Jun 2019 00:00:00 +0000</pubDate>
-      <guid>/project/webscraping/</guid>
+      <guid>https://rladiesba.netlify.app/project/webscraping/</guid>
       <description>&lt;h3 id=&#34;web-scraping-con-rvest-en-spotify-charts-taller&#34;&gt;Web Scraping con Rvest en Spotify Charts (taller)&lt;/h3&gt;
 &lt;p&gt;Paola Prieto nos trae una propuesta musical: ¿Cómo obtener datos desde la Web con el paquete Rvest? En este taller, los datos serán obtenidos directamente con R desde la popular plataforma Spotify.&lt;/p&gt;
 &lt;p&gt;Para el taller vas a necesitar tu laptop con R y RStudio instalados.&lt;/p&gt;
@@ -764,9 +794,9 @@ Trae tu compu con tu cargador y los siguientes programas instalados:&lt;/p&gt;
     
     <item>
       <title>¡Nos visita Jenny Brian!</title>
-      <link>/project/jenny/</link>
+      <link>https://rladiesba.netlify.app/project/jenny/</link>
       <pubDate>Sat, 15 Jun 2019 00:00:00 +0000</pubDate>
-      <guid>/project/jenny/</guid>
+      <guid>https://rladiesba.netlify.app/project/jenny/</guid>
       <description>&lt;p&gt;Te invitamos a un meetup de lujo donde tendremos un taller a cargo de Jenny Bryan.&lt;/p&gt;
 &lt;p&gt;Jenny Bryan (PhD, UC Berkeley) es Ingeniera de Software en RStudio. Jenny es referente internacionalmente reconocida de la comunidad R dentro de la cual es integrante ordinaria de la R Foundation y parte del Comité de Liderazgo de rOpenSci.&lt;/p&gt;
 &lt;p&gt;En este taller nos va enseñar funciones, un tema esencial en R.&lt;/p&gt;
@@ -783,9 +813,9 @@ Trae tu compu con tu cargador y los siguientes programas instalados:&lt;/p&gt;
     
     <item>
       <title>¡Nos visita Tamara Broderick!</title>
-      <link>/project/tamarabroderick/</link>
+      <link>https://rladiesba.netlify.app/project/tamarabroderick/</link>
       <pubDate>Sat, 15 Jun 2019 00:00:00 +0000</pubDate>
-      <guid>/project/tamarabroderick/</guid>
+      <guid>https://rladiesba.netlify.app/project/tamarabroderick/</guid>
       <description>&lt;p&gt;Este 18 de junio a las 18:30 hs te invitamos a sumarte a un meetup de lujo que co-organizamos con WiMLDS Buenos Aires. Nos visitará una destacada investigadora que desarrolla herramientas de punta para aprendizaje automático, aplicables a los campos de inteligencia artificial y ciencia de datos.&lt;/p&gt;
 &lt;p&gt;Nos honra con una charla Tamara Broderick (&lt;a href=&#34;http://www.tamarabroderick.com/)&#34;&gt;http://www.tamarabroderick.com/)&lt;/a&gt;. Tamara es profesora en el MIT (EEUU) y trabaja en las áreas de aprendizaje automático y estadística. Su trabajo se basa en comprender cómo se puede cuantificar confiablemente la incertidumbre y la robustez en los procedimientos de análisis de datos modernos y complejos. Está particularmente interesada en inferencia bayesiana y modelos gráficos, con énfasis en el aprendizaje escalable, no paramétrico y no supervisado.&lt;/p&gt;
 &lt;p&gt;Es una de las disertantes de la Machine Learning Summer School que tendrá lugar en Buenos Aires la semana del 18 de junio. Antes de sus charlas allí, nos visita en los meetups de R-Ladies y WiMLDS Buenos Aires. ¡¡Muchas gracias, Tamara!! ¡Es una alegría recibirte!&lt;/p&gt;
@@ -804,9 +834,9 @@ Trae tu compu con tu cargador y los siguientes programas instalados:&lt;/p&gt;
     
     <item>
       <title>¡Último meetup del año! ¡Traé tu compu, llevate tu web programada con R!</title>
-      <link>/project/finano2018/</link>
+      <link>https://rladiesba.netlify.app/project/finano2018/</link>
       <pubDate>Sat, 15 Jun 2019 00:00:00 +0000</pubDate>
-      <guid>/project/finano2018/</guid>
+      <guid>https://rladiesba.netlify.app/project/finano2018/</guid>
       <description>&lt;p&gt;¡Se viene el último evento del año! Estamos felices porque lo co-organizamos con R en Baires (&lt;a href=&#34;https://bit.ly/2RNcqdL),&#34;&gt;https://bit.ly/2RNcqdL),&lt;/a&gt; un nuevo grupo de usuaries de R en Buenos Aires.&lt;/p&gt;
 &lt;p&gt;Haremos una charla/taller introductoria a R Markdown y Blogdown. Para aprovecharlo traé tu laptop con R y RStudio instalados* (para más info de cómo hacer esto: &lt;a href=&#34;https://bit.ly/2zGT82j)&#34;&gt;https://bit.ly/2zGT82j)&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Si creés que te vendría bien una intro a R o un repaso antes de venir, hacé click aquí (&lt;a href=&#34;https://bit.ly/2JSfHpp&#34;&gt;https://bit.ly/2JSfHpp&lt;/a&gt;) para ir al repositorio donde encontrarás todos los materiales de nuestros encuentros anteriores.&lt;/p&gt;
@@ -820,18 +850,21 @@ Trae tu compu con tu cargador y los siguientes programas instalados:&lt;/p&gt;
     </item>
     
     <item>
-      <title>Ejemplo</title>
-      <link>/publication/preprint/</link>
-      <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/preprint/</guid>
-      <description></description>
+      <title>Taller de visualización con R, charlas y arranque del año</title>
+      <link>https://rladiesba.netlify.app/project/visualizacion-copia-2/</link>
+      <pubDate>Sat, 06 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>https://rladiesba.netlify.app/project/visualizacion-copia-2/</guid>
+      <description>&lt;p&gt;¡Primer encuentro de 2019!&lt;/p&gt;
+&lt;p&gt;Arrancamos el año con un Taller de visualización con R a cargo de Romi Méndez. El taller va a estar orientado a personas con un nivel inicial o intermedio para agarrarle la vuelta a ggplot2 y aprender un par de trucos.
+Si tenés ganas podés revisar uno de nuestros primeros encuentros sobre R para Ciencia de datos donde vimos algunas cosas relacionadas con este tema (&lt;a href=&#34;https://github.com/rladies/meetup-presentations_buenosaires/blob/master/README.md)para&#34;&gt;https://github.com/rladies/meetup-presentations_buenosaires/blob/master/README.md)para&lt;/a&gt; ir al git de las presentaciones).&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>Taller de visualización con R, charlas y arranque del año</title>
-      <link>/project/visualizacion/</link>
+      <link>https://rladiesba.netlify.app/project/visualizacion/</link>
       <pubDate>Sat, 06 Apr 2019 00:00:00 +0000</pubDate>
-      <guid>/project/visualizacion/</guid>
+      <guid>https://rladiesba.netlify.app/project/visualizacion/</guid>
       <description>&lt;p&gt;¡Primer encuentro de 2019!&lt;/p&gt;
 &lt;p&gt;Arrancamos el año con un Taller de visualización con R a cargo de Romi Méndez. El taller va a estar orientado a personas con un nivel inicial o intermedio para agarrarle la vuelta a ggplot2 y aprender un par de trucos.
 Si tenés ganas podés revisar uno de nuestros primeros encuentros sobre R para Ciencia de datos donde vimos algunas cosas relacionadas con este tema (&lt;a href=&#34;https://github.com/rladies/meetup-presentations_buenosaires/blob/master/README.md)para&#34;&gt;https://github.com/rladies/meetup-presentations_buenosaires/blob/master/README.md)para&lt;/a&gt; ir al git de las presentaciones).&lt;/p&gt;
@@ -840,9 +873,9 @@ Si tenés ganas podés revisar uno de nuestros primeros encuentros sobre R para 
     
     <item>
       <title>Slides</title>
-      <link>/slides/example/</link>
+      <link>https://rladiesba.netlify.app/slides/example/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>/slides/example/</guid>
+      <guid>https://rladiesba.netlify.app/slides/example/</guid>
       <description>&lt;h1 id=&#34;create-slides-in-markdown-with-wowchemy&#34;&gt;Create slides in Markdown with Wowchemy&lt;/h1&gt;
 &lt;p&gt;&lt;a href=&#34;https://wowchemy.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wowchemy&lt;/a&gt; | &lt;a href=&#34;https://owchemy.com/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
@@ -969,9 +1002,9 @@ Three
     
     <item>
       <title>R Markdown y cierre del año!</title>
-      <link>/project/rmarkdown/</link>
+      <link>https://rladiesba.netlify.app/project/rmarkdown/</link>
       <pubDate>Sat, 25 Nov 2017 00:00:00 +0000</pubDate>
-      <guid>/project/rmarkdown/</guid>
+      <guid>https://rladiesba.netlify.app/project/rmarkdown/</guid>
       <description>&lt;h2 id=&#34;sexto-encuentro--último-evento-del-año-con-rmarkdown&#34;&gt;Sexto encuentro:  último evento del año con Rmarkdown&lt;/h2&gt;
 &lt;p&gt;Taller a cargo de Laura Acion, Juliana Benitez y Paola Corrales&lt;/p&gt;
 &lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Closing our first year with an amazing workshop on &lt;a href=&#34;https://twitter.com/hashtag/Rmarkdown?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#Rmarkdown&lt;/a&gt;. &lt;a href=&#34;https://twitter.com/hashtag/rladies?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#rladies&lt;/a&gt; magic gathering beautiful people. &lt;a href=&#34;https://t.co/7e5A6jtlR0&#34;&gt;pic.twitter.com/7e5A6jtlR0&lt;/a&gt;&lt;/p&gt;&amp;mdash; R-Ladies BuenosAires (@RLadiesBA) &lt;a href=&#34;https://twitter.com/RLadiesBA/status/934493460958187520?ref_src=twsrc%5Etfw&#34;&gt;November 25, 2017&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
@@ -981,9 +1014,9 @@ Three
     
     <item>
       <title>Taller de Shiny &#43; Clínica de Proyectos</title>
-      <link>/project/tallershiny/</link>
+      <link>https://rladiesba.netlify.app/project/tallershiny/</link>
       <pubDate>Sat, 30 Sep 2017 00:00:00 +0000</pubDate>
-      <guid>/project/tallershiny/</guid>
+      <guid>https://rladiesba.netlify.app/project/tallershiny/</guid>
       <description>&lt;h2 id=&#34;quinto-encuentro&#34;&gt;Quinto encuentro&lt;/h2&gt;
 &lt;p&gt;Las charlas del evento:&lt;/p&gt;
 &lt;p&gt;• La primera parte estará a cargo de Florencia D&amp;rsquo;Andrea del Instituto Nacional de Tecnología Agropecuaria que coordinará el taller &amp;ldquo;Distintas aplicaciones web con Shiny, explorando códigos&amp;rdquo; (nivel inicial/intermedio).&lt;/p&gt;
@@ -994,9 +1027,9 @@ Three
     
     <item>
       <title>Taller de Datos Geográficos con R &#43; Intro a Shiny</title>
-      <link>/project/datosgeograficosconr/</link>
+      <link>https://rladiesba.netlify.app/project/datosgeograficosconr/</link>
       <pubDate>Sat, 05 Aug 2017 00:00:00 +0000</pubDate>
-      <guid>/project/datosgeograficosconr/</guid>
+      <guid>https://rladiesba.netlify.app/project/datosgeograficosconr/</guid>
       <description>&lt;h2 id=&#34;tercera-reunión-parte-ii&#34;&gt;Tercera reunión parte II&lt;/h2&gt;
 &lt;p&gt;Las charlas del evento:&lt;/p&gt;
 &lt;p&gt;• La primera parte estará a cargo de Priscilla Minotti de la Universidad de San Martín que coordinará un taller para analizar datos geográficos con R (nivel incial).&lt;/p&gt;
@@ -1009,9 +1042,9 @@ Three
     
     <item>
       <title>Aplicaciones intermedias y avanzadas de R</title>
-      <link>/project/aplicacionesr/</link>
+      <link>https://rladiesba.netlify.app/project/aplicacionesr/</link>
       <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
-      <guid>/project/aplicacionesr/</guid>
+      <guid>https://rladiesba.netlify.app/project/aplicacionesr/</guid>
       <description>&lt;h2 id=&#34;tercer-encuentro-parte-ii&#34;&gt;Tercer encuentro parte II&lt;/h2&gt;
 &lt;p&gt;Las charlas del evento:&lt;/p&gt;
 &lt;p&gt;• R y radares, muchos datos y algunos resultados. Presentado por Paola Corrales, estudiante de Ciencias de la Atmósfera con tesis en proceso&lt;/p&gt;
@@ -1023,9 +1056,9 @@ Three
     
     <item>
       <title>Taller de R para Ciencia de Datos (Parte II)</title>
-      <link>/project/rycienciadedatos2/</link>
+      <link>https://rladiesba.netlify.app/project/rycienciadedatos2/</link>
       <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
-      <guid>/project/rycienciadedatos2/</guid>
+      <guid>https://rladiesba.netlify.app/project/rycienciadedatos2/</guid>
       <description>&lt;h2 id=&#34;tercer-encuentro&#34;&gt;Tercer encuentro&lt;/h2&gt;
 &lt;iframe src=&#34;https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FRladiesBA%2Fphotos%2Fa.561943970862087%2F561943807528770%2F%3Ftype%3D3%26av%3D457704507952701%26eav%3DAfY1Hk5MT5zV_lHfG67Jzu096Tds0sVQQ6Uvkt_o0h-QhPcE9m0KCUkwQKXy3UdD3cw&amp;show_text=true&amp;width=500&#34; width=&#34;500&#34; height=&#34;281&#34; style=&#34;border:none;overflow:hidden&#34; scrolling=&#34;no&#34; frameborder=&#34;0&#34; allowfullscreen=&#34;true&#34; allow=&#34;autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share&#34;&gt;&lt;/iframe&gt;
 &lt;iframe src=&#34;https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FRladiesBA%2Fphotos%2Fa.561943970862087%2F561943860862098%2F%3Ftype%3D3%26av%3D457704507952701%26eav%3DAfYfDeglOte_TF5igT0_KyoOo_LpLoDx1PVspFQyHa4AIfzs_svIZbN9gr2bbwGDx14&amp;show_text=true&amp;width=500&#34; width=&#34;500&#34; height=&#34;281&#34; style=&#34;border:none;overflow:hidden&#34; scrolling=&#34;no&#34; frameborder=&#34;0&#34; allowfullscreen=&#34;true&#34; allow=&#34;autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share&#34;&gt;&lt;/iframe&gt;
@@ -1034,9 +1067,9 @@ Three
     
     <item>
       <title>Taller de R para Ciencia de Datos Parte I</title>
-      <link>/project/rycienciadedatos/</link>
+      <link>https://rladiesba.netlify.app/project/rycienciadedatos/</link>
       <pubDate>Sat, 27 May 2017 00:00:00 +0000</pubDate>
-      <guid>/project/rycienciadedatos/</guid>
+      <guid>https://rladiesba.netlify.app/project/rycienciadedatos/</guid>
       <description>&lt;h2 id=&#34;segundo-encuentro&#34;&gt;Segundo encuentro&lt;/h2&gt;
 &lt;p&gt;En esta ocasión el taller de Ciencia de Datos fue brindando por Laura Acion y el taller de Estructuras de Datos Geográficos y Espaciales en R  a cargo de Priscilla Minotti.&lt;/p&gt;
 &lt;iframe src=&#34;https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FRladiesBA%2Fphotos%2Fa.463088637414288%2F538422353214249%2F%3Ftype%3D3%26av%3D457704507952701%26eav%3DAfae9qZ_fokt769D1h0TYna5ontAAgvDHoJ-t58k44-QcKiXtYv4PkIjm-lX7rW8xLs&amp;show_text=true&amp;width=500&#34; width=&#34;500&#34; height=&#34;372&#34; style=&#34;border:none;overflow:hidden&#34; scrolling=&#34;no&#34; frameborder=&#34;0&#34; allowfullscreen=&#34;true&#34; allow=&#34;autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share&#34;&gt;&lt;/iframe&gt;
@@ -1047,9 +1080,9 @@ Three
     
     <item>
       <title>Primer evento de R-Ladies Buenos Aires</title>
-      <link>/project/primerareunion/</link>
+      <link>https://rladiesba.netlify.app/project/primerareunion/</link>
       <pubDate>Tue, 28 Mar 2017 00:00:00 +0000</pubDate>
-      <guid>/project/primerareunion/</guid>
+      <guid>https://rladiesba.netlify.app/project/primerareunion/</guid>
       <description>&lt;h2 id=&#34;la-magia-que-ocurre-cuando-nos-ayudamos-unas-a-otras&#34;&gt;La magia que ocurre cuando nos ayudamos unas a otras.&lt;/h2&gt;
 &lt;p&gt;En esta reunión nació el capítulo de Buenos Aires, reunimos todo el material digital disponible para recordar esta gran fecha.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;&amp;ldquo;Estamos ansiosas por empezar a que las que aún no se animaron con R, conozcan todas las posibilidades que tiene y empiecen a animarse. Para las que ya están más avanzadas nos gustaría que nos traigan sus ideas para seguir armando entre todas esta comunidad.&amp;quot;&lt;/em&gt;&lt;/p&gt;
@@ -1064,29 +1097,10 @@ Three
     </item>
     
     <item>
-      <title>An example journal article</title>
-      <link>/publication/journal-article/</link>
-      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
-      <guid>/publication/journal-article/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>An example conference paper</title>
-      <link>/publication/conference-paper/</link>
+      <link>https://rladiesba.netlify.app/publication/conference-paper/</link>
       <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
-      <guid>/publication/conference-paper/</guid>
+      <guid>https://rladiesba.netlify.app/publication/conference-paper/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
@@ -1103,9 +1117,9 @@ Three
     
     <item>
       <title></title>
-      <link>/admin/config.yml</link>
+      <link>https://rladiesba.netlify.app/admin/config.yml</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/admin/config.yml</guid>
+      <guid>https://rladiesba.netlify.app/admin/config.yml</guid>
       <description></description>
     </item>
     

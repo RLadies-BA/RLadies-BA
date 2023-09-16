@@ -2,15 +2,378 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Karina Bartolomé | RLadies BA</title>
-    <link>/author/karina-bartolome/</link>
-      <atom:link href="/author/karina-bartolome/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://rladiesba.netlify.app/author/karina-bartolome/</link>
+      <atom:link href="https://rladiesba.netlify.app/author/karina-bartolome/index.xml" rel="self" type="application/rss+xml" />
     <description>Karina Bartolomé</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>es</language>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>es</language><lastBuildDate>Thu, 08 Jun 2023 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/author/karina-bartolome/avatar_hu7b026189a1cdca5a0db273aa8b18a8ca_73916_270x270_fill_q75_lanczos_center.jpg</url>
+      <url>https://rladiesba.netlify.app/author/karina-bartolome/avatar_hu7b026189a1cdca5a0db273aa8b18a8ca_73916_270x270_fill_q75_lanczos_center.jpg</url>
       <title>Karina Bartolomé</title>
-      <link>/author/karina-bartolome/</link>
+      <link>https://rladiesba.netlify.app/author/karina-bartolome/</link>
     </image>
+    
+    <item>
+      <title>Creando tablas sobre tus artistas favorites con {gt} y la API de Spotify</title>
+      <link>https://rladiesba.netlify.app/post/tablasgtpost/</link>
+      <pubDate>Thu, 08 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>https://rladiesba.netlify.app/post/tablasgtpost/</guid>
+      <description>
+
+
+&lt;div id=&#34;introducción&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Introducción&lt;/h1&gt;
+&lt;p&gt;Utilización del paquete &lt;strong&gt;{gt}&lt;/strong&gt; 📦 para visualizar datos de artistas obtenidos mediante la API de &lt;strong&gt;Spotify🎶&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Este post hace referencia al &lt;a href=&#34;https://rladiesba.netlify.app/project/tablagt/&#34;&gt;taller del 2022-11-23&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;🔸 &lt;a href=&#34;https://github.com/RLadies-BA/gt-spotify&#34;&gt;Repositorio&lt;/a&gt; 🔸 &lt;a href=&#34;https://www.youtube.com/watch?v=wciGM5rMBos&amp;amp;ab_channel=RLadiesBuenosAires&#34;&gt;Grabación&lt;/a&gt; 🔸&lt;/p&gt;
+&lt;iframe src=&#34;https://karbartolome.github.io/gt-spotify/01_slides/rladies_gt_spotify.html&#34; width=&#34;100%&#34; height=&#34;400px&#34; data-external=&#34;1&#34;&gt;
+&lt;/iframe&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;div id=&#34;librerías&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;1. Librerías&lt;/h1&gt;
+&lt;p&gt;Se definen los &lt;strong&gt;paquetes&lt;/strong&gt; 📦 a utilizar:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(tidyverse) # Manipulación de datos
+library(gt)        # Tablas gt: grammar of tables
+library(gtExtras)  # Extras de tablas gt
+library(spotifyr)  # Trabajar con la API de spotify
+library(rjson)     # Lectura de archivo json
+library(ggrepel)   # Para textos en ggplot&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;⚠️ De no haber podido obtener las credenciales para consultar a la API de Spotify, pasar al punto 3, en donde se leen los datos de un dataframe almacenado en el repositorio.&lt;/strong&gt; &lt;strong&gt;⚠️&lt;/strong&gt;&lt;/p&gt;
+&lt;div id=&#34;api-spotify---credenciales&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;2. API Spotify - Credenciales&lt;/h2&gt;
+&lt;p&gt;Se cuenta con un archivo &lt;strong&gt;(credentials..json)&lt;/strong&gt;, que contiene las siguientes variables obtenidas de la página de desarrolladores de Spotify:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;SPOTIFY_CLIENT_ID&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;SPOTIFY_CLIENT_SECRET&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;El formato del archivo &lt;strong&gt;credentials.json&lt;/strong&gt; está incluido en el .gitignore del repositorio. Esto permite mantener las credenciales anónimas (sin publicar en repositorios), dado que son personales y no deben compartirse. A continuación se muestra el formato de este archivo:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;{
+  &amp;quot;SPOTIFY_CLIENT_ID&amp;quot; : &amp;quot;SPOTIFY_CLIENT_ID&amp;quot;,
+  &amp;quot;SPOTIFY_CLIENT_SECRET&amp;quot; : &amp;quot;SPOTIFY_CLIENT_SECRET&amp;quot;
+}&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Se realiza la lectura de las credenciales mediante la función &lt;strong&gt;fromJSON()&lt;/strong&gt;. Luego, se setean como variables de entorno:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;credentials &amp;lt;- fromJSON(file = &amp;quot;credentials.json&amp;quot;)
+
+Sys.setenv(SPOTIFY_CLIENT_ID = credentials$SPOTIFY_CLIENT_ID)
+Sys.setenv(SPOTIFY_CLIENT_SECRET = credentials$SPOTIFY_CLIENT_SECRET)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Mediante la función &lt;strong&gt;get_spotify_access_token&lt;/strong&gt;() del paquete {&lt;strong&gt;spotifyr&lt;/strong&gt;} 📦, se realiza la autenticación a la API:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;access_token &amp;lt;- get_spotify_access_token()&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Para verificar que la autenticación haya sido exitosa, se realiza una consulta de los artistas más escuchados:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;tabla_user &amp;lt;- get_my_top_artists_or_tracks(
+                type = &amp;#39;artists&amp;#39;,
+                time_range = &amp;#39;short_term&amp;#39;, # &amp;#39;medium_term&amp;#39;, &amp;#39;long_term&amp;#39;
+                limit = 5
+              ) %&amp;gt;%
+  select(name, genres) %&amp;gt;%
+  rowwise() %&amp;gt;%
+  mutate(genres = paste(genres, collapse = &amp;#39;, &amp;#39;)) %&amp;gt;%
+  ungroup %&amp;gt;%
+  gt()&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;caso-análisis-de-un-artista-particular&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Caso: análisis de un artista particular&lt;/h1&gt;
+&lt;p&gt;En este caso, el artista a analizar es Bad Bunny:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;ARTISTA = &amp;#39;bad bunny&amp;#39;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;La función &lt;strong&gt;get_artist_audio_features()&lt;/strong&gt; del paquete {&lt;strong&gt;spotifyr&lt;/strong&gt;} 📦 permite generar una búsqueda de variables vinculadas al audio de cada track.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;vars_audio = c(&amp;#39;danceability&amp;#39;,
+               &amp;#39;energy&amp;#39;,
+               &amp;#39;loudness&amp;#39;,
+               &amp;#39;acousticness&amp;#39;,
+               &amp;#39;instrumentalness&amp;#39;)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;tracks_features &amp;lt;- get_artist_audio_features(artist = ARTISTA) %&amp;gt;%
+  
+  select(
+    artist_id,
+    artist_name,
+    album_id,
+    album_name,
+    album_release_date,
+    album_images,
+    track_name,
+    duration_ms,
+    
+    # Variables vinculadas al audio:
+    all_of(vars_audio)
+  ) %&amp;gt;%
+  
+  arrange(desc(album_release_date))&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;the-grammar-of-tables-gt&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;3. The grammar of tables (gt)&lt;/h1&gt;
+&lt;p&gt;De no haber podido autenticarte con la API de Spotify, dejamos un archivo .rds con los datos necesarios para seguir con el resto del taller:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;tracks_features &amp;lt;- read_rds(&amp;#39;https://github.com/karbartolome/gt-spotify/blob/main/02_caso_spotify/tracks_features.rds?raw=true&amp;#39;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Se cuenta con un df de variables vinculadas a cada canción de cada álbum del artista seleccionado:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;tracks_features %&amp;gt;%
+  glimpse()&lt;/code&gt;&lt;/pre&gt;
+&lt;div id=&#34;intro-a-gt&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;3.1 Intro a gt&lt;/h2&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;tabla &amp;lt;- tracks_features %&amp;gt;%
+  head() %&amp;gt;%
+  select(artist_name, album_name, track_name, all_of(vars_audio)) %&amp;gt;%
+  
+  # En este paso se transforma el df en un objeto gt:
+  gt()&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;tabla&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;images/tabla_1.png&#34; width=&#34;100%&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Notar que las variables numéricas aparecen con muchos decimales. Una forma sencilla de arreglar esto en {gt} es la siguiente:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;tabla %&amp;gt;%
+  fmt_number(columns = where(is.numeric), decimals = 2)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;images/tabla_2.png&#34; width=&#34;100%&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;tabla-a-nivel-álbumes&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;3.2 Tabla a nivel álbumes&lt;/h2&gt;
+&lt;p&gt;Se agregan los datos a nivel de cada álbum. Notar que, en el caso de las variables de audio, se decidió convertirlas en una lista (N observaciones numéricas que representan cada una de las canciones incluidas en el álbum). En los próximos pasos se explicará el por qué de la decisión:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;df_albums &amp;lt;- tracks_features %&amp;gt;%
+  
+  group_by(album_images,
+           artist_name,
+           album_id,
+           album_name,
+           album_release_date) %&amp;gt;%
+  
+  summarise(# Duración del álbum: suma de duración de cada canción
+    duration_mins = sum(duration_ms / (1000 * 60)),
+    
+    # Lista de cada variable de audio
+    across(all_of(vars_audio), ~ list(.x)),) %&amp;gt;%
+  
+  ungroup()&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;tabla_albums &amp;lt;- df_albums %&amp;gt;%
+  select(-album_images) %&amp;gt;%
+  gt() &lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;tabla_albums&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;images/tabla_3.png&#34; width=&#34;100%&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;imágenes-en-tablas-gt&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;3.3 Imágenes en tablas gt&lt;/h2&gt;
+&lt;p&gt;Se quiere añadir la imagen del álbum. Para ello, se construye la siguiente función. Para cada álbum se cuenta con distintos tamaños de imágenes, donde cada imagen se encuentra representada por un url. Se decide seleccionar la imagen de tamaño=64, extrayendo el url:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;get_imagen = function(album_images) {
+  album_images %&amp;gt;%
+    data.frame() %&amp;gt;%
+    filter(height == 64) %&amp;gt;%
+    pull(url) %&amp;gt;%
+    as.character()
+}&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Se aplica la función al dataframe. Para ello, se utiliza la función &lt;strong&gt;map()&lt;/strong&gt; del paquete {purrr} 📦:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;df_albums &amp;lt;- df_albums %&amp;gt;%
+  mutate(
+    album_images = map(album_images, 
+                       ~ get_imagen(album_images = .x))
+  ) %&amp;gt;%
+  distinct()&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Para visualizar los urls como imagenes, se utiliza la función &lt;strong&gt;text_transform()&lt;/strong&gt; de {gt}. Además, la función &lt;strong&gt;tab_header()&lt;/strong&gt; permite añadir título y subtítulo.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;imagen_path = &amp;#39;https://raw.githubusercontent.com/karbartolome/gt-spotify/main/02_caso_spotify/imagenes/bad_bunny.png&amp;#39;
+image_size = 50
+
+imagen_artista &amp;lt;- paste0(
+    &amp;quot;&amp;lt;img src=&amp;#39;&amp;quot;, imagen_path,&amp;quot;&amp;#39; style=&amp;#39;height:&amp;quot;,image_size,&amp;quot;px;&amp;#39;&amp;gt;&amp;quot;
+  )
+
+tabla_albums &amp;lt;- df_albums %&amp;gt;%  select(-album_id) %&amp;gt;%
+  
+  gt() %&amp;gt;%
+  
+  tab_header(
+    title = md(glue::glue(&amp;#39;{imagen_artista} **{str_to_title(ARTISTA)}** en Spotify&amp;#39;)),
+    subtitle = &amp;#39;Álbumes más recientes&amp;#39;) %&amp;gt;%
+  
+  text_transform(
+    locations = cells_body(columns = c(album_images)),
+    fn = function(album_images) {
+      lapply(album_images, web_image, height = 50)
+    }
+  ) &lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;De momento, se ocultan las variables de audio para visualizar la tabla:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;tabla_albums %&amp;gt;%
+  cols_hide(all_of(vars_audio))&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;images/tabla_4.png&#34; width=&#34;100%&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Otra función útil para visualizar este tipo de información es &lt;strong&gt;gt_merge_stack()&lt;/strong&gt; que permite concatenar dos variables en una única:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;tabla_albums &amp;lt;- tabla_albums %&amp;gt;%
+  
+  gt_merge_stack(col1 = album_name,
+                 col2 = artist_name) &lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;tabla_albums %&amp;gt;% 
+  cols_hide(all_of(vars_audio)) &lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;images/tabla_5.png&#34; width=&#34;100%&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Para visualizar las variables de audio, se utilizarán algunas funcionalidades del paquete &lt;strong&gt;{gtExtras}&lt;/strong&gt; 📦:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;tabla_albums &amp;lt;- tabla_albums %&amp;gt;%
+  
+  gt_color_box(
+    columns = duration_mins,
+    palette = c(&amp;#39;white&amp;#39;, color_spotify),
+    domain = c(0, round(max(df_albums$duration_mins)) + 1)
+  ) %&amp;gt;%
+  
+  gt_plt_dist(
+    column = danceability,
+    type = &amp;quot;density&amp;quot;,
+    line_color = &amp;quot;black&amp;quot;,
+    fill_color = color_spotify
+  ) %&amp;gt;%
+  
+  gt_plt_dist(
+    column = energy,
+    type = &amp;quot;density&amp;quot;,
+    line_color = &amp;quot;black&amp;quot;,
+    fill_color = color_spotify
+  ) %&amp;gt;%
+  
+  gt_plt_dist(
+    column = loudness,
+    type = &amp;quot;density&amp;quot;,
+    line_color = &amp;quot;black&amp;quot;,
+    fill_color = color_spotify
+  ) %&amp;gt;%
+  
+  gt_plt_dist(
+    column = acousticness,
+    type = &amp;quot;boxplot&amp;quot;,
+    line_color = &amp;quot;black&amp;quot;,
+    fill_color = color_spotify
+  )&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;tabla_albums %&amp;gt;%
+  cols_hide(&amp;#39;instrumentalness&amp;#39;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;images/tabla_6.png&#34; width=&#34;100%&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ggplot-en-gt&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;3.4 Ggplot en gt&lt;/h2&gt;
+&lt;p&gt;Notar que si se agregara el boxplot para el caso de la variable instrumentalness, se observa, para todos los álbumes, distribuciones con valores atípicos:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;tabla_albums %&amp;gt;%
+  gt_plt_dist(
+    column = instrumentalness,
+    type = &amp;quot;boxplot&amp;quot;,
+    line_color = &amp;quot;black&amp;quot;,
+    fill_color = color_spotify
+  ) &lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;images/tabla_7.png&#34; width=&#34;100%&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Por esta razón, se utilizará el caso de esta variable para explicar cómo se podría identificar a estos valores atípicos mediante el uso de {ggplot2} 📦&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;gen_outliers_plots &amp;lt;- function(.df,
+                               .variable,
+                               .font_size = 22,
+                               .lwd = 3) {
+  temp &amp;lt;- .df %&amp;gt;%
+    select(all_of(c(&amp;#39;track_name&amp;#39;, .variable))) %&amp;gt;%
+    pivot_longer(cols = -track_name)
+  
+  track &amp;lt;- temp %&amp;gt;%
+    slice(which.max(value)) %&amp;gt;%
+    pull(track_name)
+  
+  temp %&amp;gt;%
+    mutate(is_outlier = ifelse(track_name == track, track_name, NA)) %&amp;gt;%
+    
+    ggplot(aes(y = value, x = name)) +
+    geom_boxplot(
+      fill = color_spotify,
+      width = 0.2,
+      lwd = .lwd,
+      outlier.size = 5
+    ) +
+    geom_text_repel(
+      aes(label = is_outlier),
+      na.rm = TRUE,
+      nudge_x = 0.4,
+      size = .font_size
+    ) +
+    coord_flip() +
+    theme_void()
+}&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Realizando la prueba de la función, se observa el gráfico que genera:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;plot &amp;lt;- gen_outliers_plots(
+  .df = tracks_features %&amp;gt;% filter(album_name == &amp;#39;X 100PRE&amp;#39;),
+  .variable = &amp;#39;instrumentalness&amp;#39;,
+  .font_size = 10,
+  .lwd = 0.5
+)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;plot&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;images/plot_1.png&#34; width=&#34;50%&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Ahora se incluyen estos plots en la tabla. Primero, se mappea la función al df:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;df_albums &amp;lt;- df_albums %&amp;gt;%
+  mutate(instrumentalness = map(
+    album_id,
+    ~ gen_outliers_plots(
+        .df = tracks_features %&amp;gt;% filter(album_id == .x),
+        .variable = &amp;#39;instrumentalness&amp;#39;)
+  ))&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Se visualiza la tabla completa:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;tabla_albums &amp;lt;- tabla_albums %&amp;gt;%
+  
+  text_transform(
+    locations = cells_body(columns = instrumentalness),
+    fn = function(x) {
+      map(
+        df_albums$instrumentalness,
+        gt::ggplot_image,
+        height = px(60),
+        aspect_ratio = 2
+      )
+    }
+  ) &lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;tabla_albums&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;images/tabla_8.png&#34; width=&#34;100%&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;formato&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Formato&lt;/h2&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;tabla_albums &amp;lt;- tabla_albums %&amp;gt;%
+  
+  tab_spanner(label = &amp;#39;Un tipo de variables&amp;#39;,
+              columns = danceability:loudness) %&amp;gt;%
+  tab_spanner(label = &amp;#39;Otro tipo de variables&amp;#39;,
+              columns = c(&amp;#39;acousticness&amp;#39;, &amp;#39;instrumentalness&amp;#39;)) %&amp;gt;%
+  
+  tab_footnote(
+    locations = cells_column_labels(&amp;#39;duration_mins&amp;#39;),
+    footnote = &amp;#39;Duración en minutos = suma de la duración de
+                               cada una de las canciones que componen el álbum.&amp;#39;
+  ) %&amp;gt;%
+  
+  tab_footnote(
+    locations = cells_column_labels(&amp;#39;instrumentalness&amp;#39;),
+    footnote = &amp;#39;En el caso de instrumentalness, al existir
+                               valores muy atípicos se muestra la canción a la
+                               que corresponde el máximo valor en cada álbum.&amp;#39;
+  ) %&amp;gt;%
+  
+  tab_source_note(source_note = &amp;#39;Fuente: API de Spotify&amp;#39;) %&amp;gt;%
+  
+  cols_label(
+    album_images = &amp;#39;&amp;#39;,
+    album_name = &amp;#39;&amp;#39;,
+    album_release_date = &amp;#39;Lanzamiento&amp;#39;,
+    duration_mins = &amp;#39;Duración&amp;#39;,
+    danceability = &amp;#39;Danceability 🕺&amp;#39;,
+    energy = &amp;#39;Energy ✨&amp;#39;,
+    loudness = &amp;#39;Loudness 🔊&amp;#39;,
+    acousticness = &amp;#39;Acousticness 🎹&amp;#39;,
+    instrumentalness = &amp;#39;Instrumentalness 🎼&amp;#39;
+  )&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;tabla_albums&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Además, se añade un ✨&lt;strong&gt;theme&lt;/strong&gt; ✨ específico para asignarle colores y formatos adicionales:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;tabla_albums &amp;lt;- tabla_albums %&amp;gt;%
+   tab_options(
+      column_labels.background.color = &amp;quot;#39423c&amp;quot;,
+      footnotes.background.color = &amp;quot;#39423c&amp;quot;,
+      source_notes.background.color = &amp;quot;#39423c&amp;quot;,
+      heading.background.color = &amp;quot;#39423c&amp;quot;,
+      heading.align = &amp;quot;left&amp;quot;,
+    ) %&amp;gt;%
+    tab_style(style = cell_text(color = color_spotify, size = px(32)),
+              locations = cells_title(&amp;quot;title&amp;quot;))&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;tabla_albums&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;images/tabla_10.png&#34; width=&#34;100%&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;guardar-la-tabla-gt-como-archivo-.png&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;3.5 Guardar la tabla gt como archivo .png&lt;/h2&gt;
+&lt;p&gt;Para guardar la tabla, se utiliza la función &lt;strong&gt;gtsave()&lt;/strong&gt; de {gt} 📦:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;gtsave(tabla_albums,
+       &amp;#39;tablas/tabla_final.png&amp;#39;,
+       vwidth = 2000,
+       vheight = 3000)&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
     
   </channel>
 </rss>

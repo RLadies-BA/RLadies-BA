@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Natsumi Shokida | RLadies BA</title>
-    <link>/author/natsumi-shokida/</link>
-      <atom:link href="/author/natsumi-shokida/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://rladiesba.netlify.app/author/natsumi-shokida/</link>
+      <atom:link href="https://rladiesba.netlify.app/author/natsumi-shokida/index.xml" rel="self" type="application/rss+xml" />
     <description>Natsumi Shokida</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>es</language>
     <image>
-      <url>/author/natsumi-shokida/avatar_hucaba7abcad7b390a69ce658b17e92f28_360640_270x270_fill_q75_lanczos_center.jpg</url>
+      <url>https://rladiesba.netlify.app/author/natsumi-shokida/avatar_hucaba7abcad7b390a69ce658b17e92f28_360640_270x270_fill_q75_lanczos_center.jpg</url>
       <title>Natsumi Shokida</title>
-      <link>/author/natsumi-shokida/</link>
+      <link>https://rladiesba.netlify.app/author/natsumi-shokida/</link>
     </image>
     
   </channel>

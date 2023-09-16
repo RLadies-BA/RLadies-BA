@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Women in Bioinformatic &amp; Data Science LA | RLadies BA</title>
-    <link>/author/women-in-bioinformatic-data-science-la/</link>
-      <atom:link href="/author/women-in-bioinformatic-data-science-la/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://rladiesba.netlify.app/author/women-in-bioinformatic-data-science-la/</link>
+      <atom:link href="https://rladiesba.netlify.app/author/women-in-bioinformatic-data-science-la/index.xml" rel="self" type="application/rss+xml" />
     <description>Women in Bioinformatic &amp; Data Science LA</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>es</language>
     <image>
-      <url>/author/women-in-bioinformatic-data-science-la/avatar_hua2b720303e985c04494efae40033be34_21902_270x270_fill_q75_lanczos_center.jpg</url>
+      <url>https://rladiesba.netlify.app/author/women-in-bioinformatic-data-science-la/avatar_hua2b720303e985c04494efae40033be34_21902_270x270_fill_q75_lanczos_center.jpg</url>
       <title>Women in Bioinformatic &amp; Data Science LA</title>
-      <link>/author/women-in-bioinformatic-data-science-la/</link>
+      <link>https://rladiesba.netlify.app/author/women-in-bioinformatic-data-science-la/</link>
     </image>
     
   </channel>

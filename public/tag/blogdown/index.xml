@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>blogdown | RLadies BA</title>
-    <link>/tag/blogdown/</link>
-      <atom:link href="/tag/blogdown/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://rladiesba.netlify.app/tag/blogdown/</link>
+      <atom:link href="https://rladiesba.netlify.app/tag/blogdown/index.xml" rel="self" type="application/rss+xml" />
     <description>blogdown</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>es</language><lastBuildDate>Sat, 15 Jun 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/media/icon_hu4b9af3f567e0b0f9e5f99da57ed62ab5_26887_512x512_fill_lanczos_center_2.png</url>
+      <url>https://rladiesba.netlify.app/media/icon_hu4b9af3f567e0b0f9e5f99da57ed62ab5_26887_512x512_fill_lanczos_center_2.png</url>
       <title>blogdown</title>
-      <link>/tag/blogdown/</link>
+      <link>https://rladiesba.netlify.app/tag/blogdown/</link>
     </image>
     
     <item>
       <title>¡Último meetup del año! ¡Traé tu compu, llevate tu web programada con R!</title>
-      <link>/project/finano2018/</link>
+      <link>https://rladiesba.netlify.app/project/finano2018/</link>
       <pubDate>Sat, 15 Jun 2019 00:00:00 +0000</pubDate>
-      <guid>/project/finano2018/</guid>
+      <guid>https://rladiesba.netlify.app/project/finano2018/</guid>
       <description>&lt;p&gt;¡Se viene el último evento del año! Estamos felices porque lo co-organizamos con R en Baires (&lt;a href=&#34;https://bit.ly/2RNcqdL),&#34;&gt;https://bit.ly/2RNcqdL),&lt;/a&gt; un nuevo grupo de usuaries de R en Buenos Aires.&lt;/p&gt;
 &lt;p&gt;Haremos una charla/taller introductoria a R Markdown y Blogdown. Para aprovecharlo traé tu laptop con R y RStudio instalados* (para más info de cómo hacer esto: &lt;a href=&#34;https://bit.ly/2zGT82j)&#34;&gt;https://bit.ly/2zGT82j)&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Si creés que te vendría bien una intro a R o un repaso antes de venir, hacé click aquí (&lt;a href=&#34;https://bit.ly/2JSfHpp&#34;&gt;https://bit.ly/2JSfHpp&lt;/a&gt;) para ir al repositorio donde encontrarás todos los materiales de nuestros encuentros anteriores.&lt;/p&gt;

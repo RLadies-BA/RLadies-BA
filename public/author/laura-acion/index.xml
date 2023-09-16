@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Laura Acion | RLadies BA</title>
-    <link>/author/laura-acion/</link>
-      <atom:link href="/author/laura-acion/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://rladiesba.netlify.app/author/laura-acion/</link>
+      <atom:link href="https://rladiesba.netlify.app/author/laura-acion/index.xml" rel="self" type="application/rss+xml" />
     <description>Laura Acion</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>es</language>
     <image>
-      <url>/author/laura-acion/avatar_hu8f5808a9a2c31da016271b9f01391ca7_68609_270x270_fill_q75_lanczos_center.jpg</url>
+      <url>https://rladiesba.netlify.app/author/laura-acion/avatar_hu8f5808a9a2c31da016271b9f01391ca7_68609_270x270_fill_q75_lanczos_center.jpg</url>
       <title>Laura Acion</title>
-      <link>/author/laura-acion/</link>
+      <link>https://rladiesba.netlify.app/author/laura-acion/</link>
     </image>
     
   </channel>

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Exploración de datos | RLadies BA</title>
-    <link>/tag/exploracion-de-datos/</link>
-      <atom:link href="/tag/exploracion-de-datos/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://rladiesba.netlify.app/tag/exploracion-de-datos/</link>
+      <atom:link href="https://rladiesba.netlify.app/tag/exploracion-de-datos/index.xml" rel="self" type="application/rss+xml" />
     <description>Exploración de datos</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>es</language><lastBuildDate>Wed, 05 Aug 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/media/icon_hu4b9af3f567e0b0f9e5f99da57ed62ab5_26887_512x512_fill_lanczos_center_2.png</url>
+      <url>https://rladiesba.netlify.app/media/icon_hu4b9af3f567e0b0f9e5f99da57ed62ab5_26887_512x512_fill_lanczos_center_2.png</url>
       <title>Exploración de datos</title>
-      <link>/tag/exploracion-de-datos/</link>
+      <link>https://rladiesba.netlify.app/tag/exploracion-de-datos/</link>
     </image>
     
     <item>
       <title>Taller de dplyr</title>
-      <link>/project/charlar7/</link>
+      <link>https://rladiesba.netlify.app/project/charlar7/</link>
       <pubDate>Wed, 05 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>/project/charlar7/</guid>
+      <guid>https://rladiesba.netlify.app/project/charlar7/</guid>
       <description>&lt;p&gt;En este encuentro vamos a aprender a manipular nuestros datos tabulares en R con uno de los paquetes de tidyverse más usados: dplyr.&lt;/p&gt;
 &lt;h3 id=&#34;reviví-la-presentación-en-nuestro-canal-de-youtube&#34;&gt;Reviví la presentación en nuestro canal de youtube:&lt;/h3&gt;
 &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/FefLBPTTHzw&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;

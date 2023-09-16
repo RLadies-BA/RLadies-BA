@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Latin R | RLadies BA</title>
-    <link>/author/latin-r/</link>
-      <atom:link href="/author/latin-r/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://rladiesba.netlify.app/author/latin-r/</link>
+      <atom:link href="https://rladiesba.netlify.app/author/latin-r/index.xml" rel="self" type="application/rss+xml" />
     <description>Latin R</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>es</language>
     <image>
-      <url>/author/latin-r/avatar_huced39da5ba952d0fdf97d4f287b8979a_20645_270x270_fill_lanczos_center_2.png</url>
+      <url>https://rladiesba.netlify.app/author/latin-r/avatar_huced39da5ba952d0fdf97d4f287b8979a_20645_270x270_fill_lanczos_center_2.png</url>
       <title>Latin R</title>
-      <link>/author/latin-r/</link>
+      <link>https://rladiesba.netlify.app/author/latin-r/</link>
     </image>
     
   </channel>

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2017 | RLadies BA</title>
-    <link>/tag/2017/</link>
-      <atom:link href="/tag/2017/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://rladiesba.netlify.app/tag/2017/</link>
+      <atom:link href="https://rladiesba.netlify.app/tag/2017/index.xml" rel="self" type="application/rss+xml" />
     <description>2017</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>es</language><lastBuildDate>Sat, 25 Nov 2017 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/media/icon_hu4b9af3f567e0b0f9e5f99da57ed62ab5_26887_512x512_fill_lanczos_center_2.png</url>
+      <url>https://rladiesba.netlify.app/media/icon_hu4b9af3f567e0b0f9e5f99da57ed62ab5_26887_512x512_fill_lanczos_center_2.png</url>
       <title>2017</title>
-      <link>/tag/2017/</link>
+      <link>https://rladiesba.netlify.app/tag/2017/</link>
     </image>
     
     <item>
       <title>R Markdown y cierre del año!</title>
-      <link>/project/rmarkdown/</link>
+      <link>https://rladiesba.netlify.app/project/rmarkdown/</link>
       <pubDate>Sat, 25 Nov 2017 00:00:00 +0000</pubDate>
-      <guid>/project/rmarkdown/</guid>
+      <guid>https://rladiesba.netlify.app/project/rmarkdown/</guid>
       <description>&lt;h2 id=&#34;sexto-encuentro--último-evento-del-año-con-rmarkdown&#34;&gt;Sexto encuentro:  último evento del año con Rmarkdown&lt;/h2&gt;
 &lt;p&gt;Taller a cargo de Laura Acion, Juliana Benitez y Paola Corrales&lt;/p&gt;
 &lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Closing our first year with an amazing workshop on &lt;a href=&#34;https://twitter.com/hashtag/Rmarkdown?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#Rmarkdown&lt;/a&gt;. &lt;a href=&#34;https://twitter.com/hashtag/rladies?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#rladies&lt;/a&gt; magic gathering beautiful people. &lt;a href=&#34;https://t.co/7e5A6jtlR0&#34;&gt;pic.twitter.com/7e5A6jtlR0&lt;/a&gt;&lt;/p&gt;&amp;mdash; R-Ladies BuenosAires (@RLadiesBA) &lt;a href=&#34;https://twitter.com/RLadiesBA/status/934493460958187520?ref_src=twsrc%5Etfw&#34;&gt;November 25, 2017&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
@@ -26,9 +26,9 @@
     
     <item>
       <title>Taller de Shiny &#43; Clínica de Proyectos</title>
-      <link>/project/tallershiny/</link>
+      <link>https://rladiesba.netlify.app/project/tallershiny/</link>
       <pubDate>Sat, 30 Sep 2017 00:00:00 +0000</pubDate>
-      <guid>/project/tallershiny/</guid>
+      <guid>https://rladiesba.netlify.app/project/tallershiny/</guid>
       <description>&lt;h2 id=&#34;quinto-encuentro&#34;&gt;Quinto encuentro&lt;/h2&gt;
 &lt;p&gt;Las charlas del evento:&lt;/p&gt;
 &lt;p&gt;• La primera parte estará a cargo de Florencia D&amp;rsquo;Andrea del Instituto Nacional de Tecnología Agropecuaria que coordinará el taller &amp;ldquo;Distintas aplicaciones web con Shiny, explorando códigos&amp;rdquo; (nivel inicial/intermedio).&lt;/p&gt;
@@ -39,9 +39,9 @@
     
     <item>
       <title>Taller de Datos Geográficos con R &#43; Intro a Shiny</title>
-      <link>/project/datosgeograficosconr/</link>
+      <link>https://rladiesba.netlify.app/project/datosgeograficosconr/</link>
       <pubDate>Sat, 05 Aug 2017 00:00:00 +0000</pubDate>
-      <guid>/project/datosgeograficosconr/</guid>
+      <guid>https://rladiesba.netlify.app/project/datosgeograficosconr/</guid>
       <description>&lt;h2 id=&#34;tercera-reunión-parte-ii&#34;&gt;Tercera reunión parte II&lt;/h2&gt;
 &lt;p&gt;Las charlas del evento:&lt;/p&gt;
 &lt;p&gt;• La primera parte estará a cargo de Priscilla Minotti de la Universidad de San Martín que coordinará un taller para analizar datos geográficos con R (nivel incial).&lt;/p&gt;
@@ -54,9 +54,9 @@
     
     <item>
       <title>Aplicaciones intermedias y avanzadas de R</title>
-      <link>/project/aplicacionesr/</link>
+      <link>https://rladiesba.netlify.app/project/aplicacionesr/</link>
       <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
-      <guid>/project/aplicacionesr/</guid>
+      <guid>https://rladiesba.netlify.app/project/aplicacionesr/</guid>
       <description>&lt;h2 id=&#34;tercer-encuentro-parte-ii&#34;&gt;Tercer encuentro parte II&lt;/h2&gt;
 &lt;p&gt;Las charlas del evento:&lt;/p&gt;
 &lt;p&gt;• R y radares, muchos datos y algunos resultados. Presentado por Paola Corrales, estudiante de Ciencias de la Atmósfera con tesis en proceso&lt;/p&gt;
@@ -68,9 +68,9 @@
     
     <item>
       <title>Taller de R para Ciencia de Datos (Parte II)</title>
-      <link>/project/rycienciadedatos2/</link>
+      <link>https://rladiesba.netlify.app/project/rycienciadedatos2/</link>
       <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
-      <guid>/project/rycienciadedatos2/</guid>
+      <guid>https://rladiesba.netlify.app/project/rycienciadedatos2/</guid>
       <description>&lt;h2 id=&#34;tercer-encuentro&#34;&gt;Tercer encuentro&lt;/h2&gt;
 &lt;iframe src=&#34;https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FRladiesBA%2Fphotos%2Fa.561943970862087%2F561943807528770%2F%3Ftype%3D3%26av%3D457704507952701%26eav%3DAfY1Hk5MT5zV_lHfG67Jzu096Tds0sVQQ6Uvkt_o0h-QhPcE9m0KCUkwQKXy3UdD3cw&amp;show_text=true&amp;width=500&#34; width=&#34;500&#34; height=&#34;281&#34; style=&#34;border:none;overflow:hidden&#34; scrolling=&#34;no&#34; frameborder=&#34;0&#34; allowfullscreen=&#34;true&#34; allow=&#34;autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share&#34;&gt;&lt;/iframe&gt;
 &lt;iframe src=&#34;https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FRladiesBA%2Fphotos%2Fa.561943970862087%2F561943860862098%2F%3Ftype%3D3%26av%3D457704507952701%26eav%3DAfYfDeglOte_TF5igT0_KyoOo_LpLoDx1PVspFQyHa4AIfzs_svIZbN9gr2bbwGDx14&amp;show_text=true&amp;width=500&#34; width=&#34;500&#34; height=&#34;281&#34; style=&#34;border:none;overflow:hidden&#34; scrolling=&#34;no&#34; frameborder=&#34;0&#34; allowfullscreen=&#34;true&#34; allow=&#34;autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share&#34;&gt;&lt;/iframe&gt;
@@ -79,9 +79,9 @@
     
     <item>
       <title>Taller de R para Ciencia de Datos Parte I</title>
-      <link>/project/rycienciadedatos/</link>
+      <link>https://rladiesba.netlify.app/project/rycienciadedatos/</link>
       <pubDate>Sat, 27 May 2017 00:00:00 +0000</pubDate>
-      <guid>/project/rycienciadedatos/</guid>
+      <guid>https://rladiesba.netlify.app/project/rycienciadedatos/</guid>
       <description>&lt;h2 id=&#34;segundo-encuentro&#34;&gt;Segundo encuentro&lt;/h2&gt;
 &lt;p&gt;En esta ocasión el taller de Ciencia de Datos fue brindando por Laura Acion y el taller de Estructuras de Datos Geográficos y Espaciales en R  a cargo de Priscilla Minotti.&lt;/p&gt;
 &lt;iframe src=&#34;https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FRladiesBA%2Fphotos%2Fa.463088637414288%2F538422353214249%2F%3Ftype%3D3%26av%3D457704507952701%26eav%3DAfae9qZ_fokt769D1h0TYna5ontAAgvDHoJ-t58k44-QcKiXtYv4PkIjm-lX7rW8xLs&amp;show_text=true&amp;width=500&#34; width=&#34;500&#34; height=&#34;372&#34; style=&#34;border:none;overflow:hidden&#34; scrolling=&#34;no&#34; frameborder=&#34;0&#34; allowfullscreen=&#34;true&#34; allow=&#34;autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share&#34;&gt;&lt;/iframe&gt;
@@ -92,9 +92,9 @@
     
     <item>
       <title>Primer evento de R-Ladies Buenos Aires</title>
-      <link>/project/primerareunion/</link>
+      <link>https://rladiesba.netlify.app/project/primerareunion/</link>
       <pubDate>Tue, 28 Mar 2017 00:00:00 +0000</pubDate>
-      <guid>/project/primerareunion/</guid>
+      <guid>https://rladiesba.netlify.app/project/primerareunion/</guid>
       <description>&lt;h2 id=&#34;la-magia-que-ocurre-cuando-nos-ayudamos-unas-a-otras&#34;&gt;La magia que ocurre cuando nos ayudamos unas a otras.&lt;/h2&gt;
 &lt;p&gt;En esta reunión nació el capítulo de Buenos Aires, reunimos todo el material digital disponible para recordar esta gran fecha.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;&amp;ldquo;Estamos ansiosas por empezar a que las que aún no se animaron con R, conozcan todas las posibilidades que tiene y empiecen a animarse. Para las que ya están más avanzadas nos gustaría que nos traigan sus ideas para seguir armando entre todas esta comunidad.&amp;quot;&lt;/em&gt;&lt;/p&gt;

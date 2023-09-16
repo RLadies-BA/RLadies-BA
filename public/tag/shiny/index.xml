@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Shiny | RLadies BA</title>
-    <link>/tag/shiny/</link>
-      <atom:link href="/tag/shiny/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://rladiesba.netlify.app/tag/shiny/</link>
+      <atom:link href="https://rladiesba.netlify.app/tag/shiny/index.xml" rel="self" type="application/rss+xml" />
     <description>Shiny</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>es</language><lastBuildDate>Sat, 30 Sep 2017 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/media/icon_hu4b9af3f567e0b0f9e5f99da57ed62ab5_26887_512x512_fill_lanczos_center_2.png</url>
+      <url>https://rladiesba.netlify.app/media/icon_hu4b9af3f567e0b0f9e5f99da57ed62ab5_26887_512x512_fill_lanczos_center_2.png</url>
       <title>Shiny</title>
-      <link>/tag/shiny/</link>
+      <link>https://rladiesba.netlify.app/tag/shiny/</link>
     </image>
     
     <item>
       <title>Taller de Shiny &#43; Clínica de Proyectos</title>
-      <link>/project/tallershiny/</link>
+      <link>https://rladiesba.netlify.app/project/tallershiny/</link>
       <pubDate>Sat, 30 Sep 2017 00:00:00 +0000</pubDate>
-      <guid>/project/tallershiny/</guid>
+      <guid>https://rladiesba.netlify.app/project/tallershiny/</guid>
       <description>&lt;h2 id=&#34;quinto-encuentro&#34;&gt;Quinto encuentro&lt;/h2&gt;
 &lt;p&gt;Las charlas del evento:&lt;/p&gt;
 &lt;p&gt;• La primera parte estará a cargo de Florencia D&amp;rsquo;Andrea del Instituto Nacional de Tecnología Agropecuaria que coordinará el taller &amp;ldquo;Distintas aplicaciones web con Shiny, explorando códigos&amp;rdquo; (nivel inicial/intermedio).&lt;/p&gt;
@@ -27,9 +27,9 @@
     
     <item>
       <title>Taller de Datos Geográficos con R &#43; Intro a Shiny</title>
-      <link>/project/datosgeograficosconr/</link>
+      <link>https://rladiesba.netlify.app/project/datosgeograficosconr/</link>
       <pubDate>Sat, 05 Aug 2017 00:00:00 +0000</pubDate>
-      <guid>/project/datosgeograficosconr/</guid>
+      <guid>https://rladiesba.netlify.app/project/datosgeograficosconr/</guid>
       <description>&lt;h2 id=&#34;tercera-reunión-parte-ii&#34;&gt;Tercera reunión parte II&lt;/h2&gt;
 &lt;p&gt;Las charlas del evento:&lt;/p&gt;
 &lt;p&gt;• La primera parte estará a cargo de Priscilla Minotti de la Universidad de San Martín que coordinará un taller para analizar datos geográficos con R (nivel incial).&lt;/p&gt;

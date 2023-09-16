@@ -2,21 +2,34 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>RLadies | RLadies BA</title>
-    <link>/tag/rladies/</link>
-      <atom:link href="/tag/rladies/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://rladiesba.netlify.app/tag/rladies/</link>
+      <atom:link href="https://rladiesba.netlify.app/tag/rladies/index.xml" rel="self" type="application/rss+xml" />
     <description>RLadies</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>es</language><lastBuildDate>Sat, 12 Mar 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>es</language><lastBuildDate>Sat, 12 Nov 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/media/icon_hu4b9af3f567e0b0f9e5f99da57ed62ab5_26887_512x512_fill_lanczos_center_2.png</url>
+      <url>https://rladiesba.netlify.app/media/icon_hu4b9af3f567e0b0f9e5f99da57ed62ab5_26887_512x512_fill_lanczos_center_2.png</url>
       <title>RLadies</title>
-      <link>/tag/rladies/</link>
+      <link>https://rladiesba.netlify.app/tag/rladies/</link>
     </image>
     
     <item>
+      <title>Creando tablas en {gt} con Spotify API &amp; Bad Bunny</title>
+      <link>https://rladiesba.netlify.app/project/tablagt/</link>
+      <pubDate>Sat, 12 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>https://rladiesba.netlify.app/project/tablagt/</guid>
+      <description>&lt;p&gt;¡Se viene un nuevo Meetup organizado por R-Ladies Buenos Aires!&lt;/p&gt;
+&lt;p&gt;Esta vez les traemos el tutorial &amp;ldquo;Creando tablas en {gt} con Spotify API &amp;amp; Bad Bunny&amp;rdquo; a cargo de Andrea Gomez Vargas (@me_andre) y Karina Bartolomé (@karbartolome).&lt;/p&gt;
+&lt;p&gt;Andre y Kari les van a mostrar cómo podemos obtener información desde Spotify y plasmarla en una tabla usando el paquete {gt} que permite mostrar mucho más que solo números. Aunque el paquete no es parte del Tydiverse, su sintaxis y estructura es compatible con esta poderosa herramienta para el análisis de datos. Y cómo si fuera poco, nos traen un ejemplo con info de nada más y nada menos que Bad Bunny 🐰🎵&lt;/p&gt;
+&lt;p&gt;Si sos fan del Tidyverse o de Bad Bunny, o si querés aprender a extraer datos de Spotify o simplemente aprender como hacer tablas desde R, este Meetup es para vos!&lt;/p&gt;
+&lt;h3 id=&#34;reviví-la-presentación-en-nuestro-canal-de-youtube&#34;&gt;Reviví la presentación en nuestro canal de youtube:&lt;/h3&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/wciGM5rMBos&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;</description>
+    </item>
+    
+    <item>
       <title>Cumplimos 5 años</title>
-      <link>/project/cumple5/</link>
+      <link>https://rladiesba.netlify.app/project/cumple5/</link>
       <pubDate>Sat, 12 Mar 2022 00:00:00 +0000</pubDate>
-      <guid>/project/cumple5/</guid>
+      <guid>https://rladiesba.netlify.app/project/cumple5/</guid>
       <description>&lt;p&gt;Estamos muy contentas de todo este camino recorrido juntas.
 Compartimos aprendizaje, nos ayudamos entre todes, enfrentamos dudas, aportamos conocimiento y soluciones con este lenguaje R que nos une para nuevas iniciativas o problemas del dia a dia. Y tambien vivimos lo que es sororidad, nos acompañamos en el festejo y en el &amp;ldquo;estoy furiosa&amp;rdquo;.&lt;/p&gt;
 &lt;p&gt;Es tiempo de festejar y de volvernos encontrar presencialmente.&lt;/p&gt;
@@ -25,9 +38,9 @@ Compartimos aprendizaje, nos ayudamos entre todes, enfrentamos dudas, aportamos 
     
     <item>
       <title>Cómo hacer una reunión virtual inolvidable (sin morir en el intento)</title>
-      <link>/project/reunionvirtual/</link>
+      <link>https://rladiesba.netlify.app/project/reunionvirtual/</link>
       <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
-      <guid>/project/reunionvirtual/</guid>
+      <guid>https://rladiesba.netlify.app/project/reunionvirtual/</guid>
       <description>&lt;p&gt;En este meetup te contaremos algunos trucos y herramientas para que cualquier evento virtual interactivo (por ejemplo, clase, taller o panel online) sea un éxito sin estrés adicional al hacerlo. Si organizas meetups de R-Ladies, encontrarás dónde y cómo acceder a la infraestructura que te permitirá organizar meetups online para tu capítulo. Si no organizas meetups de R-Ladies, también encontrarás material útil para todo tipo de evento online que organices o del que participes.&lt;/p&gt;
 &lt;p&gt;Estos contenidos nos los traen R-Ladies latinoamericanas, en su mayoría certificadas para enseñar por RStudio Education y The Carpentries. La mayoría también es parte de MetaDocencia, una organización que desde fines de marzo realizó más de 25 talleres interactivos enseñando a enseñar online a más de 300 docentes hispanohablantes con excelentes resultados. Todas tienen vasta experiencia teletrabajando y enseñando online.&lt;/p&gt;
 &lt;p&gt;Oradoras: Yanina Bellini Saibene y Paola Corrales.&lt;/p&gt;
@@ -39,9 +52,9 @@ Compartimos aprendizaje, nos ayudamos entre todes, enfrentamos dudas, aportamos 
     
     <item>
       <title>Primer evento de R-Ladies Buenos Aires</title>
-      <link>/project/primerareunion/</link>
+      <link>https://rladiesba.netlify.app/project/primerareunion/</link>
       <pubDate>Tue, 28 Mar 2017 00:00:00 +0000</pubDate>
-      <guid>/project/primerareunion/</guid>
+      <guid>https://rladiesba.netlify.app/project/primerareunion/</guid>
       <description>&lt;h2 id=&#34;la-magia-que-ocurre-cuando-nos-ayudamos-unas-a-otras&#34;&gt;La magia que ocurre cuando nos ayudamos unas a otras.&lt;/h2&gt;
 &lt;p&gt;En esta reunión nació el capítulo de Buenos Aires, reunimos todo el material digital disponible para recordar esta gran fecha.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;&amp;ldquo;Estamos ansiosas por empezar a que las que aún no se animaron con R, conozcan todas las posibilidades que tiene y empiecen a animarse. Para las que ya están más avanzadas nos gustaría que nos traigan sus ideas para seguir armando entre todas esta comunidad.&amp;quot;&lt;/em&gt;&lt;/p&gt;

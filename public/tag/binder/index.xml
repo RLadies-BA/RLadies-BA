@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Binder | RLadies BA</title>
-    <link>/tag/binder/</link>
-      <atom:link href="/tag/binder/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://rladiesba.netlify.app/tag/binder/</link>
+      <atom:link href="https://rladiesba.netlify.app/tag/binder/index.xml" rel="self" type="application/rss+xml" />
     <description>Binder</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>es</language><lastBuildDate>Wed, 02 Sep 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/media/icon_hu4b9af3f567e0b0f9e5f99da57ed62ab5_26887_512x512_fill_lanczos_center_2.png</url>
+      <url>https://rladiesba.netlify.app/media/icon_hu4b9af3f567e0b0f9e5f99da57ed62ab5_26887_512x512_fill_lanczos_center_2.png</url>
       <title>Binder</title>
-      <link>/tag/binder/</link>
+      <link>https://rladiesba.netlify.app/tag/binder/</link>
     </image>
     
     <item>
       <title>Reproducibilidad en R</title>
-      <link>/project/charlar8/</link>
+      <link>https://rladiesba.netlify.app/project/charlar8/</link>
       <pubDate>Wed, 02 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>/project/charlar8/</guid>
+      <guid>https://rladiesba.netlify.app/project/charlar8/</guid>
       <description>&lt;p&gt;¿Basta con dejar disponible el código y las bases de datos de tu trabajo para que otra persona (o tu yo del futuro) pueda volver a correrlo sin problemas?&lt;/p&gt;
 &lt;p&gt;Las herramientas y prácticas que mejoran la reproducibilidad computacional no siempre se abordan en los cursos de programación. Algunas forman parte de “eso que se olvidaron de enseñarte de R”: control de versiones, sistemas de administración de dependencias, programación literaria, entre otras.&lt;/p&gt;
 &lt;p&gt;En este meetup de R-Ladies Buenos Aires, Florencia D’Andrea nos brinda un panorama de por qué es interesante abordar el tema de la reproducibilidad, publiques o no artículos científicos. Además presentamos la hackatón de reproducibilidad científica (reproHack) que tuvo lugar como parte de la edición virtual de LatinR 2020.&lt;/p&gt;

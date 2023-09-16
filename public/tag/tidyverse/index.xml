@@ -2,21 +2,34 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>tidyverse | RLadies BA</title>
-    <link>/tag/tidyverse/</link>
-      <atom:link href="/tag/tidyverse/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://rladiesba.netlify.app/tag/tidyverse/</link>
+      <atom:link href="https://rladiesba.netlify.app/tag/tidyverse/index.xml" rel="self" type="application/rss+xml" />
     <description>tidyverse</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>es</language><lastBuildDate>Tue, 04 May 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>es</language><lastBuildDate>Thu, 07 Sep 2023 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/media/icon_hu4b9af3f567e0b0f9e5f99da57ed62ab5_26887_512x512_fill_lanczos_center_2.png</url>
+      <url>https://rladiesba.netlify.app/media/icon_hu4b9af3f567e0b0f9e5f99da57ed62ab5_26887_512x512_fill_lanczos_center_2.png</url>
       <title>tidyverse</title>
-      <link>/tag/tidyverse/</link>
+      <link>https://rladiesba.netlify.app/tag/tidyverse/</link>
     </image>
     
     <item>
+      <title>Introducción al análisis de la EPH con R en Sociales</title>
+      <link>https://rladiesba.netlify.app/project/eph/</link>
+      <pubDate>Thu, 07 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://rladiesba.netlify.app/project/eph/</guid>
+      <description>&lt;p&gt;¡Primer encuentro de 2023!&lt;/p&gt;
+&lt;p&gt;Arrancamos el año con un Taller de Introducción a la Encuesta Permanente de Hogares de INDEC usando el paquete EPH y Tidyverse.&lt;/p&gt;
+&lt;p&gt;Andrea Gomez Vargas y Betsy Cohen nos mostraron cómo podemos obtener información directamente desde RStudio con el paquete {eph} y traducirla en indicadores de condiciones de actividad fundamentales para arrancar cualquier análisis en ciencias sociales y presentarlo en una tabla con {gt}&lt;/p&gt;
+&lt;p&gt;El encuentro se llevó a cabo en la Facultad de Ciencias Sociales de la UBA y contó con más de 140 inscriptxs.&lt;/p&gt;
+&lt;p&gt;Si tenés ganas podés revisar la documentación en el sitio del taller &lt;a href=&#34;https://eph-ubasociales.netlify.app/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;eph-ubasociales.netlify.app&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Tidyverse reorganizando datos con TidyR</title>
-      <link>/project/tidyversecontidyr/</link>
+      <link>https://rladiesba.netlify.app/project/tidyversecontidyr/</link>
       <pubDate>Tue, 04 May 2021 00:00:00 +0000</pubDate>
-      <guid>/project/tidyversecontidyr/</guid>
+      <guid>https://rladiesba.netlify.app/project/tidyversecontidyr/</guid>
       <description>&lt;p&gt;¿Necesitás ordenar tus datos? En esta ocasión aprenderemos a remodelar datos con algunas funciones de TidyR y haremos un pequeño recorrido en tidyverse &amp;amp; ciencia de datos.&lt;/p&gt;
 &lt;h3 id=&#34;reviví-la-presentación-en-youtube&#34;&gt;Reviví la presentación en youtube&lt;/h3&gt;
 &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/chIwJ3hdlx0&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
@@ -25,9 +38,9 @@
     
     <item>
       <title>Leyendo datos ordenados con Tidyverse</title>
-      <link>/project/charlar6/</link>
+      <link>https://rladiesba.netlify.app/project/charlar6/</link>
       <pubDate>Tue, 23 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>/project/charlar6/</guid>
+      <guid>https://rladiesba.netlify.app/project/charlar6/</guid>
       <description>&lt;p&gt;Este meetup es parte de la serie &amp;ldquo;Charlar con R&amp;rdquo;. Esta vez vamos a aprender qué son los datos ordenados y como importar datos tabulares a R con tidyverse.&lt;/p&gt;
 &lt;h3 id=&#34;reviví-la-presentación-en-nuestro-canal-de-youtube&#34;&gt;Reviví la presentación en nuestro canal de youtube:&lt;/h3&gt;
 &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/v39DeY0IDI0&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
@@ -36,9 +49,9 @@
     
     <item>
       <title>Visualizando datos - especial</title>
-      <link>/project/charlar5/</link>
+      <link>https://rladiesba.netlify.app/project/charlar5/</link>
       <pubDate>Tue, 02 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>/project/charlar5/</guid>
+      <guid>https://rladiesba.netlify.app/project/charlar5/</guid>
       <description>&lt;p&gt;Este meetup es parte de la serie &amp;ldquo;Charlar con R&amp;rdquo;. María Nanton nos va a mostrar como visulializar datos usando ggplot y en particular vamos a trabajar con datos textuales para sumarnos al #30diasdegraficos organizado por la comunidad hispano hablante de R.&lt;/p&gt;
 &lt;h3 id=&#34;reviví-la-presentación-en-nuestro-canal-de-youtube&#34;&gt;Reviví la presentación en nuestro canal de youtube:&lt;/h3&gt;
 &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/WXp1T9JEIRM&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;</description>
@@ -46,9 +59,9 @@
     
     <item>
       <title>R para nerds</title>
-      <link>/project/r_nerdearla/</link>
+      <link>https://rladiesba.netlify.app/project/r_nerdearla/</link>
       <pubDate>Sat, 19 Oct 2019 00:00:00 +0000</pubDate>
-      <guid>/project/r_nerdearla/</guid>
+      <guid>https://rladiesba.netlify.app/project/r_nerdearla/</guid>
       <description>&lt;p&gt;Desde R-Ladies Buenos Aires les proponemos un taller para quienes quieren arrancar a usar R para análisis de datos y visualización.&lt;/p&gt;
 &lt;p&gt;Si querés arrancar a usar R y formás parte de alguna minoría dentro del mundo de la programación, este taller es para vos! En nuestros encuentros buscamos crear un espacio amigable donde que cada persona se sienta comoda y aprendamos de la experiencia de quienes participan.&lt;/p&gt;
 &lt;p&gt;Trae tu compu (y cargador!) con:&lt;/p&gt;
@@ -61,9 +74,9 @@
     
     <item>
       <title>Web Scraping con Rvest en Spotify Charts &#43; R con datos meteorológicos</title>
-      <link>/project/webscraping/</link>
+      <link>https://rladiesba.netlify.app/project/webscraping/</link>
       <pubDate>Sat, 15 Jun 2019 00:00:00 +0000</pubDate>
-      <guid>/project/webscraping/</guid>
+      <guid>https://rladiesba.netlify.app/project/webscraping/</guid>
       <description>&lt;h3 id=&#34;web-scraping-con-rvest-en-spotify-charts-taller&#34;&gt;Web Scraping con Rvest en Spotify Charts (taller)&lt;/h3&gt;
 &lt;p&gt;Paola Prieto nos trae una propuesta musical: ¿Cómo obtener datos desde la Web con el paquete Rvest? En este taller, los datos serán obtenidos directamente con R desde la popular plataforma Spotify.&lt;/p&gt;
 &lt;p&gt;Para el taller vas a necesitar tu laptop con R y RStudio instalados.&lt;/p&gt;
@@ -74,9 +87,20 @@
     
     <item>
       <title>Taller de visualización con R, charlas y arranque del año</title>
-      <link>/project/visualizacion/</link>
+      <link>https://rladiesba.netlify.app/project/visualizacion-copia-2/</link>
       <pubDate>Sat, 06 Apr 2019 00:00:00 +0000</pubDate>
-      <guid>/project/visualizacion/</guid>
+      <guid>https://rladiesba.netlify.app/project/visualizacion-copia-2/</guid>
+      <description>&lt;p&gt;¡Primer encuentro de 2019!&lt;/p&gt;
+&lt;p&gt;Arrancamos el año con un Taller de visualización con R a cargo de Romi Méndez. El taller va a estar orientado a personas con un nivel inicial o intermedio para agarrarle la vuelta a ggplot2 y aprender un par de trucos.
+Si tenés ganas podés revisar uno de nuestros primeros encuentros sobre R para Ciencia de datos donde vimos algunas cosas relacionadas con este tema (&lt;a href=&#34;https://github.com/rladies/meetup-presentations_buenosaires/blob/master/README.md)para&#34;&gt;https://github.com/rladies/meetup-presentations_buenosaires/blob/master/README.md)para&lt;/a&gt; ir al git de las presentaciones).&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Taller de visualización con R, charlas y arranque del año</title>
+      <link>https://rladiesba.netlify.app/project/visualizacion/</link>
+      <pubDate>Sat, 06 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>https://rladiesba.netlify.app/project/visualizacion/</guid>
       <description>&lt;p&gt;¡Primer encuentro de 2019!&lt;/p&gt;
 &lt;p&gt;Arrancamos el año con un Taller de visualización con R a cargo de Romi Méndez. El taller va a estar orientado a personas con un nivel inicial o intermedio para agarrarle la vuelta a ggplot2 y aprender un par de trucos.
 Si tenés ganas podés revisar uno de nuestros primeros encuentros sobre R para Ciencia de datos donde vimos algunas cosas relacionadas con este tema (&lt;a href=&#34;https://github.com/rladies/meetup-presentations_buenosaires/blob/master/README.md)para&#34;&gt;https://github.com/rladies/meetup-presentations_buenosaires/blob/master/README.md)para&lt;/a&gt; ir al git de las presentaciones).&lt;/p&gt;
@@ -85,9 +109,9 @@ Si tenés ganas podés revisar uno de nuestros primeros encuentros sobre R para 
     
     <item>
       <title>Taller de R para Ciencia de Datos (Parte II)</title>
-      <link>/project/rycienciadedatos2/</link>
+      <link>https://rladiesba.netlify.app/project/rycienciadedatos2/</link>
       <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
-      <guid>/project/rycienciadedatos2/</guid>
+      <guid>https://rladiesba.netlify.app/project/rycienciadedatos2/</guid>
       <description>&lt;h2 id=&#34;tercer-encuentro&#34;&gt;Tercer encuentro&lt;/h2&gt;
 &lt;iframe src=&#34;https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FRladiesBA%2Fphotos%2Fa.561943970862087%2F561943807528770%2F%3Ftype%3D3%26av%3D457704507952701%26eav%3DAfY1Hk5MT5zV_lHfG67Jzu096Tds0sVQQ6Uvkt_o0h-QhPcE9m0KCUkwQKXy3UdD3cw&amp;show_text=true&amp;width=500&#34; width=&#34;500&#34; height=&#34;281&#34; style=&#34;border:none;overflow:hidden&#34; scrolling=&#34;no&#34; frameborder=&#34;0&#34; allowfullscreen=&#34;true&#34; allow=&#34;autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share&#34;&gt;&lt;/iframe&gt;
 &lt;iframe src=&#34;https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FRladiesBA%2Fphotos%2Fa.561943970862087%2F561943860862098%2F%3Ftype%3D3%26av%3D457704507952701%26eav%3DAfYfDeglOte_TF5igT0_KyoOo_LpLoDx1PVspFQyHa4AIfzs_svIZbN9gr2bbwGDx14&amp;show_text=true&amp;width=500&#34; width=&#34;500&#34; height=&#34;281&#34; style=&#34;border:none;overflow:hidden&#34; scrolling=&#34;no&#34; frameborder=&#34;0&#34; allowfullscreen=&#34;true&#34; allow=&#34;autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share&#34;&gt;&lt;/iframe&gt;
@@ -96,9 +120,9 @@ Si tenés ganas podés revisar uno de nuestros primeros encuentros sobre R para 
     
     <item>
       <title>Taller de R para Ciencia de Datos Parte I</title>
-      <link>/project/rycienciadedatos/</link>
+      <link>https://rladiesba.netlify.app/project/rycienciadedatos/</link>
       <pubDate>Sat, 27 May 2017 00:00:00 +0000</pubDate>
-      <guid>/project/rycienciadedatos/</guid>
+      <guid>https://rladiesba.netlify.app/project/rycienciadedatos/</guid>
       <description>&lt;h2 id=&#34;segundo-encuentro&#34;&gt;Segundo encuentro&lt;/h2&gt;
 &lt;p&gt;En esta ocasión el taller de Ciencia de Datos fue brindando por Laura Acion y el taller de Estructuras de Datos Geográficos y Espaciales en R  a cargo de Priscilla Minotti.&lt;/p&gt;
 &lt;iframe src=&#34;https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FRladiesBA%2Fphotos%2Fa.463088637414288%2F538422353214249%2F%3Ftype%3D3%26av%3D457704507952701%26eav%3DAfae9qZ_fokt769D1h0TYna5ontAAgvDHoJ-t58k44-QcKiXtYv4PkIjm-lX7rW8xLs&amp;show_text=true&amp;width=500&#34; width=&#34;500&#34; height=&#34;372&#34; style=&#34;border:none;overflow:hidden&#34; scrolling=&#34;no&#34; frameborder=&#34;0&#34; allowfullscreen=&#34;true&#34; allow=&#34;autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share&#34;&gt;&lt;/iframe&gt;

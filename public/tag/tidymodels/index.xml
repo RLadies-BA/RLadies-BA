@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>tidymodels | RLadies BA</title>
-    <link>/tag/tidymodels/</link>
-      <atom:link href="/tag/tidymodels/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://rladiesba.netlify.app/tag/tidymodels/</link>
+      <atom:link href="https://rladiesba.netlify.app/tag/tidymodels/index.xml" rel="self" type="application/rss+xml" />
     <description>tidymodels</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>es</language><lastBuildDate>Mon, 07 Dec 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/media/icon_hu4b9af3f567e0b0f9e5f99da57ed62ab5_26887_512x512_fill_lanczos_center_2.png</url>
+      <url>https://rladiesba.netlify.app/media/icon_hu4b9af3f567e0b0f9e5f99da57ed62ab5_26887_512x512_fill_lanczos_center_2.png</url>
       <title>tidymodels</title>
-      <link>/tag/tidymodels/</link>
+      <link>https://rladiesba.netlify.app/tag/tidymodels/</link>
     </image>
     
     <item>
       <title>CieRre de año!</title>
-      <link>/project/cierredeano/</link>
+      <link>https://rladiesba.netlify.app/project/cierredeano/</link>
       <pubDate>Mon, 07 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>/project/cierredeano/</guid>
+      <guid>https://rladiesba.netlify.app/project/cierredeano/</guid>
       <description>&lt;p&gt;¡Se viene el último meetup del año y estamos felices porque lo co-organizamos en conjunto entre los capítulos de Bariloche, Mendoza, Córdoba, Santa Rosa, Ushuaia y Resistencia-Corrientes!&lt;/p&gt;
 &lt;p&gt;Vamos a aprovechar este último encuentro para repasar lo que hicimos durante este año tan particular. ¡Queremos celebrar el habernos encontrado a distancia con muchísimas personas que forman parte de la comunidad R en Argentina, Latinoamérica y el mundo! Si te perdiste algún meetup durante el año, aprovechá para ponerte al día sobre lo que hicimos, videos y materiales que generamos!&lt;/p&gt;
 &lt;p&gt;¡También habrá código de R! Ana Laura Diedrichs de R-Ladies Mendoza nos contará sobre Tidymodels&lt;/p&gt;
@@ -33,9 +33,9 @@ O son personas curiosas y quieren tener un vistazo de {tidymodels} y de qué tra
     
     <item>
       <title>Modelado predictivo con texto utilizando principios de datos tidy - useR! 2020</title>
-      <link>/project/predictivemodeling/</link>
+      <link>https://rladiesba.netlify.app/project/predictivemodeling/</link>
       <pubDate>Fri, 24 Jul 2020 00:00:00 +0000</pubDate>
-      <guid>/project/predictivemodeling/</guid>
+      <guid>https://rladiesba.netlify.app/project/predictivemodeling/</guid>
       <description>&lt;p&gt;Los capítulos de R-Ladies en Argentina estamos felices de anunciar que Emil Hvitfeldt y Julia Silge se unirán a nosotras para traernos su tutorial &amp;ldquo;Predictive modeling with text using tidy data principles&amp;rdquo;.&lt;/p&gt;
 &lt;p&gt;¿Alguna vez encontraste datos de texto y sospechaste que había información útil en esos datos?, ¿ Te sentiste con frustración al intentan ver cómo encontrar esa información? ¿Estás familiarizade con los conceptos básicos del modelado predictivo y estás liste para aprender cómo se pueden usar los datos de texto no estructurados para la predicción dentro de los ecosistemas tidyverse y tidymodels?&lt;/p&gt;
 &lt;p&gt;¿Necesitas un marco flexible para manejar datos de texto que te permitan construir modelos predictivos supervisados?

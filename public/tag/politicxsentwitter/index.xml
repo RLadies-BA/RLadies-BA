@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>politicxsentwitteR | RLadies BA</title>
-    <link>/tag/politicxsentwitter/</link>
-      <atom:link href="/tag/politicxsentwitter/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://rladiesba.netlify.app/tag/politicxsentwitter/</link>
+      <atom:link href="https://rladiesba.netlify.app/tag/politicxsentwitter/index.xml" rel="self" type="application/rss+xml" />
     <description>politicxsentwitteR</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>es</language><lastBuildDate>Wed, 25 Aug 2021 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/media/icon_hu4b9af3f567e0b0f9e5f99da57ed62ab5_26887_512x512_fill_lanczos_center_2.png</url>
+      <url>https://rladiesba.netlify.app/media/icon_hu4b9af3f567e0b0f9e5f99da57ed62ab5_26887_512x512_fill_lanczos_center_2.png</url>
       <title>politicxsentwitteR</title>
-      <link>/tag/politicxsentwitter/</link>
+      <link>https://rladiesba.netlify.app/tag/politicxsentwitter/</link>
     </image>
     
     <item>
       <title>Social Network con politicxsentwitteR</title>
-      <link>/project/politicxsentwitter/</link>
+      <link>https://rladiesba.netlify.app/project/politicxsentwitter/</link>
       <pubDate>Wed, 25 Aug 2021 00:00:00 +0000</pubDate>
-      <guid>/project/politicxsentwitter/</guid>
+      <guid>https://rladiesba.netlify.app/project/politicxsentwitter/</guid>
       <description>&lt;p&gt;Nos visita la politóloga &lt;a href=&#34;https://github.com/Guadag12&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Guadalupe González&lt;/strong&gt;&lt;/a&gt; para presentar su paquete &lt;a href=&#34;https://oderedes.shinyapps.io/politicosentwitter/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;politicxsentwitteR&lt;/a&gt;. Con este paquete podrás obtener las publicaciones de politicxs argentinxs en Twitter y desarrollar proyectos de procesamiento del lenguaje natural, análisis de redes y visualización de datos.
 Guadalupe va a contarnos cómo desarrolló el paquete, sus características, y de qué maneras podemos analizar sus datos con las librerías de R igraph y visNetwork.&lt;/p&gt;
 &lt;p&gt;Si venís de las Ciencias Sociales (o no), querés profundizar en análisis de redes o te interesa el análisis de Twitter como fuente de información, este meetup es para vos.&lt;/p&gt;

@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mujeres en Tecnología | RLadies BA</title>
-    <link>/author/mujeres-en-tecnologia/</link>
-      <atom:link href="/author/mujeres-en-tecnologia/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://rladiesba.netlify.app/author/mujeres-en-tecnologia/</link>
+      <atom:link href="https://rladiesba.netlify.app/author/mujeres-en-tecnologia/index.xml" rel="self" type="application/rss+xml" />
     <description>Mujeres en Tecnología</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>es</language>
     <image>
-      <url>/author/mujeres-en-tecnologia/avatar_hu65783d8717ed5d3ab9d591e1cceef41b_8572_270x270_fill_lanczos_center_2.png</url>
+      <url>https://rladiesba.netlify.app/author/mujeres-en-tecnologia/avatar_hu65783d8717ed5d3ab9d591e1cceef41b_8572_270x270_fill_lanczos_center_2.png</url>
       <title>Mujeres en Tecnología</title>
-      <link>/author/mujeres-en-tecnologia/</link>
+      <link>https://rladiesba.netlify.app/author/mujeres-en-tecnologia/</link>
     </image>
     
   </channel>

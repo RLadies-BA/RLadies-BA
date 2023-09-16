@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Funciones | RLadies BA</title>
-    <link>/tag/funciones/</link>
-      <atom:link href="/tag/funciones/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://rladiesba.netlify.app/tag/funciones/</link>
+      <atom:link href="https://rladiesba.netlify.app/tag/funciones/index.xml" rel="self" type="application/rss+xml" />
     <description>Funciones</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>es</language><lastBuildDate>Sat, 15 Jun 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/media/icon_hu4b9af3f567e0b0f9e5f99da57ed62ab5_26887_512x512_fill_lanczos_center_2.png</url>
+      <url>https://rladiesba.netlify.app/media/icon_hu4b9af3f567e0b0f9e5f99da57ed62ab5_26887_512x512_fill_lanczos_center_2.png</url>
       <title>Funciones</title>
-      <link>/tag/funciones/</link>
+      <link>https://rladiesba.netlify.app/tag/funciones/</link>
     </image>
     
     <item>
       <title>¡Nos visita Jenny Brian!</title>
-      <link>/project/jenny/</link>
+      <link>https://rladiesba.netlify.app/project/jenny/</link>
       <pubDate>Sat, 15 Jun 2019 00:00:00 +0000</pubDate>
-      <guid>/project/jenny/</guid>
+      <guid>https://rladiesba.netlify.app/project/jenny/</guid>
       <description>&lt;p&gt;Te invitamos a un meetup de lujo donde tendremos un taller a cargo de Jenny Bryan.&lt;/p&gt;
 &lt;p&gt;Jenny Bryan (PhD, UC Berkeley) es Ingeniera de Software en RStudio. Jenny es referente internacionalmente reconocida de la comunidad R dentro de la cual es integrante ordinaria de la R Foundation y parte del Comité de Liderazgo de rOpenSci.&lt;/p&gt;
 &lt;p&gt;En este taller nos va enseñar funciones, un tema esencial en R.&lt;/p&gt;

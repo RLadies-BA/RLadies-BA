@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Git | RLadies BA</title>
-    <link>/tag/git/</link>
-      <atom:link href="/tag/git/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://rladiesba.netlify.app/tag/git/</link>
+      <atom:link href="https://rladiesba.netlify.app/tag/git/index.xml" rel="self" type="application/rss+xml" />
     <description>Git</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>es</language><lastBuildDate>Mon, 18 May 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/media/icon_hu4b9af3f567e0b0f9e5f99da57ed62ab5_26887_512x512_fill_lanczos_center_2.png</url>
+      <url>https://rladiesba.netlify.app/media/icon_hu4b9af3f567e0b0f9e5f99da57ed62ab5_26887_512x512_fill_lanczos_center_2.png</url>
       <title>Git</title>
-      <link>/tag/git/</link>
+      <link>https://rladiesba.netlify.app/tag/git/</link>
     </image>
     
     <item>
       <title>Primeros pasos en git</title>
-      <link>/project/charlar4/</link>
+      <link>https://rladiesba.netlify.app/project/charlar4/</link>
       <pubDate>Mon, 18 May 2020 00:00:00 +0000</pubDate>
-      <guid>/project/charlar4/</guid>
+      <guid>https://rladiesba.netlify.app/project/charlar4/</guid>
       <description>&lt;p&gt;En este meetup, junto con Rladies Santa Rosa y Rladies General Pico,  daremos los primeros pasos en git. Qué es, para que sirve y como lo utilizamos desde RStudio.&lt;/p&gt;
 &lt;p&gt;Las oradoras fueron Yanina Bellini Saibene de Santa Rosa y Marysol Gatti de General Pico. Y si querés revisar los materiales, por acá: &lt;a href=&#34;https://yabellini.netlify.app/es/post/githubconr/&#34;&gt;https://yabellini.netlify.app/es/post/githubconr/&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;reviví-la-presentación-en-nuestro-canal-de-youtube&#34;&gt;Reviví la presentación en nuestro canal de youtube:&lt;/h3&gt;
@@ -25,9 +25,9 @@
     
     <item>
       <title>Taller de Git y RStudio</title>
-      <link>/project/git_rstudio/</link>
+      <link>https://rladiesba.netlify.app/project/git_rstudio/</link>
       <pubDate>Sat, 14 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>/project/git_rstudio/</guid>
+      <guid>https://rladiesba.netlify.app/project/git_rstudio/</guid>
       <description>&lt;p&gt;¿Tenes una carpeta llena con distintas versiones del mismo archivo?¿Te gustaría poder llevar un seguimiento de los cambios en tu trabajo? ¿Te interesa participar de proyectos colaborativos?
 En este taller preparado en conjunto entre Las De Sistemas y R-Ladies Buenos Aires proponemos una iniciación al uso de Git como herramienta complementaria y útil al momento de escribir código en R.
 Sugerimos este taller a personas con una mínima experiencia en el uso de R y RStudio.&lt;/p&gt;

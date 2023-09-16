@@ -1,0 +1,1648 @@
+<!DOCTYPE html><html lang="es" >
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.1.0 for Hugo" />
+  
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="RLadies Buenos Aires" />
+
+  
+  
+  
+    
+  
+  <meta name="description" content="En este tutorial vas a aprender cómo obtener información desde Spotify y plasmarla en una tabla usando el paquete {gt} 🐰🎵" />
+
+  
+  <link rel="alternate" hreflang="es" href="https://rladiesba.netlify.app/post/tablasgtpost/" />
+
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    <meta name="theme-color" content="#88398a" />
+  
+
+  
+  
+
+  
+  
+  
+  
+    
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha256-FMvZuGapsJLjouA6k7Eo2lusoAX9i0ShlWFG6qt7SLc=" crossorigin="anonymous">
+
+    
+    
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/github.min.css" crossorigin="anonymous" title="hl-light" media="print" onload="this.media='all'">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" media="print" onload="this.media='all'" disabled>
+        
+      
+    
+
+    
+    
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.css" integrity="sha512-1xoFisiGdy9nvho8EgXuXvnpR5GAMSjFwp40gSRE3NwdUdIMIKuPa7bqoUhLD0O/5tPNhteAsE5XyyMi5reQVA==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.94804eafaf96ede30ca7fbbe79b39b0a.css" />
+
+  
+
+
+
+  
+
+  
+
+  
+
+
+
+
+  
+  
+  
+
+  
+
+  
+    <link rel="manifest" href="/index.webmanifest" />
+  
+
+  <link rel="icon" type="image/png" href="/media/icon_hu4b9af3f567e0b0f9e5f99da57ed62ab5_26887_32x32_fill_lanczos_center_2.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu4b9af3f567e0b0f9e5f99da57ed62ab5_26887_180x180_fill_lanczos_center_2.png" />
+
+  <link rel="canonical" href="https://rladiesba.netlify.app/post/tablasgtpost/" />
+
+  
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <meta property="twitter:card" content="summary_large_image" />
+  
+  <meta property="og:site_name" content="RLadies BA" />
+  <meta property="og:url" content="https://rladiesba.netlify.app/post/tablasgtpost/" />
+  <meta property="og:title" content="Creando tablas sobre tus artistas favorites con {gt} y la API de Spotify | RLadies BA" />
+  <meta property="og:description" content="En este tutorial vas a aprender cómo obtener información desde Spotify y plasmarla en una tabla usando el paquete {gt} 🐰🎵" /><meta property="og:image" content="https://rladiesba.netlify.app/post/tablasgtpost/featured.jpeg" />
+    <meta property="twitter:image" content="https://rladiesba.netlify.app/post/tablasgtpost/featured.jpeg" /><meta property="og:locale" content="es" />
+  
+    
+      <meta
+        property="article:published_time"
+        content="2023-06-08T00:00:00&#43;00:00"
+      />
+    
+    <meta property="article:modified_time" content="2023-06-08T00:00:00&#43;00:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+  
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://rladiesba.netlify.app/post/tablasgtpost/"
+  },
+  "headline": "Creando tablas sobre tus artistas favorites con {gt} y la API de Spotify",
+  
+  "image": [
+    "https://rladiesba.netlify.app/post/tablasgtpost/featured.jpeg"
+  ],
+  
+  "datePublished": "2023-06-08T00:00:00Z",
+  "dateModified": "2023-06-08T00:00:00Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Karina Bartolomé"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "RLadies BA",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://rladiesba.netlify.app/media/icon_hu4b9af3f567e0b0f9e5f99da57ed62ab5_26887_192x192_fill_lanczos_center_2.png"
+    }
+  },
+  "description": "En este tutorial vas a aprender cómo obtener información desde Spotify y plasmarla en una tabla usando el paquete {gt} 🐰🎵"
+}
+</script>
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+  <title>Creando tablas sobre tus artistas favorites con {gt} y la API de Spotify | RLadies BA</title>
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="d482ed1003811ac4c61c0a5baa28703e" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.f16be01fc8fb2b5885dd67ce942d1185.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Search...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container-xl">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/">RLadies BA</a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/">RLadies BA</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+        <li class="nav-item dropdown">
+          <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"><span>Quiénes somos</span><span class="caret"></span>
+          </a>
+          <div class="dropdown-menu">
+            
+              <a class="dropdown-item" href="/#equipo"><span>Organizadoras</span></a>
+            
+              <a class="dropdown-item" href="/#comunidades"><span>Comunidades</span></a>
+            
+              <a class="dropdown-item" href="/#gallery"><span>Media</span></a>
+            
+              <a class="dropdown-item" href="/#sponsors"><span>Sponsors</span></a>
+            
+          </div>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#projects"><span>Meetups</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#posts"><span>Blog</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contacto</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/post/index.xml"><span>rss</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+      
+      
+        
+      
+
+      
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+      
+      <li class="nav-item dropdown theme-dropdown">
+        <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
+          <i class="fas fa-moon" aria-hidden="true"></i>
+        </a>
+        <div class="dropdown-menu">
+          <a href="#" class="dropdown-item js-set-theme-light">
+            <span>Light</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-dark">
+            <span>Dark</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-auto">
+            <span>Automatic</span>
+          </a>
+        </div>
+      </li>
+      
+
+      
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  </div>
+
+  <div class="page-body">
+    <article class="article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+
+<div class="article-container pt-3">
+  <h1>Creando tablas sobre tus artistas favorites con {gt} y la API de Spotify</h1>
+
+  
+
+  
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span >
+      <a href="/author/karina-bartolome/">Karina Bartolomé</a></span>, <span >
+      <a href="/author/andrea-gomez-vargas/">Andrea Gómez Vargas</a></span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Jun 8, 2023
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    7 min read
+  </span>
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+
+
+
+
+
+</div>
+
+
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 478px;">
+  <div style="position: relative">
+    <img src="/post/tablasgtpost/featured_hu49963182701f6d99bbd49e600e39794c_89728_720x0_resize_q75_lanczos.jpeg" alt="" class="featured-image">
+    
+  </div>
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      
+
+
+<div id="introducción" class="section level1">
+<h1>Introducción</h1>
+<p>Utilización del paquete <strong>{gt}</strong> 📦 para visualizar datos de artistas obtenidos mediante la API de <strong>Spotify🎶</strong>.</p>
+<p>Este post hace referencia al <a href="https://rladiesba.netlify.app/project/tablagt/">taller del 2022-11-23</a>:</p>
+<p>🔸 <a href="https://github.com/RLadies-BA/gt-spotify">Repositorio</a> 🔸 <a href="https://www.youtube.com/watch?v=wciGM5rMBos&amp;ab_channel=RLadiesBuenosAires">Grabación</a> 🔸</p>
+<iframe src="https://karbartolome.github.io/gt-spotify/01_slides/rladies_gt_spotify.html" width="100%" height="400px" data-external="1">
+</iframe>
+</iframe>
+</div>
+<div id="librerías" class="section level1">
+<h1>1. Librerías</h1>
+<p>Se definen los <strong>paquetes</strong> 📦 a utilizar:</p>
+<pre class="r"><code>library(tidyverse) # Manipulación de datos
+library(gt)        # Tablas gt: grammar of tables
+library(gtExtras)  # Extras de tablas gt
+library(spotifyr)  # Trabajar con la API de spotify
+library(rjson)     # Lectura de archivo json
+library(ggrepel)   # Para textos en ggplot</code></pre>
+<p><strong>⚠️ De no haber podido obtener las credenciales para consultar a la API de Spotify, pasar al punto 3, en donde se leen los datos de un dataframe almacenado en el repositorio.</strong> <strong>⚠️</strong></p>
+<div id="api-spotify---credenciales" class="section level2">
+<h2>2. API Spotify - Credenciales</h2>
+<p>Se cuenta con un archivo <strong>(credentials..json)</strong>, que contiene las siguientes variables obtenidas de la página de desarrolladores de Spotify:</p>
+<ul>
+<li><p>SPOTIFY_CLIENT_ID</p></li>
+<li><p>SPOTIFY_CLIENT_SECRET</p></li>
+</ul>
+<p>El formato del archivo <strong>credentials.json</strong> está incluido en el .gitignore del repositorio. Esto permite mantener las credenciales anónimas (sin publicar en repositorios), dado que son personales y no deben compartirse. A continuación se muestra el formato de este archivo:</p>
+<pre class="r"><code>{
+  &quot;SPOTIFY_CLIENT_ID&quot; : &quot;SPOTIFY_CLIENT_ID&quot;,
+  &quot;SPOTIFY_CLIENT_SECRET&quot; : &quot;SPOTIFY_CLIENT_SECRET&quot;
+}</code></pre>
+<p>Se realiza la lectura de las credenciales mediante la función <strong>fromJSON()</strong>. Luego, se setean como variables de entorno:</p>
+<pre class="r"><code>credentials &lt;- fromJSON(file = &quot;credentials.json&quot;)
+
+Sys.setenv(SPOTIFY_CLIENT_ID = credentials$SPOTIFY_CLIENT_ID)
+Sys.setenv(SPOTIFY_CLIENT_SECRET = credentials$SPOTIFY_CLIENT_SECRET)</code></pre>
+<p>Mediante la función <strong>get_spotify_access_token</strong>() del paquete {<strong>spotifyr</strong>} 📦, se realiza la autenticación a la API:</p>
+<pre class="r"><code>access_token &lt;- get_spotify_access_token()</code></pre>
+<p>Para verificar que la autenticación haya sido exitosa, se realiza una consulta de los artistas más escuchados:</p>
+<pre class="r"><code>tabla_user &lt;- get_my_top_artists_or_tracks(
+                type = &#39;artists&#39;,
+                time_range = &#39;short_term&#39;, # &#39;medium_term&#39;, &#39;long_term&#39;
+                limit = 5
+              ) %&gt;%
+  select(name, genres) %&gt;%
+  rowwise() %&gt;%
+  mutate(genres = paste(genres, collapse = &#39;, &#39;)) %&gt;%
+  ungroup %&gt;%
+  gt()</code></pre>
+</div>
+</div>
+<div id="caso-análisis-de-un-artista-particular" class="section level1">
+<h1>Caso: análisis de un artista particular</h1>
+<p>En este caso, el artista a analizar es Bad Bunny:</p>
+<pre class="r"><code>ARTISTA = &#39;bad bunny&#39;</code></pre>
+<p>La función <strong>get_artist_audio_features()</strong> del paquete {<strong>spotifyr</strong>} 📦 permite generar una búsqueda de variables vinculadas al audio de cada track.</p>
+<pre class="r"><code>vars_audio = c(&#39;danceability&#39;,
+               &#39;energy&#39;,
+               &#39;loudness&#39;,
+               &#39;acousticness&#39;,
+               &#39;instrumentalness&#39;)</code></pre>
+<pre class="r"><code>tracks_features &lt;- get_artist_audio_features(artist = ARTISTA) %&gt;%
+  
+  select(
+    artist_id,
+    artist_name,
+    album_id,
+    album_name,
+    album_release_date,
+    album_images,
+    track_name,
+    duration_ms,
+    
+    # Variables vinculadas al audio:
+    all_of(vars_audio)
+  ) %&gt;%
+  
+  arrange(desc(album_release_date))</code></pre>
+</div>
+<div id="the-grammar-of-tables-gt" class="section level1">
+<h1>3. The grammar of tables (gt)</h1>
+<p>De no haber podido autenticarte con la API de Spotify, dejamos un archivo .rds con los datos necesarios para seguir con el resto del taller:</p>
+<pre class="r"><code>tracks_features &lt;- read_rds(&#39;https://github.com/karbartolome/gt-spotify/blob/main/02_caso_spotify/tracks_features.rds?raw=true&#39;)</code></pre>
+<p>Se cuenta con un df de variables vinculadas a cada canción de cada álbum del artista seleccionado:</p>
+<pre class="r"><code>tracks_features %&gt;%
+  glimpse()</code></pre>
+<div id="intro-a-gt" class="section level2">
+<h2>3.1 Intro a gt</h2>
+<pre class="r"><code>tabla &lt;- tracks_features %&gt;%
+  head() %&gt;%
+  select(artist_name, album_name, track_name, all_of(vars_audio)) %&gt;%
+  
+  # En este paso se transforma el df en un objeto gt:
+  gt()</code></pre>
+<pre class="r"><code>tabla</code></pre>
+<p><img src="images/tabla_1.png" width="100%" /></p>
+<p>Notar que las variables numéricas aparecen con muchos decimales. Una forma sencilla de arreglar esto en {gt} es la siguiente:</p>
+<pre class="r"><code>tabla %&gt;%
+  fmt_number(columns = where(is.numeric), decimals = 2)</code></pre>
+<p><img src="images/tabla_2.png" width="100%" /></p>
+</div>
+<div id="tabla-a-nivel-álbumes" class="section level2">
+<h2>3.2 Tabla a nivel álbumes</h2>
+<p>Se agregan los datos a nivel de cada álbum. Notar que, en el caso de las variables de audio, se decidió convertirlas en una lista (N observaciones numéricas que representan cada una de las canciones incluidas en el álbum). En los próximos pasos se explicará el por qué de la decisión:</p>
+<pre class="r"><code>df_albums &lt;- tracks_features %&gt;%
+  
+  group_by(album_images,
+           artist_name,
+           album_id,
+           album_name,
+           album_release_date) %&gt;%
+  
+  summarise(# Duración del álbum: suma de duración de cada canción
+    duration_mins = sum(duration_ms / (1000 * 60)),
+    
+    # Lista de cada variable de audio
+    across(all_of(vars_audio), ~ list(.x)),) %&gt;%
+  
+  ungroup()</code></pre>
+<pre class="r"><code>tabla_albums &lt;- df_albums %&gt;%
+  select(-album_images) %&gt;%
+  gt() </code></pre>
+<pre class="r"><code>tabla_albums</code></pre>
+<p><img src="images/tabla_3.png" width="100%" /></p>
+</div>
+<div id="imágenes-en-tablas-gt" class="section level2">
+<h2>3.3 Imágenes en tablas gt</h2>
+<p>Se quiere añadir la imagen del álbum. Para ello, se construye la siguiente función. Para cada álbum se cuenta con distintos tamaños de imágenes, donde cada imagen se encuentra representada por un url. Se decide seleccionar la imagen de tamaño=64, extrayendo el url:</p>
+<pre class="r"><code>get_imagen = function(album_images) {
+  album_images %&gt;%
+    data.frame() %&gt;%
+    filter(height == 64) %&gt;%
+    pull(url) %&gt;%
+    as.character()
+}</code></pre>
+<p>Se aplica la función al dataframe. Para ello, se utiliza la función <strong>map()</strong> del paquete {purrr} 📦:</p>
+<pre class="r"><code>df_albums &lt;- df_albums %&gt;%
+  mutate(
+    album_images = map(album_images, 
+                       ~ get_imagen(album_images = .x))
+  ) %&gt;%
+  distinct()</code></pre>
+<p>Para visualizar los urls como imagenes, se utiliza la función <strong>text_transform()</strong> de {gt}. Además, la función <strong>tab_header()</strong> permite añadir título y subtítulo.</p>
+<pre class="r"><code>imagen_path = &#39;https://raw.githubusercontent.com/karbartolome/gt-spotify/main/02_caso_spotify/imagenes/bad_bunny.png&#39;
+image_size = 50
+
+imagen_artista &lt;- paste0(
+    &quot;&lt;img src=&#39;&quot;, imagen_path,&quot;&#39; style=&#39;height:&quot;,image_size,&quot;px;&#39;&gt;&quot;
+  )
+
+tabla_albums &lt;- df_albums %&gt;%  select(-album_id) %&gt;%
+  
+  gt() %&gt;%
+  
+  tab_header(
+    title = md(glue::glue(&#39;{imagen_artista} **{str_to_title(ARTISTA)}** en Spotify&#39;)),
+    subtitle = &#39;Álbumes más recientes&#39;) %&gt;%
+  
+  text_transform(
+    locations = cells_body(columns = c(album_images)),
+    fn = function(album_images) {
+      lapply(album_images, web_image, height = 50)
+    }
+  ) </code></pre>
+<p>De momento, se ocultan las variables de audio para visualizar la tabla:</p>
+<pre class="r"><code>tabla_albums %&gt;%
+  cols_hide(all_of(vars_audio))</code></pre>
+<p><img src="images/tabla_4.png" width="100%" /></p>
+<p>Otra función útil para visualizar este tipo de información es <strong>gt_merge_stack()</strong> que permite concatenar dos variables en una única:</p>
+<pre class="r"><code>tabla_albums &lt;- tabla_albums %&gt;%
+  
+  gt_merge_stack(col1 = album_name,
+                 col2 = artist_name) </code></pre>
+<pre class="r"><code>tabla_albums %&gt;% 
+  cols_hide(all_of(vars_audio)) </code></pre>
+<p><img src="images/tabla_5.png" width="100%" /></p>
+<p>Para visualizar las variables de audio, se utilizarán algunas funcionalidades del paquete <strong>{gtExtras}</strong> 📦:</p>
+<pre class="r"><code>tabla_albums &lt;- tabla_albums %&gt;%
+  
+  gt_color_box(
+    columns = duration_mins,
+    palette = c(&#39;white&#39;, color_spotify),
+    domain = c(0, round(max(df_albums$duration_mins)) + 1)
+  ) %&gt;%
+  
+  gt_plt_dist(
+    column = danceability,
+    type = &quot;density&quot;,
+    line_color = &quot;black&quot;,
+    fill_color = color_spotify
+  ) %&gt;%
+  
+  gt_plt_dist(
+    column = energy,
+    type = &quot;density&quot;,
+    line_color = &quot;black&quot;,
+    fill_color = color_spotify
+  ) %&gt;%
+  
+  gt_plt_dist(
+    column = loudness,
+    type = &quot;density&quot;,
+    line_color = &quot;black&quot;,
+    fill_color = color_spotify
+  ) %&gt;%
+  
+  gt_plt_dist(
+    column = acousticness,
+    type = &quot;boxplot&quot;,
+    line_color = &quot;black&quot;,
+    fill_color = color_spotify
+  )</code></pre>
+<pre class="r"><code>tabla_albums %&gt;%
+  cols_hide(&#39;instrumentalness&#39;)</code></pre>
+<p><img src="images/tabla_6.png" width="100%" /></p>
+</div>
+<div id="ggplot-en-gt" class="section level2">
+<h2>3.4 Ggplot en gt</h2>
+<p>Notar que si se agregara el boxplot para el caso de la variable instrumentalness, se observa, para todos los álbumes, distribuciones con valores atípicos:</p>
+<pre class="r"><code>tabla_albums %&gt;%
+  gt_plt_dist(
+    column = instrumentalness,
+    type = &quot;boxplot&quot;,
+    line_color = &quot;black&quot;,
+    fill_color = color_spotify
+  ) </code></pre>
+<p><img src="images/tabla_7.png" width="100%" /></p>
+<p>Por esta razón, se utilizará el caso de esta variable para explicar cómo se podría identificar a estos valores atípicos mediante el uso de {ggplot2} 📦</p>
+<pre class="r"><code>gen_outliers_plots &lt;- function(.df,
+                               .variable,
+                               .font_size = 22,
+                               .lwd = 3) {
+  temp &lt;- .df %&gt;%
+    select(all_of(c(&#39;track_name&#39;, .variable))) %&gt;%
+    pivot_longer(cols = -track_name)
+  
+  track &lt;- temp %&gt;%
+    slice(which.max(value)) %&gt;%
+    pull(track_name)
+  
+  temp %&gt;%
+    mutate(is_outlier = ifelse(track_name == track, track_name, NA)) %&gt;%
+    
+    ggplot(aes(y = value, x = name)) +
+    geom_boxplot(
+      fill = color_spotify,
+      width = 0.2,
+      lwd = .lwd,
+      outlier.size = 5
+    ) +
+    geom_text_repel(
+      aes(label = is_outlier),
+      na.rm = TRUE,
+      nudge_x = 0.4,
+      size = .font_size
+    ) +
+    coord_flip() +
+    theme_void()
+}</code></pre>
+<p>Realizando la prueba de la función, se observa el gráfico que genera:</p>
+<pre class="r"><code>plot &lt;- gen_outliers_plots(
+  .df = tracks_features %&gt;% filter(album_name == &#39;X 100PRE&#39;),
+  .variable = &#39;instrumentalness&#39;,
+  .font_size = 10,
+  .lwd = 0.5
+)</code></pre>
+<pre class="r"><code>plot</code></pre>
+<p><img src="images/plot_1.png" width="50%" /></p>
+<p>Ahora se incluyen estos plots en la tabla. Primero, se mappea la función al df:</p>
+<pre class="r"><code>df_albums &lt;- df_albums %&gt;%
+  mutate(instrumentalness = map(
+    album_id,
+    ~ gen_outliers_plots(
+        .df = tracks_features %&gt;% filter(album_id == .x),
+        .variable = &#39;instrumentalness&#39;)
+  ))</code></pre>
+<p>Se visualiza la tabla completa:</p>
+<pre class="r"><code>tabla_albums &lt;- tabla_albums %&gt;%
+  
+  text_transform(
+    locations = cells_body(columns = instrumentalness),
+    fn = function(x) {
+      map(
+        df_albums$instrumentalness,
+        gt::ggplot_image,
+        height = px(60),
+        aspect_ratio = 2
+      )
+    }
+  ) </code></pre>
+<pre class="r"><code>tabla_albums</code></pre>
+<p><img src="images/tabla_8.png" width="100%" /></p>
+</div>
+<div id="formato" class="section level2">
+<h2>Formato</h2>
+<pre class="r"><code>tabla_albums &lt;- tabla_albums %&gt;%
+  
+  tab_spanner(label = &#39;Un tipo de variables&#39;,
+              columns = danceability:loudness) %&gt;%
+  tab_spanner(label = &#39;Otro tipo de variables&#39;,
+              columns = c(&#39;acousticness&#39;, &#39;instrumentalness&#39;)) %&gt;%
+  
+  tab_footnote(
+    locations = cells_column_labels(&#39;duration_mins&#39;),
+    footnote = &#39;Duración en minutos = suma de la duración de
+                               cada una de las canciones que componen el álbum.&#39;
+  ) %&gt;%
+  
+  tab_footnote(
+    locations = cells_column_labels(&#39;instrumentalness&#39;),
+    footnote = &#39;En el caso de instrumentalness, al existir
+                               valores muy atípicos se muestra la canción a la
+                               que corresponde el máximo valor en cada álbum.&#39;
+  ) %&gt;%
+  
+  tab_source_note(source_note = &#39;Fuente: API de Spotify&#39;) %&gt;%
+  
+  cols_label(
+    album_images = &#39;&#39;,
+    album_name = &#39;&#39;,
+    album_release_date = &#39;Lanzamiento&#39;,
+    duration_mins = &#39;Duración&#39;,
+    danceability = &#39;Danceability 🕺&#39;,
+    energy = &#39;Energy ✨&#39;,
+    loudness = &#39;Loudness 🔊&#39;,
+    acousticness = &#39;Acousticness 🎹&#39;,
+    instrumentalness = &#39;Instrumentalness 🎼&#39;
+  )</code></pre>
+<pre class="r"><code>tabla_albums</code></pre>
+<p>Además, se añade un ✨<strong>theme</strong> ✨ específico para asignarle colores y formatos adicionales:</p>
+<pre class="r"><code>tabla_albums &lt;- tabla_albums %&gt;%
+   tab_options(
+      column_labels.background.color = &quot;#39423c&quot;,
+      footnotes.background.color = &quot;#39423c&quot;,
+      source_notes.background.color = &quot;#39423c&quot;,
+      heading.background.color = &quot;#39423c&quot;,
+      heading.align = &quot;left&quot;,
+    ) %&gt;%
+    tab_style(style = cell_text(color = color_spotify, size = px(32)),
+              locations = cells_title(&quot;title&quot;))</code></pre>
+<pre class="r"><code>tabla_albums</code></pre>
+<p><img src="images/tabla_10.png" width="100%" /></p>
+</div>
+<div id="guardar-la-tabla-gt-como-archivo-.png" class="section level2">
+<h2>3.5 Guardar la tabla gt como archivo .png</h2>
+<p>Para guardar la tabla, se utiliza la función <strong>gtsave()</strong> de {gt} 📦:</p>
+<pre class="r"><code>gtsave(tabla_albums,
+       &#39;tablas/tabla_final.png&#39;,
+       vwidth = 2000,
+       vheight = 3000)</code></pre>
+</div>
+</div>
+
+    </div>
+
+    
+
+
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tag/gt/">{gt}</a>
+  
+  <a class="badge badge-light" href="/tag/tablas/">Tablas</a>
+  
+  <a class="badge badge-light" href="/tag/spotify/">Spotify</a>
+  
+</div>
+
+
+
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://rladiesba.netlify.app/post/tablasgtpost/&amp;text=Creando%20tablas%20sobre%20tus%20artistas%20favorites%20con%20%7bgt%7d%20y%20la%20API%20de%20Spotify" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://rladiesba.netlify.app/post/tablasgtpost/&amp;t=Creando%20tablas%20sobre%20tus%20artistas%20favorites%20con%20%7bgt%7d%20y%20la%20API%20de%20Spotify" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=Creando%20tablas%20sobre%20tus%20artistas%20favorites%20con%20%7bgt%7d%20y%20la%20API%20de%20Spotify&amp;body=https://rladiesba.netlify.app/post/tablasgtpost/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://rladiesba.netlify.app/post/tablasgtpost/&amp;title=Creando%20tablas%20sobre%20tus%20artistas%20favorites%20con%20%7bgt%7d%20y%20la%20API%20de%20Spotify" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=Creando%20tablas%20sobre%20tus%20artistas%20favorites%20con%20%7bgt%7d%20y%20la%20API%20de%20Spotify%20https://rladiesba.netlify.app/post/tablasgtpost/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://rladiesba.netlify.app/post/tablasgtpost/&amp;title=Creando%20tablas%20sobre%20tus%20artistas%20favorites%20con%20%7bgt%7d%20y%20la%20API%20de%20Spotify" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+
+
+
+  
+  
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <a href="/author/karina-bartolome/"><img class="avatar mr-3 avatar-circle" src="/author/karina-bartolome/avatar_hu7b026189a1cdca5a0db273aa8b18a8ca_73916_270x270_fill_q75_lanczos_center.jpg" alt="Karina Bartolomé"></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="/author/karina-bartolome/">Karina Bartolomé</a></h5>
+      
+      <p class="card-text">Economista</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/karbartolome" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/karbartolome" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.linkedin.com/in/karinabartolome/" target="_blank" rel="noopener">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://karbartolome-blog.netlify.app/" target="_blank" rel="noopener">
+        <i class="fas fa-globe"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+  
+    
+
+
+
+  
+  
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <a href="/author/andrea-gomez-vargas/"><img class="avatar mr-3 avatar-circle" src="/author/andrea-gomez-vargas/avatar_hu9b31b06c49077cd2f146bf1e297c762c_362111_270x270_fill_lanczos_center_2.png" alt="Andrea Gómez Vargas"></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="/author/andrea-gomez-vargas/">Andrea Gómez Vargas</a></h5>
+      
+      <p class="card-text">Socióloga &amp; analista de datos</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/SoyAndrea" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.linkedin.com/in/andreasociologa/" target="_blank" rel="noopener">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://soyandrea.netlify.app/" target="_blank" rel="noopener">
+        <i class="fas fa-globe"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/me_andre" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  </div>
+</article>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+
+  
+
+  
+
+  
+
+  
+  
+
+
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a> — the free, <a href="https://github.com/wowchemy/wowchemy-hugo-modules" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/instant.page/5.1.0/instantpage.min.js" integrity="sha512-1+qUtKoh9XZW7j+6LhRMAyOrgSQKenQ4mluTR+cvxXjP1Z54RxZuzstR/H9kgPXQsVB8IW7DMDFUJpzLjvhGSQ==" crossorigin="anonymous"></script>
+
+      
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      
+
+      
+      
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/highlight.min.js" integrity="sha512-TDKKr+IvoqZnPzc3l35hdjpHD0m+b2EC2SrLEgKDRWpxf2rFCxemkgvJ5kfU48ip+Y+m2XVKyOCD85ybtlZDmw==" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/r.min.js"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/python.min.js"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/latex.min.js"></script>
+        
+      
+
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.js" integrity="sha512-SeiQaaDh73yrb56sTW/RgVdi/mMqNeM2oBwubFHagc5BkixSpP1fvqF47mKzPGWYSSy4RwbBunrJBQ4Co8fRWA==" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+    
+      
+      <script id="search-hit-fuse-template" type="text/x-template">
+        <div class="search-hit" id="summary-{{key}}">
+          <div class="search-hit-content">
+            <div class="search-hit-name">
+              <a href="{{relpermalink}}">{{title}}</a>
+              <div class="article-metadata search-hit-type">{{type}}</div>
+              <p class="search-hit-description">{{snippet}}</p>
+            </div>
+          </div>
+        </div>
+      </script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+      
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    <script src="/js/bootstrap.bundle.min.8b7df62fd2da18ce73e29c13cc0a6198.js"></script>
+
+    
+    
+      
+      
+      
+      
+      
+      
+      
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+      
+      
+    
+    
+    <script src="/en/js/wowchemy.min.71e713848164e269bc250f377042949d.js"></script>
+
+    
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+
+
+
+
+</body>
+</html>

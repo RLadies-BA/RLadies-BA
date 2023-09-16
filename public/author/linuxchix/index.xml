@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>LinuxChix | RLadies BA</title>
-    <link>/author/linuxchix/</link>
-      <atom:link href="/author/linuxchix/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://rladiesba.netlify.app/author/linuxchix/</link>
+      <atom:link href="https://rladiesba.netlify.app/author/linuxchix/index.xml" rel="self" type="application/rss+xml" />
     <description>LinuxChix</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>es</language>
     <image>
-      <url>/author/linuxchix/avatar_hu452a7533f9b9e9accffc662310eebda6_18404_270x270_fill_q75_lanczos_center.jpg</url>
+      <url>https://rladiesba.netlify.app/author/linuxchix/avatar_hu452a7533f9b9e9accffc662310eebda6_18404_270x270_fill_q75_lanczos_center.jpg</url>
       <title>LinuxChix</title>
-      <link>/author/linuxchix/</link>
+      <link>https://rladiesba.netlify.app/author/linuxchix/</link>
     </image>
     
   </channel>

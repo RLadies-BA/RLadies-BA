@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Paola Prieto | RLadies BA</title>
-    <link>/author/paola-prieto/</link>
-      <atom:link href="/author/paola-prieto/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://rladiesba.netlify.app/author/paola-prieto/</link>
+      <atom:link href="https://rladiesba.netlify.app/author/paola-prieto/index.xml" rel="self" type="application/rss+xml" />
     <description>Paola Prieto</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>es</language>
     <image>
-      <url>/author/paola-prieto/avatar_hub696670825b3d7fe50f5ba3cbc6bc84a_118020_270x270_fill_q75_lanczos_center.jpg</url>
+      <url>https://rladiesba.netlify.app/author/paola-prieto/avatar_hub696670825b3d7fe50f5ba3cbc6bc84a_118020_270x270_fill_q75_lanczos_center.jpg</url>
       <title>Paola Prieto</title>
-      <link>/author/paola-prieto/</link>
+      <link>https://rladiesba.netlify.app/author/paola-prieto/</link>
     </image>
     
   </channel>

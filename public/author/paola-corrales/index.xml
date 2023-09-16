@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Paola Corrales | RLadies BA</title>
-    <link>/author/paola-corrales/</link>
-      <atom:link href="/author/paola-corrales/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://rladiesba.netlify.app/author/paola-corrales/</link>
+      <atom:link href="https://rladiesba.netlify.app/author/paola-corrales/index.xml" rel="self" type="application/rss+xml" />
     <description>Paola Corrales</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>es</language>
     <image>
-      <url>/author/paola-corrales/avatar_hu220b46537a1be6fa0c06973064f64689_17917_270x270_fill_q75_lanczos_center.jpg</url>
+      <url>https://rladiesba.netlify.app/author/paola-corrales/avatar_hu220b46537a1be6fa0c06973064f64689_17917_270x270_fill_q75_lanczos_center.jpg</url>
       <title>Paola Corrales</title>
-      <link>/author/paola-corrales/</link>
+      <link>https://rladiesba.netlify.app/author/paola-corrales/</link>
     </image>
     
   </channel>

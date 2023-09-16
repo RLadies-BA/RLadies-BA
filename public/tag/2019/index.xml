@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2019 | RLadies BA</title>
-    <link>/tag/2019/</link>
-      <atom:link href="/tag/2019/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://rladiesba.netlify.app/tag/2019/</link>
+      <atom:link href="https://rladiesba.netlify.app/tag/2019/index.xml" rel="self" type="application/rss+xml" />
     <description>2019</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>es</language><lastBuildDate>Tue, 03 Dec 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/media/icon_hu4b9af3f567e0b0f9e5f99da57ed62ab5_26887_512x512_fill_lanczos_center_2.png</url>
+      <url>https://rladiesba.netlify.app/media/icon_hu4b9af3f567e0b0f9e5f99da57ed62ab5_26887_512x512_fill_lanczos_center_2.png</url>
       <title>2019</title>
-      <link>/tag/2019/</link>
+      <link>https://rladiesba.netlify.app/tag/2019/</link>
     </image>
     
     <item>
       <title>¡Último meetup del año!</title>
-      <link>/project/cierre_temporada3/</link>
+      <link>https://rladiesba.netlify.app/project/cierre_temporada3/</link>
       <pubDate>Tue, 03 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>/project/cierre_temporada3/</guid>
+      <guid>https://rladiesba.netlify.app/project/cierre_temporada3/</guid>
       <description>&lt;p&gt;¡Cerramos la tercer temporada de meetups con todo!&lt;/p&gt;
 &lt;p&gt;Despedimos a Natsu con la charla:&lt;/p&gt;
 &lt;h3 id=&#34;boosted_me---r_ladiesme-o-cómo-sumarme-a-r-ladies-me-impulsó-a-desprogramar-la-desigualdad-de-género&#34;&gt;&amp;ldquo;boosted_me &amp;lt;- r_ladies(me), o cómo sumarme a R-Ladies me impulsó a (des)programar la desigualdad de género&amp;rdquo;&lt;/h3&gt;
@@ -32,9 +32,9 @@
     
     <item>
       <title>R para nerds</title>
-      <link>/project/r_nerdearla/</link>
+      <link>https://rladiesba.netlify.app/project/r_nerdearla/</link>
       <pubDate>Sat, 19 Oct 2019 00:00:00 +0000</pubDate>
-      <guid>/project/r_nerdearla/</guid>
+      <guid>https://rladiesba.netlify.app/project/r_nerdearla/</guid>
       <description>&lt;p&gt;Desde R-Ladies Buenos Aires les proponemos un taller para quienes quieren arrancar a usar R para análisis de datos y visualización.&lt;/p&gt;
 &lt;p&gt;Si querés arrancar a usar R y formás parte de alguna minoría dentro del mundo de la programación, este taller es para vos! En nuestros encuentros buscamos crear un espacio amigable donde que cada persona se sienta comoda y aprendamos de la experiencia de quienes participan.&lt;/p&gt;
 &lt;p&gt;Trae tu compu (y cargador!) con:&lt;/p&gt;
@@ -47,9 +47,9 @@
     
     <item>
       <title>¡Nos visita Erin LeDell!</title>
-      <link>/project/h20/</link>
+      <link>https://rladiesba.netlify.app/project/h20/</link>
       <pubDate>Wed, 02 Oct 2019 00:00:00 +0000</pubDate>
-      <guid>/project/h20/</guid>
+      <guid>https://rladiesba.netlify.app/project/h20/</guid>
       <description>&lt;p&gt;En esta ocasión nos visitó Erin LeDell, co-fundadora de R-Ladies y fundadora WiMLDS. Erin nos sió una charla sobre Scalable Automatic Machine Learning con H2O (en inglés). ¿De qué se trata esto?&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -64,9 +64,9 @@
     
     <item>
       <title>Taller de Git y RStudio</title>
-      <link>/project/git_rstudio/</link>
+      <link>https://rladiesba.netlify.app/project/git_rstudio/</link>
       <pubDate>Sat, 14 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>/project/git_rstudio/</guid>
+      <guid>https://rladiesba.netlify.app/project/git_rstudio/</guid>
       <description>&lt;p&gt;¿Tenes una carpeta llena con distintas versiones del mismo archivo?¿Te gustaría poder llevar un seguimiento de los cambios en tu trabajo? ¿Te interesa participar de proyectos colaborativos?
 En este taller preparado en conjunto entre Las De Sistemas y R-Ladies Buenos Aires proponemos una iniciación al uso de Git como herramienta complementaria y útil al momento de escribir código en R.
 Sugerimos este taller a personas con una mínima experiencia en el uso de R y RStudio.&lt;/p&gt;
@@ -87,9 +87,9 @@ Trae tu compu con tu cargador y los siguientes programas instalados:&lt;/p&gt;
     
     <item>
       <title>Web Scraping con Rvest en Spotify Charts &#43; R con datos meteorológicos</title>
-      <link>/project/webscraping/</link>
+      <link>https://rladiesba.netlify.app/project/webscraping/</link>
       <pubDate>Sat, 15 Jun 2019 00:00:00 +0000</pubDate>
-      <guid>/project/webscraping/</guid>
+      <guid>https://rladiesba.netlify.app/project/webscraping/</guid>
       <description>&lt;h3 id=&#34;web-scraping-con-rvest-en-spotify-charts-taller&#34;&gt;Web Scraping con Rvest en Spotify Charts (taller)&lt;/h3&gt;
 &lt;p&gt;Paola Prieto nos trae una propuesta musical: ¿Cómo obtener datos desde la Web con el paquete Rvest? En este taller, los datos serán obtenidos directamente con R desde la popular plataforma Spotify.&lt;/p&gt;
 &lt;p&gt;Para el taller vas a necesitar tu laptop con R y RStudio instalados.&lt;/p&gt;
@@ -100,9 +100,20 @@ Trae tu compu con tu cargador y los siguientes programas instalados:&lt;/p&gt;
     
     <item>
       <title>Taller de visualización con R, charlas y arranque del año</title>
-      <link>/project/visualizacion/</link>
+      <link>https://rladiesba.netlify.app/project/visualizacion-copia-2/</link>
       <pubDate>Sat, 06 Apr 2019 00:00:00 +0000</pubDate>
-      <guid>/project/visualizacion/</guid>
+      <guid>https://rladiesba.netlify.app/project/visualizacion-copia-2/</guid>
+      <description>&lt;p&gt;¡Primer encuentro de 2019!&lt;/p&gt;
+&lt;p&gt;Arrancamos el año con un Taller de visualización con R a cargo de Romi Méndez. El taller va a estar orientado a personas con un nivel inicial o intermedio para agarrarle la vuelta a ggplot2 y aprender un par de trucos.
+Si tenés ganas podés revisar uno de nuestros primeros encuentros sobre R para Ciencia de datos donde vimos algunas cosas relacionadas con este tema (&lt;a href=&#34;https://github.com/rladies/meetup-presentations_buenosaires/blob/master/README.md)para&#34;&gt;https://github.com/rladies/meetup-presentations_buenosaires/blob/master/README.md)para&lt;/a&gt; ir al git de las presentaciones).&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Taller de visualización con R, charlas y arranque del año</title>
+      <link>https://rladiesba.netlify.app/project/visualizacion/</link>
+      <pubDate>Sat, 06 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>https://rladiesba.netlify.app/project/visualizacion/</guid>
       <description>&lt;p&gt;¡Primer encuentro de 2019!&lt;/p&gt;
 &lt;p&gt;Arrancamos el año con un Taller de visualización con R a cargo de Romi Méndez. El taller va a estar orientado a personas con un nivel inicial o intermedio para agarrarle la vuelta a ggplot2 y aprender un par de trucos.
 Si tenés ganas podés revisar uno de nuestros primeros encuentros sobre R para Ciencia de datos donde vimos algunas cosas relacionadas con este tema (&lt;a href=&#34;https://github.com/rladies/meetup-presentations_buenosaires/blob/master/README.md)para&#34;&gt;https://github.com/rladies/meetup-presentations_buenosaires/blob/master/README.md)para&lt;/a&gt; ir al git de las presentaciones).&lt;/p&gt;

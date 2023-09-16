@@ -2,385 +2,396 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/courses/example/python/</loc>
-    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
+    <loc>https://rladiesba.netlify.app/tag/2023/</loc>
+    <lastmod>2023-09-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/courses/example/visualization/</loc>
-    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
+    <loc>https://rladiesba.netlify.app/tag/eph/</loc>
+    <lastmod>2023-09-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/courses/example/stats/</loc>
-    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
+    <loc>https://rladiesba.netlify.app/project/eph/</loc>
+    <lastmod>2023-09-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tag/2022/</loc>
+    <loc>https://rladiesba.netlify.app/project/</loc>
+    <lastmod>2023-09-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rladiesba.netlify.app/</loc>
+    <lastmod>2023-09-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rladiesba.netlify.app/tags/</loc>
+    <lastmod>2023-09-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rladiesba.netlify.app/tag/tidyverse/</loc>
+    <lastmod>2023-09-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rladiesba.netlify.app/tag/gt/</loc>
+    <lastmod>2023-09-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rladiesba.netlify.app/author/andrea-gomez-vargas/</loc>
+    <lastmod>2023-06-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rladiesba.netlify.app/authors/</loc>
+    <lastmod>2023-06-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rladiesba.netlify.app/post/</loc>
+    <lastmod>2023-06-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rladiesba.netlify.app/post/tablasgtpost/</loc>
+    <lastmod>2023-06-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rladiesba.netlify.app/author/karina-bartolome/</loc>
+    <lastmod>2023-06-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rladiesba.netlify.app/tag/spotify/</loc>
+    <lastmod>2023-06-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rladiesba.netlify.app/tag/tablas/</loc>
+    <lastmod>2023-06-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rladiesba.netlify.app/tag/2022/</loc>
+    <lastmod>2022-11-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rladiesba.netlify.app/project/tablagt/</loc>
+    <lastmod>2022-11-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rladiesba.netlify.app/tag/rladies/</loc>
+    <lastmod>2022-11-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rladiesba.netlify.app/tag/comunidad/</loc>
     <lastmod>2022-03-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tag/comunidad/</loc>
+    <loc>https://rladiesba.netlify.app/project/cumple5/</loc>
     <lastmod>2022-03-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/project/cumple5/</loc>
+    <loc>https://rladiesba.netlify.app/project/learnr2022/</loc>
     <lastmod>2022-03-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/project/learnr2022/</loc>
+    <loc>https://rladiesba.netlify.app/tag/learnr/</loc>
     <lastmod>2022-03-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tag/learnr/</loc>
-    <lastmod>2022-03-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/project/</loc>
-    <lastmod>2022-03-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tag/rladies/</loc>
-    <lastmod>2022-03-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/</loc>
-    <lastmod>2022-03-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/</loc>
-    <lastmod>2022-03-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/post/intro-r2022/</loc>
-    <lastmod>2022-02-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/post/</loc>
-    <lastmod>2022-02-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tag/2021/</loc>
+    <loc>https://rladiesba.netlify.app/tag/2021/</loc>
     <lastmod>2021-11-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tag/gg-/</loc>
+    <loc>https://rladiesba.netlify.app/tag/gg-/</loc>
     <lastmod>2021-11-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/project/gg&#43;/</loc>
+    <loc>https://rladiesba.netlify.app/project/gg&#43;/</loc>
     <lastmod>2021-11-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tag/ggplot/</loc>
+    <loc>https://rladiesba.netlify.app/tag/ggplot/</loc>
     <lastmod>2021-11-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tag/latinr/</loc>
+    <loc>https://rladiesba.netlify.app/tag/latinr/</loc>
     <lastmod>2021-11-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tag/visualizacion/</loc>
+    <loc>https://rladiesba.netlify.app/tag/visualizacion/</loc>
     <lastmod>2021-11-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tag/ciencias-sociales/</loc>
+    <loc>https://rladiesba.netlify.app/tag/ciencias-sociales/</loc>
     <lastmod>2021-09-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/project/comoempezar/</loc>
+    <loc>https://rladiesba.netlify.app/project/comoempezar/</loc>
     <lastmod>2021-09-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tag/datos-textuales/</loc>
+    <loc>https://rladiesba.netlify.app/tag/datos-textuales/</loc>
     <lastmod>2021-08-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tag/politicxsentwitter/</loc>
+    <loc>https://rladiesba.netlify.app/tag/politicxsentwitter/</loc>
     <lastmod>2021-08-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/project/politicxsentwitter/</loc>
+    <loc>https://rladiesba.netlify.app/project/politicxsentwitter/</loc>
     <lastmod>2021-08-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tag/web-scraping/</loc>
+    <loc>https://rladiesba.netlify.app/tag/web-scraping/</loc>
     <lastmod>2021-08-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/event/</loc>
+    <loc>https://rladiesba.netlify.app/event/</loc>
     <lastmod>2021-05-04T18:00:00+00:00</lastmod>
   </url><url>
-    <loc>/talk/reordenando-datos-con-tidyr/</loc>
+    <loc>https://rladiesba.netlify.app/talk/reordenando-datos-con-tidyr/</loc>
     <lastmod>2021-05-04T18:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tag/datos-ordenados/</loc>
+    <loc>https://rladiesba.netlify.app/tag/datos-ordenados/</loc>
     <lastmod>2021-05-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tag/tidyr/</loc>
+    <loc>https://rladiesba.netlify.app/tag/tidyr/</loc>
     <lastmod>2021-05-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tag/tidyverse/</loc>
+    <loc>https://rladiesba.netlify.app/project/tidyversecontidyr/</loc>
     <lastmod>2021-05-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/project/tidyversecontidyr/</loc>
-    <lastmod>2021-05-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/courses/</loc>
+    <loc>https://rladiesba.netlify.app/courses/</loc>
     <lastmod>2021-01-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/courses/example/</loc>
+    <loc>https://rladiesba.netlify.app/courses/example/</loc>
     <lastmod>2021-01-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tag/2020/</loc>
+    <loc>https://rladiesba.netlify.app/tag/2020/</loc>
     <lastmod>2020-12-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/project/cierredeano/</loc>
+    <loc>https://rladiesba.netlify.app/project/cierredeano/</loc>
     <lastmod>2020-12-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tag/machine-learning/</loc>
+    <loc>https://rladiesba.netlify.app/tag/machine-learning/</loc>
     <lastmod>2020-12-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tag/tidymodels/</loc>
+    <loc>https://rladiesba.netlify.app/tag/tidymodels/</loc>
     <lastmod>2020-12-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tag/binder/</loc>
+    <loc>https://rladiesba.netlify.app/tag/binder/</loc>
     <lastmod>2020-09-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tag/reproducibilidad/</loc>
+    <loc>https://rladiesba.netlify.app/tag/reproducibilidad/</loc>
     <lastmod>2020-09-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/project/charlar8/</loc>
+    <loc>https://rladiesba.netlify.app/project/charlar8/</loc>
     <lastmod>2020-09-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tag/dplyr/</loc>
+    <loc>https://rladiesba.netlify.app/tag/dplyr/</loc>
     <lastmod>2020-08-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tag/exploracion-de-datos/</loc>
+    <loc>https://rladiesba.netlify.app/tag/exploracion-de-datos/</loc>
     <lastmod>2020-08-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/project/charlar7/</loc>
+    <loc>https://rladiesba.netlify.app/project/charlar7/</loc>
     <lastmod>2020-08-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/project/predictivemodeling/</loc>
+    <loc>https://rladiesba.netlify.app/project/predictivemodeling/</loc>
     <lastmod>2020-07-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tag/tidytext/</loc>
+    <loc>https://rladiesba.netlify.app/tag/tidytext/</loc>
     <lastmod>2020-07-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tag/user/</loc>
+    <loc>https://rladiesba.netlify.app/tag/user/</loc>
     <lastmod>2020-07-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/project/reunionvirtual/</loc>
+    <loc>https://rladiesba.netlify.app/project/reunionvirtual/</loc>
     <lastmod>2020-07-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tag/evento-virtual/</loc>
+    <loc>https://rladiesba.netlify.app/tag/evento-virtual/</loc>
     <lastmod>2020-07-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/project/charlar6/</loc>
+    <loc>https://rladiesba.netlify.app/project/charlar6/</loc>
     <lastmod>2020-06-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/project/charlar5/</loc>
+    <loc>https://rladiesba.netlify.app/project/charlar5/</loc>
     <lastmod>2020-06-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tag/git/</loc>
+    <loc>https://rladiesba.netlify.app/tag/git/</loc>
     <lastmod>2020-05-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/project/charlar4/</loc>
+    <loc>https://rladiesba.netlify.app/project/charlar4/</loc>
     <lastmod>2020-05-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/project/charlar3/</loc>
+    <loc>https://rladiesba.netlify.app/project/charlar3/</loc>
     <lastmod>2020-04-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tag/rmarkdown/</loc>
+    <loc>https://rladiesba.netlify.app/tag/rmarkdown/</loc>
     <lastmod>2020-04-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/project/charlar2/</loc>
+    <loc>https://rladiesba.netlify.app/project/charlar2/</loc>
     <lastmod>2020-04-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tag/rstudio/</loc>
+    <loc>https://rladiesba.netlify.app/tag/rstudio/</loc>
     <lastmod>2020-04-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tag/proyectos-en-r/</loc>
+    <loc>https://rladiesba.netlify.app/tag/proyectos-en-r/</loc>
     <lastmod>2020-03-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/project/charlar1/</loc>
+    <loc>https://rladiesba.netlify.app/project/charlar1/</loc>
     <lastmod>2020-03-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tag/rstudioconf/</loc>
+    <loc>https://rladiesba.netlify.app/tag/rstudioconf/</loc>
     <lastmod>2020-01-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/project/rstudioconf/</loc>
+    <loc>https://rladiesba.netlify.app/project/rstudioconf/</loc>
     <lastmod>2020-01-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tag/2019/</loc>
+    <loc>https://rladiesba.netlify.app/tag/2019/</loc>
     <lastmod>2019-12-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tag/genero/</loc>
+    <loc>https://rladiesba.netlify.app/tag/genero/</loc>
     <lastmod>2019-12-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/project/cierre_temporada3/</loc>
+    <loc>https://rladiesba.netlify.app/project/cierre_temporada3/</loc>
     <lastmod>2019-12-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tag/analisis-de-datos/</loc>
+    <loc>https://rladiesba.netlify.app/tag/analisis-de-datos/</loc>
     <lastmod>2019-10-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/project/r_nerdearla/</loc>
+    <loc>https://rladiesba.netlify.app/project/r_nerdearla/</loc>
     <lastmod>2019-10-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tag/h2o/</loc>
+    <loc>https://rladiesba.netlify.app/tag/h2o/</loc>
     <lastmod>2019-10-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/project/h20/</loc>
+    <loc>https://rladiesba.netlify.app/project/h20/</loc>
     <lastmod>2019-10-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/project/git_rstudio/</loc>
+    <loc>https://rladiesba.netlify.app/project/git_rstudio/</loc>
     <lastmod>2019-09-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tag/2018/</loc>
+    <loc>https://rladiesba.netlify.app/tag/2018/</loc>
     <lastmod>2019-06-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tag/blogdown/</loc>
+    <loc>https://rladiesba.netlify.app/tag/blogdown/</loc>
     <lastmod>2019-06-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/project/spssar/</loc>
+    <loc>https://rladiesba.netlify.app/project/spssar/</loc>
     <lastmod>2019-06-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tag/estadistica/</loc>
+    <loc>https://rladiesba.netlify.app/tag/estadistica/</loc>
     <lastmod>2019-06-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tag/funciones/</loc>
+    <loc>https://rladiesba.netlify.app/tag/funciones/</loc>
     <lastmod>2019-06-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tag/rvest/</loc>
+    <loc>https://rladiesba.netlify.app/tag/rvest/</loc>
     <lastmod>2019-06-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/project/primer2018/</loc>
+    <loc>https://rladiesba.netlify.app/project/primer2018/</loc>
     <lastmod>2019-06-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/project/rdesde0/</loc>
+    <loc>https://rladiesba.netlify.app/project/rdesde0/</loc>
     <lastmod>2019-06-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/project/webscraping/</loc>
+    <loc>https://rladiesba.netlify.app/project/webscraping/</loc>
     <lastmod>2019-06-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/project/jenny/</loc>
+    <loc>https://rladiesba.netlify.app/project/jenny/</loc>
     <lastmod>2019-06-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/project/tamarabroderick/</loc>
+    <loc>https://rladiesba.netlify.app/project/tamarabroderick/</loc>
     <lastmod>2019-06-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/project/finano2018/</loc>
+    <loc>https://rladiesba.netlify.app/project/finano2018/</loc>
     <lastmod>2019-06-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publication-type/3/</loc>
-    <lastmod>2019-04-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/authors/</loc>
-    <lastmod>2019-04-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/publication/preprint/</loc>
-    <lastmod>2019-04-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/publication_types/</loc>
-    <lastmod>2019-04-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/publication/</loc>
-    <lastmod>2019-04-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/author/rladies-buenos-aires/</loc>
-    <lastmod>2019-04-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/project/visualizacion/</loc>
+    <loc>https://rladiesba.netlify.app/project/visualizacion-copia-2/</loc>
     <lastmod>2019-04-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/slides/</loc>
+    <loc>https://rladiesba.netlify.app/project/visualizacion/</loc>
+    <lastmod>2019-04-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rladiesba.netlify.app/slides/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/slides/example/</loc>
+    <loc>https://rladiesba.netlify.app/slides/example/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tag/2017/</loc>
+    <loc>https://rladiesba.netlify.app/tag/2017/</loc>
     <lastmod>2017-11-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/project/rmarkdown/</loc>
+    <loc>https://rladiesba.netlify.app/project/rmarkdown/</loc>
     <lastmod>2017-11-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tag/shiny/</loc>
+    <loc>https://rladiesba.netlify.app/tag/shiny/</loc>
     <lastmod>2017-09-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/project/tallershiny/</loc>
+    <loc>https://rladiesba.netlify.app/project/tallershiny/</loc>
     <lastmod>2017-09-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tag/datos-espaciales/</loc>
+    <loc>https://rladiesba.netlify.app/tag/datos-espaciales/</loc>
     <lastmod>2017-08-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/project/datosgeograficosconr/</loc>
+    <loc>https://rladiesba.netlify.app/project/datosgeograficosconr/</loc>
     <lastmod>2017-08-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/project/aplicacionesr/</loc>
+    <loc>https://rladiesba.netlify.app/project/aplicacionesr/</loc>
     <lastmod>2017-07-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tag/ciencias-de-la-atmosfera/</loc>
+    <loc>https://rladiesba.netlify.app/tag/ciencias-de-la-atmosfera/</loc>
     <lastmod>2017-07-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tag/data-mining/</loc>
+    <loc>https://rladiesba.netlify.app/tag/data-mining/</loc>
     <lastmod>2017-07-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/project/rycienciadedatos2/</loc>
+    <loc>https://rladiesba.netlify.app/project/rycienciadedatos2/</loc>
     <lastmod>2017-07-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tag/datos-geograficos/</loc>
+    <loc>https://rladiesba.netlify.app/tag/datos-geograficos/</loc>
     <lastmod>2017-05-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/project/rycienciadedatos/</loc>
+    <loc>https://rladiesba.netlify.app/project/rycienciadedatos/</loc>
     <lastmod>2017-05-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tag/tmap/</loc>
+    <loc>https://rladiesba.netlify.app/tag/tmap/</loc>
     <lastmod>2017-05-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/project/primerareunion/</loc>
+    <loc>https://rladiesba.netlify.app/project/primerareunion/</loc>
     <lastmod>2017-03-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publication-type/2/</loc>
-    <lastmod>2015-09-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/publication/journal-article/</loc>
-    <lastmod>2015-09-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/author/robert-ford/</loc>
-    <lastmod>2015-09-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/publication-type/1/</loc>
+    <loc>https://rladiesba.netlify.app/publication-type/1/</loc>
     <lastmod>2013-07-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/publication/conference-paper/</loc>
+    <loc>https://rladiesba.netlify.app/publication/conference-paper/</loc>
     <lastmod>2013-07-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/admin/</loc>
+    <loc>https://rladiesba.netlify.app/publication/</loc>
+    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/author/andrea-gomez-vargas/</loc>
+    <loc>https://rladiesba.netlify.app/publication_types/</loc>
+    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/categories/</loc>
+    <loc>https://rladiesba.netlify.app/author/rladies-buenos-aires/</loc>
+    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/author/daniela-vazquez/</loc>
+    <loc>https://rladiesba.netlify.app/author/robert-ford/</loc>
+    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/author/ecofeminita/</loc>
+    <loc>https://rladiesba.netlify.app/admin/</loc>
   </url><url>
-    <loc>/author/femitconf/</loc>
+    <loc>https://rladiesba.netlify.app/author/betsabe-cohen/</loc>
   </url><url>
-    <loc>/author/florencia-dandrea/</loc>
+    <loc>https://rladiesba.netlify.app/categories/</loc>
   </url><url>
-    <loc>/author/jesica-formoso/</loc>
+    <loc>https://rladiesba.netlify.app/author/daniela-vazquez/</loc>
   </url><url>
-    <loc>/author/jimena-saucedo/</loc>
+    <loc>https://rladiesba.netlify.app/author/ecofeminita/</loc>
   </url><url>
-    <loc>/author/karina-bartolome/</loc>
+    <loc>https://rladiesba.netlify.app/author/femitconf/</loc>
   </url><url>
-    <loc>/author/l.-paloma-rojas-saunero/</loc>
+    <loc>https://rladiesba.netlify.app/author/florencia-dandrea/</loc>
   </url><url>
-    <loc>/author/las-de-sistemas/</loc>
+    <loc>https://rladiesba.netlify.app/author/jesica-formoso/</loc>
   </url><url>
-    <loc>/author/latin-r/</loc>
+    <loc>https://rladiesba.netlify.app/author/jimena-saucedo/</loc>
   </url><url>
-    <loc>/author/laura-acion/</loc>
+    <loc>https://rladiesba.netlify.app/author/l.-paloma-rojas-saunero/</loc>
   </url><url>
-    <loc>/author/linuxchix/</loc>
+    <loc>https://rladiesba.netlify.app/author/las-de-sistemas/</loc>
   </url><url>
-    <loc>/author/maria-nanton/</loc>
+    <loc>https://rladiesba.netlify.app/author/latin-r/</loc>
   </url><url>
-    <loc>/author/metadocencia/</loc>
+    <loc>https://rladiesba.netlify.app/author/laura-acion/</loc>
   </url><url>
-    <loc>/author/mujeres-en-tecnologia/</loc>
+    <loc>https://rladiesba.netlify.app/author/linuxchix/</loc>
   </url><url>
-    <loc>/author/monica-alonso/</loc>
+    <loc>https://rladiesba.netlify.app/author/maria-nanton/</loc>
   </url><url>
-    <loc>/author/natsumi-shokida/</loc>
+    <loc>https://rladiesba.netlify.app/author/metadocencia/</loc>
   </url><url>
-    <loc>/author/paola-corrales/</loc>
+    <loc>https://rladiesba.netlify.app/author/mujeres-en-tecnologia/</loc>
   </url><url>
-    <loc>/author/paola-prieto/</loc>
+    <loc>https://rladiesba.netlify.app/author/monica-alonso/</loc>
   </url><url>
-    <loc>/author/priscilla-minotti/</loc>
+    <loc>https://rladiesba.netlify.app/author/natsumi-shokida/</loc>
   </url><url>
-    <loc>/author/r-en-baires/</loc>
+    <loc>https://rladiesba.netlify.app/author/paola-corrales/</loc>
   </url><url>
-    <loc>/author/veronica-rojo/</loc>
+    <loc>https://rladiesba.netlify.app/author/paola-prieto/</loc>
   </url><url>
-    <loc>/author/virginia-garcia-alonso/</loc>
+    <loc>https://rladiesba.netlify.app/author/priscilla-minotti/</loc>
   </url><url>
-    <loc>/author/women-in-bioinformatic-data-science-la/</loc>
+    <loc>https://rladiesba.netlify.app/author/r-en-baires/</loc>
+  </url><url>
+    <loc>https://rladiesba.netlify.app/author/rconsortium/</loc>
+  </url><url>
+    <loc>https://rladiesba.netlify.app/author/rladies-global/</loc>
+  </url><url>
+    <loc>https://rladiesba.netlify.app/author/veronica-rojo/</loc>
+  </url><url>
+    <loc>https://rladiesba.netlify.app/author/virginia-garcia-alonso/</loc>
+  </url><url>
+    <loc>https://rladiesba.netlify.app/author/women-in-bioinformatic-data-science-la/</loc>
   </url>
 </urlset>

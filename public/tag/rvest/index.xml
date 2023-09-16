@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>rvest | RLadies BA</title>
-    <link>/tag/rvest/</link>
-      <atom:link href="/tag/rvest/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://rladiesba.netlify.app/tag/rvest/</link>
+      <atom:link href="https://rladiesba.netlify.app/tag/rvest/index.xml" rel="self" type="application/rss+xml" />
     <description>rvest</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>es</language><lastBuildDate>Sat, 15 Jun 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/media/icon_hu4b9af3f567e0b0f9e5f99da57ed62ab5_26887_512x512_fill_lanczos_center_2.png</url>
+      <url>https://rladiesba.netlify.app/media/icon_hu4b9af3f567e0b0f9e5f99da57ed62ab5_26887_512x512_fill_lanczos_center_2.png</url>
       <title>rvest</title>
-      <link>/tag/rvest/</link>
+      <link>https://rladiesba.netlify.app/tag/rvest/</link>
     </image>
     
     <item>
       <title>Web Scraping con Rvest en Spotify Charts &#43; R con datos meteorológicos</title>
-      <link>/project/webscraping/</link>
+      <link>https://rladiesba.netlify.app/project/webscraping/</link>
       <pubDate>Sat, 15 Jun 2019 00:00:00 +0000</pubDate>
-      <guid>/project/webscraping/</guid>
+      <guid>https://rladiesba.netlify.app/project/webscraping/</guid>
       <description>&lt;h3 id=&#34;web-scraping-con-rvest-en-spotify-charts-taller&#34;&gt;Web Scraping con Rvest en Spotify Charts (taller)&lt;/h3&gt;
 &lt;p&gt;Paola Prieto nos trae una propuesta musical: ¿Cómo obtener datos desde la Web con el paquete Rvest? En este taller, los datos serán obtenidos directamente con R desde la popular plataforma Spotify.&lt;/p&gt;
 &lt;p&gt;Para el taller vas a necesitar tu laptop con R y RStudio instalados.&lt;/p&gt;

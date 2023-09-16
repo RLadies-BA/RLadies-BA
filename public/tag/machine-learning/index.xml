@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Machine learning | RLadies BA</title>
-    <link>/tag/machine-learning/</link>
-      <atom:link href="/tag/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://rladiesba.netlify.app/tag/machine-learning/</link>
+      <atom:link href="https://rladiesba.netlify.app/tag/machine-learning/index.xml" rel="self" type="application/rss+xml" />
     <description>Machine learning</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>es</language><lastBuildDate>Mon, 07 Dec 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/media/icon_hu4b9af3f567e0b0f9e5f99da57ed62ab5_26887_512x512_fill_lanczos_center_2.png</url>
+      <url>https://rladiesba.netlify.app/media/icon_hu4b9af3f567e0b0f9e5f99da57ed62ab5_26887_512x512_fill_lanczos_center_2.png</url>
       <title>Machine learning</title>
-      <link>/tag/machine-learning/</link>
+      <link>https://rladiesba.netlify.app/tag/machine-learning/</link>
     </image>
     
     <item>
       <title>CieRre de año!</title>
-      <link>/project/cierredeano/</link>
+      <link>https://rladiesba.netlify.app/project/cierredeano/</link>
       <pubDate>Mon, 07 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>/project/cierredeano/</guid>
+      <guid>https://rladiesba.netlify.app/project/cierredeano/</guid>
       <description>&lt;p&gt;¡Se viene el último meetup del año y estamos felices porque lo co-organizamos en conjunto entre los capítulos de Bariloche, Mendoza, Córdoba, Santa Rosa, Ushuaia y Resistencia-Corrientes!&lt;/p&gt;
 &lt;p&gt;Vamos a aprovechar este último encuentro para repasar lo que hicimos durante este año tan particular. ¡Queremos celebrar el habernos encontrado a distancia con muchísimas personas que forman parte de la comunidad R en Argentina, Latinoamérica y el mundo! Si te perdiste algún meetup durante el año, aprovechá para ponerte al día sobre lo que hicimos, videos y materiales que generamos!&lt;/p&gt;
 &lt;p&gt;¡También habrá código de R! Ana Laura Diedrichs de R-Ladies Mendoza nos contará sobre Tidymodels&lt;/p&gt;
@@ -33,9 +33,9 @@ O son personas curiosas y quieren tener un vistazo de {tidymodels} y de qué tra
     
     <item>
       <title>¡Nos visita Erin LeDell!</title>
-      <link>/project/h20/</link>
+      <link>https://rladiesba.netlify.app/project/h20/</link>
       <pubDate>Wed, 02 Oct 2019 00:00:00 +0000</pubDate>
-      <guid>/project/h20/</guid>
+      <guid>https://rladiesba.netlify.app/project/h20/</guid>
       <description>&lt;p&gt;En esta ocasión nos visitó Erin LeDell, co-fundadora de R-Ladies y fundadora WiMLDS. Erin nos sió una charla sobre Scalable Automatic Machine Learning con H2O (en inglés). ¿De qué se trata esto?&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;

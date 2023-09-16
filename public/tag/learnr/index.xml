@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>learnr | RLadies BA</title>
-    <link>/tag/learnr/</link>
-      <atom:link href="/tag/learnr/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://rladiesba.netlify.app/tag/learnr/</link>
+      <atom:link href="https://rladiesba.netlify.app/tag/learnr/index.xml" rel="self" type="application/rss+xml" />
     <description>learnr</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>es</language><lastBuildDate>Sat, 12 Mar 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/media/icon_hu4b9af3f567e0b0f9e5f99da57ed62ab5_26887_512x512_fill_lanczos_center_2.png</url>
+      <url>https://rladiesba.netlify.app/media/icon_hu4b9af3f567e0b0f9e5f99da57ed62ab5_26887_512x512_fill_lanczos_center_2.png</url>
       <title>learnr</title>
-      <link>/tag/learnr/</link>
+      <link>https://rladiesba.netlify.app/tag/learnr/</link>
     </image>
     
     <item>
       <title>Generando tutoriales interactivos con el paquete learnr</title>
-      <link>/project/learnr2022/</link>
+      <link>https://rladiesba.netlify.app/project/learnr2022/</link>
       <pubDate>Sat, 12 Mar 2022 00:00:00 +0000</pubDate>
-      <guid>/project/learnr2022/</guid>
+      <guid>https://rladiesba.netlify.app/project/learnr2022/</guid>
       <description>&lt;p&gt;¡Te invitamos a un nuevo meetup!&lt;/p&gt;
 &lt;p&gt;&amp;ldquo;Generando tutoriales interactivos con el paquete learnr &amp;quot;
 Será el miércoles 11 de mayo de 2022, organizado por MetaDocencia &amp;amp; R-Ladies Buenos Aires de la mano de nuestras entrañables Yanina Bellini y Pao Corrales.&lt;/p&gt;

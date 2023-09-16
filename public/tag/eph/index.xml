@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eph | RLadies BA</title>
+    <link>https://rladiesba.netlify.app/tag/eph/</link>
+      <atom:link href="https://rladiesba.netlify.app/tag/eph/index.xml" rel="self" type="application/rss+xml" />
+    <description>eph</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>es</language><lastBuildDate>Thu, 07 Sep 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://rladiesba.netlify.app/media/icon_hu4b9af3f567e0b0f9e5f99da57ed62ab5_26887_512x512_fill_lanczos_center_2.png</url>
+      <title>eph</title>
+      <link>https://rladiesba.netlify.app/tag/eph/</link>
+    </image>
+    
+    <item>
+      <title>Introducción al análisis de la EPH con R en Sociales</title>
+      <link>https://rladiesba.netlify.app/project/eph/</link>
+      <pubDate>Thu, 07 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://rladiesba.netlify.app/project/eph/</guid>
+      <description>&lt;p&gt;¡Primer encuentro de 2023!&lt;/p&gt;
+&lt;p&gt;Arrancamos el año con un Taller de Introducción a la Encuesta Permanente de Hogares de INDEC usando el paquete EPH y Tidyverse.&lt;/p&gt;
+&lt;p&gt;Andrea Gomez Vargas y Betsy Cohen nos mostraron cómo podemos obtener información directamente desde RStudio con el paquete {eph} y traducirla en indicadores de condiciones de actividad fundamentales para arrancar cualquier análisis en ciencias sociales y presentarlo en una tabla con {gt}&lt;/p&gt;
+&lt;p&gt;El encuentro se llevó a cabo en la Facultad de Ciencias Sociales de la UBA y contó con más de 140 inscriptxs.&lt;/p&gt;
+&lt;p&gt;Si tenés ganas podés revisar la documentación en el sitio del taller &lt;a href=&#34;https://eph-ubasociales.netlify.app/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;eph-ubasociales.netlify.app&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

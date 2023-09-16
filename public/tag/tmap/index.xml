@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>tmap | RLadies BA</title>
-    <link>/tag/tmap/</link>
-      <atom:link href="/tag/tmap/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://rladiesba.netlify.app/tag/tmap/</link>
+      <atom:link href="https://rladiesba.netlify.app/tag/tmap/index.xml" rel="self" type="application/rss+xml" />
     <description>tmap</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>es</language><lastBuildDate>Sat, 27 May 2017 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/media/icon_hu4b9af3f567e0b0f9e5f99da57ed62ab5_26887_512x512_fill_lanczos_center_2.png</url>
+      <url>https://rladiesba.netlify.app/media/icon_hu4b9af3f567e0b0f9e5f99da57ed62ab5_26887_512x512_fill_lanczos_center_2.png</url>
       <title>tmap</title>
-      <link>/tag/tmap/</link>
+      <link>https://rladiesba.netlify.app/tag/tmap/</link>
     </image>
     
     <item>
       <title>Taller de R para Ciencia de Datos Parte I</title>
-      <link>/project/rycienciadedatos/</link>
+      <link>https://rladiesba.netlify.app/project/rycienciadedatos/</link>
       <pubDate>Sat, 27 May 2017 00:00:00 +0000</pubDate>
-      <guid>/project/rycienciadedatos/</guid>
+      <guid>https://rladiesba.netlify.app/project/rycienciadedatos/</guid>
       <description>&lt;h2 id=&#34;segundo-encuentro&#34;&gt;Segundo encuentro&lt;/h2&gt;
 &lt;p&gt;En esta ocasión el taller de Ciencia de Datos fue brindando por Laura Acion y el taller de Estructuras de Datos Geográficos y Espaciales en R  a cargo de Priscilla Minotti.&lt;/p&gt;
 &lt;iframe src=&#34;https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FRladiesBA%2Fphotos%2Fa.463088637414288%2F538422353214249%2F%3Ftype%3D3%26av%3D457704507952701%26eav%3DAfae9qZ_fokt769D1h0TYna5ontAAgvDHoJ-t58k44-QcKiXtYv4PkIjm-lX7rW8xLs&amp;show_text=true&amp;width=500&#34; width=&#34;500&#34; height=&#34;372&#34; style=&#34;border:none;overflow:hidden&#34; scrolling=&#34;no&#34; frameborder=&#34;0&#34; allowfullscreen=&#34;true&#34; allow=&#34;autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share&#34;&gt;&lt;/iframe&gt;

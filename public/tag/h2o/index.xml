@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>H2o | RLadies BA</title>
-    <link>/tag/h2o/</link>
-      <atom:link href="/tag/h2o/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://rladiesba.netlify.app/tag/h2o/</link>
+      <atom:link href="https://rladiesba.netlify.app/tag/h2o/index.xml" rel="self" type="application/rss+xml" />
     <description>H2o</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>es</language><lastBuildDate>Wed, 02 Oct 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/media/icon_hu4b9af3f567e0b0f9e5f99da57ed62ab5_26887_512x512_fill_lanczos_center_2.png</url>
+      <url>https://rladiesba.netlify.app/media/icon_hu4b9af3f567e0b0f9e5f99da57ed62ab5_26887_512x512_fill_lanczos_center_2.png</url>
       <title>H2o</title>
-      <link>/tag/h2o/</link>
+      <link>https://rladiesba.netlify.app/tag/h2o/</link>
     </image>
     
     <item>
       <title>¡Nos visita Erin LeDell!</title>
-      <link>/project/h20/</link>
+      <link>https://rladiesba.netlify.app/project/h20/</link>
       <pubDate>Wed, 02 Oct 2019 00:00:00 +0000</pubDate>
-      <guid>/project/h20/</guid>
+      <guid>https://rladiesba.netlify.app/project/h20/</guid>
       <description>&lt;p&gt;En esta ocasión nos visitó Erin LeDell, co-fundadora de R-Ladies y fundadora WiMLDS. Erin nos sió una charla sobre Scalable Automatic Machine Learning con H2O (en inglés). ¿De qué se trata esto?&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;

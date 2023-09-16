@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>useR! | RLadies BA</title>
-    <link>/tag/user/</link>
-      <atom:link href="/tag/user/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://rladiesba.netlify.app/tag/user/</link>
+      <atom:link href="https://rladiesba.netlify.app/tag/user/index.xml" rel="self" type="application/rss+xml" />
     <description>useR!</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>es</language><lastBuildDate>Fri, 24 Jul 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/media/icon_hu4b9af3f567e0b0f9e5f99da57ed62ab5_26887_512x512_fill_lanczos_center_2.png</url>
+      <url>https://rladiesba.netlify.app/media/icon_hu4b9af3f567e0b0f9e5f99da57ed62ab5_26887_512x512_fill_lanczos_center_2.png</url>
       <title>useR!</title>
-      <link>/tag/user/</link>
+      <link>https://rladiesba.netlify.app/tag/user/</link>
     </image>
     
     <item>
       <title>Modelado predictivo con texto utilizando principios de datos tidy - useR! 2020</title>
-      <link>/project/predictivemodeling/</link>
+      <link>https://rladiesba.netlify.app/project/predictivemodeling/</link>
       <pubDate>Fri, 24 Jul 2020 00:00:00 +0000</pubDate>
-      <guid>/project/predictivemodeling/</guid>
+      <guid>https://rladiesba.netlify.app/project/predictivemodeling/</guid>
       <description>&lt;p&gt;Los capítulos de R-Ladies en Argentina estamos felices de anunciar que Emil Hvitfeldt y Julia Silge se unirán a nosotras para traernos su tutorial &amp;ldquo;Predictive modeling with text using tidy data principles&amp;rdquo;.&lt;/p&gt;
 &lt;p&gt;¿Alguna vez encontraste datos de texto y sospechaste que había información útil en esos datos?, ¿ Te sentiste con frustración al intentan ver cómo encontrar esa información? ¿Estás familiarizade con los conceptos básicos del modelado predictivo y estás liste para aprender cómo se pueden usar los datos de texto no estructurados para la predicción dentro de los ecosistemas tidyverse y tidymodels?&lt;/p&gt;
 &lt;p&gt;¿Necesitas un marco flexible para manejar datos de texto que te permitan construir modelos predictivos supervisados?
@@ -29,9 +29,9 @@ Los datos de texto son cada vez más importantes en muchos dominios, y los princ
     
     <item>
       <title>¡Último meetup del año!</title>
-      <link>/project/cierre_temporada3/</link>
+      <link>https://rladiesba.netlify.app/project/cierre_temporada3/</link>
       <pubDate>Tue, 03 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>/project/cierre_temporada3/</guid>
+      <guid>https://rladiesba.netlify.app/project/cierre_temporada3/</guid>
       <description>&lt;p&gt;¡Cerramos la tercer temporada de meetups con todo!&lt;/p&gt;
 &lt;p&gt;Despedimos a Natsu con la charla:&lt;/p&gt;
 &lt;h3 id=&#34;boosted_me---r_ladiesme-o-cómo-sumarme-a-r-ladies-me-impulsó-a-desprogramar-la-desigualdad-de-género&#34;&gt;&amp;ldquo;boosted_me &amp;lt;- r_ladies(me), o cómo sumarme a R-Ladies me impulsó a (des)programar la desigualdad de género&amp;rdquo;&lt;/h3&gt;

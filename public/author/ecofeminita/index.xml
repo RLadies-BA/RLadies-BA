@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ecofeminita | RLadies BA</title>
-    <link>/author/ecofeminita/</link>
-      <atom:link href="/author/ecofeminita/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://rladiesba.netlify.app/author/ecofeminita/</link>
+      <atom:link href="https://rladiesba.netlify.app/author/ecofeminita/index.xml" rel="self" type="application/rss+xml" />
     <description>Ecofeminita</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>es</language>
     <image>
-      <url>/author/ecofeminita/avatar_hu2936a41eb4f2a50ce5e012294edfceaf_11567_270x270_fill_lanczos_center_2.png</url>
+      <url>https://rladiesba.netlify.app/author/ecofeminita/avatar_hu2936a41eb4f2a50ce5e012294edfceaf_11567_270x270_fill_lanczos_center_2.png</url>
       <title>Ecofeminita</title>
-      <link>/author/ecofeminita/</link>
+      <link>https://rladiesba.netlify.app/author/ecofeminita/</link>
     </image>
     
   </channel>

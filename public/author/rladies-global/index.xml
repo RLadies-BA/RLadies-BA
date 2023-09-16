@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>RLadies Global | RLadies BA</title>
+    <link>https://rladiesba.netlify.app/author/rladies-global/</link>
+      <atom:link href="https://rladiesba.netlify.app/author/rladies-global/index.xml" rel="self" type="application/rss+xml" />
+    <description>RLadies Global</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>es</language>
+    <image>
+      <url>https://rladiesba.netlify.app/author/rladies-global/avatar_hue3a442a9bcc99dac36ef01b43715956e_68145_270x270_fill_lanczos_center_2.png</url>
+      <title>RLadies Global</title>
+      <link>https://rladiesba.netlify.app/author/rladies-global/</link>
+    </image>
+    
+  </channel>
+</rss>

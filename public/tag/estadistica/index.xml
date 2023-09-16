@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Estadística | RLadies BA</title>
-    <link>/tag/estadistica/</link>
-      <atom:link href="/tag/estadistica/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://rladiesba.netlify.app/tag/estadistica/</link>
+      <atom:link href="https://rladiesba.netlify.app/tag/estadistica/index.xml" rel="self" type="application/rss+xml" />
     <description>Estadística</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>es</language><lastBuildDate>Sat, 15 Jun 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/media/icon_hu4b9af3f567e0b0f9e5f99da57ed62ab5_26887_512x512_fill_lanczos_center_2.png</url>
+      <url>https://rladiesba.netlify.app/media/icon_hu4b9af3f567e0b0f9e5f99da57ed62ab5_26887_512x512_fill_lanczos_center_2.png</url>
       <title>Estadística</title>
-      <link>/tag/estadistica/</link>
+      <link>https://rladiesba.netlify.app/tag/estadistica/</link>
     </image>
     
     <item>
       <title>De SPSS a R</title>
-      <link>/project/spssar/</link>
+      <link>https://rladiesba.netlify.app/project/spssar/</link>
       <pubDate>Sat, 15 Jun 2019 00:00:00 +0000</pubDate>
-      <guid>/project/spssar/</guid>
+      <guid>https://rladiesba.netlify.app/project/spssar/</guid>
       <description>&lt;p&gt;Te proponemos un nuevo taller pensado para quienes habitualmente usan programas con interfaz gráfica y muchos clicks para hacer análisis de datos. Por ejemplo, si usás SPSS (Statistical Package for the Social Sciences) y muchos clicks para hacer tu análisis y tenés ganas de empezar a usar R, este taller es para vos. Este taller es de nivel inicial por lo que no requiere conocimientos previos.&lt;/p&gt;
 &lt;p&gt;El taller estará a cargo de Jesica Formoso, psicóloga, becaria postdoctoral de CONICET y docente de la UBA.&lt;/p&gt;
 &lt;p&gt;Es muy importante que traigas tu laptop con R y RStudio instalados (para más info de cómo hacer esto: &lt;a href=&#34;https://github.com/lauracion/R_Curso_de_Nivelacion/raw/master/Instalacion_R_RStudio.pdf&#34;&gt;https://github.com/lauracion/R_Curso_de_Nivelacion/raw/master/Instalacion_R_RStudio.pdf&lt;/a&gt; ).&lt;/p&gt;
@@ -29,9 +29,9 @@
     
     <item>
       <title>¡Nos visita Tamara Broderick!</title>
-      <link>/project/tamarabroderick/</link>
+      <link>https://rladiesba.netlify.app/project/tamarabroderick/</link>
       <pubDate>Sat, 15 Jun 2019 00:00:00 +0000</pubDate>
-      <guid>/project/tamarabroderick/</guid>
+      <guid>https://rladiesba.netlify.app/project/tamarabroderick/</guid>
       <description>&lt;p&gt;Este 18 de junio a las 18:30 hs te invitamos a sumarte a un meetup de lujo que co-organizamos con WiMLDS Buenos Aires. Nos visitará una destacada investigadora que desarrolla herramientas de punta para aprendizaje automático, aplicables a los campos de inteligencia artificial y ciencia de datos.&lt;/p&gt;
 &lt;p&gt;Nos honra con una charla Tamara Broderick (&lt;a href=&#34;http://www.tamarabroderick.com/)&#34;&gt;http://www.tamarabroderick.com/)&lt;/a&gt;. Tamara es profesora en el MIT (EEUU) y trabaja en las áreas de aprendizaje automático y estadística. Su trabajo se basa en comprender cómo se puede cuantificar confiablemente la incertidumbre y la robustez en los procedimientos de análisis de datos modernos y complejos. Está particularmente interesada en inferencia bayesiana y modelos gráficos, con énfasis en el aprendizaje escalable, no paramétrico y no supervisado.&lt;/p&gt;
 &lt;p&gt;Es una de las disertantes de la Machine Learning Summer School que tendrá lugar en Buenos Aires la semana del 18 de junio. Antes de sus charlas allí, nos visita en los meetups de R-Ladies y WiMLDS Buenos Aires. ¡¡Muchas gracias, Tamara!! ¡Es una alegría recibirte!&lt;/p&gt;

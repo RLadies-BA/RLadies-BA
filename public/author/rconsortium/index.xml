@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>RConsortium | RLadies BA</title>
+    <link>https://rladiesba.netlify.app/author/rconsortium/</link>
+      <atom:link href="https://rladiesba.netlify.app/author/rconsortium/index.xml" rel="self" type="application/rss+xml" />
+    <description>RConsortium</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>es</language>
+    <image>
+      <url>https://rladiesba.netlify.app/author/rconsortium/avatar_hu93083fdf797e3bcad29caeea9acd94a4_3378_270x270_fill_lanczos_center_2.png</url>
+      <title>RConsortium</title>
+      <link>https://rladiesba.netlify.app/author/rconsortium/</link>
+    </image>
+    
+  </channel>
+</rss>

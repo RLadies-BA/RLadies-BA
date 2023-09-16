@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Datos textuales | RLadies BA</title>
-    <link>/tag/datos-textuales/</link>
-      <atom:link href="/tag/datos-textuales/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://rladiesba.netlify.app/tag/datos-textuales/</link>
+      <atom:link href="https://rladiesba.netlify.app/tag/datos-textuales/index.xml" rel="self" type="application/rss+xml" />
     <description>Datos textuales</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>es</language><lastBuildDate>Wed, 25 Aug 2021 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/media/icon_hu4b9af3f567e0b0f9e5f99da57ed62ab5_26887_512x512_fill_lanczos_center_2.png</url>
+      <url>https://rladiesba.netlify.app/media/icon_hu4b9af3f567e0b0f9e5f99da57ed62ab5_26887_512x512_fill_lanczos_center_2.png</url>
       <title>Datos textuales</title>
-      <link>/tag/datos-textuales/</link>
+      <link>https://rladiesba.netlify.app/tag/datos-textuales/</link>
     </image>
     
     <item>
       <title>Social Network con politicxsentwitteR</title>
-      <link>/project/politicxsentwitter/</link>
+      <link>https://rladiesba.netlify.app/project/politicxsentwitter/</link>
       <pubDate>Wed, 25 Aug 2021 00:00:00 +0000</pubDate>
-      <guid>/project/politicxsentwitter/</guid>
+      <guid>https://rladiesba.netlify.app/project/politicxsentwitter/</guid>
       <description>&lt;p&gt;Nos visita la politóloga &lt;a href=&#34;https://github.com/Guadag12&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Guadalupe González&lt;/strong&gt;&lt;/a&gt; para presentar su paquete &lt;a href=&#34;https://oderedes.shinyapps.io/politicosentwitter/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;politicxsentwitteR&lt;/a&gt;. Con este paquete podrás obtener las publicaciones de politicxs argentinxs en Twitter y desarrollar proyectos de procesamiento del lenguaje natural, análisis de redes y visualización de datos.
 Guadalupe va a contarnos cómo desarrolló el paquete, sus características, y de qué maneras podemos analizar sus datos con las librerías de R igraph y visNetwork.&lt;/p&gt;
 &lt;p&gt;Si venís de las Ciencias Sociales (o no), querés profundizar en análisis de redes o te interesa el análisis de Twitter como fuente de información, este meetup es para vos.&lt;/p&gt;
@@ -27,9 +27,9 @@ Guadalupe va a contarnos cómo desarrolló el paquete, sus características, y d
     
     <item>
       <title>Modelado predictivo con texto utilizando principios de datos tidy - useR! 2020</title>
-      <link>/project/predictivemodeling/</link>
+      <link>https://rladiesba.netlify.app/project/predictivemodeling/</link>
       <pubDate>Fri, 24 Jul 2020 00:00:00 +0000</pubDate>
-      <guid>/project/predictivemodeling/</guid>
+      <guid>https://rladiesba.netlify.app/project/predictivemodeling/</guid>
       <description>&lt;p&gt;Los capítulos de R-Ladies en Argentina estamos felices de anunciar que Emil Hvitfeldt y Julia Silge se unirán a nosotras para traernos su tutorial &amp;ldquo;Predictive modeling with text using tidy data principles&amp;rdquo;.&lt;/p&gt;
 &lt;p&gt;¿Alguna vez encontraste datos de texto y sospechaste que había información útil en esos datos?, ¿ Te sentiste con frustración al intentan ver cómo encontrar esa información? ¿Estás familiarizade con los conceptos básicos del modelado predictivo y estás liste para aprender cómo se pueden usar los datos de texto no estructurados para la predicción dentro de los ecosistemas tidyverse y tidymodels?&lt;/p&gt;
 &lt;p&gt;¿Necesitas un marco flexible para manejar datos de texto que te permitan construir modelos predictivos supervisados?
@@ -42,9 +42,9 @@ Los datos de texto son cada vez más importantes en muchos dominios, y los princ
     
     <item>
       <title>Visualizando datos - especial</title>
-      <link>/project/charlar5/</link>
+      <link>https://rladiesba.netlify.app/project/charlar5/</link>
       <pubDate>Tue, 02 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>/project/charlar5/</guid>
+      <guid>https://rladiesba.netlify.app/project/charlar5/</guid>
       <description>&lt;p&gt;Este meetup es parte de la serie &amp;ldquo;Charlar con R&amp;rdquo;. María Nanton nos va a mostrar como visulializar datos usando ggplot y en particular vamos a trabajar con datos textuales para sumarnos al #30diasdegraficos organizado por la comunidad hispano hablante de R.&lt;/p&gt;
 &lt;h3 id=&#34;reviví-la-presentación-en-nuestro-canal-de-youtube&#34;&gt;Reviví la presentación en nuestro canal de youtube:&lt;/h3&gt;
 &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/WXp1T9JEIRM&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;</description>

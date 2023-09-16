@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2018 | RLadies BA</title>
-    <link>/tag/2018/</link>
-      <atom:link href="/tag/2018/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://rladiesba.netlify.app/tag/2018/</link>
+      <atom:link href="https://rladiesba.netlify.app/tag/2018/index.xml" rel="self" type="application/rss+xml" />
     <description>2018</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>es</language><lastBuildDate>Sat, 15 Jun 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/media/icon_hu4b9af3f567e0b0f9e5f99da57ed62ab5_26887_512x512_fill_lanczos_center_2.png</url>
+      <url>https://rladiesba.netlify.app/media/icon_hu4b9af3f567e0b0f9e5f99da57ed62ab5_26887_512x512_fill_lanczos_center_2.png</url>
       <title>2018</title>
-      <link>/tag/2018/</link>
+      <link>https://rladiesba.netlify.app/tag/2018/</link>
     </image>
     
     <item>
       <title>De SPSS a R</title>
-      <link>/project/spssar/</link>
+      <link>https://rladiesba.netlify.app/project/spssar/</link>
       <pubDate>Sat, 15 Jun 2019 00:00:00 +0000</pubDate>
-      <guid>/project/spssar/</guid>
+      <guid>https://rladiesba.netlify.app/project/spssar/</guid>
       <description>&lt;p&gt;Te proponemos un nuevo taller pensado para quienes habitualmente usan programas con interfaz gráfica y muchos clicks para hacer análisis de datos. Por ejemplo, si usás SPSS (Statistical Package for the Social Sciences) y muchos clicks para hacer tu análisis y tenés ganas de empezar a usar R, este taller es para vos. Este taller es de nivel inicial por lo que no requiere conocimientos previos.&lt;/p&gt;
 &lt;p&gt;El taller estará a cargo de Jesica Formoso, psicóloga, becaria postdoctoral de CONICET y docente de la UBA.&lt;/p&gt;
 &lt;p&gt;Es muy importante que traigas tu laptop con R y RStudio instalados (para más info de cómo hacer esto: &lt;a href=&#34;https://github.com/lauracion/R_Curso_de_Nivelacion/raw/master/Instalacion_R_RStudio.pdf&#34;&gt;https://github.com/lauracion/R_Curso_de_Nivelacion/raw/master/Instalacion_R_RStudio.pdf&lt;/a&gt; ).&lt;/p&gt;
@@ -29,9 +29,9 @@
     
     <item>
       <title>Segunda temporada de meetups de R-Ladies en Buenos Aires</title>
-      <link>/project/primer2018/</link>
+      <link>https://rladiesba.netlify.app/project/primer2018/</link>
       <pubDate>Sat, 15 Jun 2019 00:00:00 +0000</pubDate>
-      <guid>/project/primer2018/</guid>
+      <guid>https://rladiesba.netlify.app/project/primer2018/</guid>
       <description>&lt;p&gt;Abrimos la Segunda Temporada de Meetups con dos charlas espectaculares:&lt;/p&gt;
 &lt;p&gt;Flor D&amp;rsquo;Andrea, ganadora de la beca para asistir a la RStudio::Conf 2018 (&lt;a href=&#34;https://www.rstudio.com/conference/),&#34;&gt;https://www.rstudio.com/conference/),&lt;/a&gt; nos comparte &amp;ldquo;Material y Experiencias de la Rstudio Conf 2018&amp;rdquo;.&lt;/p&gt;
 &lt;p&gt;Rayna Harris (de visita por Buenos Aires desde Austin, Texas) nos cuenta su experiencia &amp;ldquo;Usando y Enseñando R para Investigación Reproducible&amp;rdquo;.&lt;/p&gt;
@@ -45,9 +45,9 @@
     
     <item>
       <title>Taller &#34;R desde cero&#34; &#43; Charla &#34;Indicadores de desigualdad de género&#34;</title>
-      <link>/project/rdesde0/</link>
+      <link>https://rladiesba.netlify.app/project/rdesde0/</link>
       <pubDate>Sat, 15 Jun 2019 00:00:00 +0000</pubDate>
-      <guid>/project/rdesde0/</guid>
+      <guid>https://rladiesba.netlify.app/project/rdesde0/</guid>
       <description>&lt;p&gt;Felices de anunciar el próximo meetup el sábado 19 de mayo en EANT.&lt;/p&gt;
 &lt;p&gt;Les proponemos un grupo de oradoras de lujo: Priscilla Minotti y Fabiana Flores presentan un taller inicial &amp;ldquo;R desde cero&amp;rdquo; para todxs aquellxs que quieran empezar a aprender R o formalizar un poco más sus conocimientos sobre este lenguaje. Si tenes ganas de meter mano no te olvides de traer tu laptop.&lt;/p&gt;
 &lt;p&gt;Luego Natsumi Shokida (@NatsuSh), casi-Economista, analista de datos y metodologías sobre Pobreza e Ingresos en EPH-INDEC y colaboradora en Economía Femini(s)ta nos contará sobre el trabajo que está realizando llamado &amp;ldquo;Indicadores de desigualdad de género con datos abiertos de la Encuesta Permanente de Hogares&amp;rdquo; a partir de bases de datos abiertas del INDEC (disponible en &lt;a href=&#34;http://rpubs.com/natsumi_shokida/desigualdad_genero_EPH_3trim_2017&#34;&gt;http://rpubs.com/natsumi_shokida/desigualdad_genero_EPH_3trim_2017&lt;/a&gt;)&lt;/p&gt;
@@ -67,9 +67,9 @@
     
     <item>
       <title>¡Nos visita Jenny Brian!</title>
-      <link>/project/jenny/</link>
+      <link>https://rladiesba.netlify.app/project/jenny/</link>
       <pubDate>Sat, 15 Jun 2019 00:00:00 +0000</pubDate>
-      <guid>/project/jenny/</guid>
+      <guid>https://rladiesba.netlify.app/project/jenny/</guid>
       <description>&lt;p&gt;Te invitamos a un meetup de lujo donde tendremos un taller a cargo de Jenny Bryan.&lt;/p&gt;
 &lt;p&gt;Jenny Bryan (PhD, UC Berkeley) es Ingeniera de Software en RStudio. Jenny es referente internacionalmente reconocida de la comunidad R dentro de la cual es integrante ordinaria de la R Foundation y parte del Comité de Liderazgo de rOpenSci.&lt;/p&gt;
 &lt;p&gt;En este taller nos va enseñar funciones, un tema esencial en R.&lt;/p&gt;
@@ -86,9 +86,9 @@
     
     <item>
       <title>¡Nos visita Tamara Broderick!</title>
-      <link>/project/tamarabroderick/</link>
+      <link>https://rladiesba.netlify.app/project/tamarabroderick/</link>
       <pubDate>Sat, 15 Jun 2019 00:00:00 +0000</pubDate>
-      <guid>/project/tamarabroderick/</guid>
+      <guid>https://rladiesba.netlify.app/project/tamarabroderick/</guid>
       <description>&lt;p&gt;Este 18 de junio a las 18:30 hs te invitamos a sumarte a un meetup de lujo que co-organizamos con WiMLDS Buenos Aires. Nos visitará una destacada investigadora que desarrolla herramientas de punta para aprendizaje automático, aplicables a los campos de inteligencia artificial y ciencia de datos.&lt;/p&gt;
 &lt;p&gt;Nos honra con una charla Tamara Broderick (&lt;a href=&#34;http://www.tamarabroderick.com/)&#34;&gt;http://www.tamarabroderick.com/)&lt;/a&gt;. Tamara es profesora en el MIT (EEUU) y trabaja en las áreas de aprendizaje automático y estadística. Su trabajo se basa en comprender cómo se puede cuantificar confiablemente la incertidumbre y la robustez en los procedimientos de análisis de datos modernos y complejos. Está particularmente interesada en inferencia bayesiana y modelos gráficos, con énfasis en el aprendizaje escalable, no paramétrico y no supervisado.&lt;/p&gt;
 &lt;p&gt;Es una de las disertantes de la Machine Learning Summer School que tendrá lugar en Buenos Aires la semana del 18 de junio. Antes de sus charlas allí, nos visita en los meetups de R-Ladies y WiMLDS Buenos Aires. ¡¡Muchas gracias, Tamara!! ¡Es una alegría recibirte!&lt;/p&gt;
@@ -107,9 +107,9 @@
     
     <item>
       <title>¡Último meetup del año! ¡Traé tu compu, llevate tu web programada con R!</title>
-      <link>/project/finano2018/</link>
+      <link>https://rladiesba.netlify.app/project/finano2018/</link>
       <pubDate>Sat, 15 Jun 2019 00:00:00 +0000</pubDate>
-      <guid>/project/finano2018/</guid>
+      <guid>https://rladiesba.netlify.app/project/finano2018/</guid>
       <description>&lt;p&gt;¡Se viene el último evento del año! Estamos felices porque lo co-organizamos con R en Baires (&lt;a href=&#34;https://bit.ly/2RNcqdL),&#34;&gt;https://bit.ly/2RNcqdL),&lt;/a&gt; un nuevo grupo de usuaries de R en Buenos Aires.&lt;/p&gt;
 &lt;p&gt;Haremos una charla/taller introductoria a R Markdown y Blogdown. Para aprovecharlo traé tu laptop con R y RStudio instalados* (para más info de cómo hacer esto: &lt;a href=&#34;https://bit.ly/2zGT82j)&#34;&gt;https://bit.ly/2zGT82j)&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Si creés que te vendría bien una intro a R o un repaso antes de venir, hacé click aquí (&lt;a href=&#34;https://bit.ly/2JSfHpp&#34;&gt;https://bit.ly/2JSfHpp&lt;/a&gt;) para ir al repositorio donde encontrarás todos los materiales de nuestros encuentros anteriores.&lt;/p&gt;
