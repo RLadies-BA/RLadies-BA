@@ -17,9 +17,9 @@ tags:
 - regresiones
 - Datos ordinales
 title: Modelos de regresión para datos ordinales con R
-url_code: ""
+url_code: "https://github.com/RLadies-BA/RLadies-BA/blob/main/content/project/RegresionesOrdinales/taller_regordinal_final.R"
 url_pdf: ""
-url_slides: ""
+url_slides: "https://github.com/RLadies-BA/RLadies-BA/blob/main/content/project/RegresionesOrdinales/diapositivas.pdf"
 url_video: ""
 ---
 
