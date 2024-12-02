@@ -6,11 +6,8 @@ links:
 - icon: meetup
   icon_pack: nov
   name: Seguinos
-  url: "https://github.com/JFormoso/quarto-rladiesBA/tree/main"
-  slides: "https://jformoso.github.io/quarto-rladiesBA/slides/index.html#/title-slide"
-  video: https://www.youtube.com/watch?v=puykTjJ43Xs&ab_channel=RLadiesBuenosAires
-summary: Jesica Formoso nos acompaña en una introducción a Quarto y sus posibilidades
-  como plataforma de publicación.
+  url: "https://www.meetup.com/es/rladies-buenos-aires/"
+  summary: Jesica Formoso nos acompaña en una introducción a Quarto y sus posibilidades como plataforma de publicación.
 tags:
 - 2024
 - quarto
@@ -19,7 +16,7 @@ tags:
 image:
   caption: Transforma tus datos en historias visuales con Quarto
   focal_point: Smart
-url_code: "https://github.com/RLadies-BA/RLadies-BA/blob/main/content/project/RegresionesOrdinales/taller_regordinal_final.R"
+url_code: "https://jformoso.github.io/quarto-rladiesBA/"
 url_slides: "https://jformoso.github.io/quarto-rladiesBA/slides/index.html#/title-slide"
 url_video: https://www.youtube.com/watch?v=puykTjJ43Xs&ab_channel=RLadiesBuenosAires
 ---
