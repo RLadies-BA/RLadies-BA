@@ -12,7 +12,6 @@ tags:
 - 2024
 - quarto
 - html
-- Datos ordinales
 image:
   caption: Transforma tus datos en historias visuales con Quarto
   focal_point: Smart
