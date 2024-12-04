@@ -31,4 +31,8 @@ En la [web]('https://github.com/JFormoso/quarto-rladiesBA/tree/main') del evento
 
 Si te interesa reproducir el ejercicio podes descagrar el material [aquí](https://github.com/JFormoso/quarto-rladiesBA/tree/main/exercises) y seguir paso a paso el proceso reviviendolo en el [video](https://www.youtube.com/watch?v=puykTjJ43Xs&ab_channel=RLadiesBuenosAires) ya disponible en nuestro canal de YouTube 
 
+### Reviví la presentación en nuestro canal de youtube:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/puykTjJ43Xs?si=gw8MFluRhkgICPY9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 
