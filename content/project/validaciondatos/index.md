@@ -22,6 +22,7 @@ url_video: https://youtu.be/UEQ3S8pPxL0?si=gwkwLQqYTOWRKmH4
 
 
 En este encuentro, nos sumergimos en algunas de las mejores herramientas para validar datos tabulares en R. 
+
 María Nanton y Betsy Cohen nos guiaron a través de las bibliotecas **pointblank, data.validator, assertr y validate**, mostrando cómo pueden ayudar a evaluar la integridad y la consistencia de tus datos de forma rápida y eficiente.
 
 **A quién está dirigido:**
