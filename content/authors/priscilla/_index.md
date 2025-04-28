@@ -25,7 +25,7 @@ social:
 
 superuser: false
 user_groups: 
-- organizadoras
+- historicas
 title: Priscilla Minotti
 ---
 

@@ -26,7 +26,7 @@ social:
   link: https://www.meetup.com/es-ES/members/224378137/
 superuser: false
 user_groups: 
-- organizadoras
+- historicas
 title: Mónica Alonso
 ---
 

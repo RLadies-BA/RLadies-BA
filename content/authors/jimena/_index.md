@@ -20,7 +20,7 @@ social:
   link: https://www.linkedin.com/in/jimenasaucedo/
 superuser: false
 user_groups: 
-- organizadoras
+- historicas
 title: Jimena Saucedo
 ---
 

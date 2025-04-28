@@ -23,7 +23,7 @@ social:
   link: https://www.vicam.org.ar/
 superuser: false
 user_groups: 
-- organizadoras
+- historicas
 title: Verónica Rojo
 ---
 Vero es ingeniera Agrónoma egresada de la Universidad Nacional de Luján (2010). Se especializa en teledetección y sistemas de información geográfica aplicados al estudio del medio ambiente de la misma institución. Es doctora en ciencias agrarias y forestales de la Universidad Nacional de la Plata. Su tema de investigación se centra en la interacción planta-herbívoro, particularmente en sistemas de pastoreo puneños con manejo ganadero. 
