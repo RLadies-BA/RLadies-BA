@@ -1,4 +1,4 @@
-----
+---
 title: "Armá un Dashboard con R y Quarto"
 external_link: ''
 date: "2025-08-26"
@@ -7,11 +7,10 @@ links:
   icon_pack: nov
   name: Seguinos
   url: "https://www.meetup.com/es/rladies-buenos-aires/"
-  summary: Betsy Cohen nos invitó a explorar otra de las grandes funcionalidades de esta plataforma: la creación de dashboards interactivos.
+  summary: Betsy Cohen nos invitó a explorar la creación de dashboards interactivos con Quarto.
 tags:
 - 2025
 - quarto
-- dashboards
 image:
   caption: Armá un Dashboard con R y Quarto
   focal_point: Smart
