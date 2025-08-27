@@ -1,5 +1,5 @@
 ---
-title: Comunicá tus datos con R y Quarto en UNTREF
+title: "Comunicá tus datos con R y Quarto en UNTREF"
 external_link: ''
 date: "2025-08-04"
 links:
@@ -8,7 +8,6 @@ links:
   name: Seguinos
   url: "https://www.meetup.com/es/rladies-buenos-aires/"
   summary: Jesi Formoso, quien nos introdujo al fascinante mundo de Quarto en UNTREF.
-
 tags:
 - 2025
 - quarto
