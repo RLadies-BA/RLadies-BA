@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Jesica Formoso | RLadies BA</title>
-    <link>https://rladiesba.netlify.app/author/jesica-formoso/</link>
-      <atom:link href="https://rladiesba.netlify.app/author/jesica-formoso/index.xml" rel="self" type="application/rss+xml" />
-    <description>Jesica Formoso</description>
+    <title>book club | RLadies BA</title>
+    <link>https://rladiesba.netlify.app/tag/book-club/</link>
+      <atom:link href="https://rladiesba.netlify.app/tag/book-club/index.xml" rel="self" type="application/rss+xml" />
+    <description>book club</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>es</language><lastBuildDate>Tue, 04 Nov 2025 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://rladiesba.netlify.app/author/jesica-formoso/avatar_hu973a26bbc97caf7dae875a6a7cd4a574_109379_270x270_fill_q75_lanczos_center.jpg</url>
-      <title>Jesica Formoso</title>
-      <link>https://rladiesba.netlify.app/author/jesica-formoso/</link>
+      <url>https://rladiesba.netlify.app/media/icon_hu4b9af3f567e0b0f9e5f99da57ed62ab5_26887_512x512_fill_lanczos_center_2.png</url>
+      <title>book club</title>
+      <link>https://rladiesba.netlify.app/tag/book-club/</link>
     </image>
     
     <item>

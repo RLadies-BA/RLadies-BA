@@ -1,7 +1,7 @@
 ---
 title: "Aprendiendo Shiny en comunidad: un club de lectura colaborativo sobre Mastering Shiny en Buenos Aires"
 output: html_document
-authors: ["jesica","andrea"]
+authors: ["jesica","andrea", "maria"]
 type: post
 date: 2025-11-04
 draft: false
@@ -9,7 +9,6 @@ tags: ["shiny", "book club"]
 summary: 'Organizamos un club de lectura basado en la comunidad para aprender Shiny entre todes.'
 ---
 
-![](img/portadashiny.png)
 
 ¿Alguna vez quisiste leer Mastering Shiny pero lo fuiste postergando para "cuando se calmen las cosas"? ¡Nosotros también! En [R-Ladies Buenos Aires](https://www.linkedin.com/company/rladies-ba/) y [R en Buenos Aires](https://www.linkedin.com/company/r-en-buenos-aires), muchas de nosotras teníamos Mastering Shiny guardado en nuestros estantes virtuales, siempre esperando el momento indicado. Después de meses (bueno, quizás años) de buenas intenciones y ningún avance, nos dimos cuenta de que necesitábamos un empujón, y ese empujón llegó gracias al poder de la comunidad.
 
@@ -24,24 +23,25 @@ Nuestros objetivos eran sencillos: crear un entorno amigable y acogedor para apr
 
 <div style="display: flex; gap: 20px;">
 
-<div style="width: 40%;">
+<div style="width: 50%;">
 <br>
 <img src="img/shiny1.png" style="width: 90%; display: block; margin: auto;">
 <img src="img/shiny3.png" style="width: 90%; display: block; margin: auto;">
 </div>
 
-<div style="width: 60%;">
+<div style="width: 50%;">
 
 Organizamos el club en torno a diez encuentros, que tuvieron lugar entre marzo y julio. Aunque inicialmente planeamos leer el libro completo, decidimos que una versión más breve y acotada en el tiempo sería más realista y sostenible tanto para el equipo organizador como para los participantes. Comenzamos a planificar y organizar esta actividad a gran escala en septiembre de 2024.
+
+
+
+</div>
+
+</div>
 
 Todas las sesiones fueron virtuales, con una duración de entre 60 y 90 minutos. Cada una fue coordinada por una persona diferente (o una dupla), quien nos guió por los contenidos y ejercicios de los capítulos asignados.
 
 No se esperaba que nadie fuera experto. De hecho, alentamos explícitamente a personas con poca o ninguna experiencia previa en Shiny a participar y a liderar (¡y lo hicieron!). La única pauta era leer los capítulos, intentar los ejercicios y venir dispuestos a compartir. Las personas presentadoras explicaban lo que habían entendido de los capítulos, destacaban los conceptos clave y nos guiaban a través de los ejercicios. ¡Luego ocurría la magia! Entre todos completábamos los vacíos, hacíamos preguntas, proponíamos alternativas y aprendíamos unos de otros.
-
-</div>
-
-</div>
-
 
 La mayoría de las personas presentadoras crearon diapositivas o notebooks para guiar sus sesiones (aunque esto no era obligatorio). Reunimos todos esos materiales en este [repositorio público de GitHub](https://github.com/RLadies-BA/mastering-shiny). 
 
@@ -68,18 +68,29 @@ De cara al futuro, una idea para una próxima edición es organizar las sesiones
 Uno de los aspectos más gratificantes del club de lectura fue escuchar lo que los participantes se llevaron de la experiencia. Más allá de Shiny en sí, las personas destacaron la alegría de aprender juntas, la responsabilidad de los encuentros periódicos y la calidez de la comunidad. Al finalizar el club, varios participantes se fueron motivados y pensando en estrategias para mejorar su trabajo creando una aplicación Shiny o explorando un tema para dar sus primeros pasos con un dashboard.
 Algunas de sus reflexiones:
 
-"El formato de reunirse para analizar los capítulos de un libro con contenido técnico me pareció brillante. Abre un espacio de aprendizaje horizontal muy enriquecedor."
-— Graciela Bellotti
+<div style="border-left: 4px solid #888888; padding: 10px 20px; margin: 15px 0; background-color: #f5f5f5;">
 
+  <p><em>"El formato de reunirse para analizar los capítulos de un libro con contenido técnico me pareció brillante. Abre un espacio de aprendizaje horizontal muy enriquecedor."</em></p>
+  
+  <p>— Graciela Bellotti</p>
 
-"Me gustó mucho que todos compartieran todo sin guardarse nada y explicaran lo que habían entendido, ya sea por experiencia previa o por su propia investigación sobre el contenido del capítulo. Lo hicieron muy ameno y no tan pesado, así que pude asistir a todas las sesiones."
-— Daniela Zacharías
+</div>
 
+<div style="border-left: 4px solid #888888; padding: 10px 20px; margin: 15px 0; background-color: #f5f5f5;">
 
-"¡Muchísimo! No solo todo lo relacionado con Shiny, sino también la alegría de compartir estos encuentros con personas tan increíbles, tanto presentando como intercambiando dudas o conocimientos."
-— Laura Misiani
+  <p><em>"Me gustó mucho que todos compartieran todo sin guardarse nada y explicaran lo que habían entendido, ya sea por experiencia previa o por su propia investigación sobre el contenido del capítulo. Lo hicieron muy ameno y no tan pesado, así que pude asistir a todas las sesiones."</em></p>
 
+  <p>— Daniela Zacharías</p>
 
+</div>
+
+<div style="border-left: 4px solid #888888; padding: 10px 20px; margin: 15px 0; background-color: #f5f5f5;">
+
+  <p><em>"¡Muchísimo! No solo todo lo relacionado con Shiny, sino también la alegría de compartir estos encuentros con personas tan increíbles, tanto presentando como intercambiando dudas o conocimientos."</em></p>
+
+  <p>— Laura Misiani</p>
+
+</div>
 Este club de lectura no fue solo recorrer un libro técnico. Fue abrirse un espacio para aprender, ganar confianza, construir aplicaciones (¡y comunidad!), y demostrar que no hace falta saberlo todo para liderar o participar. Si vos también tenías pendiente leer Mastering Shiny, quizás esta sea tu señal para reunir a tu grupo y empezar juntos. Porque cuando aprendemos en comunidad, llegamos más lejos y nos divertimos más en el camino 😉.
 
 

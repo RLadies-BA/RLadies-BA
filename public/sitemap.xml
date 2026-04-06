@@ -2,6 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://rladiesba.netlify.app/author/andrea-gomez-vargas/</loc>
+    <lastmod>2025-11-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rladiesba.netlify.app/post/shiny-book-club/</loc>
+    <lastmod>2025-11-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rladiesba.netlify.app/authors/</loc>
+    <lastmod>2025-11-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rladiesba.netlify.app/post/</loc>
+    <lastmod>2025-11-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rladiesba.netlify.app/tag/book-club/</loc>
+    <lastmod>2025-11-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rladiesba.netlify.app/author/jesica-formoso/</loc>
+    <lastmod>2025-11-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rladiesba.netlify.app/</loc>
+    <lastmod>2025-11-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rladiesba.netlify.app/tag/shiny/</loc>
+    <lastmod>2025-11-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://rladiesba.netlify.app/tags/</loc>
+    <lastmod>2025-11-04T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://rladiesba.netlify.app/tag/2025/</loc>
     <lastmod>2025-08-26T00:00:00+00:00</lastmod>
   </url><url>
@@ -12,12 +39,6 @@
     <lastmod>2025-08-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://rladiesba.netlify.app/tag/quarto/</loc>
-    <lastmod>2025-08-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://rladiesba.netlify.app/</loc>
-    <lastmod>2025-08-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://rladiesba.netlify.app/tags/</loc>
     <lastmod>2025-08-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://rladiesba.netlify.app/project/202508-quarto-untref-1/</loc>
@@ -56,16 +77,7 @@
     <loc>https://rladiesba.netlify.app/tag/tidyverse/</loc>
     <lastmod>2023-11-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://rladiesba.netlify.app/author/andrea-gomez-vargas/</loc>
-    <lastmod>2023-09-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://rladiesba.netlify.app/authors/</loc>
-    <lastmod>2023-09-07T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://rladiesba.netlify.app/author/betsabe-cohen/</loc>
-    <lastmod>2023-09-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://rladiesba.netlify.app/post/</loc>
     <lastmod>2023-09-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://rladiesba.netlify.app/post/eph/</loc>
@@ -332,9 +344,6 @@
     <loc>https://rladiesba.netlify.app/project/rmarkdown/</loc>
     <lastmod>2017-11-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://rladiesba.netlify.app/tag/shiny/</loc>
-    <lastmod>2017-09-30T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://rladiesba.netlify.app/project/tallershiny/</loc>
     <lastmod>2017-09-30T00:00:00+00:00</lastmod>
   </url><url>
@@ -397,8 +406,6 @@
     <loc>https://rladiesba.netlify.app/author/femitconf/</loc>
   </url><url>
     <loc>https://rladiesba.netlify.app/author/florencia-dandrea/</loc>
-  </url><url>
-    <loc>https://rladiesba.netlify.app/author/jesica-formoso/</loc>
   </url><url>
     <loc>https://rladiesba.netlify.app/author/jimena-saucedo/</loc>
   </url><url>

@@ -5,12 +5,87 @@
     <link>https://rladiesba.netlify.app/author/andrea-gomez-vargas/</link>
       <atom:link href="https://rladiesba.netlify.app/author/andrea-gomez-vargas/index.xml" rel="self" type="application/rss+xml" />
     <description>Andrea Gómez Vargas</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>es</language><lastBuildDate>Thu, 07 Sep 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>es</language><lastBuildDate>Tue, 04 Nov 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://rladiesba.netlify.app/author/andrea-gomez-vargas/avatar_hu9b31b06c49077cd2f146bf1e297c762c_362111_270x270_fill_lanczos_center_2.png</url>
       <title>Andrea Gómez Vargas</title>
       <link>https://rladiesba.netlify.app/author/andrea-gomez-vargas/</link>
     </image>
+    
+    <item>
+      <title>Aprendiendo Shiny en comunidad: un club de lectura colaborativo sobre Mastering Shiny en Buenos Aires</title>
+      <link>https://rladiesba.netlify.app/post/shiny-book-club/</link>
+      <pubDate>Tue, 04 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://rladiesba.netlify.app/post/shiny-book-club/</guid>
+      <description>
+
+
+&lt;p&gt;¿Alguna vez quisiste leer Mastering Shiny pero lo fuiste postergando para “cuando se calmen las cosas”? ¡Nosotros también! En &lt;a href=&#34;https://www.linkedin.com/company/rladies-ba/&#34;&gt;R-Ladies Buenos Aires&lt;/a&gt; y &lt;a href=&#34;https://www.linkedin.com/company/r-en-buenos-aires&#34;&gt;R en Buenos Aires&lt;/a&gt;, muchas de nosotras teníamos Mastering Shiny guardado en nuestros estantes virtuales, siempre esperando el momento indicado. Después de meses (bueno, quizás años) de buenas intenciones y ningún avance, nos dimos cuenta de que necesitábamos un empujón, y ese empujón llegó gracias al poder de la comunidad.&lt;/p&gt;
+&lt;div id=&#34;de-las-intenciones-individuales-al-aprendizaje-colectivo&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;De las intenciones individuales al aprendizaje colectivo&lt;/h2&gt;
+&lt;p&gt;Hay un proverbio africano que dice &lt;em&gt;Si quieres ir rápido, ve solo. Si quieres llegar lejos, ve acompañado&lt;/em&gt;. Decidimos transformar las intenciones individuales en aprendizaje colectivo. En lugar de intentar leer el libro por nuestra cuenta, organizamos un &lt;strong&gt;club de lectura comunitario&lt;/strong&gt;, donde pudiéramos apoyarnos mutuamente, compartir nuestras dudas y celebrar nuestros avances.&lt;/p&gt;
+&lt;p&gt;Nuestros objetivos eran sencillos: crear un entorno amigable y acogedor para aprender Shiny, dividir el libro en partes manejables, y dar espacio a todas las personas, independientemente de su experiencia, para aprender y liderar.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;cómo-organizamos-el-club-de-lectura&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Cómo organizamos el club de lectura&lt;/h2&gt;
+&lt;div style=&#34;display: flex; gap: 20px;&#34;&gt;
+&lt;div style=&#34;width: 50%;&#34;&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;img src=&#34;img/shiny1.png&#34; style=&#34;width: 90%; display: block; margin: auto;&#34;&gt;
+&lt;img src=&#34;img/shiny3.png&#34; style=&#34;width: 90%; display: block; margin: auto;&#34;&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div style=&#34;width: 50%;&#34;&gt;
+&lt;p&gt;Organizamos el club en torno a diez encuentros, que tuvieron lugar entre marzo y julio. Aunque inicialmente planeamos leer el libro completo, decidimos que una versión más breve y acotada en el tiempo sería más realista y sostenible tanto para el equipo organizador como para los participantes. Comenzamos a planificar y organizar esta actividad a gran escala en septiembre de 2024.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Todas las sesiones fueron virtuales, con una duración de entre 60 y 90 minutos. Cada una fue coordinada por una persona diferente (o una dupla), quien nos guió por los contenidos y ejercicios de los capítulos asignados.&lt;/p&gt;
+&lt;p&gt;No se esperaba que nadie fuera experto. De hecho, alentamos explícitamente a personas con poca o ninguna experiencia previa en Shiny a participar y a liderar (¡y lo hicieron!). La única pauta era leer los capítulos, intentar los ejercicios y venir dispuestos a compartir. Las personas presentadoras explicaban lo que habían entendido de los capítulos, destacaban los conceptos clave y nos guiaban a través de los ejercicios. ¡Luego ocurría la magia! Entre todos completábamos los vacíos, hacíamos preguntas, proponíamos alternativas y aprendíamos unos de otros.&lt;/p&gt;
+&lt;p&gt;La mayoría de las personas presentadoras crearon diapositivas o notebooks para guiar sus sesiones (aunque esto no era obligatorio). Reunimos todos esos materiales en este &lt;a href=&#34;https://github.com/RLadies-BA/mastering-shiny&#34;&gt;repositorio público de GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Deliberadamente evitamos imponer un formato específico, ya que no queríamos que las barreras técnicas impidieran a nadie compartir. A futuro, planeamos curar y organizar los materiales para facilitar su reutilización, especialmente para hispanohablantes. Creemos que hay un valor real en contar con materiales de aprendizaje construidos por la comunidad en español.&lt;/p&gt;
+&lt;p&gt;Con el tiempo, los participantes comenzaron a compartir las aplicaciones Shiny que estaban desarrollando por su cuenta. Incorporamos una pequeña sección de “Muestra y Cuéntanos” al comienzo de algunos encuentros, donde las personas presentaban sus trabajos en progreso y recibían retroalimentación y aliento.&lt;/p&gt;
+&lt;p&gt;Fue un espacio lleno de apoyo mutuo, curiosidad y aprendizaje honesto.&lt;/p&gt;
+&lt;div class=&#34;float&#34;&gt;
+&lt;img src=&#34;img/shiny2.png&#34; style=&#34;width:90.0%&#34; fig-align=&#34;center&#34; fig-cap=&#34;Summary of the Reading Club’s Last Meeting&#34; alt=&#34;Resumen del último encuentro del club&#34; /&gt;
+&lt;div class=&#34;figcaption&#34;&gt;Resumen del último encuentro del club&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Aunque grabamos las sesiones, decidimos hacerlas accesibles únicamente a quienes asistieron. Esto fue diferente a la práctica habitual de nuestros eventos, pero queríamos mantener las sesiones informales, cómodas y sin presión, más parecidas a un grupo de estudio que a un taller. Esto permitió que todos se sintieran seguros al compartir trabajos incompletos, hacer preguntas y cometer errores.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;reflexiones-y-lecciones-aprendidas&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Reflexiones y lecciones aprendidas&lt;/h2&gt;
+&lt;p&gt;A lo largo de los encuentros, distintas personas se ofrecieron como voluntarias para coordinar. Entre ellas había académicos y profesionales de la industria con diversas trayectorias y niveles de experiencia en R. Cada persona voluntaria aportó su propio estilo y perspectiva, y todos hicieron un trabajo fantástico. Aunque un pequeño grupo de personas participó en la mayoría de las sesiones, muchos otros se sumaron según sus intereses o disponibilidad.&lt;/p&gt;
+&lt;p&gt;Nos sorprendió contar con nuevos integrantes de la comunidad que aprovecharon el formato virtual para unirse desde otros países y ciudades de Argentina. Esto nos permitió derribar las barreras de la presencia física y debatir temas de interés desde distintas áreas profesionales, en español.&lt;/p&gt;
+&lt;p&gt;De cara al futuro, una idea para una próxima edición es organizar las sesiones en torno a la construcción de una única aplicación Shiny de forma colectiva. Creemos que esto podría sostener mejor el compromiso, hacer el aprendizaje más tangible y dar a los participantes la oportunidad de ver en la práctica cómo se conectan los conceptos del libro.&lt;/p&gt;
+&lt;p&gt;Uno de los aspectos más gratificantes del club de lectura fue escuchar lo que los participantes se llevaron de la experiencia. Más allá de Shiny en sí, las personas destacaron la alegría de aprender juntas, la responsabilidad de los encuentros periódicos y la calidez de la comunidad. Al finalizar el club, varios participantes se fueron motivados y pensando en estrategias para mejorar su trabajo creando una aplicación Shiny o explorando un tema para dar sus primeros pasos con un dashboard.
+Algunas de sus reflexiones:&lt;/p&gt;
+&lt;div style=&#34;border-left: 4px solid #888888; padding: 10px 20px; margin: 15px 0; background-color: #f5f5f5;&#34;&gt;
+&lt;p&gt;
+&lt;em&gt;“El formato de reunirse para analizar los capítulos de un libro con contenido técnico me pareció brillante. Abre un espacio de aprendizaje horizontal muy enriquecedor.”&lt;/em&gt;
+&lt;/p&gt;
+&lt;p&gt;
+— Graciela Bellotti
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;div style=&#34;border-left: 4px solid #888888; padding: 10px 20px; margin: 15px 0; background-color: #f5f5f5;&#34;&gt;
+&lt;p&gt;
+&lt;em&gt;“Me gustó mucho que todos compartieran todo sin guardarse nada y explicaran lo que habían entendido, ya sea por experiencia previa o por su propia investigación sobre el contenido del capítulo. Lo hicieron muy ameno y no tan pesado, así que pude asistir a todas las sesiones.”&lt;/em&gt;
+&lt;/p&gt;
+&lt;p&gt;
+— Daniela Zacharías
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;div style=&#34;border-left: 4px solid #888888; padding: 10px 20px; margin: 15px 0; background-color: #f5f5f5;&#34;&gt;
+&lt;p&gt;
+&lt;em&gt;“¡Muchísimo! No solo todo lo relacionado con Shiny, sino también la alegría de compartir estos encuentros con personas tan increíbles, tanto presentando como intercambiando dudas o conocimientos.”&lt;/em&gt;
+&lt;/p&gt;
+&lt;p&gt;
+— Laura Misiani
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;Este club de lectura no fue solo recorrer un libro técnico. Fue abrirse un espacio para aprender, ganar confianza, construir aplicaciones (¡y comunidad!), y demostrar que no hace falta saberlo todo para liderar o participar. Si vos también tenías pendiente leer Mastering Shiny, quizás esta sea tu señal para reunir a tu grupo y empezar juntos. Porque cuando aprendemos en comunidad, llegamos más lejos y nos divertimos más en el camino 😉.&lt;/p&gt;
+&lt;p&gt;Este posteo lo publicamos inicialmente en inglés en RConsortium. Podés encontrar la versión original aquí: &lt;a href=&#34;https://r-consortium.org/posts/learning-shiny-together-a-collaborative-reading-club-around-mastering-shiny-in-buenos-aires/&#34; class=&#34;uri&#34;&gt;https://r-consortium.org/posts/learning-shiny-together-a-collaborative-reading-club-around-mastering-shiny-in-buenos-aires/&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
     
     <item>
       <title>Diseñá tu tabla de gt con indicadores condición de actividad de eph</title>
