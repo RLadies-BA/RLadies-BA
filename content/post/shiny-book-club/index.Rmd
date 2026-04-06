@@ -1,7 +1,7 @@
 ---
 title: "Aprendiendo Shiny en comunidad: un club de lectura colaborativo sobre Mastering Shiny en Buenos Aires"
 output: html_document
-authors: "R-Ladies Buenos Aires & R en Buenos Aires"
+authors: ["jesica","andrea"]
 type: post
 date: 2025-11-04
 draft: false
