@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>datos tabulares | RLadies BA</title>
+    <link>https://rladiesba.netlify.app/tag/datos-tabulares/</link>
+      <atom:link href="https://rladiesba.netlify.app/tag/datos-tabulares/index.xml" rel="self" type="application/rss+xml" />
+    <description>datos tabulares</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>es</language><lastBuildDate>Wed, 19 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://rladiesba.netlify.app/media/icon_hu4b9af3f567e0b0f9e5f99da57ed62ab5_26887_512x512_fill_lanczos_center_2.png</url>
+      <title>datos tabulares</title>
+      <link>https://rladiesba.netlify.app/tag/datos-tabulares/</link>
+    </image>
+    
+    <item>
+      <title>¡NA pasa nada! Aprende a validar datos con R</title>
+      <link>https://rladiesba.netlify.app/project/validaciondatos/</link>
+      <pubDate>Wed, 19 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://rladiesba.netlify.app/project/validaciondatos/</guid>
+      <description>&lt;p&gt;En este encuentro, nos sumergimos en algunas de las mejores herramientas para validar datos tabulares en R.&lt;/p&gt;
+&lt;p&gt;María Nanton y Betsy Cohen nos guiaron a través de las bibliotecas &lt;strong&gt;pointblank, data.validator, assertr y validate&lt;/strong&gt;, mostrando cómo pueden ayudar a evaluar la integridad y la consistencia de tus datos de forma rápida y eficiente.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;A quién está dirigido:&lt;/strong&gt;
+Este taller está pensado para personas con experiencia en R que quieran conocer herramientas de validación de datos disponibles en este lenguaje de programación.&lt;/p&gt;
+&lt;h3 id=&#34;reviví-la-presentación-en-nuestro-canal-de-youtube&#34;&gt;Reviví la presentación en nuestro canal de youtube:&lt;/h3&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/puykTjJ43Xs?si=gw8MFluRhkgICPY9&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; allowfullscreen&gt;&lt;/iframe&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

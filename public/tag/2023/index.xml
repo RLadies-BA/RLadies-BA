@@ -5,12 +5,23 @@
     <link>https://rladiesba.netlify.app/tag/2023/</link>
       <atom:link href="https://rladiesba.netlify.app/tag/2023/index.xml" rel="self" type="application/rss+xml" />
     <description>2023</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>es</language><lastBuildDate>Thu, 07 Sep 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>es</language><lastBuildDate>Tue, 14 Nov 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://rladiesba.netlify.app/media/icon_hu4b9af3f567e0b0f9e5f99da57ed62ab5_26887_512x512_fill_lanczos_center_2.png</url>
       <title>2023</title>
       <link>https://rladiesba.netlify.app/tag/2023/</link>
     </image>
+    
+    <item>
+      <title>Modelos de regresión para datos ordinales con R</title>
+      <link>https://rladiesba.netlify.app/project/regresionesordinales/</link>
+      <pubDate>Tue, 14 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>https://rladiesba.netlify.app/project/regresionesordinales/</guid>
+      <description>&lt;p&gt;En este taller introductorio Magalí Martínez nos introdujo sobre el modelado de variables respuesta que presentan más de dos categorías ordenadas utilizando R. El objetivo fue introducir los modelos de regresión logística ordinal, empleados cuando la variable respuesta es ordinal.&lt;/p&gt;
+&lt;p&gt;Este taller que fue realizado en la Universidad Nacional de Tres de Febrero de manera presencial buscó que quienes participen puedan implementar estas técnicas en R e interpretar uno de estos modelos (modelo de odds proporcionales) utilizando el paquete &lt;a href=&#34;https://github.com/runehaubo/ordinal&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ordinal&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Accede al código &lt;a href=&#34;%27./taller_regordinal_final.R%27&#34;&gt;aquí&lt;/a&gt; así como la &lt;a href=&#34;%27./diapositivas.pdf%27&#34;&gt;presentación&lt;/a&gt; utilizada en el encuentro.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Introducción al análisis de la EPH con R en Sociales</title>

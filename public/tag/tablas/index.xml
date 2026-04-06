@@ -5,12 +5,894 @@
     <link>https://rladiesba.netlify.app/tag/tablas/</link>
       <atom:link href="https://rladiesba.netlify.app/tag/tablas/index.xml" rel="self" type="application/rss+xml" />
     <description>Tablas</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>es</language><lastBuildDate>Thu, 08 Jun 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>es</language><lastBuildDate>Thu, 07 Sep 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://rladiesba.netlify.app/media/icon_hu4b9af3f567e0b0f9e5f99da57ed62ab5_26887_512x512_fill_lanczos_center_2.png</url>
       <title>Tablas</title>
       <link>https://rladiesba.netlify.app/tag/tablas/</link>
     </image>
+    
+    <item>
+      <title>Diseñá tu tabla de gt con indicadores condición de actividad de eph</title>
+      <link>https://rladiesba.netlify.app/post/eph/</link>
+      <pubDate>Thu, 07 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://rladiesba.netlify.app/post/eph/</guid>
+      <description>
+
+
+&lt;div id=&#34;ejercicios-de-práctica&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Ejercicios de Práctica&lt;/h1&gt;
+&lt;p&gt;En este taller vamos a aprender a:&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Cargar los datos directamente desde nuestra consola de R usando el paquete &lt;code&gt;{eph}&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Manipularlos usando &lt;code&gt;dplyr&lt;/code&gt; de &lt;code&gt;{tidyverse}&lt;/code&gt; para observar indicadores básicos de trabajo&lt;/li&gt;
+&lt;li&gt;Construir una tabla usando la librería de gramática de tablas &lt;code&gt;{gt}&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div id=&#34;antes-de-arrancar&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Antes de arrancar&lt;/h1&gt;
+&lt;p&gt;Para poder trabajar ordenadamente te recomendamos:&lt;/p&gt;
+&lt;p&gt;Tener instaladas las librerías que vamos a usar con la función &lt;code&gt;install.packages()&lt;/code&gt;: &lt;code&gt;{tidyerse}&lt;/code&gt;,&lt;code&gt;{gt}&lt;/code&gt;,&lt;code&gt;{gtExtras}&lt;/code&gt;, &lt;code&gt;{Janitor}&lt;/code&gt; &amp;amp; &lt;code&gt;{eph}&lt;/code&gt;&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# install.packages(&amp;quot;tidyverse&amp;quot;)
+# install.packages(&amp;quot;gt&amp;quot;)
+# install.packages(&amp;quot;gtExtras&amp;quot;)
+# install.packages(&amp;quot;janitor&amp;quot;)
+# install.packages(&amp;quot;eph&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Una buena práctica siempre que trabajes con &lt;strong&gt;encuestas&lt;/strong&gt; es tener a mano:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Los cuestionarios (te van a permitir entender bien la estructura y pases)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.indec.gob.ar/ftp/cuadros/menusuperior/eph/EPH_registro_1T2022.pdf&#34;&gt;El registro de diseño&lt;/a&gt;: donde tenes la referencia del código de pregunta, estructura y en caso que corresponda las categorías posibles que tiene que adoptar.&lt;/li&gt;
+&lt;li&gt;Definiciones operacionales que realiza INDEC sobre condición de actividad, subocupación horaria y categoría ocupacional disponible &lt;a href=&#34;https://www.indec.gob.ar/ftp/cuadros/menusuperior/eph/EPH_Conceptos.pdf&#34;&gt;aquí&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div id=&#34;setup-librerías&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Setup librerías&lt;/h2&gt;
+&lt;p&gt;El primer paso es llamar a las librerías que vamos a usar que por lo general siempre las colocamos al principio de nuestro script&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(tidyverse) # para manipular los datos
+library(eph) # para levantar los datos de la encuesta 
+library(janitor) # nos permite limpiar y acomodar facilmente los nombres de las variables (entre otras cosas)
+library(gt) # para hermosear nuestras tablas
+library(gtExtras) # para hermosear todavía más nuestras tablas &lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;obtener-datos&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Obtener datos&lt;/h1&gt;
+&lt;p&gt;Vamos a arrancar descargando los datos con la función &lt;code&gt;get_microdata()&lt;/code&gt;. En este caso vamos a descargar los resultados de la base de individuos del primer trimestre de 2022. Si quisieramos especificar una serie de variables en particular con las cuales vamos a trabajar&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;TIP: Para revisar los parámetros de una función siempre podemos consultar la la ayuda de R posicionándonos sobre la función y presionando la tecla F1.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;ind_2023_1 &amp;lt;- get_microdata(
+  year = 2023,
+  trimester = 1,
+  type = &amp;quot;individual&amp;quot;,
+  vars = &amp;quot;all&amp;quot;,
+  destfile = NA
+)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;En caso que no quieras o puedas usar este paquete podes descargar las bases de microdatos en el sitio del indec en la sección Bases de datos y descargar &lt;a href=&#34;https://www.indec.gob.ar/indec/web/Institucional-Indec-BasesDeDatos&#34;&gt;EPH continua&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Vamos a reproducir la tabla 1.1 del &lt;a href=&#34;https://www.indec.gob.ar/uploads/informesdeprensa/mercado_trabajo_eph_1trim234267B9F5D1.pdf&#34;&gt;Informe de Mercado de trabajo del primer trimestre 2023&lt;/a&gt;:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;definiciones-básicas&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Definiciones Básicas&lt;/h1&gt;
+&lt;p&gt;Antes de cálcular los indicadores tengamos en cuenta las siguientes definiciones básicas:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Población:&lt;/strong&gt; es el total de unidades al que expande la muestra [PONDERA].&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Población Ocupada:&lt;/strong&gt; conjunto de personas que tienen por lo menos una ocupación&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Población Desocupada:&lt;/strong&gt; personas que, no teniendo ocupación, están buscando activamente trabajo y
+están disponibles para trabajar.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Población Economicamente Activa&lt;/strong&gt;(PEA): la integran las personas que tienen una ocupación o que, sin tenerla,
+la están buscando activamente. Está compuesta por la población ocupada más la población desocupada.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Población Ocupada demandante de empleo:&lt;/strong&gt; población ocupada que busca activamente otra ocupación.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Población Subocupada:&lt;/strong&gt; se refiere a la subocupación por insuficiencia de horas, visible u horaria, y
+comprende a las personas ocupadas que trabajan menos de 35 horas semanales por causas involuntarias y que están dispuestas a trabajar más horas.
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Población Subocupada demandante&lt;/strong&gt;: población subocupada (por causas involuntarias y dispuesta a
+trabajar más horas) que además busca activamente otra ocupación.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Población Subocupada no demandante&lt;/strong&gt;: población subocupada (por causas involuntarias y dispuesta a
+trabajar más horas) que no está en la búsqueda activa de otra ocupación.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Tanto la ocupación como la desocupación constituyen lo que se denomina &lt;strong&gt;condición de actividad&lt;/strong&gt; que define la situación en que se encuentran las personas con respecto a su participación o no en la actividad económica.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/div&gt;
+&lt;div id=&#34;manos-al-código&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Manos al código&lt;/h1&gt;
+&lt;p&gt;Primero creamos una tabla con los siguientes indicadores de resumen (tomamos de base las definiciones mencionadas anteriormente):&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Población&lt;/li&gt;
+&lt;li&gt;Ocupados&lt;/li&gt;
+&lt;li&gt;Desocupados&lt;/li&gt;
+&lt;li&gt;Población Economicamente Activa (PEA)&lt;/li&gt;
+&lt;li&gt;Ocupados demandantes&lt;/li&gt;
+&lt;li&gt;Subocupados (demandantes, no demandantes y total)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Estos niveles nos van a permitir calcular las tasas de forma sencilla.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Para obtener cualquier tasa necesitamos crear un numerador y un denominador. Por ejemplo: &lt;span class=&#34;math inline&#34;&gt;\(\text{Tasa de empleo: } Ocupados/Población\)&lt;/span&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Al ser una muestra en la EPH trabajamos con el total expandido por su ponderador, en este caso lo encontramos en la variable &lt;strong&gt;PONDERA&lt;/strong&gt;.&lt;/p&gt;
+&lt;div id=&#34;variables-de-la-base-eph&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Variables de la Base EPH&lt;/h2&gt;
+&lt;p&gt;Para hacer la tabla vamos a trabajar con las siguientes variables de la base EPH:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;PONDERA: Es el factor de expansión para cada unidad de análisis&lt;/li&gt;
+&lt;li&gt;ESTADO: Indica la condición de actividad y puede tomar los valores:
+&lt;ul&gt;
+&lt;li&gt;0 = Entrevista individual no realizada (no respuesta al cuestionario individual)&lt;/li&gt;
+&lt;li&gt;1 = Ocupado&lt;/li&gt;
+&lt;li&gt;2 = Desocupado&lt;/li&gt;
+&lt;li&gt;3 = Inactivo&lt;/li&gt;
+&lt;li&gt;4 = Menor de 10 años&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;PP03J: Es la pregunta: &lt;em&gt;Aparte de este/os trabajo/s, ¿estuvo buscando algún empleo / ocupación /actividad?&lt;/em&gt;, que toma los valores:
+&lt;ul&gt;
+&lt;li&gt;1 = Sí&lt;/li&gt;
+&lt;li&gt;2 = No&lt;/li&gt;
+&lt;li&gt;9 = Ns/Nr&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;INTENSI: Refiere a la intensidad de la carga horaria laboral y cuyas categorías son:
+&lt;ul&gt;
+&lt;li&gt;1 = Subocupado por insuficiencia horaria&lt;/li&gt;
+&lt;li&gt;2 = Ocupado pleno&lt;/li&gt;
+&lt;li&gt;3 = Sobreocupado&lt;/li&gt;
+&lt;li&gt;4 = Ocupado que no trabajó en la semana&lt;/li&gt;
+&lt;li&gt;9 = Ns/Nr&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;tabla-resumen&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Tabla resumen&lt;/h1&gt;
+&lt;p&gt;Con la función &lt;code&gt;summarise&lt;/code&gt; del paquete &lt;code&gt;{tidyerse}&lt;/code&gt; podemos realizar distintas operaciones de resumen sobre las variables de nuestro análisis con la base que estamos trabajando:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;tabla_1 &amp;lt;- ind_2023_1 |&amp;gt; 
+  summarise(Poblacion          = sum(PONDERA),
+            Ocupacion          = sum(PONDERA[ESTADO == 1]),
+            Desocupacion       = sum(PONDERA[ESTADO == 2]),
+            PEA                = Ocupacion + Desocupacion,
+            Ocupacion_demandate = sum(PONDERA[ESTADO == 1 &amp;amp; PP03J ==1]),
+            Suboc_demandante   = sum(PONDERA[ESTADO == 1 &amp;amp; INTENSI ==1 &amp;amp; PP03J==1]),
+            Suboc_no_demand    = sum(PONDERA[ESTADO == 1 &amp;amp; INTENSI ==1 &amp;amp; PP03J %in% c(2,9)]),
+            Subocupacion       = Suboc_demandante + Suboc_no_demand)
+
+tabla_1&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## # A tibble: 1 × 8
+##   Poblacion Ocupacion Desocupacion      PEA Ocupacion_demandate Suboc_demandante
+##       &amp;lt;int&amp;gt;     &amp;lt;int&amp;gt;        &amp;lt;int&amp;gt;    &amp;lt;int&amp;gt;               &amp;lt;int&amp;gt;            &amp;lt;int&amp;gt;
+## 1  29335155  13191361       973787 14165148             2096890           898820
+## # ℹ 2 more variables: Suboc_no_demand &amp;lt;int&amp;gt;, Subocupacion &amp;lt;int&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Ahora vamos a calcular las tasas creando una serie de nuevas columnas, usando la función &lt;code&gt;mutate&lt;/code&gt;&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;tabla_1 &amp;lt;- tabla_1 |&amp;gt; 
+  mutate(&amp;#39;Actividad&amp;#39;                  = PEA/Poblacion,
+         &amp;#39;Empleo&amp;#39;                     = Ocupacion/Poblacion,
+         &amp;#39;Desocupación&amp;#39;               = Desocupacion/PEA,
+         &amp;#39;Ocupación demandante&amp;#39;       = Ocupacion_demandate/PEA,
+         &amp;#39;Subocupación&amp;#39;               = Subocupacion/PEA,
+         &amp;#39;Subocupación demandante&amp;#39;    = Suboc_demandante/PEA,
+         &amp;#39;Subocupación no demandante&amp;#39; = Suboc_no_demand/PEA)
+
+tabla_1&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## # A tibble: 1 × 15
+##   Poblacion Ocupacion Desocupacion      PEA Ocupacion_demandate Suboc_demandante
+##       &amp;lt;int&amp;gt;     &amp;lt;int&amp;gt;        &amp;lt;int&amp;gt;    &amp;lt;int&amp;gt;               &amp;lt;int&amp;gt;            &amp;lt;int&amp;gt;
+## 1  29335155  13191361       973787 14165148             2096890           898820
+## # ℹ 9 more variables: Suboc_no_demand &amp;lt;int&amp;gt;, Subocupacion &amp;lt;int&amp;gt;,
+## #   Actividad &amp;lt;dbl&amp;gt;, Empleo &amp;lt;dbl&amp;gt;, Desocupación &amp;lt;dbl&amp;gt;,
+## #   `Ocupación demandante` &amp;lt;dbl&amp;gt;, Subocupación &amp;lt;dbl&amp;gt;,
+## #   `Subocupación demandante` &amp;lt;dbl&amp;gt;, `Subocupación no demandante` &amp;lt;dbl&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Y ahora nos vamos a quedar solamente con las variables de las tasas seleccionándolas con la función &lt;code&gt;select&lt;/code&gt;&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;tabla_1 &amp;lt;- tabla_1 |&amp;gt; 
+  select(Actividad:&amp;#39;Subocupación no demandante&amp;#39;) |&amp;gt; 
+  mutate(ANO4 = 2023,
+         TRIMESTRE = 1) |&amp;gt; 
+  relocate(c(ANO4,TRIMESTRE), .before = &amp;#39;Actividad&amp;#39;)
+
+tabla_1&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## # A tibble: 1 × 9
+##    ANO4 TRIMESTRE Actividad Empleo Desocupación `Ocupación demandante`
+##   &amp;lt;dbl&amp;gt;     &amp;lt;dbl&amp;gt;     &amp;lt;dbl&amp;gt;  &amp;lt;dbl&amp;gt;        &amp;lt;dbl&amp;gt;                  &amp;lt;dbl&amp;gt;
+## 1  2023         1     0.483  0.450       0.0687                  0.148
+## # ℹ 3 more variables: Subocupación &amp;lt;dbl&amp;gt;, `Subocupación demandante` &amp;lt;dbl&amp;gt;,
+## #   `Subocupación no demandante` &amp;lt;dbl&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Ahora repetimos la operación con lo datos de 2022&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# obtener los datos
+ind_2022 &amp;lt;- get_microdata(
+  year = 2022,
+  trimester = c(1:4), # le decimos que traiga todos
+  type = &amp;quot;individual&amp;quot;,
+  vars = &amp;quot;all&amp;quot;,
+  destfile = NA
+)
+
+
+tabla_2 &amp;lt;- ind_2022 |&amp;gt; 
+  group_by(ANO4,TRIMESTRE) |&amp;gt; 
+  summarise(Poblacion          = sum(PONDERA),
+            Ocupacion          = sum(PONDERA[ESTADO == 1]),
+            Desocupacion       = sum(PONDERA[ESTADO == 2]),
+            PEA                = Ocupacion + Desocupacion,
+            Ocupacion_demandate = sum(PONDERA[ESTADO == 1 &amp;amp; PP03J ==1]),
+            Suboc_demandante   = sum(PONDERA[ESTADO == 1 &amp;amp; INTENSI ==1 &amp;amp; PP03J==1]),
+            Suboc_no_demand    = sum(PONDERA[ESTADO == 1 &amp;amp; INTENSI ==1 &amp;amp; PP03J %in% c(2,9)]),
+            Subocupacion       = Suboc_demandante + Suboc_no_demand) |&amp;gt; 
+  mutate(&amp;#39;Actividad&amp;#39;                  = PEA/Poblacion,
+         &amp;#39;Empleo&amp;#39;                     = Ocupacion/Poblacion,
+         &amp;#39;Desocupación&amp;#39;               = Desocupacion/PEA,
+         &amp;#39;Ocupación demandante&amp;#39;       = Ocupacion_demandate/PEA,
+         &amp;#39;Subocupación&amp;#39;               = Subocupacion/PEA,
+         &amp;#39;Subocupación demandante&amp;#39;    = Suboc_demandante/PEA,
+         &amp;#39;Subocupación no demandante&amp;#39; = Suboc_no_demand/PEA) |&amp;gt; 
+  select(ANO4,TRIMESTRE,Actividad:&amp;#39;Subocupación no demandante&amp;#39;) |&amp;gt; 
+  as_tibble()&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## `summarise()` has grouped output by &amp;#39;ANO4&amp;#39;. You can override using the
+## `.groups` argument.&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;tabla_2&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## # A tibble: 4 × 9
+##    ANO4 TRIMESTRE Actividad Empleo Desocupación `Ocupación demandante`
+##   &amp;lt;int&amp;gt;     &amp;lt;int&amp;gt;     &amp;lt;dbl&amp;gt;  &amp;lt;dbl&amp;gt;        &amp;lt;dbl&amp;gt;                  &amp;lt;dbl&amp;gt;
+## 1  2022         1     0.465  0.433       0.0697                  0.155
+## 2  2022         2     0.479  0.446       0.0686                  0.163
+## 3  2022         3     0.476  0.442       0.0711                  0.160
+## 4  2022         4     0.476  0.446       0.0628                  0.154
+## # ℹ 3 more variables: Subocupación &amp;lt;dbl&amp;gt;, `Subocupación demandante` &amp;lt;dbl&amp;gt;,
+## #   `Subocupación no demandante` &amp;lt;dbl&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Unimos ambas tablas usando la función &lt;code&gt;bind_rows&lt;/code&gt;&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;tabla_3 &amp;lt;- bind_rows(tabla_1,tabla_2)
+
+tabla_3&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## # A tibble: 5 × 9
+##    ANO4 TRIMESTRE Actividad Empleo Desocupación `Ocupación demandante`
+##   &amp;lt;dbl&amp;gt;     &amp;lt;dbl&amp;gt;     &amp;lt;dbl&amp;gt;  &amp;lt;dbl&amp;gt;        &amp;lt;dbl&amp;gt;                  &amp;lt;dbl&amp;gt;
+## 1  2023         1     0.483  0.450       0.0687                  0.148
+## 2  2022         1     0.465  0.433       0.0697                  0.155
+## 3  2022         2     0.479  0.446       0.0686                  0.163
+## 4  2022         3     0.476  0.442       0.0711                  0.160
+## 5  2022         4     0.476  0.446       0.0628                  0.154
+## # ℹ 3 more variables: Subocupación &amp;lt;dbl&amp;gt;, `Subocupación demandante` &amp;lt;dbl&amp;gt;,
+## #   `Subocupación no demandante` &amp;lt;dbl&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Ya tenemos los datos que necesitamos pero parece que la tabla estuviera “acostada”. Para que se ponga de pie o estire a lo largo vamos a usar la función &lt;code&gt;pivot_longer&lt;/code&gt;&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;tabla_3 &amp;lt;- tabla_3 |&amp;gt; 
+  pivot_longer(cols = -c(ANO4,TRIMESTRE), #Las columnas que queremos estirar en este caso son todas excepto el año y el trimestre
+               names_to = &amp;quot;Tasas&amp;quot;, # El nombre que le queremos poner
+               values_to = &amp;quot;Valor&amp;quot;) # el valor en cuestión que hay que repartir
+
+
+tabla_3&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## # A tibble: 35 × 4
+##     ANO4 TRIMESTRE Tasas                       Valor
+##    &amp;lt;dbl&amp;gt;     &amp;lt;dbl&amp;gt; &amp;lt;chr&amp;gt;                       &amp;lt;dbl&amp;gt;
+##  1  2023         1 Actividad                  0.483 
+##  2  2023         1 Empleo                     0.450 
+##  3  2023         1 Desocupación               0.0687
+##  4  2023         1 Ocupación demandante       0.148 
+##  5  2023         1 Subocupación               0.0941
+##  6  2023         1 Subocupación demandante    0.0635
+##  7  2023         1 Subocupación no demandante 0.0306
+##  8  2022         1 Actividad                  0.465 
+##  9  2022         1 Empleo                     0.433 
+## 10  2022         1 Desocupación               0.0697
+## # ℹ 25 more rows&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Vamos multiplicar por 100 el valor de la tasa ya que por lo general se expresa de esta forma, el cual redondeamos a un decimal.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;tabla_3 &amp;lt;- tabla_3 |&amp;gt; 
+  mutate(Valor = round(Valor*100,1))
+
+tabla_3&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## # A tibble: 35 × 4
+##     ANO4 TRIMESTRE Tasas                      Valor
+##    &amp;lt;dbl&amp;gt;     &amp;lt;dbl&amp;gt; &amp;lt;chr&amp;gt;                      &amp;lt;dbl&amp;gt;
+##  1  2023         1 Actividad                   48.3
+##  2  2023         1 Empleo                      45  
+##  3  2023         1 Desocupación                 6.9
+##  4  2023         1 Ocupación demandante        14.8
+##  5  2023         1 Subocupación                 9.4
+##  6  2023         1 Subocupación demandante      6.3
+##  7  2023         1 Subocupación no demandante   3.1
+##  8  2022         1 Actividad                   46.5
+##  9  2022         1 Empleo                      43.3
+## 10  2022         1 Desocupación                 7  
+## # ℹ 25 more rows&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Ahora vamos a crear una variable que combina el año y trimestre, desechando año y trimestre como variables por separado y vamos a “estirar” la tabla colocando al 1er trimestre de 2021 al final, tal cual se presenta en el reporte de INDEC&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;#(&amp;#39;Actividad&amp;#39;,&amp;#39;Empleo&amp;#39;,&amp;#39;Desocupación&amp;#39;,&amp;#39;Ocupación demandante&amp;#39;,&amp;#39;Subocupación&amp;#39;,&amp;#39;Subocupación demandante&amp;#39;,&amp;#39;Subocupación no demandante&amp;#39;)
+
+tabla_3 &amp;lt;- tabla_3 |&amp;gt; 
+  mutate(ano_trimestre = paste(ANO4,TRIMESTRE)) |&amp;gt; # creamos la variable que concatena las etiquetas año y trimestre
+  select(-c(ANO4,TRIMESTRE)) |&amp;gt; # eliminamos las variables originales de año y trimestre
+  pivot_wider(names_from = c(&amp;quot;ano_trimestre&amp;quot;), values_from = Valor) |&amp;gt; # estiramos la variable que creamos
+  relocate(&amp;quot;2023 1&amp;quot;,.after = &amp;quot;2022 4&amp;quot; ) # ubicamos al 1er trimestre de 2023 al final de la tabla
+
+tabla_3&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## # A tibble: 7 × 6
+##   Tasas                      `2022 1` `2022 2` `2022 3` `2022 4` `2023 1`
+##   &amp;lt;chr&amp;gt;                         &amp;lt;dbl&amp;gt;    &amp;lt;dbl&amp;gt;    &amp;lt;dbl&amp;gt;    &amp;lt;dbl&amp;gt;    &amp;lt;dbl&amp;gt;
+## 1 Actividad                      46.5     47.9     47.6     47.6     48.3
+## 2 Empleo                         43.3     44.6     44.2     44.6     45  
+## 3 Desocupación                    7        6.9      7.1      6.3      6.9
+## 4 Ocupación demandante           15.5     16.3     16       15.4     14.8
+## 5 Subocupación                   10       11.1     11       10.9      9.4
+## 6 Subocupación demandante         6.9      7.7      7.6      7.1      6.3
+## 7 Subocupación no demandante      3.1      3.5      3.4      3.8      3.1&lt;/code&gt;&lt;/pre&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Las funciones &lt;code&gt;pivot_longer&lt;/code&gt; y &lt;code&gt;pivot_wider&lt;/code&gt; nos ayudan a estirar y alargar los datos para saber más sobre ellas te recomendamos la lectura de &lt;a href=&#34;https://tidyr.tidyverse.org/articles/pivot.html&#34;&gt;esta viñeta&lt;/a&gt; donde vas a encontrar varios ejemplos.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/div&gt;
+&lt;div id=&#34;comunicación-del-dato&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Comunicación del dato&lt;/h1&gt;
+&lt;p&gt;Ahora vamos a darle un poco de estilo y color con el paquete de “gramática de tablas” &lt;code&gt;{gt}&lt;/code&gt;&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;tabla_4 &amp;lt;- tabla_3 |&amp;gt; 
+  gt() |&amp;gt; 
+  # ponemos un título y subtitulo
+  tab_header(
+    title = md(&amp;quot;**Principales tasas del mercado de trabajo. Total 31 aglomerados urbanos.**&amp;quot;),
+    subtitle = &amp;quot;Primer trimestre 2022-primer trimestre 2023&amp;quot;) |&amp;gt; 
+  # Elegimos una tipografía y tamaños
+  opt_table_font(
+    font = list(
+      google_font(name = &amp;quot;Montserrat&amp;quot;),
+      labels = list(
+        title = list(weight = &amp;quot;bold&amp;quot;, size = 9),
+        header = list(weight = &amp;quot;bold&amp;quot;, size = 8),
+        footnote = list(weight = &amp;quot;bold&amp;quot;, size = 8),
+        source = list(weight = &amp;quot;bold&amp;quot;, size = 8)
+      )
+    )
+  ) |&amp;gt; 
+  # centramos las columnas del cuerpo
+  cols_align(
+    align = &amp;quot;center&amp;quot;,
+    columns = 2:6
+  ) |&amp;gt; 
+  # creamos una cabecera que agrupe cada año
+  gt::tab_spanner(
+    label = &amp;quot;2022&amp;quot;,
+    columns = starts_with(&amp;quot;2022&amp;quot;)
+  ) |&amp;gt; 
+  gt::tab_spanner(
+    label = &amp;quot;2023&amp;quot;,
+    columns = starts_with(&amp;quot;2023&amp;quot;)
+  ) |&amp;gt; 
+  # cambiamos las etiquetas de las columnas
+  cols_label(&amp;quot;2022 1&amp;quot; = &amp;quot;1er Trimestre&amp;quot;,
+             &amp;quot;2022 2&amp;quot; = &amp;quot;2do Trimestre&amp;quot;,
+             &amp;quot;2022 3&amp;quot; = &amp;quot;3er Trimestre&amp;quot;,
+             &amp;quot;2022 4&amp;quot; = &amp;quot;4to Trimestre&amp;quot;,
+             &amp;quot;2023 1&amp;quot; = &amp;quot;1er Trimestre&amp;quot;) |&amp;gt;
+  #agregamos un pié con la fuente y una aclaración indicando que nuestros datos están ponderados
+  tab_source_note(&amp;#39;Fuente: INDEC, Encuesta Permanente de Hogares.&amp;#39;) |&amp;gt; 
+  tab_footnote(&amp;quot;Datos ponderados.&amp;quot;)
+  
+tabla_4  &lt;/code&gt;&lt;/pre&gt;
+&lt;div id=&#34;hjexhgfwhj&#34; style=&#34;padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;&#34;&gt;
+&lt;style&gt;@import url(&#34;https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap&#34;);
+#hjexhgfwhj table {
+  font-family: Montserrat, system-ui, &#39;Segoe UI&#39;, Roboto, Helvetica, Arial, sans-serif, &#39;Apple Color Emoji&#39;, &#39;Segoe UI Emoji&#39;, &#39;Segoe UI Symbol&#39;, &#39;Noto Color Emoji&#39;;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#hjexhgfwhj thead, #hjexhgfwhj tbody, #hjexhgfwhj tfoot, #hjexhgfwhj tr, #hjexhgfwhj td, #hjexhgfwhj th {
+  border-style: none;
+}
+
+#hjexhgfwhj p {
+  margin: 0;
+  padding: 0;
+}
+
+#hjexhgfwhj .gt_table {
+  display: table;
+  border-collapse: collapse;
+  line-height: normal;
+  margin-left: auto;
+  margin-right: auto;
+  color: #333333;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  background-color: #FFFFFF;
+  width: auto;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #A8A8A8;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #A8A8A8;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+}
+
+#hjexhgfwhj .gt_caption {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+#hjexhgfwhj .gt_title {
+  color: #333333;
+  font-size: 125%;
+  font-weight: initial;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-color: #FFFFFF;
+  border-bottom-width: 0;
+}
+
+#hjexhgfwhj .gt_subtitle {
+  color: #333333;
+  font-size: 85%;
+  font-weight: initial;
+  padding-top: 3px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-color: #FFFFFF;
+  border-top-width: 0;
+}
+
+#hjexhgfwhj .gt_heading {
+  background-color: #FFFFFF;
+  text-align: center;
+  border-bottom-color: #FFFFFF;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#hjexhgfwhj .gt_bottom_border {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#hjexhgfwhj .gt_col_headings {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#hjexhgfwhj .gt_col_heading {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+  overflow-x: hidden;
+}
+
+#hjexhgfwhj .gt_column_spanner_outer {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+#hjexhgfwhj .gt_column_spanner_outer:first-child {
+  padding-left: 0;
+}
+
+#hjexhgfwhj .gt_column_spanner_outer:last-child {
+  padding-right: 0;
+}
+
+#hjexhgfwhj .gt_column_spanner {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  overflow-x: hidden;
+  display: inline-block;
+  width: 100%;
+}
+
+#hjexhgfwhj .gt_spanner_row {
+  border-bottom-style: hidden;
+}
+
+#hjexhgfwhj .gt_group_heading {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  text-align: left;
+}
+
+#hjexhgfwhj .gt_empty_group_heading {
+  padding: 0.5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: middle;
+}
+
+#hjexhgfwhj .gt_from_md &gt; :first-child {
+  margin-top: 0;
+}
+
+#hjexhgfwhj .gt_from_md &gt; :last-child {
+  margin-bottom: 0;
+}
+
+#hjexhgfwhj .gt_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 10px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  overflow-x: hidden;
+}
+
+#hjexhgfwhj .gt_stub {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#hjexhgfwhj .gt_stub_row_group {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+  vertical-align: top;
+}
+
+#hjexhgfwhj .gt_row_group_first td {
+  border-top-width: 2px;
+}
+
+#hjexhgfwhj .gt_row_group_first th {
+  border-top-width: 2px;
+}
+
+#hjexhgfwhj .gt_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#hjexhgfwhj .gt_first_summary_row {
+  border-top-style: solid;
+  border-top-color: #D3D3D3;
+}
+
+#hjexhgfwhj .gt_first_summary_row.thick {
+  border-top-width: 2px;
+}
+
+#hjexhgfwhj .gt_last_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#hjexhgfwhj .gt_grand_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#hjexhgfwhj .gt_first_grand_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-style: double;
+  border-top-width: 6px;
+  border-top-color: #D3D3D3;
+}
+
+#hjexhgfwhj .gt_last_grand_summary_row_top {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: double;
+  border-bottom-width: 6px;
+  border-bottom-color: #D3D3D3;
+}
+
+#hjexhgfwhj .gt_striped {
+  background-color: rgba(128, 128, 128, 0.05);
+}
+
+#hjexhgfwhj .gt_table_body {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#hjexhgfwhj .gt_footnotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#hjexhgfwhj .gt_footnote {
+  margin: 0px;
+  font-size: 90%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#hjexhgfwhj .gt_sourcenotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#hjexhgfwhj .gt_sourcenote {
+  font-size: 90%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#hjexhgfwhj .gt_left {
+  text-align: left;
+}
+
+#hjexhgfwhj .gt_center {
+  text-align: center;
+}
+
+#hjexhgfwhj .gt_right {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+#hjexhgfwhj .gt_font_normal {
+  font-weight: normal;
+}
+
+#hjexhgfwhj .gt_font_bold {
+  font-weight: bold;
+}
+
+#hjexhgfwhj .gt_font_italic {
+  font-style: italic;
+}
+
+#hjexhgfwhj .gt_super {
+  font-size: 65%;
+}
+
+#hjexhgfwhj .gt_footnote_marks {
+  font-size: 75%;
+  vertical-align: 0.4em;
+  position: initial;
+}
+
+#hjexhgfwhj .gt_asterisk {
+  font-size: 100%;
+  vertical-align: 0;
+}
+
+#hjexhgfwhj .gt_indent_1 {
+  text-indent: 5px;
+}
+
+#hjexhgfwhj .gt_indent_2 {
+  text-indent: 10px;
+}
+
+#hjexhgfwhj .gt_indent_3 {
+  text-indent: 15px;
+}
+
+#hjexhgfwhj .gt_indent_4 {
+  text-indent: 20px;
+}
+
+#hjexhgfwhj .gt_indent_5 {
+  text-indent: 25px;
+}
+&lt;/style&gt;
+&lt;table class=&#34;gt_table&#34; data-quarto-disable-processing=&#34;false&#34; data-quarto-bootstrap=&#34;false&#34;&gt;
+  &lt;thead&gt;
+    &lt;tr class=&#34;gt_heading&#34;&gt;
+      &lt;td colspan=&#34;6&#34; class=&#34;gt_heading gt_title gt_font_normal&#34; style&gt;&lt;strong&gt;Principales tasas del mercado de trabajo. Total 31 aglomerados urbanos.&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr class=&#34;gt_heading&#34;&gt;
+      &lt;td colspan=&#34;6&#34; class=&#34;gt_heading gt_subtitle gt_font_normal gt_bottom_border&#34; style&gt;Primer trimestre 2022-primer trimestre 2023&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr class=&#34;gt_col_headings gt_spanner_row&#34;&gt;
+      &lt;th class=&#34;gt_col_heading gt_columns_bottom_border gt_left&#34; rowspan=&#34;2&#34; colspan=&#34;1&#34; scope=&#34;col&#34; id=&#34;Tasas&#34;&gt;Tasas&lt;/th&gt;
+      &lt;th class=&#34;gt_center gt_columns_top_border gt_column_spanner_outer&#34; rowspan=&#34;1&#34; colspan=&#34;4&#34; scope=&#34;colgroup&#34; id=&#34;2022&#34;&gt;
+        &lt;span class=&#34;gt_column_spanner&#34;&gt;2022&lt;/span&gt;
+      &lt;/th&gt;
+      &lt;th class=&#34;gt_center gt_columns_top_border gt_column_spanner_outer&#34; rowspan=&#34;1&#34; colspan=&#34;1&#34; scope=&#34;col&#34; id=&#34;2023&#34;&gt;
+        &lt;span class=&#34;gt_column_spanner&#34;&gt;2023&lt;/span&gt;
+      &lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr class=&#34;gt_col_headings&#34;&gt;
+      &lt;th class=&#34;gt_col_heading gt_columns_bottom_border gt_center&#34; rowspan=&#34;1&#34; colspan=&#34;1&#34; scope=&#34;col&#34; id=&#34;1er Trimestre&#34;&gt;1er Trimestre&lt;/th&gt;
+      &lt;th class=&#34;gt_col_heading gt_columns_bottom_border gt_center&#34; rowspan=&#34;1&#34; colspan=&#34;1&#34; scope=&#34;col&#34; id=&#34;2do Trimestre&#34;&gt;2do Trimestre&lt;/th&gt;
+      &lt;th class=&#34;gt_col_heading gt_columns_bottom_border gt_center&#34; rowspan=&#34;1&#34; colspan=&#34;1&#34; scope=&#34;col&#34; id=&#34;3er Trimestre&#34;&gt;3er Trimestre&lt;/th&gt;
+      &lt;th class=&#34;gt_col_heading gt_columns_bottom_border gt_center&#34; rowspan=&#34;1&#34; colspan=&#34;1&#34; scope=&#34;col&#34; id=&#34;4to Trimestre&#34;&gt;4to Trimestre&lt;/th&gt;
+      &lt;th class=&#34;gt_col_heading gt_columns_bottom_border gt_center&#34; rowspan=&#34;1&#34; colspan=&#34;1&#34; scope=&#34;col&#34; id=&#34;1er Trimestre&#34;&gt;1er Trimestre&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody class=&#34;gt_table_body&#34;&gt;
+    &lt;tr&gt;&lt;td headers=&#34;Tasas&#34; class=&#34;gt_row gt_left&#34;&gt;Actividad&lt;/td&gt;
+&lt;td headers=&#34;2022 1&#34; class=&#34;gt_row gt_center&#34;&gt;46.5&lt;/td&gt;
+&lt;td headers=&#34;2022 2&#34; class=&#34;gt_row gt_center&#34;&gt;47.9&lt;/td&gt;
+&lt;td headers=&#34;2022 3&#34; class=&#34;gt_row gt_center&#34;&gt;47.6&lt;/td&gt;
+&lt;td headers=&#34;2022 4&#34; class=&#34;gt_row gt_center&#34;&gt;47.6&lt;/td&gt;
+&lt;td headers=&#34;2023 1&#34; class=&#34;gt_row gt_center&#34;&gt;48.3&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td headers=&#34;Tasas&#34; class=&#34;gt_row gt_left&#34;&gt;Empleo&lt;/td&gt;
+&lt;td headers=&#34;2022 1&#34; class=&#34;gt_row gt_center&#34;&gt;43.3&lt;/td&gt;
+&lt;td headers=&#34;2022 2&#34; class=&#34;gt_row gt_center&#34;&gt;44.6&lt;/td&gt;
+&lt;td headers=&#34;2022 3&#34; class=&#34;gt_row gt_center&#34;&gt;44.2&lt;/td&gt;
+&lt;td headers=&#34;2022 4&#34; class=&#34;gt_row gt_center&#34;&gt;44.6&lt;/td&gt;
+&lt;td headers=&#34;2023 1&#34; class=&#34;gt_row gt_center&#34;&gt;45.0&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td headers=&#34;Tasas&#34; class=&#34;gt_row gt_left&#34;&gt;Desocupación&lt;/td&gt;
+&lt;td headers=&#34;2022 1&#34; class=&#34;gt_row gt_center&#34;&gt;7.0&lt;/td&gt;
+&lt;td headers=&#34;2022 2&#34; class=&#34;gt_row gt_center&#34;&gt;6.9&lt;/td&gt;
+&lt;td headers=&#34;2022 3&#34; class=&#34;gt_row gt_center&#34;&gt;7.1&lt;/td&gt;
+&lt;td headers=&#34;2022 4&#34; class=&#34;gt_row gt_center&#34;&gt;6.3&lt;/td&gt;
+&lt;td headers=&#34;2023 1&#34; class=&#34;gt_row gt_center&#34;&gt;6.9&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td headers=&#34;Tasas&#34; class=&#34;gt_row gt_left&#34;&gt;Ocupación demandante&lt;/td&gt;
+&lt;td headers=&#34;2022 1&#34; class=&#34;gt_row gt_center&#34;&gt;15.5&lt;/td&gt;
+&lt;td headers=&#34;2022 2&#34; class=&#34;gt_row gt_center&#34;&gt;16.3&lt;/td&gt;
+&lt;td headers=&#34;2022 3&#34; class=&#34;gt_row gt_center&#34;&gt;16.0&lt;/td&gt;
+&lt;td headers=&#34;2022 4&#34; class=&#34;gt_row gt_center&#34;&gt;15.4&lt;/td&gt;
+&lt;td headers=&#34;2023 1&#34; class=&#34;gt_row gt_center&#34;&gt;14.8&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td headers=&#34;Tasas&#34; class=&#34;gt_row gt_left&#34;&gt;Subocupación&lt;/td&gt;
+&lt;td headers=&#34;2022 1&#34; class=&#34;gt_row gt_center&#34;&gt;10.0&lt;/td&gt;
+&lt;td headers=&#34;2022 2&#34; class=&#34;gt_row gt_center&#34;&gt;11.1&lt;/td&gt;
+&lt;td headers=&#34;2022 3&#34; class=&#34;gt_row gt_center&#34;&gt;11.0&lt;/td&gt;
+&lt;td headers=&#34;2022 4&#34; class=&#34;gt_row gt_center&#34;&gt;10.9&lt;/td&gt;
+&lt;td headers=&#34;2023 1&#34; class=&#34;gt_row gt_center&#34;&gt;9.4&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td headers=&#34;Tasas&#34; class=&#34;gt_row gt_left&#34;&gt;Subocupación demandante&lt;/td&gt;
+&lt;td headers=&#34;2022 1&#34; class=&#34;gt_row gt_center&#34;&gt;6.9&lt;/td&gt;
+&lt;td headers=&#34;2022 2&#34; class=&#34;gt_row gt_center&#34;&gt;7.7&lt;/td&gt;
+&lt;td headers=&#34;2022 3&#34; class=&#34;gt_row gt_center&#34;&gt;7.6&lt;/td&gt;
+&lt;td headers=&#34;2022 4&#34; class=&#34;gt_row gt_center&#34;&gt;7.1&lt;/td&gt;
+&lt;td headers=&#34;2023 1&#34; class=&#34;gt_row gt_center&#34;&gt;6.3&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td headers=&#34;Tasas&#34; class=&#34;gt_row gt_left&#34;&gt;Subocupación no demandante&lt;/td&gt;
+&lt;td headers=&#34;2022 1&#34; class=&#34;gt_row gt_center&#34;&gt;3.1&lt;/td&gt;
+&lt;td headers=&#34;2022 2&#34; class=&#34;gt_row gt_center&#34;&gt;3.5&lt;/td&gt;
+&lt;td headers=&#34;2022 3&#34; class=&#34;gt_row gt_center&#34;&gt;3.4&lt;/td&gt;
+&lt;td headers=&#34;2022 4&#34; class=&#34;gt_row gt_center&#34;&gt;3.8&lt;/td&gt;
+&lt;td headers=&#34;2023 1&#34; class=&#34;gt_row gt_center&#34;&gt;3.1&lt;/td&gt;&lt;/tr&gt;
+  &lt;/tbody&gt;
+  &lt;tfoot class=&#34;gt_sourcenotes&#34;&gt;
+    &lt;tr&gt;
+      &lt;td class=&#34;gt_sourcenote&#34; colspan=&#34;6&#34;&gt;Fuente: INDEC, Encuesta Permanente de Hogares.&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tfoot&gt;
+  &lt;tfoot class=&#34;gt_footnotes&#34;&gt;
+    &lt;tr&gt;
+      &lt;td class=&#34;gt_footnote&#34; colspan=&#34;6&#34;&gt; Datos ponderados.&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tfoot&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;licencia&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Licencia&lt;/h1&gt;
+&lt;p&gt;Este taller está a disposición del público bajo licencias de código abierto. Toda la documentación y los materiales publicados están disponibles bajo una licencia &lt;strong&gt;CC BY-SA-NC&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;A continuación, puedes leer más sobre la &lt;a href=&#34;https://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;licencia de Creative Commons Reconocimiento-NoComercial-CompartirIgual 4.0 Internacional&lt;/a&gt;.&lt;/p&gt;
+&lt;div class=&#34;float&#34;&gt;
+&lt;img src=&#34;https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png&#34; style=&#34;width:20.0%&#34; fig-align=&#34;left&#34; alt=&#34;Licencia de Creative Commons&#34; /&gt;
+&lt;div class=&#34;figcaption&#34;&gt;Licencia de Creative Commons&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
     
     <item>
       <title>Creando tablas sobre tus artistas favorites con {gt} y la API de Spotify</title>

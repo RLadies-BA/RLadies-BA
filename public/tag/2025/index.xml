@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2025 | RLadies BA</title>
+    <link>https://rladiesba.netlify.app/tag/2025/</link>
+      <atom:link href="https://rladiesba.netlify.app/tag/2025/index.xml" rel="self" type="application/rss+xml" />
+    <description>2025</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>es</language><lastBuildDate>Tue, 26 Aug 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://rladiesba.netlify.app/media/icon_hu4b9af3f567e0b0f9e5f99da57ed62ab5_26887_512x512_fill_lanczos_center_2.png</url>
+      <title>2025</title>
+      <link>https://rladiesba.netlify.app/tag/2025/</link>
+    </image>
+    
+    <item>
+      <title>Armá un Dashboard con R y Quarto</title>
+      <link>https://rladiesba.netlify.app/project/202508-quarto-untref-2/</link>
+      <pubDate>Tue, 26 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://rladiesba.netlify.app/project/202508-quarto-untref-2/</guid>
+      <description>&lt;p&gt;El 25 de agosto de 2025 nos encontramos nuevamente en RLadies Buenos Aires, esta vez en la UNTREF, para darle continuidad al camino iniciado con el taller de Jesi Formoso &lt;a href=&#34;https://jformoso.github.io/quarto-rladiesBA/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;sobre Quarto&lt;/a&gt;.
+En esta ocasión, Betsy nos invitó a explorar otra de las grandes funcionalidades de esta plataforma: la creación de dashboards interactivos.&lt;/p&gt;
+&lt;p&gt;Partiendo de la experiencia con flexdashboard, aprendimos a trabajar con el formato dashboard de Quarto. Recorrimos los componentes básicos y layouts que nos propone esta sintaxis y sumamos gráficos, tarjetas e indicadores clave.&lt;/p&gt;
+&lt;p&gt;Además, incorporamos un poquito de magia con el paquete crosstalk, que nos permite aplicar filtros dinámicos, y con kpiwidget, que facilita la creación de tarjetas interactivas con métricas personalizadas.&lt;/p&gt;
+&lt;h2 id=&#34;-objetivos-de-aprendizaje&#34;&gt;🎯 Objetivos de aprendizaje&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Continuar familiarizándonos con Quarto Dashboards, en este caso como alternativa a flexdashboard.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Identificar los componentes básicos y estructuras de layout en tableros.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Aprender a incluir gráficos y tarjetas en el diseño.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Sumar interactividad con los paquetes crosstalk y kpiwidget.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;El taller fue una invitación a pensar los dashboards no solo como reportes, sino como espacios dinámicos para la toma de decisiones y la comunicación de datos.&lt;/p&gt;
+&lt;p&gt;Toda la info en el repo del proyecto &lt;a href=&#34;https://betsycohen.github.io/quarto-dashboards-rladiesBA/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;aquí&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Comunicá tus datos con R y Quarto en UNTREF</title>
+      <link>https://rladiesba.netlify.app/project/202508-quarto-untref-1/</link>
+      <pubDate>Mon, 04 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://rladiesba.netlify.app/project/202508-quarto-untref-1/</guid>
+      <description>&lt;p&gt;El 4 de agosto tuvimos el placer de compartir un nuevo taller en la comunidad RLadies Buenos Aires, esta vez de la mano de Jesi Formoso, quien nos introdujo al fascinante mundo de Quarto. Quarto es un sistema de publicación de código abierto que amplía las capacidades de RMarkdown, permitiéndonos crear documentos científicos y técnicos que combinan código, texto e interacción. Durante el encuentro, Jesi nos mostró cómo Quarto nos permite generar informes reproducibles, presentaciones y hasta sitios web. Trabajamos con ejemplos prácticos que nos ayudaron a comprender cómo integrar texto explicativo y código ejecutable en un mismo flujo de trabajo, cómo personalizar los formatos de salida y cómo aprovechar los parámetros para crear diferentes versiones de un mismo documento. El taller fue introductorio y pensado para personas con conocimientos básicos de R pero poca o ninguna experiencia previa con Quarto.&lt;/p&gt;
+&lt;h3 id=&#34;-objetivos-de-aprendizaje&#34;&gt;🎯 Objetivos de aprendizaje&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Familiarizarnos con Quarto como herramienta de publicación dinámica y reproducible.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Identificar sus posibilidades para la creación de documentos técnicos (informes, presentaciones, sitios web).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Explorar la combinación de texto y código en informes que se actualizan automáticamente.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Aprender a usar parámetros en Quarto para crear variantes de un documento de manera eficiente.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Toda la info en el repo del proyecto &lt;a href=&#34;https://jformoso.github.io/quarto-rladiesBA/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;aquí&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>¡NA pasa nada! Aprende a validar datos con R</title>
+      <link>https://rladiesba.netlify.app/project/validaciondatos/</link>
+      <pubDate>Wed, 19 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://rladiesba.netlify.app/project/validaciondatos/</guid>
+      <description>&lt;p&gt;En este encuentro, nos sumergimos en algunas de las mejores herramientas para validar datos tabulares en R.&lt;/p&gt;
+&lt;p&gt;María Nanton y Betsy Cohen nos guiaron a través de las bibliotecas &lt;strong&gt;pointblank, data.validator, assertr y validate&lt;/strong&gt;, mostrando cómo pueden ayudar a evaluar la integridad y la consistencia de tus datos de forma rápida y eficiente.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;A quién está dirigido:&lt;/strong&gt;
+Este taller está pensado para personas con experiencia en R que quieran conocer herramientas de validación de datos disponibles en este lenguaje de programación.&lt;/p&gt;
+&lt;h3 id=&#34;reviví-la-presentación-en-nuestro-canal-de-youtube&#34;&gt;Reviví la presentación en nuestro canal de youtube:&lt;/h3&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/puykTjJ43Xs?si=gw8MFluRhkgICPY9&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; allowfullscreen&gt;&lt;/iframe&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

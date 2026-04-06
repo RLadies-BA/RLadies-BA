@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2024 | RLadies BA</title>
+    <link>https://rladiesba.netlify.app/tag/2024/</link>
+      <atom:link href="https://rladiesba.netlify.app/tag/2024/index.xml" rel="self" type="application/rss+xml" />
+    <description>2024</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>es</language><lastBuildDate>Fri, 12 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://rladiesba.netlify.app/media/icon_hu4b9af3f567e0b0f9e5f99da57ed62ab5_26887_512x512_fill_lanczos_center_2.png</url>
+      <title>2024</title>
+      <link>https://rladiesba.netlify.app/tag/2024/</link>
+    </image>
+    
+    <item>
+      <title>Transforma tus datos en historias visuales con Quarto</title>
+      <link>https://rladiesba.netlify.app/project/quarto2024/</link>
+      <pubDate>Fri, 12 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://rladiesba.netlify.app/project/quarto2024/</guid>
+      <description>&lt;p&gt;En esta oportunidad, Jesica Formoso nos introdujo a Quarto, un sistema de publicación de código abierto diseñado para crear documentos científicos y técnicos de manera dinámica y reproducible.
+Aprenderemos cómo Quarto expande las capacidades de R Markdown, permitiéndonos generar informes, presentaciones y sitios web.&lt;/p&gt;
+&lt;p&gt;Jesi nos acompaño paso a paso con ejemplos prácticos en el uso de Quarto para informes reproducibles, abordando temas como la integración de código y texto, la personalización de formatos de salida y el uso de parámetros para crear variantes de documentos.&lt;/p&gt;
+&lt;p&gt;En la &lt;a href=&#34;%27https://github.com/JFormoso/quarto-rladiesBA/tree/main%27&#34;&gt;web&lt;/a&gt; del evento encontras todos los detalles asi como la &lt;a href=&#34;%27https://jformoso.github.io/quarto-rladiesBA/slides/index.html#/title-slide%27&#34;&gt;presentación&lt;/a&gt; utilizada en el encuentro.&lt;/p&gt;
+&lt;p&gt;Si te interesa reproducir el ejercicio podes descagrar el material &lt;a href=&#34;https://github.com/JFormoso/quarto-rladiesBA/tree/main/exercises&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;aquí&lt;/a&gt; y seguir paso a paso el proceso reviviendolo en el &lt;a href=&#34;https://www.youtube.com/watch?v=puykTjJ43Xs&amp;amp;ab_channel=RLadiesBuenosAires&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;video&lt;/a&gt; ya disponible en nuestro canal de YouTube&lt;/p&gt;
+&lt;h3 id=&#34;reviví-la-presentación-en-nuestro-canal-de-youtube&#34;&gt;Reviví la presentación en nuestro canal de youtube:&lt;/h3&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/puykTjJ43Xs?si=gw8MFluRhkgICPY9&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; allowfullscreen&gt;&lt;/iframe&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

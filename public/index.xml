@@ -5,12 +5,988 @@
     <link>https://rladiesba.netlify.app/</link>
       <atom:link href="https://rladiesba.netlify.app/index.xml" rel="self" type="application/rss+xml" />
     <description>RLadies BA</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>es</language><lastBuildDate>Thu, 07 Sep 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>es</language><lastBuildDate>Tue, 26 Aug 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://rladiesba.netlify.app/media/icon_hu4b9af3f567e0b0f9e5f99da57ed62ab5_26887_512x512_fill_lanczos_center_2.png</url>
       <title>RLadies BA</title>
       <link>https://rladiesba.netlify.app/</link>
     </image>
+    
+    <item>
+      <title>Armá un Dashboard con R y Quarto</title>
+      <link>https://rladiesba.netlify.app/project/202508-quarto-untref-2/</link>
+      <pubDate>Tue, 26 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://rladiesba.netlify.app/project/202508-quarto-untref-2/</guid>
+      <description>&lt;p&gt;El 25 de agosto de 2025 nos encontramos nuevamente en RLadies Buenos Aires, esta vez en la UNTREF, para darle continuidad al camino iniciado con el taller de Jesi Formoso &lt;a href=&#34;https://jformoso.github.io/quarto-rladiesBA/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;sobre Quarto&lt;/a&gt;.
+En esta ocasión, Betsy nos invitó a explorar otra de las grandes funcionalidades de esta plataforma: la creación de dashboards interactivos.&lt;/p&gt;
+&lt;p&gt;Partiendo de la experiencia con flexdashboard, aprendimos a trabajar con el formato dashboard de Quarto. Recorrimos los componentes básicos y layouts que nos propone esta sintaxis y sumamos gráficos, tarjetas e indicadores clave.&lt;/p&gt;
+&lt;p&gt;Además, incorporamos un poquito de magia con el paquete crosstalk, que nos permite aplicar filtros dinámicos, y con kpiwidget, que facilita la creación de tarjetas interactivas con métricas personalizadas.&lt;/p&gt;
+&lt;h2 id=&#34;-objetivos-de-aprendizaje&#34;&gt;🎯 Objetivos de aprendizaje&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Continuar familiarizándonos con Quarto Dashboards, en este caso como alternativa a flexdashboard.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Identificar los componentes básicos y estructuras de layout en tableros.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Aprender a incluir gráficos y tarjetas en el diseño.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Sumar interactividad con los paquetes crosstalk y kpiwidget.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;El taller fue una invitación a pensar los dashboards no solo como reportes, sino como espacios dinámicos para la toma de decisiones y la comunicación de datos.&lt;/p&gt;
+&lt;p&gt;Toda la info en el repo del proyecto &lt;a href=&#34;https://betsycohen.github.io/quarto-dashboards-rladiesBA/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;aquí&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Comunicá tus datos con R y Quarto en UNTREF</title>
+      <link>https://rladiesba.netlify.app/project/202508-quarto-untref-1/</link>
+      <pubDate>Mon, 04 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://rladiesba.netlify.app/project/202508-quarto-untref-1/</guid>
+      <description>&lt;p&gt;El 4 de agosto tuvimos el placer de compartir un nuevo taller en la comunidad RLadies Buenos Aires, esta vez de la mano de Jesi Formoso, quien nos introdujo al fascinante mundo de Quarto. Quarto es un sistema de publicación de código abierto que amplía las capacidades de RMarkdown, permitiéndonos crear documentos científicos y técnicos que combinan código, texto e interacción. Durante el encuentro, Jesi nos mostró cómo Quarto nos permite generar informes reproducibles, presentaciones y hasta sitios web. Trabajamos con ejemplos prácticos que nos ayudaron a comprender cómo integrar texto explicativo y código ejecutable en un mismo flujo de trabajo, cómo personalizar los formatos de salida y cómo aprovechar los parámetros para crear diferentes versiones de un mismo documento. El taller fue introductorio y pensado para personas con conocimientos básicos de R pero poca o ninguna experiencia previa con Quarto.&lt;/p&gt;
+&lt;h3 id=&#34;-objetivos-de-aprendizaje&#34;&gt;🎯 Objetivos de aprendizaje&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Familiarizarnos con Quarto como herramienta de publicación dinámica y reproducible.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Identificar sus posibilidades para la creación de documentos técnicos (informes, presentaciones, sitios web).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Explorar la combinación de texto y código en informes que se actualizan automáticamente.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Aprender a usar parámetros en Quarto para crear variantes de un documento de manera eficiente.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Toda la info en el repo del proyecto &lt;a href=&#34;https://jformoso.github.io/quarto-rladiesBA/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;aquí&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>¡NA pasa nada! Aprende a validar datos con R</title>
+      <link>https://rladiesba.netlify.app/project/validaciondatos/</link>
+      <pubDate>Wed, 19 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://rladiesba.netlify.app/project/validaciondatos/</guid>
+      <description>&lt;p&gt;En este encuentro, nos sumergimos en algunas de las mejores herramientas para validar datos tabulares en R.&lt;/p&gt;
+&lt;p&gt;María Nanton y Betsy Cohen nos guiaron a través de las bibliotecas &lt;strong&gt;pointblank, data.validator, assertr y validate&lt;/strong&gt;, mostrando cómo pueden ayudar a evaluar la integridad y la consistencia de tus datos de forma rápida y eficiente.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;A quién está dirigido:&lt;/strong&gt;
+Este taller está pensado para personas con experiencia en R que quieran conocer herramientas de validación de datos disponibles en este lenguaje de programación.&lt;/p&gt;
+&lt;h3 id=&#34;reviví-la-presentación-en-nuestro-canal-de-youtube&#34;&gt;Reviví la presentación en nuestro canal de youtube:&lt;/h3&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/puykTjJ43Xs?si=gw8MFluRhkgICPY9&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; allowfullscreen&gt;&lt;/iframe&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Transforma tus datos en historias visuales con Quarto</title>
+      <link>https://rladiesba.netlify.app/project/quarto2024/</link>
+      <pubDate>Fri, 12 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://rladiesba.netlify.app/project/quarto2024/</guid>
+      <description>&lt;p&gt;En esta oportunidad, Jesica Formoso nos introdujo a Quarto, un sistema de publicación de código abierto diseñado para crear documentos científicos y técnicos de manera dinámica y reproducible.
+Aprenderemos cómo Quarto expande las capacidades de R Markdown, permitiéndonos generar informes, presentaciones y sitios web.&lt;/p&gt;
+&lt;p&gt;Jesi nos acompaño paso a paso con ejemplos prácticos en el uso de Quarto para informes reproducibles, abordando temas como la integración de código y texto, la personalización de formatos de salida y el uso de parámetros para crear variantes de documentos.&lt;/p&gt;
+&lt;p&gt;En la &lt;a href=&#34;%27https://github.com/JFormoso/quarto-rladiesBA/tree/main%27&#34;&gt;web&lt;/a&gt; del evento encontras todos los detalles asi como la &lt;a href=&#34;%27https://jformoso.github.io/quarto-rladiesBA/slides/index.html#/title-slide%27&#34;&gt;presentación&lt;/a&gt; utilizada en el encuentro.&lt;/p&gt;
+&lt;p&gt;Si te interesa reproducir el ejercicio podes descagrar el material &lt;a href=&#34;https://github.com/JFormoso/quarto-rladiesBA/tree/main/exercises&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;aquí&lt;/a&gt; y seguir paso a paso el proceso reviviendolo en el &lt;a href=&#34;https://www.youtube.com/watch?v=puykTjJ43Xs&amp;amp;ab_channel=RLadiesBuenosAires&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;video&lt;/a&gt; ya disponible en nuestro canal de YouTube&lt;/p&gt;
+&lt;h3 id=&#34;reviví-la-presentación-en-nuestro-canal-de-youtube&#34;&gt;Reviví la presentación en nuestro canal de youtube:&lt;/h3&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/puykTjJ43Xs?si=gw8MFluRhkgICPY9&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; allowfullscreen&gt;&lt;/iframe&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Modelos de regresión para datos ordinales con R</title>
+      <link>https://rladiesba.netlify.app/project/regresionesordinales/</link>
+      <pubDate>Tue, 14 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>https://rladiesba.netlify.app/project/regresionesordinales/</guid>
+      <description>&lt;p&gt;En este taller introductorio Magalí Martínez nos introdujo sobre el modelado de variables respuesta que presentan más de dos categorías ordenadas utilizando R. El objetivo fue introducir los modelos de regresión logística ordinal, empleados cuando la variable respuesta es ordinal.&lt;/p&gt;
+&lt;p&gt;Este taller que fue realizado en la Universidad Nacional de Tres de Febrero de manera presencial buscó que quienes participen puedan implementar estas técnicas en R e interpretar uno de estos modelos (modelo de odds proporcionales) utilizando el paquete &lt;a href=&#34;https://github.com/runehaubo/ordinal&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ordinal&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Accede al código &lt;a href=&#34;%27./taller_regordinal_final.R%27&#34;&gt;aquí&lt;/a&gt; así como la &lt;a href=&#34;%27./diapositivas.pdf%27&#34;&gt;presentación&lt;/a&gt; utilizada en el encuentro.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Diseñá tu tabla de gt con indicadores condición de actividad de eph</title>
+      <link>https://rladiesba.netlify.app/post/eph/</link>
+      <pubDate>Thu, 07 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://rladiesba.netlify.app/post/eph/</guid>
+      <description>
+
+
+&lt;div id=&#34;ejercicios-de-práctica&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Ejercicios de Práctica&lt;/h1&gt;
+&lt;p&gt;En este taller vamos a aprender a:&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Cargar los datos directamente desde nuestra consola de R usando el paquete &lt;code&gt;{eph}&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Manipularlos usando &lt;code&gt;dplyr&lt;/code&gt; de &lt;code&gt;{tidyverse}&lt;/code&gt; para observar indicadores básicos de trabajo&lt;/li&gt;
+&lt;li&gt;Construir una tabla usando la librería de gramática de tablas &lt;code&gt;{gt}&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div id=&#34;antes-de-arrancar&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Antes de arrancar&lt;/h1&gt;
+&lt;p&gt;Para poder trabajar ordenadamente te recomendamos:&lt;/p&gt;
+&lt;p&gt;Tener instaladas las librerías que vamos a usar con la función &lt;code&gt;install.packages()&lt;/code&gt;: &lt;code&gt;{tidyerse}&lt;/code&gt;,&lt;code&gt;{gt}&lt;/code&gt;,&lt;code&gt;{gtExtras}&lt;/code&gt;, &lt;code&gt;{Janitor}&lt;/code&gt; &amp;amp; &lt;code&gt;{eph}&lt;/code&gt;&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# install.packages(&amp;quot;tidyverse&amp;quot;)
+# install.packages(&amp;quot;gt&amp;quot;)
+# install.packages(&amp;quot;gtExtras&amp;quot;)
+# install.packages(&amp;quot;janitor&amp;quot;)
+# install.packages(&amp;quot;eph&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Una buena práctica siempre que trabajes con &lt;strong&gt;encuestas&lt;/strong&gt; es tener a mano:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Los cuestionarios (te van a permitir entender bien la estructura y pases)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.indec.gob.ar/ftp/cuadros/menusuperior/eph/EPH_registro_1T2022.pdf&#34;&gt;El registro de diseño&lt;/a&gt;: donde tenes la referencia del código de pregunta, estructura y en caso que corresponda las categorías posibles que tiene que adoptar.&lt;/li&gt;
+&lt;li&gt;Definiciones operacionales que realiza INDEC sobre condición de actividad, subocupación horaria y categoría ocupacional disponible &lt;a href=&#34;https://www.indec.gob.ar/ftp/cuadros/menusuperior/eph/EPH_Conceptos.pdf&#34;&gt;aquí&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div id=&#34;setup-librerías&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Setup librerías&lt;/h2&gt;
+&lt;p&gt;El primer paso es llamar a las librerías que vamos a usar que por lo general siempre las colocamos al principio de nuestro script&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(tidyverse) # para manipular los datos
+library(eph) # para levantar los datos de la encuesta 
+library(janitor) # nos permite limpiar y acomodar facilmente los nombres de las variables (entre otras cosas)
+library(gt) # para hermosear nuestras tablas
+library(gtExtras) # para hermosear todavía más nuestras tablas &lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;obtener-datos&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Obtener datos&lt;/h1&gt;
+&lt;p&gt;Vamos a arrancar descargando los datos con la función &lt;code&gt;get_microdata()&lt;/code&gt;. En este caso vamos a descargar los resultados de la base de individuos del primer trimestre de 2022. Si quisieramos especificar una serie de variables en particular con las cuales vamos a trabajar&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;TIP: Para revisar los parámetros de una función siempre podemos consultar la la ayuda de R posicionándonos sobre la función y presionando la tecla F1.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;ind_2023_1 &amp;lt;- get_microdata(
+  year = 2023,
+  trimester = 1,
+  type = &amp;quot;individual&amp;quot;,
+  vars = &amp;quot;all&amp;quot;,
+  destfile = NA
+)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;En caso que no quieras o puedas usar este paquete podes descargar las bases de microdatos en el sitio del indec en la sección Bases de datos y descargar &lt;a href=&#34;https://www.indec.gob.ar/indec/web/Institucional-Indec-BasesDeDatos&#34;&gt;EPH continua&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Vamos a reproducir la tabla 1.1 del &lt;a href=&#34;https://www.indec.gob.ar/uploads/informesdeprensa/mercado_trabajo_eph_1trim234267B9F5D1.pdf&#34;&gt;Informe de Mercado de trabajo del primer trimestre 2023&lt;/a&gt;:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;definiciones-básicas&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Definiciones Básicas&lt;/h1&gt;
+&lt;p&gt;Antes de cálcular los indicadores tengamos en cuenta las siguientes definiciones básicas:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Población:&lt;/strong&gt; es el total de unidades al que expande la muestra [PONDERA].&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Población Ocupada:&lt;/strong&gt; conjunto de personas que tienen por lo menos una ocupación&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Población Desocupada:&lt;/strong&gt; personas que, no teniendo ocupación, están buscando activamente trabajo y
+están disponibles para trabajar.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Población Economicamente Activa&lt;/strong&gt;(PEA): la integran las personas que tienen una ocupación o que, sin tenerla,
+la están buscando activamente. Está compuesta por la población ocupada más la población desocupada.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Población Ocupada demandante de empleo:&lt;/strong&gt; población ocupada que busca activamente otra ocupación.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Población Subocupada:&lt;/strong&gt; se refiere a la subocupación por insuficiencia de horas, visible u horaria, y
+comprende a las personas ocupadas que trabajan menos de 35 horas semanales por causas involuntarias y que están dispuestas a trabajar más horas.
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Población Subocupada demandante&lt;/strong&gt;: población subocupada (por causas involuntarias y dispuesta a
+trabajar más horas) que además busca activamente otra ocupación.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Población Subocupada no demandante&lt;/strong&gt;: población subocupada (por causas involuntarias y dispuesta a
+trabajar más horas) que no está en la búsqueda activa de otra ocupación.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Tanto la ocupación como la desocupación constituyen lo que se denomina &lt;strong&gt;condición de actividad&lt;/strong&gt; que define la situación en que se encuentran las personas con respecto a su participación o no en la actividad económica.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/div&gt;
+&lt;div id=&#34;manos-al-código&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Manos al código&lt;/h1&gt;
+&lt;p&gt;Primero creamos una tabla con los siguientes indicadores de resumen (tomamos de base las definiciones mencionadas anteriormente):&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Población&lt;/li&gt;
+&lt;li&gt;Ocupados&lt;/li&gt;
+&lt;li&gt;Desocupados&lt;/li&gt;
+&lt;li&gt;Población Economicamente Activa (PEA)&lt;/li&gt;
+&lt;li&gt;Ocupados demandantes&lt;/li&gt;
+&lt;li&gt;Subocupados (demandantes, no demandantes y total)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Estos niveles nos van a permitir calcular las tasas de forma sencilla.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Para obtener cualquier tasa necesitamos crear un numerador y un denominador. Por ejemplo: &lt;span class=&#34;math inline&#34;&gt;\(\text{Tasa de empleo: } Ocupados/Población\)&lt;/span&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Al ser una muestra en la EPH trabajamos con el total expandido por su ponderador, en este caso lo encontramos en la variable &lt;strong&gt;PONDERA&lt;/strong&gt;.&lt;/p&gt;
+&lt;div id=&#34;variables-de-la-base-eph&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Variables de la Base EPH&lt;/h2&gt;
+&lt;p&gt;Para hacer la tabla vamos a trabajar con las siguientes variables de la base EPH:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;PONDERA: Es el factor de expansión para cada unidad de análisis&lt;/li&gt;
+&lt;li&gt;ESTADO: Indica la condición de actividad y puede tomar los valores:
+&lt;ul&gt;
+&lt;li&gt;0 = Entrevista individual no realizada (no respuesta al cuestionario individual)&lt;/li&gt;
+&lt;li&gt;1 = Ocupado&lt;/li&gt;
+&lt;li&gt;2 = Desocupado&lt;/li&gt;
+&lt;li&gt;3 = Inactivo&lt;/li&gt;
+&lt;li&gt;4 = Menor de 10 años&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;PP03J: Es la pregunta: &lt;em&gt;Aparte de este/os trabajo/s, ¿estuvo buscando algún empleo / ocupación /actividad?&lt;/em&gt;, que toma los valores:
+&lt;ul&gt;
+&lt;li&gt;1 = Sí&lt;/li&gt;
+&lt;li&gt;2 = No&lt;/li&gt;
+&lt;li&gt;9 = Ns/Nr&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;INTENSI: Refiere a la intensidad de la carga horaria laboral y cuyas categorías son:
+&lt;ul&gt;
+&lt;li&gt;1 = Subocupado por insuficiencia horaria&lt;/li&gt;
+&lt;li&gt;2 = Ocupado pleno&lt;/li&gt;
+&lt;li&gt;3 = Sobreocupado&lt;/li&gt;
+&lt;li&gt;4 = Ocupado que no trabajó en la semana&lt;/li&gt;
+&lt;li&gt;9 = Ns/Nr&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;tabla-resumen&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Tabla resumen&lt;/h1&gt;
+&lt;p&gt;Con la función &lt;code&gt;summarise&lt;/code&gt; del paquete &lt;code&gt;{tidyerse}&lt;/code&gt; podemos realizar distintas operaciones de resumen sobre las variables de nuestro análisis con la base que estamos trabajando:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;tabla_1 &amp;lt;- ind_2023_1 |&amp;gt; 
+  summarise(Poblacion          = sum(PONDERA),
+            Ocupacion          = sum(PONDERA[ESTADO == 1]),
+            Desocupacion       = sum(PONDERA[ESTADO == 2]),
+            PEA                = Ocupacion + Desocupacion,
+            Ocupacion_demandate = sum(PONDERA[ESTADO == 1 &amp;amp; PP03J ==1]),
+            Suboc_demandante   = sum(PONDERA[ESTADO == 1 &amp;amp; INTENSI ==1 &amp;amp; PP03J==1]),
+            Suboc_no_demand    = sum(PONDERA[ESTADO == 1 &amp;amp; INTENSI ==1 &amp;amp; PP03J %in% c(2,9)]),
+            Subocupacion       = Suboc_demandante + Suboc_no_demand)
+
+tabla_1&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## # A tibble: 1 × 8
+##   Poblacion Ocupacion Desocupacion      PEA Ocupacion_demandate Suboc_demandante
+##       &amp;lt;int&amp;gt;     &amp;lt;int&amp;gt;        &amp;lt;int&amp;gt;    &amp;lt;int&amp;gt;               &amp;lt;int&amp;gt;            &amp;lt;int&amp;gt;
+## 1  29335155  13191361       973787 14165148             2096890           898820
+## # ℹ 2 more variables: Suboc_no_demand &amp;lt;int&amp;gt;, Subocupacion &amp;lt;int&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Ahora vamos a calcular las tasas creando una serie de nuevas columnas, usando la función &lt;code&gt;mutate&lt;/code&gt;&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;tabla_1 &amp;lt;- tabla_1 |&amp;gt; 
+  mutate(&amp;#39;Actividad&amp;#39;                  = PEA/Poblacion,
+         &amp;#39;Empleo&amp;#39;                     = Ocupacion/Poblacion,
+         &amp;#39;Desocupación&amp;#39;               = Desocupacion/PEA,
+         &amp;#39;Ocupación demandante&amp;#39;       = Ocupacion_demandate/PEA,
+         &amp;#39;Subocupación&amp;#39;               = Subocupacion/PEA,
+         &amp;#39;Subocupación demandante&amp;#39;    = Suboc_demandante/PEA,
+         &amp;#39;Subocupación no demandante&amp;#39; = Suboc_no_demand/PEA)
+
+tabla_1&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## # A tibble: 1 × 15
+##   Poblacion Ocupacion Desocupacion      PEA Ocupacion_demandate Suboc_demandante
+##       &amp;lt;int&amp;gt;     &amp;lt;int&amp;gt;        &amp;lt;int&amp;gt;    &amp;lt;int&amp;gt;               &amp;lt;int&amp;gt;            &amp;lt;int&amp;gt;
+## 1  29335155  13191361       973787 14165148             2096890           898820
+## # ℹ 9 more variables: Suboc_no_demand &amp;lt;int&amp;gt;, Subocupacion &amp;lt;int&amp;gt;,
+## #   Actividad &amp;lt;dbl&amp;gt;, Empleo &amp;lt;dbl&amp;gt;, Desocupación &amp;lt;dbl&amp;gt;,
+## #   `Ocupación demandante` &amp;lt;dbl&amp;gt;, Subocupación &amp;lt;dbl&amp;gt;,
+## #   `Subocupación demandante` &amp;lt;dbl&amp;gt;, `Subocupación no demandante` &amp;lt;dbl&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Y ahora nos vamos a quedar solamente con las variables de las tasas seleccionándolas con la función &lt;code&gt;select&lt;/code&gt;&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;tabla_1 &amp;lt;- tabla_1 |&amp;gt; 
+  select(Actividad:&amp;#39;Subocupación no demandante&amp;#39;) |&amp;gt; 
+  mutate(ANO4 = 2023,
+         TRIMESTRE = 1) |&amp;gt; 
+  relocate(c(ANO4,TRIMESTRE), .before = &amp;#39;Actividad&amp;#39;)
+
+tabla_1&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## # A tibble: 1 × 9
+##    ANO4 TRIMESTRE Actividad Empleo Desocupación `Ocupación demandante`
+##   &amp;lt;dbl&amp;gt;     &amp;lt;dbl&amp;gt;     &amp;lt;dbl&amp;gt;  &amp;lt;dbl&amp;gt;        &amp;lt;dbl&amp;gt;                  &amp;lt;dbl&amp;gt;
+## 1  2023         1     0.483  0.450       0.0687                  0.148
+## # ℹ 3 more variables: Subocupación &amp;lt;dbl&amp;gt;, `Subocupación demandante` &amp;lt;dbl&amp;gt;,
+## #   `Subocupación no demandante` &amp;lt;dbl&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Ahora repetimos la operación con lo datos de 2022&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# obtener los datos
+ind_2022 &amp;lt;- get_microdata(
+  year = 2022,
+  trimester = c(1:4), # le decimos que traiga todos
+  type = &amp;quot;individual&amp;quot;,
+  vars = &amp;quot;all&amp;quot;,
+  destfile = NA
+)
+
+
+tabla_2 &amp;lt;- ind_2022 |&amp;gt; 
+  group_by(ANO4,TRIMESTRE) |&amp;gt; 
+  summarise(Poblacion          = sum(PONDERA),
+            Ocupacion          = sum(PONDERA[ESTADO == 1]),
+            Desocupacion       = sum(PONDERA[ESTADO == 2]),
+            PEA                = Ocupacion + Desocupacion,
+            Ocupacion_demandate = sum(PONDERA[ESTADO == 1 &amp;amp; PP03J ==1]),
+            Suboc_demandante   = sum(PONDERA[ESTADO == 1 &amp;amp; INTENSI ==1 &amp;amp; PP03J==1]),
+            Suboc_no_demand    = sum(PONDERA[ESTADO == 1 &amp;amp; INTENSI ==1 &amp;amp; PP03J %in% c(2,9)]),
+            Subocupacion       = Suboc_demandante + Suboc_no_demand) |&amp;gt; 
+  mutate(&amp;#39;Actividad&amp;#39;                  = PEA/Poblacion,
+         &amp;#39;Empleo&amp;#39;                     = Ocupacion/Poblacion,
+         &amp;#39;Desocupación&amp;#39;               = Desocupacion/PEA,
+         &amp;#39;Ocupación demandante&amp;#39;       = Ocupacion_demandate/PEA,
+         &amp;#39;Subocupación&amp;#39;               = Subocupacion/PEA,
+         &amp;#39;Subocupación demandante&amp;#39;    = Suboc_demandante/PEA,
+         &amp;#39;Subocupación no demandante&amp;#39; = Suboc_no_demand/PEA) |&amp;gt; 
+  select(ANO4,TRIMESTRE,Actividad:&amp;#39;Subocupación no demandante&amp;#39;) |&amp;gt; 
+  as_tibble()&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## `summarise()` has grouped output by &amp;#39;ANO4&amp;#39;. You can override using the
+## `.groups` argument.&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;tabla_2&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## # A tibble: 4 × 9
+##    ANO4 TRIMESTRE Actividad Empleo Desocupación `Ocupación demandante`
+##   &amp;lt;int&amp;gt;     &amp;lt;int&amp;gt;     &amp;lt;dbl&amp;gt;  &amp;lt;dbl&amp;gt;        &amp;lt;dbl&amp;gt;                  &amp;lt;dbl&amp;gt;
+## 1  2022         1     0.465  0.433       0.0697                  0.155
+## 2  2022         2     0.479  0.446       0.0686                  0.163
+## 3  2022         3     0.476  0.442       0.0711                  0.160
+## 4  2022         4     0.476  0.446       0.0628                  0.154
+## # ℹ 3 more variables: Subocupación &amp;lt;dbl&amp;gt;, `Subocupación demandante` &amp;lt;dbl&amp;gt;,
+## #   `Subocupación no demandante` &amp;lt;dbl&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Unimos ambas tablas usando la función &lt;code&gt;bind_rows&lt;/code&gt;&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;tabla_3 &amp;lt;- bind_rows(tabla_1,tabla_2)
+
+tabla_3&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## # A tibble: 5 × 9
+##    ANO4 TRIMESTRE Actividad Empleo Desocupación `Ocupación demandante`
+##   &amp;lt;dbl&amp;gt;     &amp;lt;dbl&amp;gt;     &amp;lt;dbl&amp;gt;  &amp;lt;dbl&amp;gt;        &amp;lt;dbl&amp;gt;                  &amp;lt;dbl&amp;gt;
+## 1  2023         1     0.483  0.450       0.0687                  0.148
+## 2  2022         1     0.465  0.433       0.0697                  0.155
+## 3  2022         2     0.479  0.446       0.0686                  0.163
+## 4  2022         3     0.476  0.442       0.0711                  0.160
+## 5  2022         4     0.476  0.446       0.0628                  0.154
+## # ℹ 3 more variables: Subocupación &amp;lt;dbl&amp;gt;, `Subocupación demandante` &amp;lt;dbl&amp;gt;,
+## #   `Subocupación no demandante` &amp;lt;dbl&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Ya tenemos los datos que necesitamos pero parece que la tabla estuviera “acostada”. Para que se ponga de pie o estire a lo largo vamos a usar la función &lt;code&gt;pivot_longer&lt;/code&gt;&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;tabla_3 &amp;lt;- tabla_3 |&amp;gt; 
+  pivot_longer(cols = -c(ANO4,TRIMESTRE), #Las columnas que queremos estirar en este caso son todas excepto el año y el trimestre
+               names_to = &amp;quot;Tasas&amp;quot;, # El nombre que le queremos poner
+               values_to = &amp;quot;Valor&amp;quot;) # el valor en cuestión que hay que repartir
+
+
+tabla_3&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## # A tibble: 35 × 4
+##     ANO4 TRIMESTRE Tasas                       Valor
+##    &amp;lt;dbl&amp;gt;     &amp;lt;dbl&amp;gt; &amp;lt;chr&amp;gt;                       &amp;lt;dbl&amp;gt;
+##  1  2023         1 Actividad                  0.483 
+##  2  2023         1 Empleo                     0.450 
+##  3  2023         1 Desocupación               0.0687
+##  4  2023         1 Ocupación demandante       0.148 
+##  5  2023         1 Subocupación               0.0941
+##  6  2023         1 Subocupación demandante    0.0635
+##  7  2023         1 Subocupación no demandante 0.0306
+##  8  2022         1 Actividad                  0.465 
+##  9  2022         1 Empleo                     0.433 
+## 10  2022         1 Desocupación               0.0697
+## # ℹ 25 more rows&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Vamos multiplicar por 100 el valor de la tasa ya que por lo general se expresa de esta forma, el cual redondeamos a un decimal.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;tabla_3 &amp;lt;- tabla_3 |&amp;gt; 
+  mutate(Valor = round(Valor*100,1))
+
+tabla_3&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## # A tibble: 35 × 4
+##     ANO4 TRIMESTRE Tasas                      Valor
+##    &amp;lt;dbl&amp;gt;     &amp;lt;dbl&amp;gt; &amp;lt;chr&amp;gt;                      &amp;lt;dbl&amp;gt;
+##  1  2023         1 Actividad                   48.3
+##  2  2023         1 Empleo                      45  
+##  3  2023         1 Desocupación                 6.9
+##  4  2023         1 Ocupación demandante        14.8
+##  5  2023         1 Subocupación                 9.4
+##  6  2023         1 Subocupación demandante      6.3
+##  7  2023         1 Subocupación no demandante   3.1
+##  8  2022         1 Actividad                   46.5
+##  9  2022         1 Empleo                      43.3
+## 10  2022         1 Desocupación                 7  
+## # ℹ 25 more rows&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Ahora vamos a crear una variable que combina el año y trimestre, desechando año y trimestre como variables por separado y vamos a “estirar” la tabla colocando al 1er trimestre de 2021 al final, tal cual se presenta en el reporte de INDEC&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;#(&amp;#39;Actividad&amp;#39;,&amp;#39;Empleo&amp;#39;,&amp;#39;Desocupación&amp;#39;,&amp;#39;Ocupación demandante&amp;#39;,&amp;#39;Subocupación&amp;#39;,&amp;#39;Subocupación demandante&amp;#39;,&amp;#39;Subocupación no demandante&amp;#39;)
+
+tabla_3 &amp;lt;- tabla_3 |&amp;gt; 
+  mutate(ano_trimestre = paste(ANO4,TRIMESTRE)) |&amp;gt; # creamos la variable que concatena las etiquetas año y trimestre
+  select(-c(ANO4,TRIMESTRE)) |&amp;gt; # eliminamos las variables originales de año y trimestre
+  pivot_wider(names_from = c(&amp;quot;ano_trimestre&amp;quot;), values_from = Valor) |&amp;gt; # estiramos la variable que creamos
+  relocate(&amp;quot;2023 1&amp;quot;,.after = &amp;quot;2022 4&amp;quot; ) # ubicamos al 1er trimestre de 2023 al final de la tabla
+
+tabla_3&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## # A tibble: 7 × 6
+##   Tasas                      `2022 1` `2022 2` `2022 3` `2022 4` `2023 1`
+##   &amp;lt;chr&amp;gt;                         &amp;lt;dbl&amp;gt;    &amp;lt;dbl&amp;gt;    &amp;lt;dbl&amp;gt;    &amp;lt;dbl&amp;gt;    &amp;lt;dbl&amp;gt;
+## 1 Actividad                      46.5     47.9     47.6     47.6     48.3
+## 2 Empleo                         43.3     44.6     44.2     44.6     45  
+## 3 Desocupación                    7        6.9      7.1      6.3      6.9
+## 4 Ocupación demandante           15.5     16.3     16       15.4     14.8
+## 5 Subocupación                   10       11.1     11       10.9      9.4
+## 6 Subocupación demandante         6.9      7.7      7.6      7.1      6.3
+## 7 Subocupación no demandante      3.1      3.5      3.4      3.8      3.1&lt;/code&gt;&lt;/pre&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Las funciones &lt;code&gt;pivot_longer&lt;/code&gt; y &lt;code&gt;pivot_wider&lt;/code&gt; nos ayudan a estirar y alargar los datos para saber más sobre ellas te recomendamos la lectura de &lt;a href=&#34;https://tidyr.tidyverse.org/articles/pivot.html&#34;&gt;esta viñeta&lt;/a&gt; donde vas a encontrar varios ejemplos.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/div&gt;
+&lt;div id=&#34;comunicación-del-dato&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Comunicación del dato&lt;/h1&gt;
+&lt;p&gt;Ahora vamos a darle un poco de estilo y color con el paquete de “gramática de tablas” &lt;code&gt;{gt}&lt;/code&gt;&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;tabla_4 &amp;lt;- tabla_3 |&amp;gt; 
+  gt() |&amp;gt; 
+  # ponemos un título y subtitulo
+  tab_header(
+    title = md(&amp;quot;**Principales tasas del mercado de trabajo. Total 31 aglomerados urbanos.**&amp;quot;),
+    subtitle = &amp;quot;Primer trimestre 2022-primer trimestre 2023&amp;quot;) |&amp;gt; 
+  # Elegimos una tipografía y tamaños
+  opt_table_font(
+    font = list(
+      google_font(name = &amp;quot;Montserrat&amp;quot;),
+      labels = list(
+        title = list(weight = &amp;quot;bold&amp;quot;, size = 9),
+        header = list(weight = &amp;quot;bold&amp;quot;, size = 8),
+        footnote = list(weight = &amp;quot;bold&amp;quot;, size = 8),
+        source = list(weight = &amp;quot;bold&amp;quot;, size = 8)
+      )
+    )
+  ) |&amp;gt; 
+  # centramos las columnas del cuerpo
+  cols_align(
+    align = &amp;quot;center&amp;quot;,
+    columns = 2:6
+  ) |&amp;gt; 
+  # creamos una cabecera que agrupe cada año
+  gt::tab_spanner(
+    label = &amp;quot;2022&amp;quot;,
+    columns = starts_with(&amp;quot;2022&amp;quot;)
+  ) |&amp;gt; 
+  gt::tab_spanner(
+    label = &amp;quot;2023&amp;quot;,
+    columns = starts_with(&amp;quot;2023&amp;quot;)
+  ) |&amp;gt; 
+  # cambiamos las etiquetas de las columnas
+  cols_label(&amp;quot;2022 1&amp;quot; = &amp;quot;1er Trimestre&amp;quot;,
+             &amp;quot;2022 2&amp;quot; = &amp;quot;2do Trimestre&amp;quot;,
+             &amp;quot;2022 3&amp;quot; = &amp;quot;3er Trimestre&amp;quot;,
+             &amp;quot;2022 4&amp;quot; = &amp;quot;4to Trimestre&amp;quot;,
+             &amp;quot;2023 1&amp;quot; = &amp;quot;1er Trimestre&amp;quot;) |&amp;gt;
+  #agregamos un pié con la fuente y una aclaración indicando que nuestros datos están ponderados
+  tab_source_note(&amp;#39;Fuente: INDEC, Encuesta Permanente de Hogares.&amp;#39;) |&amp;gt; 
+  tab_footnote(&amp;quot;Datos ponderados.&amp;quot;)
+  
+tabla_4  &lt;/code&gt;&lt;/pre&gt;
+&lt;div id=&#34;hjexhgfwhj&#34; style=&#34;padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;&#34;&gt;
+&lt;style&gt;@import url(&#34;https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap&#34;);
+#hjexhgfwhj table {
+  font-family: Montserrat, system-ui, &#39;Segoe UI&#39;, Roboto, Helvetica, Arial, sans-serif, &#39;Apple Color Emoji&#39;, &#39;Segoe UI Emoji&#39;, &#39;Segoe UI Symbol&#39;, &#39;Noto Color Emoji&#39;;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#hjexhgfwhj thead, #hjexhgfwhj tbody, #hjexhgfwhj tfoot, #hjexhgfwhj tr, #hjexhgfwhj td, #hjexhgfwhj th {
+  border-style: none;
+}
+
+#hjexhgfwhj p {
+  margin: 0;
+  padding: 0;
+}
+
+#hjexhgfwhj .gt_table {
+  display: table;
+  border-collapse: collapse;
+  line-height: normal;
+  margin-left: auto;
+  margin-right: auto;
+  color: #333333;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  background-color: #FFFFFF;
+  width: auto;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #A8A8A8;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #A8A8A8;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+}
+
+#hjexhgfwhj .gt_caption {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+#hjexhgfwhj .gt_title {
+  color: #333333;
+  font-size: 125%;
+  font-weight: initial;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-color: #FFFFFF;
+  border-bottom-width: 0;
+}
+
+#hjexhgfwhj .gt_subtitle {
+  color: #333333;
+  font-size: 85%;
+  font-weight: initial;
+  padding-top: 3px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-color: #FFFFFF;
+  border-top-width: 0;
+}
+
+#hjexhgfwhj .gt_heading {
+  background-color: #FFFFFF;
+  text-align: center;
+  border-bottom-color: #FFFFFF;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#hjexhgfwhj .gt_bottom_border {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#hjexhgfwhj .gt_col_headings {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#hjexhgfwhj .gt_col_heading {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+  overflow-x: hidden;
+}
+
+#hjexhgfwhj .gt_column_spanner_outer {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+#hjexhgfwhj .gt_column_spanner_outer:first-child {
+  padding-left: 0;
+}
+
+#hjexhgfwhj .gt_column_spanner_outer:last-child {
+  padding-right: 0;
+}
+
+#hjexhgfwhj .gt_column_spanner {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  overflow-x: hidden;
+  display: inline-block;
+  width: 100%;
+}
+
+#hjexhgfwhj .gt_spanner_row {
+  border-bottom-style: hidden;
+}
+
+#hjexhgfwhj .gt_group_heading {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  text-align: left;
+}
+
+#hjexhgfwhj .gt_empty_group_heading {
+  padding: 0.5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: middle;
+}
+
+#hjexhgfwhj .gt_from_md &gt; :first-child {
+  margin-top: 0;
+}
+
+#hjexhgfwhj .gt_from_md &gt; :last-child {
+  margin-bottom: 0;
+}
+
+#hjexhgfwhj .gt_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 10px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  overflow-x: hidden;
+}
+
+#hjexhgfwhj .gt_stub {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#hjexhgfwhj .gt_stub_row_group {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+  vertical-align: top;
+}
+
+#hjexhgfwhj .gt_row_group_first td {
+  border-top-width: 2px;
+}
+
+#hjexhgfwhj .gt_row_group_first th {
+  border-top-width: 2px;
+}
+
+#hjexhgfwhj .gt_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#hjexhgfwhj .gt_first_summary_row {
+  border-top-style: solid;
+  border-top-color: #D3D3D3;
+}
+
+#hjexhgfwhj .gt_first_summary_row.thick {
+  border-top-width: 2px;
+}
+
+#hjexhgfwhj .gt_last_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#hjexhgfwhj .gt_grand_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#hjexhgfwhj .gt_first_grand_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-style: double;
+  border-top-width: 6px;
+  border-top-color: #D3D3D3;
+}
+
+#hjexhgfwhj .gt_last_grand_summary_row_top {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: double;
+  border-bottom-width: 6px;
+  border-bottom-color: #D3D3D3;
+}
+
+#hjexhgfwhj .gt_striped {
+  background-color: rgba(128, 128, 128, 0.05);
+}
+
+#hjexhgfwhj .gt_table_body {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#hjexhgfwhj .gt_footnotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#hjexhgfwhj .gt_footnote {
+  margin: 0px;
+  font-size: 90%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#hjexhgfwhj .gt_sourcenotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#hjexhgfwhj .gt_sourcenote {
+  font-size: 90%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#hjexhgfwhj .gt_left {
+  text-align: left;
+}
+
+#hjexhgfwhj .gt_center {
+  text-align: center;
+}
+
+#hjexhgfwhj .gt_right {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+#hjexhgfwhj .gt_font_normal {
+  font-weight: normal;
+}
+
+#hjexhgfwhj .gt_font_bold {
+  font-weight: bold;
+}
+
+#hjexhgfwhj .gt_font_italic {
+  font-style: italic;
+}
+
+#hjexhgfwhj .gt_super {
+  font-size: 65%;
+}
+
+#hjexhgfwhj .gt_footnote_marks {
+  font-size: 75%;
+  vertical-align: 0.4em;
+  position: initial;
+}
+
+#hjexhgfwhj .gt_asterisk {
+  font-size: 100%;
+  vertical-align: 0;
+}
+
+#hjexhgfwhj .gt_indent_1 {
+  text-indent: 5px;
+}
+
+#hjexhgfwhj .gt_indent_2 {
+  text-indent: 10px;
+}
+
+#hjexhgfwhj .gt_indent_3 {
+  text-indent: 15px;
+}
+
+#hjexhgfwhj .gt_indent_4 {
+  text-indent: 20px;
+}
+
+#hjexhgfwhj .gt_indent_5 {
+  text-indent: 25px;
+}
+&lt;/style&gt;
+&lt;table class=&#34;gt_table&#34; data-quarto-disable-processing=&#34;false&#34; data-quarto-bootstrap=&#34;false&#34;&gt;
+  &lt;thead&gt;
+    &lt;tr class=&#34;gt_heading&#34;&gt;
+      &lt;td colspan=&#34;6&#34; class=&#34;gt_heading gt_title gt_font_normal&#34; style&gt;&lt;strong&gt;Principales tasas del mercado de trabajo. Total 31 aglomerados urbanos.&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr class=&#34;gt_heading&#34;&gt;
+      &lt;td colspan=&#34;6&#34; class=&#34;gt_heading gt_subtitle gt_font_normal gt_bottom_border&#34; style&gt;Primer trimestre 2022-primer trimestre 2023&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr class=&#34;gt_col_headings gt_spanner_row&#34;&gt;
+      &lt;th class=&#34;gt_col_heading gt_columns_bottom_border gt_left&#34; rowspan=&#34;2&#34; colspan=&#34;1&#34; scope=&#34;col&#34; id=&#34;Tasas&#34;&gt;Tasas&lt;/th&gt;
+      &lt;th class=&#34;gt_center gt_columns_top_border gt_column_spanner_outer&#34; rowspan=&#34;1&#34; colspan=&#34;4&#34; scope=&#34;colgroup&#34; id=&#34;2022&#34;&gt;
+        &lt;span class=&#34;gt_column_spanner&#34;&gt;2022&lt;/span&gt;
+      &lt;/th&gt;
+      &lt;th class=&#34;gt_center gt_columns_top_border gt_column_spanner_outer&#34; rowspan=&#34;1&#34; colspan=&#34;1&#34; scope=&#34;col&#34; id=&#34;2023&#34;&gt;
+        &lt;span class=&#34;gt_column_spanner&#34;&gt;2023&lt;/span&gt;
+      &lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr class=&#34;gt_col_headings&#34;&gt;
+      &lt;th class=&#34;gt_col_heading gt_columns_bottom_border gt_center&#34; rowspan=&#34;1&#34; colspan=&#34;1&#34; scope=&#34;col&#34; id=&#34;1er Trimestre&#34;&gt;1er Trimestre&lt;/th&gt;
+      &lt;th class=&#34;gt_col_heading gt_columns_bottom_border gt_center&#34; rowspan=&#34;1&#34; colspan=&#34;1&#34; scope=&#34;col&#34; id=&#34;2do Trimestre&#34;&gt;2do Trimestre&lt;/th&gt;
+      &lt;th class=&#34;gt_col_heading gt_columns_bottom_border gt_center&#34; rowspan=&#34;1&#34; colspan=&#34;1&#34; scope=&#34;col&#34; id=&#34;3er Trimestre&#34;&gt;3er Trimestre&lt;/th&gt;
+      &lt;th class=&#34;gt_col_heading gt_columns_bottom_border gt_center&#34; rowspan=&#34;1&#34; colspan=&#34;1&#34; scope=&#34;col&#34; id=&#34;4to Trimestre&#34;&gt;4to Trimestre&lt;/th&gt;
+      &lt;th class=&#34;gt_col_heading gt_columns_bottom_border gt_center&#34; rowspan=&#34;1&#34; colspan=&#34;1&#34; scope=&#34;col&#34; id=&#34;1er Trimestre&#34;&gt;1er Trimestre&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody class=&#34;gt_table_body&#34;&gt;
+    &lt;tr&gt;&lt;td headers=&#34;Tasas&#34; class=&#34;gt_row gt_left&#34;&gt;Actividad&lt;/td&gt;
+&lt;td headers=&#34;2022 1&#34; class=&#34;gt_row gt_center&#34;&gt;46.5&lt;/td&gt;
+&lt;td headers=&#34;2022 2&#34; class=&#34;gt_row gt_center&#34;&gt;47.9&lt;/td&gt;
+&lt;td headers=&#34;2022 3&#34; class=&#34;gt_row gt_center&#34;&gt;47.6&lt;/td&gt;
+&lt;td headers=&#34;2022 4&#34; class=&#34;gt_row gt_center&#34;&gt;47.6&lt;/td&gt;
+&lt;td headers=&#34;2023 1&#34; class=&#34;gt_row gt_center&#34;&gt;48.3&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td headers=&#34;Tasas&#34; class=&#34;gt_row gt_left&#34;&gt;Empleo&lt;/td&gt;
+&lt;td headers=&#34;2022 1&#34; class=&#34;gt_row gt_center&#34;&gt;43.3&lt;/td&gt;
+&lt;td headers=&#34;2022 2&#34; class=&#34;gt_row gt_center&#34;&gt;44.6&lt;/td&gt;
+&lt;td headers=&#34;2022 3&#34; class=&#34;gt_row gt_center&#34;&gt;44.2&lt;/td&gt;
+&lt;td headers=&#34;2022 4&#34; class=&#34;gt_row gt_center&#34;&gt;44.6&lt;/td&gt;
+&lt;td headers=&#34;2023 1&#34; class=&#34;gt_row gt_center&#34;&gt;45.0&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td headers=&#34;Tasas&#34; class=&#34;gt_row gt_left&#34;&gt;Desocupación&lt;/td&gt;
+&lt;td headers=&#34;2022 1&#34; class=&#34;gt_row gt_center&#34;&gt;7.0&lt;/td&gt;
+&lt;td headers=&#34;2022 2&#34; class=&#34;gt_row gt_center&#34;&gt;6.9&lt;/td&gt;
+&lt;td headers=&#34;2022 3&#34; class=&#34;gt_row gt_center&#34;&gt;7.1&lt;/td&gt;
+&lt;td headers=&#34;2022 4&#34; class=&#34;gt_row gt_center&#34;&gt;6.3&lt;/td&gt;
+&lt;td headers=&#34;2023 1&#34; class=&#34;gt_row gt_center&#34;&gt;6.9&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td headers=&#34;Tasas&#34; class=&#34;gt_row gt_left&#34;&gt;Ocupación demandante&lt;/td&gt;
+&lt;td headers=&#34;2022 1&#34; class=&#34;gt_row gt_center&#34;&gt;15.5&lt;/td&gt;
+&lt;td headers=&#34;2022 2&#34; class=&#34;gt_row gt_center&#34;&gt;16.3&lt;/td&gt;
+&lt;td headers=&#34;2022 3&#34; class=&#34;gt_row gt_center&#34;&gt;16.0&lt;/td&gt;
+&lt;td headers=&#34;2022 4&#34; class=&#34;gt_row gt_center&#34;&gt;15.4&lt;/td&gt;
+&lt;td headers=&#34;2023 1&#34; class=&#34;gt_row gt_center&#34;&gt;14.8&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td headers=&#34;Tasas&#34; class=&#34;gt_row gt_left&#34;&gt;Subocupación&lt;/td&gt;
+&lt;td headers=&#34;2022 1&#34; class=&#34;gt_row gt_center&#34;&gt;10.0&lt;/td&gt;
+&lt;td headers=&#34;2022 2&#34; class=&#34;gt_row gt_center&#34;&gt;11.1&lt;/td&gt;
+&lt;td headers=&#34;2022 3&#34; class=&#34;gt_row gt_center&#34;&gt;11.0&lt;/td&gt;
+&lt;td headers=&#34;2022 4&#34; class=&#34;gt_row gt_center&#34;&gt;10.9&lt;/td&gt;
+&lt;td headers=&#34;2023 1&#34; class=&#34;gt_row gt_center&#34;&gt;9.4&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td headers=&#34;Tasas&#34; class=&#34;gt_row gt_left&#34;&gt;Subocupación demandante&lt;/td&gt;
+&lt;td headers=&#34;2022 1&#34; class=&#34;gt_row gt_center&#34;&gt;6.9&lt;/td&gt;
+&lt;td headers=&#34;2022 2&#34; class=&#34;gt_row gt_center&#34;&gt;7.7&lt;/td&gt;
+&lt;td headers=&#34;2022 3&#34; class=&#34;gt_row gt_center&#34;&gt;7.6&lt;/td&gt;
+&lt;td headers=&#34;2022 4&#34; class=&#34;gt_row gt_center&#34;&gt;7.1&lt;/td&gt;
+&lt;td headers=&#34;2023 1&#34; class=&#34;gt_row gt_center&#34;&gt;6.3&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td headers=&#34;Tasas&#34; class=&#34;gt_row gt_left&#34;&gt;Subocupación no demandante&lt;/td&gt;
+&lt;td headers=&#34;2022 1&#34; class=&#34;gt_row gt_center&#34;&gt;3.1&lt;/td&gt;
+&lt;td headers=&#34;2022 2&#34; class=&#34;gt_row gt_center&#34;&gt;3.5&lt;/td&gt;
+&lt;td headers=&#34;2022 3&#34; class=&#34;gt_row gt_center&#34;&gt;3.4&lt;/td&gt;
+&lt;td headers=&#34;2022 4&#34; class=&#34;gt_row gt_center&#34;&gt;3.8&lt;/td&gt;
+&lt;td headers=&#34;2023 1&#34; class=&#34;gt_row gt_center&#34;&gt;3.1&lt;/td&gt;&lt;/tr&gt;
+  &lt;/tbody&gt;
+  &lt;tfoot class=&#34;gt_sourcenotes&#34;&gt;
+    &lt;tr&gt;
+      &lt;td class=&#34;gt_sourcenote&#34; colspan=&#34;6&#34;&gt;Fuente: INDEC, Encuesta Permanente de Hogares.&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tfoot&gt;
+  &lt;tfoot class=&#34;gt_footnotes&#34;&gt;
+    &lt;tr&gt;
+      &lt;td class=&#34;gt_footnote&#34; colspan=&#34;6&#34;&gt; Datos ponderados.&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tfoot&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;licencia&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Licencia&lt;/h1&gt;
+&lt;p&gt;Este taller está a disposición del público bajo licencias de código abierto. Toda la documentación y los materiales publicados están disponibles bajo una licencia &lt;strong&gt;CC BY-SA-NC&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;A continuación, puedes leer más sobre la &lt;a href=&#34;https://creativecommons.org/licenses/by-nc-sa/4.0/&#34;&gt;licencia de Creative Commons Reconocimiento-NoComercial-CompartirIgual 4.0 Internacional&lt;/a&gt;.&lt;/p&gt;
+&lt;div class=&#34;float&#34;&gt;
+&lt;img src=&#34;https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png&#34; style=&#34;width:20.0%&#34; fig-align=&#34;left&#34; alt=&#34;Licencia de Creative Commons&#34; /&gt;
+&lt;div class=&#34;figcaption&#34;&gt;Licencia de Creative Commons&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
     
     <item>
       <title>Introducción al análisis de la EPH con R en Sociales</title>
@@ -433,6 +1409,270 @@ Si llegás luego de la hora de comienzo, tendrás que esperar a que autoricemos 
 &lt;p&gt;Si tenés alguna pregunta sobre el taller, la modalidad, o cualquier otra cosa, no dudes en ponerte en contacto.&lt;/p&gt;
 &lt;p&gt;¡Nos vemos en el curso!
 Metadocencia y RLadies Buenos Aires&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Introducción a R y RStudio</title>
+      <link>https://rladiesba.netlify.app/post/intro-r2022/</link>
+      <pubDate>Sat, 12 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>https://rladiesba.netlify.app/post/intro-r2022/</guid>
+      <description>&lt;p&gt;Academic is designed to give technical content creators a seamless experience. You can focus on the content and Academic handles the rest.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Highlight your code snippets, take notes on math classes, and draw diagrams from textual representation.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;On this page, you&amp;rsquo;ll find some examples of the types of technical content that can be rendered with Academic.&lt;/p&gt;
+&lt;h2 id=&#34;examples&#34;&gt;Examples&lt;/h2&gt;
+&lt;h3 id=&#34;code&#34;&gt;Code&lt;/h3&gt;
+&lt;p&gt;Academic supports a Markdown extension for highlighting code syntax. You can enable this feature by toggling the &lt;code&gt;highlight&lt;/code&gt; option in your &lt;code&gt;config/_default/params.toml&lt;/code&gt; file.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;```python
+import pandas as pd
+data = pd.read_csv(&amp;quot;data.csv&amp;quot;)
+data.head()
+```
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;renders as&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import pandas as pd
+data = pd.read_csv(&amp;quot;data.csv&amp;quot;)
+data.head()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;charts&#34;&gt;Charts&lt;/h3&gt;
+&lt;p&gt;Academic supports the popular &lt;a href=&#34;https://plot.ly/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Plotly&lt;/a&gt; chart format.&lt;/p&gt;
+&lt;p&gt;Save your Plotly JSON in your page folder, for example &lt;code&gt;chart.json&lt;/code&gt;, and then add the &lt;code&gt;{{&amp;lt; chart data=&amp;quot;chart&amp;quot; &amp;gt;}}&lt;/code&gt; shortcode where you would like the chart to appear.&lt;/p&gt;
+&lt;p&gt;Demo:&lt;/p&gt;
+
+
+&lt;div id=&#34;chart-624975138&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;script&gt;
+  (function() {
+    let a = setInterval( function() {
+      if ( typeof window.Plotly === &#39;undefined&#39; ) {
+        return;
+      }
+      clearInterval( a );
+
+      Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
+        Plotly.plot(&#39;chart-624975138&#39;, chart.data, chart.layout, {responsive: true});
+      });
+    }, 500 );
+  })();
+&lt;/script&gt;
+&lt;p&gt;You might also find the &lt;a href=&#34;http://plotly-json-editor.getforge.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Plotly JSON Editor&lt;/a&gt; useful.&lt;/p&gt;
+&lt;h3 id=&#34;math&#34;&gt;Math&lt;/h3&gt;
+&lt;p&gt;Academic supports a Markdown extension for $\LaTeX$ math. You can enable this feature by toggling the &lt;code&gt;math&lt;/code&gt; option in your &lt;code&gt;config/_default/params.toml&lt;/code&gt; file.&lt;/p&gt;
+&lt;p&gt;To render &lt;em&gt;inline&lt;/em&gt; or &lt;em&gt;block&lt;/em&gt; math, wrap your LaTeX math with &lt;code&gt;$...$&lt;/code&gt; or &lt;code&gt;$$...$$&lt;/code&gt;, respectively.&lt;/p&gt;
+&lt;p&gt;Example &lt;strong&gt;math block&lt;/strong&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-latex&#34;&gt;$$\gamma_{n} = \frac{ 
+\left | \left (\mathbf x_{n} - \mathbf x_{n-1} \right )^T 
+\left [\nabla F (\mathbf x_{n}) - \nabla F (\mathbf x_{n-1}) \right ] \right |}
+{\left \|\nabla F(\mathbf{x}_{n}) - \nabla F(\mathbf{x}_{n-1}) \right \|^2}$$
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;renders as&lt;/p&gt;
+&lt;p&gt;$$\gamma_{n} = \frac{ \left | \left (\mathbf x_{n} - \mathbf x_{n-1} \right )^T \left [\nabla F (\mathbf x_{n}) - \nabla F (\mathbf x_{n-1}) \right ] \right |}{\left |\nabla F(\mathbf{x}_{n}) - \nabla F(\mathbf{x}_{n-1}) \right |^2}$$&lt;/p&gt;
+&lt;p&gt;Example &lt;strong&gt;inline math&lt;/strong&gt; &lt;code&gt;$\nabla F(\mathbf{x}_{n})$&lt;/code&gt; renders as $\nabla F(\mathbf{x}_{n})$.&lt;/p&gt;
+&lt;p&gt;Example &lt;strong&gt;multi-line math&lt;/strong&gt; using the &lt;code&gt;\\\\&lt;/code&gt; math linebreak:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-latex&#34;&gt;$$f(k;p_{0}^{*}) = \begin{cases}p_{0}^{*} &amp;amp; \text{if }k=1, \\\\
+1-p_{0}^{*} &amp;amp; \text{if }k=0.\end{cases}$$
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;renders as&lt;/p&gt;
+&lt;p&gt;$$f(k;p_{0}^{*}) = \begin{cases}p_{0}^{*} &amp;amp; \text{if }k=1, \\&lt;br&gt;
+1-p_{0}^{*} &amp;amp; \text{if }k=0.\end{cases}$$&lt;/p&gt;
+&lt;h3 id=&#34;diagrams&#34;&gt;Diagrams&lt;/h3&gt;
+&lt;p&gt;Academic supports a Markdown extension for diagrams. You can enable this feature by toggling the &lt;code&gt;diagram&lt;/code&gt; option in your &lt;code&gt;config/_default/params.toml&lt;/code&gt; file or by adding &lt;code&gt;diagram: true&lt;/code&gt; to your page front matter.&lt;/p&gt;
+&lt;p&gt;An example &lt;strong&gt;flowchart&lt;/strong&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;```mermaid
+graph TD
+A[Hard] --&amp;gt;|Text| B(Round)
+B --&amp;gt; C{Decision}
+C --&amp;gt;|One| D[Result 1]
+C --&amp;gt;|Two| E[Result 2]
+```
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;renders as&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-mermaid&#34;&gt;graph TD
+A[Hard] --&amp;gt;|Text| B(Round)
+B --&amp;gt; C{Decision}
+C --&amp;gt;|One| D[Result 1]
+C --&amp;gt;|Two| E[Result 2]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;An example &lt;strong&gt;sequence diagram&lt;/strong&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;```mermaid
+sequenceDiagram
+Alice-&amp;gt;&amp;gt;John: Hello John, how are you?
+loop Healthcheck
+    John-&amp;gt;&amp;gt;John: Fight against hypochondria
+end
+Note right of John: Rational thoughts!
+John--&amp;gt;&amp;gt;Alice: Great!
+John-&amp;gt;&amp;gt;Bob: How about you?
+Bob--&amp;gt;&amp;gt;John: Jolly good!
+```
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;renders as&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-mermaid&#34;&gt;sequenceDiagram
+Alice-&amp;gt;&amp;gt;John: Hello John, how are you?
+loop Healthcheck
+    John-&amp;gt;&amp;gt;John: Fight against hypochondria
+end
+Note right of John: Rational thoughts!
+John--&amp;gt;&amp;gt;Alice: Great!
+John-&amp;gt;&amp;gt;Bob: How about you?
+Bob--&amp;gt;&amp;gt;John: Jolly good!
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;An example &lt;strong&gt;Gantt diagram&lt;/strong&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;```mermaid
+gantt
+section Section
+Completed :done,    des1, 2014-01-06,2014-01-08
+Active        :active,  des2, 2014-01-07, 3d
+Parallel 1   :         des3, after des1, 1d
+Parallel 2   :         des4, after des1, 1d
+Parallel 3   :         des5, after des3, 1d
+Parallel 4   :         des6, after des4, 1d
+```
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;renders as&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-mermaid&#34;&gt;gantt
+section Section
+Completed :done,    des1, 2014-01-06,2014-01-08
+Active        :active,  des2, 2014-01-07, 3d
+Parallel 1   :         des3, after des1, 1d
+Parallel 2   :         des4, after des1, 1d
+Parallel 3   :         des5, after des3, 1d
+Parallel 4   :         des6, after des4, 1d
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;An example &lt;strong&gt;class diagram&lt;/strong&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;```mermaid
+classDiagram
+Class01 &amp;lt;|-- AveryLongClass : Cool
+&amp;lt;&amp;lt;interface&amp;gt;&amp;gt; Class01
+Class09 --&amp;gt; C2 : Where am i?
+Class09 --* C3
+Class09 --|&amp;gt; Class07
+Class07 : equals()
+Class07 : Object[] elementData
+Class01 : size()
+Class01 : int chimp
+Class01 : int gorilla
+class Class10 {
+  &amp;lt;&amp;lt;service&amp;gt;&amp;gt;
+  int id
+  size()
+}
+```
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;renders as&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-mermaid&#34;&gt;classDiagram
+Class01 &amp;lt;|-- AveryLongClass : Cool
+&amp;lt;&amp;lt;interface&amp;gt;&amp;gt; Class01
+Class09 --&amp;gt; C2 : Where am i?
+Class09 --* C3
+Class09 --|&amp;gt; Class07
+Class07 : equals()
+Class07 : Object[] elementData
+Class01 : size()
+Class01 : int chimp
+Class01 : int gorilla
+class Class10 {
+  &amp;lt;&amp;lt;service&amp;gt;&amp;gt;
+  int id
+  size()
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;An example &lt;strong&gt;state diagram&lt;/strong&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;```mermaid
+stateDiagram
+[*] --&amp;gt; Still
+Still --&amp;gt; [*]
+Still --&amp;gt; Moving
+Moving --&amp;gt; Still
+Moving --&amp;gt; Crash
+Crash --&amp;gt; [*]
+```
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;renders as&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-mermaid&#34;&gt;stateDiagram
+[*] --&amp;gt; Still
+Still --&amp;gt; [*]
+Still --&amp;gt; Moving
+Moving --&amp;gt; Still
+Moving --&amp;gt; Crash
+Crash --&amp;gt; [*]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;todo-lists&#34;&gt;Todo lists&lt;/h3&gt;
+&lt;p&gt;You can even write your todo lists in Academic too:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;- [x] Write math example
+- [x] Write diagram example
+- [ ] Do something else
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;renders as&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Write math example&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Write diagram example&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Do something else&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;tables&#34;&gt;Tables&lt;/h3&gt;
+&lt;p&gt;Represent your data in tables:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;renders as&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;First Header&lt;/th&gt;
+&lt;th&gt;Second Header&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Content Cell&lt;/td&gt;
+&lt;td&gt;Content Cell&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Content Cell&lt;/td&gt;
+&lt;td&gt;Content Cell&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;callouts&#34;&gt;Callouts&lt;/h3&gt;
+&lt;p&gt;Academic supports a &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/#callouts&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;shortcode for callouts&lt;/a&gt;, also referred to as &lt;em&gt;asides&lt;/em&gt;, &lt;em&gt;hints&lt;/em&gt;, or &lt;em&gt;alerts&lt;/em&gt;. By wrapping a paragraph in &lt;code&gt;{{% callout note %}} ... {{% /callout %}}&lt;/code&gt;, it will render as an aside.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{% callout note %}}
+A Markdown aside is useful for displaying notices, hints, or definitions to your readers.
+{{% /callout %}}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;renders as&lt;/p&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    A Markdown aside is useful for displaying notices, hints, or definitions to your readers.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;h3 id=&#34;spoilers&#34;&gt;Spoilers&lt;/h3&gt;
+&lt;p&gt;Add a spoiler to a page to reveal text, such as an answer to a question, after a button is clicked.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{&amp;lt; spoiler text=&amp;quot;Click to view the spoiler&amp;quot; &amp;gt;}}
+You found me!
+{{&amp;lt; /spoiler &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;renders as&lt;/p&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-2&#34;&gt;
+  &lt;summary&gt;Click to view the spoiler&lt;/summary&gt;
+  &lt;p&gt;You found me!&lt;/p&gt;
+&lt;/details&gt;
+&lt;h3 id=&#34;icons&#34;&gt;Icons&lt;/h3&gt;
+&lt;p&gt;Academic enables you to use a wide range of &lt;a href=&#34;https://sourcethemes.com/academic/docs/page-builder/#icons&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;icons from &lt;em&gt;Font Awesome&lt;/em&gt; and &lt;em&gt;Academicons&lt;/em&gt;&lt;/a&gt; in addition to &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/#emojis&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;emojis&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Here are some examples using the &lt;code&gt;icon&lt;/code&gt; shortcode to render icons:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{&amp;lt; icon name=&amp;quot;terminal&amp;quot; pack=&amp;quot;fas&amp;quot; &amp;gt;}} Terminal  
+{{&amp;lt; icon name=&amp;quot;python&amp;quot; pack=&amp;quot;fab&amp;quot; &amp;gt;}} Python  
+{{&amp;lt; icon name=&amp;quot;r-project&amp;quot; pack=&amp;quot;fab&amp;quot; &amp;gt;}} R
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;renders as&lt;/p&gt;
+&lt;p&gt;
+  &lt;i class=&#34;fas fa-terminal  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Terminal&lt;br&gt;
+
+  &lt;i class=&#34;fab fa-python  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Python&lt;br&gt;
+
+  &lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt; R&lt;/p&gt;
+&lt;h3 id=&#34;did-you-find-this-page-helpful-consider-sharing-it-&#34;&gt;Did you find this page helpful? Consider sharing it 🙌&lt;/h3&gt;
 </description>
     </item>
     
