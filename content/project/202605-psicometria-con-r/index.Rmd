@@ -10,7 +10,6 @@ links:
   summary: En este encuentro de R-Ladies nos acercamos a la Teoría de Respuesta al Ítem (TRI) de la mano de Sofi Ortiz.
 tags:
 - 2026
-- quarto
 image:
   caption: Teoría de Respuesta al Ítem (TRI) con R
   focal_point: Smart
