@@ -27,6 +27,8 @@ content:
   filter_button:
   - name: Todos
     tag: '*'
+  - name: 2026
+    tag: 2026
   - name: 2025
     tag: 2025
   - name: 2024
